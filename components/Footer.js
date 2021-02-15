@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 function Footer() {
     return (
-        <div className="bg-yellow-200 hover:bg-yellow-700 p-6">
+        <div className="bg-purple-700 p-6 text-white">
             <h2>Quick Links</h2>
             <ul>
               <li>

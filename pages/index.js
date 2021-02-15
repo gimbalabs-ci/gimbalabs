@@ -2,8 +2,8 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
 import CoverCard from '../components/CoverCard'
-import CardHeading from '../components/type/CardHeading'
-import CardText from '../components/type/CardText'
+import { CardHeading, CardText } from '../components/Type'
+
 
 export default function Home() {
   return (
