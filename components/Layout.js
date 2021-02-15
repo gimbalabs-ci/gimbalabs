@@ -3,7 +3,7 @@ import Footer from './Footer'
 
 function Layout({ children }) {
     return (
-        <div className="flex flex-col min-h-screen bg-polygon">
+        <div className="flex flex-col min-h-screen bg-polygon bg-cover">
             <Nav />
             <div className='flex-grow py-20'>
                 {children}
