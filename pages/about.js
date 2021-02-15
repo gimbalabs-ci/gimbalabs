@@ -23,6 +23,8 @@ function about() {
             <p>Our treasury</p>
             <p>Weekly updates - link and present our videos / most recent + link to list</p>
             <p>Github - a collective, link to everyone: WSM, Dandelion, NothingAlike, etc</p>
+            <p>Grab notes from Evernote</p>
+            <p>Grab notes from Figma</p>
         </Content>
     )
 }

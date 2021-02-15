@@ -3,13 +3,13 @@ import Footer from './Footer'
 
 function Layout({ children }) {
     return (
-        <>
+        <div className="flex flex-col min-h-screen bg-polygon">
             <Nav />
-            <div className='min-h-screen flex flex-wrap content-center justify-center bg-gradient-to-r from-purple-300 via-purple-100 to-pink-100 pt-24'>
+            <div className='flex-grow py-20'>
                 {children}
             </div>
             <Footer />    
-        </>
+        </div>
     )
 }
 

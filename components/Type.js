@@ -20,7 +20,15 @@ export function CardSubHeading({children}) {
 export function CardText({children}) {
     return (
         <>
-            <p className="p-6">{children}</p>  
+            <p className="p-4 md:p-6">{children}</p>  
+        </>
+    )
+}
+
+export function Paragraph({children}) {
+    return (
+        <>
+            <p className="text-lg p-6">{children}</p>
         </>
     )
 }

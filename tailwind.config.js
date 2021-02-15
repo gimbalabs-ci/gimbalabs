@@ -21,6 +21,7 @@ module.exports = {
           'tinker' : "url('/tinker.jpeg')",
           'learn' : "url('/learn.jpeg')",
           'collab' : "url('/collab.jpeg')",
+          'polygon' : "url('/polygon.png')",
          })
       },
     },

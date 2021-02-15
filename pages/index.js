@@ -14,14 +14,14 @@ export default function Home() {
       </Head>
 
           <div className="grid md:grid-cols-2">
-            <div className="w-full justify-self-center bg-white bg-opacity-40 p-6">
+            <div className="w-full justify-self-center bg-white bg-opacity-40 md:p-6">
+              <CardHeading>What is Gimbalabs?</CardHeading>
+              <CardText>GimbaLabs is a collaborative platform for people who want to show the world what Cardano can do. We are creating free and open source tools, lessons, and resources that people can learn from.</CardText>
+              <CardText>We believe that people learn best by doing things. If you've been looking for an entry point into how you can participate in Cardano, we think you might find it here.</CardText>
               <CardHeading>Our Mission</CardHeading>
               <CardText>Mobilizing everyone in the Cardano community by creating tools and real-world use cases that ignite the public imagination and facilitate adoption.</CardText>
               <CardHeading>Our Vision</CardHeading>
               <CardText>A world where as many people as possible are empowered to solve problems using the Cardano platform.</CardText>
-              <CardHeading>What is Gimbalabs?</CardHeading>
-              <CardText>GimbaLabs is a collaborative platform for people who want to show the world what Cardano can do. We are creating free and open source tools, lessons, and resources that people can learn from.</CardText>
-              <CardText>We believe that people learn best by doing things. If you've been looking for an entry point into how you can participate in Cardano, we think you might find it here.</CardText>
             </div>
             <div className="flex w-full content-center bg-white bg-opacity-40">
               <Image src={'/keepbees.jpeg'}  width="900" height="600" objectFit="contain" className="rounded shadow-xl" />

@@ -2,24 +2,21 @@ import Link from 'next/link'
 
 function Footer() {
     return (
-        <div className="bg-purple-700 p-6 text-white">
-            <h2>Quick Links</h2>
-            <ul>
-              <li>
+        <div className="bg-purple-700 lg:p-6 text-white w-full lg:fixed lg:bottom-0 lg:z-40"> 
+            <h2 className="lg:inline-flex lg:w-auto px-5 text-lg">&rarr;</h2>
+         
                 <Link href='/cardanostarterkits'>
-                  <a>
+                  <a className="lg:inline-flex lg:w-auto px-5">
                     Cardano Starter Kits
                   </a>
                 </Link>
-              </li>
-              <li>
+              
                 <Link href='/dandelionapis'>
-                  <a>
+                  <a className="lg:inline-flex lg:w-auto px-5">
                     Dandelion APIs
                   </a>
                 </Link>
-              </li>
-            </ul>
+             
           </div>
     )
 }
