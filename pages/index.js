@@ -30,7 +30,7 @@ export default function Home() {
 
     
 
-          <div className="md:grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div className="md:grid md:grid-cols-2 lg:grid-cols-3 md:pt-6">
             <Link href="/learn">
               <a>
                 <CoverCard>
@@ -41,7 +41,7 @@ export default function Home() {
                     <CardHeading>Learn</CardHeading>
                   </div>
                   <div className="">
-                    <CardText>If you're just getting started with Cardano and blockchain, come learn with us. Check out these resources:</CardText>
+                    <CardText>If you're just getting started with Cardano and blockchain, come learn with us.</CardText>
                   </div>
                 </CoverCard>
               </a>
@@ -57,7 +57,7 @@ export default function Home() {
                     <CardHeading>Tinker</CardHeading>
                   </div>
                   <div className="">
-                    <CardText>When you're ready to go deeper into new tools and learn about the tech, come tinker with us.</CardText>
+                    <CardText>Want to get hands on with what Cardano is all about? We're building tools so you can tinker.</CardText>
                   </div>
                 </CoverCard>
               </a>
@@ -73,7 +73,7 @@ export default function Home() {
                     <CardHeading>Participate</CardHeading>
                   </div>
                   <div className="">
-                    <CardText>We hope that you'll contribute your talent to our growing ecosystem. Here is how to get involved.</CardText>
+                    <CardText>We hope that you'll contribute your talent to our growing ecosystem. Click here to learn how to get involved.</CardText>
                   </div>
                 </CoverCard>
               </a>
