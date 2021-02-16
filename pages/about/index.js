@@ -1,20 +1,25 @@
-import Content from '../components/Content'
-import Card from '../components/Card'
+import { useRouter } from 'next/router'
 
-function about() {
-    return (
-        <Content titleText="About Gimbalabs!">
-            <div className="md:grid md:grid-cols-3 gap-4">
-                <Card>
-                    Juliane Montag
-                </Card>
-                <Card>
-                    Roberto Carlos Morano
-                </Card>
-                <Card>
-                    James Dunseith
-                </Card>    
-            </div>
+function about({ children, href }) {
+    
+    const router = useRouter()
+    
+    
+      return (
+        <div className="grid grid-cols-8 grid-rows-4 grid-flow-col h-screen">
+            <div className="bg-blue-700 row-span-4">sidebar</div>
+            <div className="bg-blue-400 row-span-3 col-span-6 m-12">1</div>
+        </div>
+    )
+
+    
+
+}
+
+export default about
+
+
+/* 
 
             <p>Our about page shares our first principals -- AND is ever evolving - catch up</p>
             <p>split page into background and what's the latest</p>
@@ -25,8 +30,11 @@ function about() {
             <p>Github - a collective, link to everyone: WSM, Dandelion, NothingAlike, etc</p>
             <p>Grab notes from Evernote</p>
             <p>Grab notes from Figma</p>
-        </Content>
-    )
-}
 
-export default about
+*/
+
+/*
+
+    
+
+*/

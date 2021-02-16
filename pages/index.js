@@ -80,7 +80,7 @@ export default function Home() {
             </Link>
           </div>
 
-          <div className="md:grid md:grid-cols-2 lg:grid-cols-2 gap-4">
+          <div className="md:grid md:grid-cols-2 lg:grid-cols-2 gap-4 pb-6">
             <Link href="/experiments">
               <a>
                 <CoverCard>

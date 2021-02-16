@@ -5,7 +5,7 @@ function Layout({ children }) {
     return (
         <div className="flex flex-col min-h-screen bg-polygon bg-cover">
             <Nav />
-            <div className='flex-grow py-20'>
+            <div className='flex-grow pt-16'>
                 {children}
             </div>
             <Footer />    
