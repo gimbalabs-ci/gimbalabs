@@ -53,27 +53,27 @@ function Nav() {
                 >
                     <div className='lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto'>
                         <Link href='/'>
-                        <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-yellow-300 hover:text-black '>
+                        <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-purple-300 hover:text-black'>
                             Home
                         </a>
                         </Link>
                         <Link href='/about'>
-                        <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-yellow-300 hover:text-black '>
+                        <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-purple-300 hover:text-black'>
                             About
                         </a>
                         </Link>
                         <Link href='/learn'>
-                        <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-yellow-300 hover:text-black'>
+                        <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-purple-300 hover:text-black'>
                             Learn
                         </a>
                         </Link>
                         <Link href='/tinker'>
-                        <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-yellow-300 hover:text-black'>
+                        <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-purple-300 hover:text-black'>
                             Tinker
                         </a>
                         </Link>
                         <Link href='/participate'>
-                        <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-yellow-300 hover:text-black'>
+                        <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-purple-300 hover:text-black'>
                             Participate
                         </a>
                         </Link>
