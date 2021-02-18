@@ -1,9 +1,28 @@
-import { TitleHeading1, TitleHeading2, HighlightText, CallOutText, Paragraph } from '../../components/Type'
-import CoverCard from '../../components/CoverCard'
+import Link from 'next/link'
+import Image from 'next/image'
+import { TitleHeading1, TitleHeading2, HighlightText, CallOutText, Paragraph, CardHeading, CardText } from '../../components/Type'
+import CoverCard from '../../components/Cards/CoverCard'
+import TeamCards from '../../components/Cards/TeamCard'
+import videoupdates from '../../data/videoupdates.json'
+import team from '../../data/team.json'
+import TeamCard from '../../components/Cards/TeamCard'
 
-function about() {
+
+export async function getStaticProps() {
+    const videoList = videoupdates
+    const teamList = team
+
+    return {
+        props: {
+            videoList,
+            teamList 
+        }
+    }
+}
+
+function about({videoList, teamList}) {
     return (
-        <div className="w-5/6 mx-auto pb-20">
+        <div className="md:w-5/6 lg:w-3/4 mx-auto pb-20">
             
                 <TitleHeading1>About Gimbalabs</TitleHeading1>
                 <Paragraph>GimbaLabs is a collaborative platform for people who want to show the world what Cardano can do. We are creating free and open source tools, lessons, and resources that people can learn from.</Paragraph>
@@ -11,8 +30,20 @@ function about() {
                 <Paragraph>We believe that people learn best by doing things. If you've been looking for an entry point into how you can participate in Cardano, we think you might find it here.</Paragraph>
 
                 <TitleHeading1>Weekly Updates</TitleHeading1>
-                <div className="flex w-full content-center justify-center">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/iMwmskk3H_w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <Paragraph>
+                   We are committed to transparency, but please don't take our word for that. Check out our weekly updates to hear what we're up to, and when there's something more we should share, let us know. 
+                </Paragraph>
+                <div className="grid grid-cols-1 md:grid-cols-2 w-full mx-auto content-center justify-center">
+                    <div className="col-span-1 w-full m-10">
+                        <ul>
+                            {videoList.weekly.map(i => <li>
+                                Number {i.number}: <a href={i.youtubeLink}>{i.date}</a>
+                            </li>)}
+                        </ul>
+                    </div>
+                    <div className="col-span-1">
+                       <iframe width="560" height="315" src="https://www.youtube.com/embed/iMwmskk3H_w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
                 </div>
                 
                 <TitleHeading1>Principals</TitleHeading1>
@@ -39,10 +70,44 @@ function about() {
                 <Paragraph>GimbaLabs is building a platform for sharing APIs and CSKs that allow users to share experiences about what works, what they've learned, and how to improve our open source resources. Community members will also be able to contribute their own APIs and CSKs, supporting our intention to make GimbaLabs a valuable resource for the Cardano commons.</Paragraph>
 
                 <TitleHeading1>Founding Team</TitleHeading1>
-                <CoverCard>James</CoverCard>
-                <CoverCard>Juliane</CoverCard>
-                <CoverCard>Roberto</CoverCard>
-          
+                <div className="grid grid-cols-3 w-full justify-center">
+                    {teamList.founders.map(i => 
+                        <TeamCard>
+                            <div className="row-span-3 mx-auto my-auto">
+                                <Image src={i.image} width={150} height={150} />
+                            </div>
+                            <div className="ml-2 my-auto text-xl font-title">
+                                {i.name}
+                            </div>
+                            <div className="my-auto text-xs row-span-2">
+                                {i.bio}
+                            </div>
+                        </TeamCard>          
+                    )}  
+                </div>              
+                
+
+                <TitleHeading1>More</TitleHeading1>
+                <div className="grid grid-cols-2 gap-6 mx-auto pb-6 w-5/6">
+                    <Link href="/experiments">
+                    <a>
+                        <CoverCard>
+                        <CardHeading>Experiments + Data</CardHeading>
+                        <CardText>Exerything we do is an experiment. From the web site you're looking at here to our organizational structure. We don't fully know what it means to be a DAO, and we take seriously the work of finding out. Check out our notes on ongoing experiements, and let us know if there's additional transparency you'd like to see.</CardText>
+                        </CoverCard>
+                    </a>
+                    </Link>
+
+                    <Link href="/workwithus">
+                    <a>
+                        <CoverCard>
+                        <CardHeading>Work with us</CardHeading>
+                        <CardText>Thinking about adopting the Cardano blockchain or launching your own project? We can help! Get in touch to let us know what technical questions you have, or if you'd like to create educational marketing materials.</CardText>
+                        </CoverCard>
+                    </a>
+                    </Link>
+                </div>
+
         </div>
     )
 }

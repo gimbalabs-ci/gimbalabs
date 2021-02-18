@@ -1,0 +1,26 @@
+{
+    "title" : "Gimbalabs Video Updates",
+    "about" : "Live-stream updates from the Gimbalabs team.",
+    "weekly" : [
+        {
+            "date": "2021-02-12",
+            "number": 4,
+            "youtubeLink": "https://youtu.be/iMwmskk3H_w"
+        },
+        {
+            "date": "2021-02-05",
+            "number": 3,
+            "youtubeLink": "https://youtu.be/3ChL10wf03g"
+        },
+        {
+            "date": "2021-01-29",
+            "number": 2,
+            "youtubeLink": "https://youtu.be/zetZvvNe-S0"
+        },
+        {
+            "date": "2021-01-22",
+            "number": 1,
+            "youtubeLink": "https://youtu.be/rI79OzV53Ac"
+        }
+    ]
+}    

@@ -6,7 +6,10 @@ export default function dandelionapis() {
     return (
         <>
             <TinkerLayout>
-                <CardHeading>Dandelion APIs</CardHeading>    
+                <CardHeading>Dandelion APIs</CardHeading>
+                <Paragraph>What they are</Paragraph>
+                <Paragraph>How to use - full docs here</Paragraph> 
+                <Paragraph>Role of Gimbalabs Playground</Paragraph>     
             </TinkerLayout>
         </>
         

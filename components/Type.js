@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export function TitleHeading1({children}) {
     return(
         <div className="justify-center pt-10 pb-3">
@@ -28,6 +30,14 @@ export function HighlightText({children}) {
 export function Paragraph({children}) {
     return (
         <>
+            <p className="px-6 pt-3 md:text-lg md:leading-relaxed">{children}</p>
+        </>
+    )
+}
+
+export function ParagraphLg({children}) {
+    return (
+        <>
             <p className="text-lg px-6 pt-3">{children}</p>
         </>
     )
@@ -41,6 +51,7 @@ export function CallOutText({children}) {
     )
 }
 
+// Card text styles
 
 export function CardHeading({children}) {
     return (

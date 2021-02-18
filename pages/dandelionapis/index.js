@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import dandelion from '../../data/dandelion.json'
-import CskCard from '../../components/CskCard'
+import CskCard from '../../components/Cards/CskCard'
 import { CardHeading, CardSubHeading, CardText } from '../../components/Type'
 
 export async function getStaticProps() {

@@ -1,0 +1,28 @@
+{
+    "title" : "Gimbalabs Team",
+    "about": "Our team met by engaging deeply with the Catalyst process and we are just getting started in our collaborative approach to problem solving. As the founders of Gimbalabs, we are creating synergies across our competencies by delivering within our roles and contributing big ideas to shared outcomes. We aim to keep building a team that demonstrates the value of sustainable, thoughtful work in the discovery of creative solutions.",
+    "founders" : [
+        {
+            "name": "Juliane Montag",
+            "image": "/team/juliane-square.jpg",
+            "bio": "Expert marketing professional with diverse experience, bringing insight into large and small business relationships.",
+            "twitter": "https://twitter.com/JuliMont01",
+            "linkedIn": "https://www.linkedin.com/in/julianemontag/"
+        },
+        {
+            "name": "Roberto Carlos Morano",
+            "image": "/team/roberto-square.jpg",
+            "bio": "Seasoned sysadmin and DevOps advocate and also an OpenSource-everything and decentralization enthusiast.",
+            "twitter": "https://twitter.com/rc_morano",
+            "linkedIn": "https://www.linkedin.com/in/rcmorano/"
+        },
+        {
+            "name": "James Dunseith",
+            "image": "/team/james-square.jpg",
+            "bio": "Teacher, coach, and facilitator with a passion for helping people gain agency in problem solving.",
+            "twitter": "https://twitter.com/jamesdunseith",
+            "linkedIn": "https://www.linkedin.com/in/james-dunseith-0135651/"
+        }
+        
+    ]
+}    
