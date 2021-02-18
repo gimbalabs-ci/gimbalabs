@@ -14,7 +14,7 @@ export function TitleHeading1({children}) {
 export function TitleHeading2({children}) {
     return (
         <>
-            <p className="text-2xl font-title pt-10 pb-3">{children}</p>
+            <p className="text-2xl font-title pl-5 pt-8 pb-3">{children}</p>
         </>
     )
 }
@@ -30,7 +30,7 @@ export function HighlightText({children}) {
 export function Paragraph({children}) {
     return (
         <>
-            <p className="px-6 pt-3 md:text-lg md:leading-relaxed">{children}</p>
+            <p className="px-6 pt-3 md:text-lg md:leading-relaxed text-justify md:text-left">{children}</p>
         </>
     )
 }

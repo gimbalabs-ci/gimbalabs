@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { TitleHeading1, TitleHeading2, HighlightText, CallOutText, Paragraph, CardHeading, CardText } from '../../components/Type'
+import { VideoLinkButton } from '../../components/Buttons'
 import CoverCard from '../../components/Cards/CoverCard'
 import TeamCards from '../../components/Cards/TeamCard'
 import videoupdates from '../../data/videoupdates.json'
@@ -22,7 +23,7 @@ export async function getStaticProps() {
 
 function about({videoList, teamList}) {
     return (
-        <div className="md:w-5/6 lg:w-3/4 mx-auto pb-20">
+        <div className="w-full md:w-5/6 lg:w-3/4 mx-auto pb-20">
             
                 <TitleHeading1>About Gimbalabs</TitleHeading1>
                 <Paragraph>GimbaLabs is a collaborative platform for people who want to show the world what Cardano can do. We are creating free and open source tools, lessons, and resources that people can learn from.</Paragraph>
@@ -34,14 +35,16 @@ function about({videoList, teamList}) {
                    We are committed to transparency, but please don't take our word for that. Check out our weekly updates to hear what we're up to, and when there's something more we should share, let us know. 
                 </Paragraph>
                 <div className="grid grid-cols-1 md:grid-cols-2 w-full mx-auto content-center justify-center">
-                    <div className="col-span-1 w-full m-10">
+                    <div className="col-span-1 w-11/12 mx-auto">
                         <ul>
                             {videoList.weekly.map(i => <li>
-                                Number {i.number}: <a href={i.youtubeLink}>{i.date}</a>
+                                <VideoLinkButton>
+                                    Number {i.number}: <a href={i.youtubeLink}>{i.date}</a>
+                                </VideoLinkButton>
                             </li>)}
                         </ul>
                     </div>
-                    <div className="col-span-1">
+                    <div className="col-span-1 w-full hidden md:contents">
                        <iframe width="560" height="315" src="https://www.youtube.com/embed/iMwmskk3H_w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
@@ -70,16 +73,16 @@ function about({videoList, teamList}) {
                 <Paragraph>GimbaLabs is building a platform for sharing APIs and CSKs that allow users to share experiences about what works, what they've learned, and how to improve our open source resources. Community members will also be able to contribute their own APIs and CSKs, supporting our intention to make GimbaLabs a valuable resource for the Cardano commons.</Paragraph>
 
                 <TitleHeading1>Founding Team</TitleHeading1>
-                <div className="grid grid-cols-3 w-full justify-center">
+                <div className="grid grid-cols-1 xl:grid-cols-3 w-full justify-center">
                     {teamList.founders.map(i => 
                         <TeamCard>
                             <div className="row-span-3 mx-auto my-auto">
                                 <Image src={i.image} width={150} height={150} />
                             </div>
-                            <div className="ml-2 my-auto text-xl font-title">
+                            <div className="ml-2 my-auto col-span-2 md:col-span-1 xl:text-xl font-title">
                                 {i.name}
                             </div>
-                            <div className="my-auto text-xs row-span-2">
+                            <div className="my-auto col-span-2 md:col-span-1 text-xs row-span-2 ml-2">
                                 {i.bio}
                             </div>
                         </TeamCard>          
@@ -88,7 +91,7 @@ function about({videoList, teamList}) {
                 
 
                 <TitleHeading1>More</TitleHeading1>
-                <div className="grid grid-cols-2 gap-6 mx-auto pb-6 w-5/6">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mx-auto md:pb-6 w-11/12 md:w-5/6">
                     <Link href="/experiments">
                     <a>
                         <CoverCard>
