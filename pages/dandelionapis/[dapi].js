@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import Image from 'next/Image'
+import Image from 'next/image'
 import dandelion from '../../data/dandelion.json'
 import { TitleHeading1, TitleHeading2, TitleHeading3, HighlightText, CallOutText, Paragraph, CardHeading, CardSubHeading, CardText } from '../../components/Type'
 
