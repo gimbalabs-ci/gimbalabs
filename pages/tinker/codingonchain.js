@@ -7,8 +7,15 @@ export default function liftwallet() {
         <>
             <TinkerLayout>
                 <CardHeading>Coding On Chain</CardHeading>
-                <a href="https://www.youtube.com/channel/UChp9R55VgwkjMzGP9qMa66g">Link to YouTube</a>
-                <a href="https://www.twitch.tv/codingonchain">Link to Twitch</a>    
+                <Paragraph>
+                    <a href="https://www.youtube.com/channel/UChp9R55VgwkjMzGP9qMa66g">View on YouTube</a>                
+                </Paragraph>
+                <Paragraph>
+                    <a href="https://www.twitch.tv/codingonchain">view on Twitch</a>                
+                </Paragraph>
+                <Paragraph>
+                    Live-streaming calendar coming soon!
+                </Paragraph>
             </TinkerLayout>
         </>
         
