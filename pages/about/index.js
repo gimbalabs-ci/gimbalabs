@@ -45,10 +45,10 @@ function about({videoList, teamList}) {
                         </ul>
                     </div>
                     <div className="col-span-1 w-full hidden md:contents">
-                       <iframe width="560" height="315" src="https://www.youtube.com/embed/iMwmskk3H_w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                       <iframe width="560" height="315" src="https://www.youtube.com/embed/bKvFZ8KfAt0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
-                
+
                 <TitleHeading2>Principals</TitleHeading2>
                 <Paragraph></Paragraph>
                 <TitleHeading3>Learn by Doing</TitleHeading3>
