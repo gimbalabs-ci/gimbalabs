@@ -1,4 +1,4 @@
-import Image from 'next/Image'
+import Image from 'next/image'
 import csk from '../../data/csk.json'
 import { TitleHeading1, TitleHeading2, TitleHeading3, HighlightText, CallOutText, Paragraph, CardHeading, CardSubHeading, CardText } from '../../components/Type'
 
