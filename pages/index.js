@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
 import CoverCard from '../components/Cards/CoverCard'
-import { CardHeading, CardText, TitleHeading1, HighlightText, CallOutText, Paragraph } from '../components/Type'
+import { CardHeading, CardText, TitleHeading1, TitleHeading3, HighlightText, CallOutText, Paragraph } from '../components/Type'
 
 
 export default function Home() {
@@ -13,29 +13,29 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-          <div className="grid md:grid-cols-2 w-5/6 mx-auto">
-            <div className="w-full h-full justify-self-center content-center bg-white bg-opacity-40 md:p-6">
+          <div className="flex grid grid-cols-1 lg:grid-cols-2 mx-auto w-full xl:w-5/6 m-5">
+            <div className="flex grid grid-cols-1 w-full content-center md:px-6">
               <TitleHeading1>Welcome to Gimbalabs</TitleHeading1>
-              <Paragraph>Cardano is here. Ready to get started?</Paragraph>
+              <CallOutText>Are you ready to get started?</CallOutText>
               
               <Paragraph>Our mission is to mobilize everyone in the Cardano community by creating tools and real-world use cases that ignite the public imagination and facilitate adoption.</Paragraph>
               
               <Paragraph>We envision a world where as many people as possible are empowered to solve problems using the Cardano platform.</Paragraph>
 
-              <Paragraph>Please take a look around our new site</Paragraph>
-              <Paragraph>At right: our Discord + email sign up</Paragraph>
+              <Paragraph>This site is a work in progress, and will be rolling out over the next few weeks. We invite you to take a look around and get in touch.</Paragraph>
+              
             </div>
-            <div className="flex w-full content-center bg-white bg-opacity-40">
-              <Image src={'/keepbees.jpeg'}  width="1000" height="800" objectFit="contain" className="rounded shadow-xl" />
+            <div className="flex w-full content-center">
+              <Image src={'/keepbees.jpeg'}  width="1000" height="800" objectFit="contain" className="shadow-xl" />
             </div>
           </div>
 
-          <div className="flex w-2/3 justify-center mx-auto bg-purple-700 bg-opacity-70 text-white md:my-6 py-10">
-            <CallOutText>How do you want to start?</CallOutText>
+          <div className="flex w-5/6 mx-auto bg-purple-100 bg-opacity-70 py-10 md:mt-20 md:pb-15">
+            <p className="text-5xl font-title font-bold text-center mx-auto">How do you want to start?</p>
           </div>
 
 
-          <div className="md:grid md:grid-cols-2 lg:grid-cols-3 md:my-6 gap-6 w-5/6 mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-6 gap-6 md:w-5/6 mx-auto">
             <Link href="/learn">
               <a>
                 <CoverCard>
@@ -85,10 +85,8 @@ export default function Home() {
             </Link>
           </div>
 
-          <div className="flex w-2/3 justify-center mx-auto bg-purple-700 bg-opacity-70 text-white md:my-6 py-10">
-            <HighlightText>Can't decide where to start? Don't worry - the truth is you'll end up doing a bit of each, no matter where you start!</HighlightText>
-            <HighlightText>How can we best highlight the developer's perspective?</HighlightText>
-            <HighlightText>Spectrum of users</HighlightText>
+          <div className="flex w-5/6 justify-center mx-auto bg-purple-700 bg-opacity-70 text-white my-6 py-3">
+            <HighlightText>Can't decide where to start? Don't worry - you'll end up doing a bit of learning, tinkering, and even participating, no matter where you start!</HighlightText>
           </div>
 
     </div>

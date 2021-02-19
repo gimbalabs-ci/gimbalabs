@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import dandelion from '../../data/dandelion.json'
 import CskCard from '../../components/Cards/CskCard'
-import { CardHeading, CardSubHeading, CardText } from '../../components/Type'
+import { TitleHeading1, TitleHeading2, TitleHeading3, HighlightText, CallOutText, Paragraph, CardHeading, CardSubHeading, CardText } from '../../components/Type'
 
 export async function getStaticProps() {
     const dapis = dandelion
@@ -15,10 +15,13 @@ export async function getStaticProps() {
 
 function dandelionapis({dapis}) {
     return (
-        <div>
-            <h1>{dapis.title}</h1>
-            <h3>{dapis.about}</h3>
-            <div className="md:grid md:grid-cols-2 gap-4">
+        <>
+            <section className="w-full md:w-5/6 lg:w-3/4 mx-auto pb-5">
+                <TitleHeading1>{dapis.title}</TitleHeading1>
+                <Paragraph>{dapis.about}</Paragraph>
+            </section>
+            
+            <section className="w-11/12 xl:w-3/4 mx-auto md:grid md:grid-cols-2 gap-5 lg:gap-8">
                 {dapis.apiInfo.map(({headerTitle, headerSubtitle, headerText, id}) => 
                     <Link href={`/dandelionapis/${id}`}>
                         <a>
@@ -31,8 +34,8 @@ function dandelionapis({dapis}) {
                         </a>
                     </Link>
                 )}
-            </div>
-        </div>
+            </section>
+        </>
     )
 }
 

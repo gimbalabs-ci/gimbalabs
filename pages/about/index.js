@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import { TitleHeading1, TitleHeading2, HighlightText, CallOutText, Paragraph, CardHeading, CardText } from '../../components/Type'
+import { TitleHeading1, TitleHeading2, TitleHeading3, HighlightText, CallOutText, Paragraph, CardHeading, CardText } from '../../components/Type'
 import { VideoLinkButton } from '../../components/Buttons'
 import CoverCard from '../../components/Cards/CoverCard'
 import TeamCards from '../../components/Cards/TeamCard'
@@ -30,7 +30,7 @@ function about({videoList, teamList}) {
 
                 <Paragraph>We believe that people learn best by doing things. If you've been looking for an entry point into how you can participate in Cardano, we think you might find it here.</Paragraph>
 
-                <TitleHeading1>Weekly Updates</TitleHeading1>
+                <TitleHeading2>Weekly Updates</TitleHeading2>
                 <Paragraph>
                    We are committed to transparency, but please don't take our word for that. Check out our weekly updates to hear what we're up to, and when there's something more we should share, let us know. 
                 </Paragraph>
@@ -49,30 +49,30 @@ function about({videoList, teamList}) {
                     </div>
                 </div>
                 
-                <TitleHeading1>Principals</TitleHeading1>
+                <TitleHeading2>Principals</TitleHeading2>
                 <Paragraph></Paragraph>
-                <TitleHeading2>Learn by Doing</TitleHeading2>
+                <TitleHeading3>Learn by Doing</TitleHeading3>
                 <Paragraph>Education makes the greatest impact when intrinsically motivating tasks are combined with a supportive environment. Workshop Maybe’s starter kits are compelling opportunities for people to try do new things, and we will provide the scaffolding to help learners become self-sufficient. </Paragraph>
                 
-                <TitleHeading2>Seek Collaboration</TitleHeading2>
+                <TitleHeading3>Seek Collaboration</TitleHeading3>
                 <Paragraph>We recognize new opportunities for citywide and worldwide collaboration. Partnerships take root when contributors have tools for building trust and can share ideas constructively. </Paragraph>
                 <Paragraph>There haven’t really been tools like these before. Should we go build something?</Paragraph>
 
-                <TitleHeading2>Lead by Example</TitleHeading2>
+                <TitleHeading3>Lead by Example</TitleHeading3>
                 <Paragraph>In order for Cardano to be successful in living up to its first principles, our community must consistently show what open source, decentralized movements look like. This not a static goal that can be achieved, but a moving target. We’ll seek to be held accountable for putting in the work and will celebrate shared success.</Paragraph>
 
-                <TitleHeading2>Stay Flexible</TitleHeading2>
+                <TitleHeading3>Stay Flexible</TitleHeading3>
                 <Paragraph>We don’t yet know where this work is headed. The principles laid out here are broad. Questions about grassroots adoption and education may lead to brand new technical or political ones. By recognizing good ideas, contributing where we can, and staying open to new questions, each of us is responsible for the growth of Cardano.</Paragraph>
 
-                <TitleHeading2>What would you add?</TitleHeading2>
+                <TitleHeading3>What would you add?</TitleHeading3>
                 <Paragraph>We think that elucidating principles is a great exercise in defining your work. Be in touch, and share the principles that guide you.</Paragraph>
                 
-                <TitleHeading1>What We're Builiding</TitleHeading1>
+                <TitleHeading2>What We're Builiding</TitleHeading2>
                 <Paragraph>Cardano APIs as Community Service will serve as an entrypoint for developers by offering open, free interfaces for new adopters to explore ideas and launch proofs of concept for new projects. These public, free services will ease adoption of Cardano by providing infrastructure for initial setup and testing of ideas, therefore encouraging developers to start building by reducing the time invested from days to minutes.</Paragraph>
                 <Paragraph>Cardano Starter Kits (CSKs) are open source, Project Based Learning (PBL) opportunities for people to engage with Cardano in the real world, and to learn through experience what the Cardano platform can do􏰉 CSKs consist of smart contract code, voting apparatus, guided learning materials, and implementation tips. CSKs will support users to learn about Cardano while also producing real-world outcomes, and will vary in complexity, for everyone from beginners to experts. CSKs will not be "grab and go", but are grounded in the understanding that we learn best by doing experiential learning. Anyone who is interested will be able to build upon open source CSKs to start local businesses and to host local events that drive hands-on understanding of Cardano.</Paragraph>
                 <Paragraph>GimbaLabs is building a platform for sharing APIs and CSKs that allow users to share experiences about what works, what they've learned, and how to improve our open source resources. Community members will also be able to contribute their own APIs and CSKs, supporting our intention to make GimbaLabs a valuable resource for the Cardano commons.</Paragraph>
 
-                <TitleHeading1>Founding Team</TitleHeading1>
+                <TitleHeading2>Founding Team</TitleHeading2>
                 <div className="grid grid-cols-1 xl:grid-cols-3 w-full justify-center">
                     {teamList.founders.map(i => 
                         <TeamCard>
@@ -90,7 +90,7 @@ function about({videoList, teamList}) {
                 </div>              
                 
 
-                <TitleHeading1>More</TitleHeading1>
+                <TitleHeading2>More</TitleHeading2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mx-auto md:pb-6 w-11/12 md:w-5/6">
                     <Link href="/experiments">
                     <a>
@@ -101,7 +101,7 @@ function about({videoList, teamList}) {
                     </a>
                     </Link>
 
-                    <Link href="/workwithus">
+                    <Link href="/participate">
                     <a>
                         <CoverCard>
                         <CardHeading>Work with us</CardHeading>

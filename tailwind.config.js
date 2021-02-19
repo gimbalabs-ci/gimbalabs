@@ -7,7 +7,7 @@ module.exports = {
         center: true,
       },
       fontFamily: {
-        'sans': ['Rubik', 'ui-sans-serif', 'system-ui'],
+        'sans': ['Noto Sans', 'ui-sans-serif', 'system-ui'],
         'serif': ['ui-serif', 'Georgia'],
         'mono': ['Ubuntu Mono', 'ui-monospace', 'SFMono-Regular'],
         'title': ['Saira', 'ui-sans-serif', 'system-ui'],

@@ -25,13 +25,13 @@ function metadatum({data, id}) {
     const num = data.length-1
 
     return (
-        <div className="p-12">
+        <div className="p-2 md:p-12">
             <CardHeading>
                 Metadata Key #{id}
             </CardHeading>
             <Paragraph>There are {data.length} transactions with key #{id} on the Cardano mainnet.</Paragraph>
             <Paragraph>The most recent one looks like this:</Paragraph>
-            <div className="font-mono mx-12 p-4 border-2 border-indigo-700">
+            <div className="text-xs md:text-base font-mono mx-2 md:mx-12 p-2 md:p-4 border-1 md:border-2 border-indigo-700">
                 <p>{JSON.stringify(data[num])}</p>
             </div>
             <Paragraph>Want to learn more? Check out these links:</Paragraph>

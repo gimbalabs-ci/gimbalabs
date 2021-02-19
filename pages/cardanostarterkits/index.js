@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import csk from '../../data/csk.json'
 import CskCard from '../../components/Cards/CskCard'
-import { CardHeading, CardSubHeading, CardText } from '../../components/Type'
+import { TitleHeading1, TitleHeading2, TitleHeading3, HighlightText, CallOutText, Paragraph, CardHeading, CardSubHeading, CardText } from '../../components/Type'
 
 export async function getStaticProps() {
     const starterkits = csk
@@ -17,11 +17,10 @@ function cardanostarterkits({starterkits}) {
     return (
         
             <>
-                <section className="w-3/4 mx-auto content-center h-40 mt-12 pt-6 bg-blue-700">
-                    <h1>{starterkits.title}</h1>
-                    <h3>{starterkits.about}</h3>
+                <section className="w-full md:w-5/6 lg:w-3/4 mx-auto pb-5">
+                    <TitleHeading1>{starterkits.title}</TitleHeading1>
                 </section>
-                <section className="w-3/4 mx-auto">
+                <section className="w-11/12 xl:w-3/4 mx-auto md:grid md:grid-cols-2 gap-5 lg:gap-8">
                     {starterkits.csks.map(({headerTitle, headerSubtitle, headerText, id}) => 
                         <Link href={`/cardanostarterkits/${id}`}>
                             <a>
