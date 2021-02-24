@@ -9,7 +9,7 @@ module.exports = {
       fontFamily: {
         'sans': ['Noto Sans', 'ui-sans-serif', 'system-ui'],
         'serif': ['ui-serif', 'Georgia'],
-        'mono': ['Ubuntu Mono', 'ui-monospace', 'SFMono-Regular'],
+        'mono': ['Courier Prime', 'ui-monospace', 'SFMono-Regular'],
         'title': ['Saira', 'ui-sans-serif', 'system-ui'],
       },
       extend: {
