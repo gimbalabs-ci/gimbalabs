@@ -11,18 +11,24 @@ This is the currently officially supported API to explore Cardano transactions. 
 
 ![](/showcase-explorer-api.png)
 
+## Links
 - [View on IOHK GitHub](https://github.com/input-output-hk/cardano-rest#overview)
-- [Official Documentation](https://input-output-hk.github.io/cardano-rest/explorer-api)
+- [Official Documentation from IOHK](https://input-output-hk.github.io/cardano-rest/explorer-api)
+
+- [Exampl graphql queries](https://github.com/input-output-hk/cardano-graphql/tree/master/packages/api-cardano-db-hasura/src/example_queries)
+
+## Usage
+
+- [testnet: https://explorer-api.testnet.dandelion.link](https://explorer-api.testnet.dandelion.link)
+- [mainnet: https://explorer-api.mainnet.dandelion.link](https://explorer-api.mainnet.dandelion.link)
+
+### bash:
+
+```bash
+curl -s \\
+https://explorer-api.testnet.dandelion.link/api/txs/last
+```
+
+### Version
 - mainnet: `"version": "3.1.1"`
 - testnet: `"version": "3.1.1"`
-- [testnet](https://explorer-api.testnet.`+process.env.REACT_APP_API_DOMAIN+`)
-- [mainnet](https://explorer-api.mainnet.`+process.env.REACT_APP_API_DOMAIN+`)
-
-```
-    - [graphql](https://github.com/input-output-hk/cardano-graphql/tree/master/packages/api-cardano-db-hasura/src/example_queries)
-    - bash:
-    ~~~bash
-    curl -s \\
-    https://explorer-api.testnet.`+process.env.REACT_APP_API_DOMAIN+`/api/txs/last
-    ~~~
-```

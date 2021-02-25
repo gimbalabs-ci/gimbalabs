@@ -5,4 +5,5 @@
 - Tailwind CSS
 
 ## Learning Resources
-- Nav was build with this tutorial
+- Nav was build with this tutorial:
+- Content architecture with blog example: 

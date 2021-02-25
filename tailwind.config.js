@@ -11,6 +11,7 @@ module.exports = {
         'serif': ['ui-serif', 'Georgia'],
         'mono': ['Courier Prime', 'ui-monospace', 'SFMono-Regular'],
         'title': ['Saira', 'ui-sans-serif', 'system-ui'],
+        'dandelion': ['RocknRoll One', 'ui-sans-serif', 'system-ui'],
       },
       extend: {
         zIndex: {

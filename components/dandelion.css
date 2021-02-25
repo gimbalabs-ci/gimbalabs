@@ -1,0 +1,31 @@
+div.dandelioncard h1 {
+    @apply text-3xl font-dandelion my-5;
+}
+
+div.dandelioncard h2 {
+    @apply text-xl my-5;
+}
+
+div.dandelioncard h3 {
+    @apply text-lg my-5;
+}
+
+div.dandelioncard p {
+    @apply leading-relaxed px-2 py-2;
+}
+
+div.dandelioncard a {
+    @apply text-purple-700;
+}
+
+div.dandelioncard ul {
+    @apply list-disc ml-6;
+}
+
+div.dandelioncard li {
+    @apply text-yellow-700 py-1;
+}
+
+div.dandelioncard img {
+    @apply w-11/12 mx-auto my-5 shadow-xl;
+}

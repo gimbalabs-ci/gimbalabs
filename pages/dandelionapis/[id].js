@@ -1,7 +1,18 @@
 import Link from 'next/link'
-import { TitleHeading1, Paragraph, TitleHeading2 } from '../../components/Type'
+import ReactMarkdown from 'react-markdown'
+import {Prism as SyntaxHighlighter} from 'react-syntax-highlighter'
+
+
+
+import { TitleHeading1 } from '../../components/Type'
 import { getAllDapiIds, getDapiData } from '../../lib/dandelions'
-import DandelionLayout from '../../components/Layouts/DandelionLayout'
+
+
+const renderers = {
+  code: ({language, value}) => {
+    return <SyntaxHighlighter language={language} children={value} />
+  }
+}
 
 export async function getStaticProps({ params }) {
     const dapiData = await getDapiData(params.id)
@@ -25,15 +36,13 @@ export default function dapiMd({dapiData}) {
         <>
         <section className="w-full md:w-5/6 lg:w-3/4 mx-auto pb-5">
             <TitleHeading1>{dapiData.title}</TitleHeading1>
-            <TitleHeading2>Id: {dapiData.id} | Updated on: {dapiData.date}</TitleHeading2>
-            <Paragraph>text</Paragraph>
             <br />
-            <Link href='/dandelionapis/dandelionmd'>Back to markdown experiment</Link>
+            <Link href='/dandelionapis'>Back</Link> | <Link href='/dandelionapis/dandelionmd'>.md</Link>
             <br />
         </section>
-        <DandelionLayout>
-            <div dangerouslySetInnerHTML={{ __html: dapiData.contentHtml }} />
-        </DandelionLayout>
+        <div className='dandelioncard box-border shadow-xl h-auto w-full md:w-2/3 lg:w-1/2 mx-auto my-4 p-4 border-4 bg-purple-200 bg-opacity-50'>
+          <ReactMarkdown renderers={renderers} children={dapiData.contentReact} />
+        </div>
         </>
     )
 }
