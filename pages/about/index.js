@@ -45,7 +45,7 @@ function about({videoList, teamList}) {
                         </ul>
                     </div>
                     <div className="col-span-1 w-full hidden md:contents">
-                       <iframe width="560" height="315" src="https://www.youtube.com/embed/bKvFZ8KfAt0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                       <iframe width="560" height="315" src="https://www.youtube.com/embed/yYFGH3gGHJQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
 
@@ -73,7 +73,7 @@ function about({videoList, teamList}) {
                 <Paragraph>GimbaLabs is building a platform for sharing APIs and CSKs that allow users to share experiences about what works, what they've learned, and how to improve our open source resources. Community members will also be able to contribute their own APIs and CSKs, supporting our intention to make GimbaLabs a valuable resource for the Cardano commons.</Paragraph>
 
                 <TitleHeading2>Founding Team</TitleHeading2>
-                <div className="grid grid-cols-1 xl:grid-cols-3 w-full justify-center">
+                <div className="grid grid-cols-1 lg:grid-cols-2 w-full justify-center">
                     {teamList.founders.map(i => 
                         <TeamCard>
                             <div className="row-span-3 mx-auto my-auto">

@@ -1,47 +1,29 @@
 import Link from 'next/link'
-import { CardHeading } from '../../../components/Type'
+import { TitleHeading1 } from '../../../components/Type'
 
-// direct from https://nextjs.org/docs/basic-features/data-fetching
-
-export async function getStaticProps() {
-    const res = await fetch(`https://postgrest-api.mainnet.dandelion.link/rpc/get_metadatum`)
-    const data = await res.json()
-
-    if (!data) {
-        return {
-            notFound: true,
-        }
-    }
-
-    return {
-        props: {
-            data
-        }
-    }
-}
-
-function metadata({data}) {
-
-    console.log(data)
-
+export default function metadataTinker() {
     return (
         <div className="p-12">
-            <CardHeading>
-                Playground: Metadata
-            </CardHeading>
-            <div className="grid md:grid-cols-4 lg:grid-cols-7 gap-4 text-2xl pt-6">
-                {data.map(x =>
-                    <Link href={`/playground/metadata/${x.metadatum}`}>
-                        <div className="flex h-16 border bg-blue-400 hover:bg-blue-700 hover:text-blue-100 bg-opacity-70 cursor-pointer">
-                            <a className="mx-auto my-auto">
-                                {x.metadatum}
-                            </a>
-                        </div>    
+            <TitleHeading1>
+                Playground
+            </TitleHeading1>
+            <ul>
+                <li className="text-2xl m-12 hover:text-purple-700">
+                    <Link href="/playground/metadata/aboutjson">
+                        <a className="">What is JSON in the first place?</a>
                     </Link>
-                )}
-            </div>
+                </li>
+                <li className="text-2xl m-12 hover:text-purple-700">
+                    <Link href="/playground/metadata/postgrest">
+                        <a className="">View transaction metadata via PosgREST API</a>
+                    </Link>
+                </li>
+                <li className="text-2xl m-12 hover:text-purple-700">
+                    <Link href="/playground/metadata/graphql">
+                        <a className="">Take a look at some GraphQL</a>
+                    </Link>
+                </li>
+            </ul>
         </div>
     )
 }
-
-export default metadata

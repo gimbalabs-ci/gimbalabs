@@ -1,4 +1,4 @@
-import { CardHeading, Paragraph } from '../../../components/Type'
+import { CardHeading, Paragraph } from '../../../../components/Type'
 
 export const getServerSideProps = async pageContext => {
     const id = pageContext.query.metadatum
