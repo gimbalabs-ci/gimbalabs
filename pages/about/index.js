@@ -71,6 +71,7 @@ function about({videoList, teamList}) {
                 <Paragraph>Cardano APIs as Community Service will serve as an entrypoint for developers by offering open, free interfaces for new adopters to explore ideas and launch proofs of concept for new projects. These public, free services will ease adoption of Cardano by providing infrastructure for initial setup and testing of ideas, therefore encouraging developers to start building by reducing the time invested from days to minutes.</Paragraph>
                 <Paragraph>Cardano Starter Kits (CSKs) are open source, Project Based Learning (PBL) opportunities for people to engage with Cardano in the real world, and to learn through experience what the Cardano platform can do􏰉 CSKs consist of smart contract code, voting apparatus, guided learning materials, and implementation tips. CSKs will support users to learn about Cardano while also producing real-world outcomes, and will vary in complexity, for everyone from beginners to experts. CSKs will not be "grab and go", but are grounded in the understanding that we learn best by doing experiential learning. Anyone who is interested will be able to build upon open source CSKs to start local businesses and to host local events that drive hands-on understanding of Cardano.</Paragraph>
                 <Paragraph>GimbaLabs is building a platform for sharing APIs and CSKs that allow users to share experiences about what works, what they've learned, and how to improve our open source resources. Community members will also be able to contribute their own APIs and CSKs, supporting our intention to make GimbaLabs a valuable resource for the Cardano commons.</Paragraph>
+                <Paragraph><Link href="/fund2.pdf">Our Catalyst Fund 2 Proposal</Link></Paragraph>
 
                 <TitleHeading2>Founding Team</TitleHeading2>
                 <div className="grid grid-cols-1 lg:grid-cols-2 w-full justify-center">
@@ -82,8 +83,12 @@ function about({videoList, teamList}) {
                             <div className="ml-2 my-auto col-span-2 md:col-span-1 xl:text-xl font-title">
                                 {i.name}
                             </div>
-                            <div className="my-auto col-span-2 md:col-span-1 text-xs row-span-2 ml-2">
+                            <div className="my-auto col-span-2 md:col-span-1 text-xs ml-2">
                                 {i.bio}
+                            </div>
+                            <div className="my-auto col-span-2 md:col-span-1 text-xs ml-2">
+                                <a href={i.twitter} target="blank" className="mx-5"><Image src="/social/twitter.png" width={25} height={25} /></a>
+                                <a href={i.linkedIn} target="blank" className="mx-5"><Image src="/social/linkedin.png" width={25} height={25} /></a>
                             </div>
                         </TeamCard>          
                     )}  
