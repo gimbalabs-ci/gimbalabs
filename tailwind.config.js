@@ -34,5 +34,7 @@ module.exports = {
         boxSizing: ['hover', 'focus'],
       },
     },
-    plugins: [],
+    plugins: [
+      require('@tailwindcss/forms'),
+    ],
   }
