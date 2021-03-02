@@ -2,7 +2,6 @@ import Link from 'next/link'
 import { TitleHeading1, TitleHeading2, Paragraph } from '../../../components/Type'
 import example from '../../../data/example.json'
 
-// should I use async here?
 export function getStaticProps() {
     const data = example
 

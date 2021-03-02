@@ -31,5 +31,5 @@ div.cskcard li {
 }
 
 div.cskcard img {
-    @apply w-11/12 mx-auto my-5 shadow-xl;
+    @apply w-11/12 lg:w-2/3 mx-auto lg:mx-5 my-5 shadow-xl;
 }

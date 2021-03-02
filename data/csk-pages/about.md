@@ -6,7 +6,7 @@ version: 1
 ---      
 
 # What is a Cardano Starter Kit?
-![](/aboutcover.jpg)
+![](/csks/aboutcover.jpg)
 
 Here is an outline of our thinking behind CSKs. In collaboration with other builders, we are creating support resources for more people to contribute expertise to the Gimbalabs community.
 
