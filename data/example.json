@@ -1,0 +1,5 @@
+{
+    "title": "Here is some example JSON",
+    "date": "2021-03-02",
+    "text": "The text you're reading is the 'value' of a key called 'text'"
+}

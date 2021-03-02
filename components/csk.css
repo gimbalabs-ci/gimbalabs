@@ -1,0 +1,35 @@
+div.cskcard h1 {
+    @apply text-3xl font-dandelion my-5;
+}
+
+div.cskcard h2 {
+    @apply text-xl my-5;
+}
+
+div.cskcard h3 {
+    @apply text-lg my-5;
+}
+
+div.cskcard p {
+    @apply leading-relaxed px-2 py-2;
+}
+
+div.cskcard a {
+    @apply text-purple-700;
+}
+
+div.cskcard ul {
+    @apply list-disc ml-6;
+}
+
+div.cskcard ol {
+    @apply list-decimal ml-8;
+}
+
+div.cskcard li {
+    @apply py-1;
+}
+
+div.cskcard img {
+    @apply w-11/12 mx-auto my-5 shadow-xl;
+}

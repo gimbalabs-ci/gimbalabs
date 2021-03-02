@@ -2,36 +2,39 @@ import Link from 'next/link'
 import csk from '../../data/csk.json'
 import CskCard from '../../components/Cards/CskCard'
 import { TitleHeading1, TitleHeading2, TitleHeading3, HighlightText, CallOutText, Paragraph, CardHeading, CardSubHeading, CardText } from '../../components/Type'
+import { getSortedCsksData } from '../../lib/csk'
 
 export async function getStaticProps() {
-    const starterkits = csk
+    const allCSKData = getSortedCsksData()
 
     return {
         props: {
-            starterkits
+            allCSKData
         }
     }
 }
 
-function cardanostarterkits({starterkits}) {
+function cardanostarterkits({allCSKData}) {
     return (
         
             <>
                 <section className="w-full md:w-5/6 lg:w-3/4 mx-auto pb-5">
-                    <TitleHeading1>{starterkits.title}</TitleHeading1>
+                    <TitleHeading1>Cardano Starter Kits</TitleHeading1>
                 </section>
-                <section className="w-11/12 xl:w-3/4 mx-auto md:grid md:grid-cols-2 gap-5 lg:gap-8">
-                    {starterkits.csks.map(({headerTitle, headerSubtitle, headerText, id}) => 
-                        <Link href={`/cardanostarterkits/${id}`}>
-                            <a>
-                                <CskCard>
-                                    <CardHeading>{headerTitle}</CardHeading>
-                                    <CardSubHeading>{headerSubtitle}</CardSubHeading>
-                                    <CardText>{headerText}</CardText>
-                                </CskCard>
-                            </a>
-                        </Link>
-                    )}   
+                <section className="w-full md:w-5/6 lg:w-3/4 mx-auto">
+                    <ul>
+                    {allCSKData.map(({ id, number, title, date }) => (
+                        <li key={id}>
+                            <CskCard>
+                                <Link href={`/cardanostarterkits/${id}`}>
+                                    <a>
+                                        CSK {number}: {title} (last edited {date})
+                                    </a>
+                                </Link>
+                            </CskCard>
+                        </li>
+                    ))}   
+                    </ul>  
                 </section>
             </>
     )
