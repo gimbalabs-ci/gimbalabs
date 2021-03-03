@@ -9,3 +9,11 @@ export function VideoLinkButton({children}) {
         <div className='p-3 mx-auto my-3 w-full md:w-4/5 font-bold items-center justify-center bg-purple-100 hover:bg-purple-300 hover:text-black cursor-pointer'>{children}</div>
     )
 }
+
+export function DiscordButton() {
+    return (
+        <a href="https://discord.gg/XTvJBj7kzq">
+            <div className='p-3 mx-auto my-3 w-1/2 font-bold text-center justify-center bg-purple-100 hover:bg-purple-300 hover:text-black cursor-pointer'>Join Gimbalabs on Discord</div>
+        </a>
+    )
+}
