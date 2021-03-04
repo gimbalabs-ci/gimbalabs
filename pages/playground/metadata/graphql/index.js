@@ -29,10 +29,10 @@ function MetadataTX({ metadatakey}) {
         variables: { metadatakey }
     })
 
+    if ( metadatakey === 0 || metadatakey === "") return <Paragraph>Enter a key</Paragraph>
     if (loading) return <Paragraph>Loading...</Paragraph>
-    if ( metadatakey === null ) return <Paragraph>Enter a key</Paragraph>
-    if (data.transactions.length === 0) return <Paragraph>There is no data at that key.</Paragraph>
     if (error) return <Paragraph>Error</Paragraph>
+    if (data.transactions.length === 0) return <Paragraph>There is no data at that key.</Paragraph>
     // What's cool is that if we know that there's certain data at a certain key, our page can respond accordingly
     // Note that by looking at transactions[1], we can count on the blockchain to deliver us what we expect
     // There's plenty more we could do for security here!
@@ -64,7 +64,7 @@ function MetadataTX({ metadatakey}) {
 
 export default function metadatawithgraphql(){
 
-    const [txMeta, setTxMeta] = useState(null)
+    const [txMeta, setTxMeta] = useState(0)
 
     return (
         <ApolloProvider client={client}>
