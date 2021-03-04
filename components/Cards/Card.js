@@ -1,6 +1,6 @@
 function Card({ children }) {
     return (       
-        <div className='box-border rounded-lg ring-4 shadow-xl h-60 w-80 m-4 p-4 border-4 bg-blue-200 hover:bg-green-200 transform scale-100 hover:scale-105 hover:-rotate-3 z-20'>
+        <div className='rounded-lg shadow-xl h-auto w-2/3 m-4 p-4 bg-blue-200 hover:bg-blue-300 transform scale-100 hover:scale-105 hover:-rotate-1 z-20'>
             {children}
         </div>    
     )

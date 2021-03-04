@@ -20,7 +20,7 @@ export default function metadataTinker() {
                 </li>
                 <li className="text-2xl m-12 hover:text-purple-700">
                     <Link href="/playground/metadata/graphql">
-                        <a className="">Take a look at some GraphQL</a>
+                        <a className="">Metadata served up via GraphQL</a>
                     </Link>
                 </li>
                 <li className="text-2xl m-12 hover:text-purple-700">
