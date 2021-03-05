@@ -1,15 +1,17 @@
 import Link from 'next/link'
-import { TitleHeading1, TitleHeading2, Paragraph, TitleHeading3 } from '../components/Type'
-import { DiscordButton } from '../components/Buttons'
+import { TitleHeading1, TitleHeading2, Paragraph, TitleHeading3 } from '../../components/Type'
+import { CalendarButton, DiscordButton } from '../../components/Buttons'
 
-function participate() {
+export default function participate() {
     return (
         <div className="w-full md:w-5/6 lg:w-3/4 mx-auto pb-20">
             <TitleHeading1>Participate</TitleHeading1>
             <section>
                 <TitleHeading2>Ready to get involved?</TitleHeading2>
                 <Paragraph>GimbaLabs is a collaborative platform for people who want to show the world what Cardano can do. We are creating free and open source tools, lessons, and resources that people can learn from.</Paragraph>
+                <CalendarButton />
             </section>
+            
             
             <section>
                 <TitleHeading2>Gimbalabs Initiatives</TitleHeading2>
@@ -51,5 +53,3 @@ function participate() {
         </div>
     )
 }
-
-export default participate
