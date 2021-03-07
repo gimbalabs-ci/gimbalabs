@@ -1,8 +1,9 @@
 ---
-number: '#000'
-title: 'Securing a Wallet, Getting ADA and Staking on the Cardano Blockchain'
-date: '2020-09-27'
-version: 1
+id: 'template'
+title: 'Calendar and Roadmap'
+date: '2021-03-05'
+tags: ['initiative', 'playground', 'help wanted']
+author: 'James Dunseith'
 ---      
 
 # Securing a Wallet, Getting ADA and Staking on the Cardano Blockchain
