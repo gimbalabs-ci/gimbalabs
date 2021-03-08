@@ -1,0 +1,31 @@
+div.projectcard h1 {
+    @apply text-3xl font-dandelion my-5;
+}
+
+div.projectcard h2 {
+    @apply text-xl my-5;
+}
+
+div.projectcard h3 {
+    @apply text-lg my-5;
+}
+
+div.projectcard p {
+    @apply leading-relaxed px-2 py-2;
+}
+
+div.projectcard a {
+    @apply text-purple-700;
+}
+
+div.projectcard ul {
+    @apply list-disc ml-6;
+}
+
+div.projectcard li {
+    @apply text-yellow-700 py-1;
+}
+
+div.projectcard img {
+    @apply w-11/12 mx-auto my-5 shadow-xl;
+}

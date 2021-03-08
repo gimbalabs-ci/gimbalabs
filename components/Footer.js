@@ -22,6 +22,12 @@ function Footer() {
                     Playground
                   </a>
                 </Link>
+
+                <Link href='/projects'>
+                  <a className="lg:inline-flex lg:w-auto md:px-5 text-center">
+                    Current Projects
+                  </a>
+                </Link>
              
           </footer>
     )

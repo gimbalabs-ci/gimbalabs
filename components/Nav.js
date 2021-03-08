@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { useState } from 'react'
+import Search from '../components/Search'
 
 // Learn how to create this Nav:
 // https://dev.to/andrewespejo/how-to-design-a-simple-and-beautiful-navbar-using-nextjs-and-tailwindcss-26p1
@@ -21,6 +22,7 @@ function Nav() {
                 </span>
             </a>
             </Link>
+
             <button 
                 className='inline-flex p-3 hover:bg-green-600 rounded lg:hidden text-white ml-auto hover:text-white outline-none' 
                 onClick={handleClick}
@@ -51,6 +53,7 @@ function Nav() {
             }   w-full lg:inline-flex lg:flex-grow lg:w-auto`}
             >
                 <div className='lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto'>
+                    <Search />
                     <Link href='/'>
                     <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-purple-300 hover:text-black'>
                         Home

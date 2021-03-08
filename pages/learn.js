@@ -1,10 +1,14 @@
 import Link from 'next/link'
 import { TitleHeading1, TitleHeading2 } from '../components/Type'
+import Search from '../components/Search'
 
 function learn() {
     return (
         <div className="md:w-5/6 lg:w-3/4 mx-auto pb-20">
             <TitleHeading1>Gimbalabs: Learn</TitleHeading1>
+            <div>
+                <Search />
+            </div>
             <div className="grid grid-cols-1 md:grid-cols-2 md:grid-rows-3 md:gap-10">
                 <div className="mx-5 p-3">
                     <TitleHeading2>Coding on Chain</TitleHeading2>

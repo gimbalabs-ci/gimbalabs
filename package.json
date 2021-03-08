@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "cache-posts": "node scripts/cache.js"
   },
   "dependencies": {
     "@apollo/client": "^3.3.11",
@@ -13,6 +14,7 @@
     "autoprefixer": "^10.2.4",
     "graphql": "^15.5.0",
     "gray-matter": "^4.0.2",
+    "husky": "^5.1.3",
     "next": "10.0.6",
     "postcss": "^8.2.6",
     "postcss-flexbugs-fixes": "^5.0.2",
@@ -29,5 +31,8 @@
     "remark-react": "^8.0.0",
     "tailwindcss": "^2.0.3",
     "unified": "^9.2.1"
+  },
+  "husky": {
+    "pre-commit": "npm run cache-posts && git add cache/data.js" 
   }
 }
