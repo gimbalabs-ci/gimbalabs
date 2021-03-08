@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { TitleHeading1 } from '../../../components/Type'
+import { Paragraph, TitleHeading1, TitleHeading3 } from '../../../components/Type'
 
 export default function metadataTinker() {
     return (
@@ -25,10 +25,21 @@ export default function metadataTinker() {
                 </li>
                 <li className="text-2xl m-12 hover:text-purple-700">
                     <Link href="/cardanostarterkits/csk006">
-                        <a className="">To learn more, check out Cardano Stater Kit #006</a>
+                        <a className="">To learn more, check out Cardano Starter Kit #006</a>
+                    </Link>
+                </li>
+                <li className="text-2xl m-12 hover:text-purple-700">
+                    <Link href="/cardanostarterkits/csk006">
+                        <a className="">To learn more, check out Cardano Starter Kit #006</a>
                     </Link>
                 </li>
             </ul>
+            <TitleHeading3>
+                Additional Contributors
+            </TitleHeading3>
+            <Paragraph>
+                Check out this <a href="https://icaro-capobianco.github.io/cardano-metadata-viewer/" className="classic">Cardano Epoch Listing</a> project from <a href="https://github.com/icaro-capobianco" className="classic">Ícaro Capobianco</a>. This project extends Roberto's <a href="https://github.com/repsistance/cardano-meta-handler" className="classic">Cardano Meta-Handler</a>.
+            </Paragraph>
         </div>
     )
 }
