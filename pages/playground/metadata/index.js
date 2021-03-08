@@ -8,27 +8,27 @@ export default function metadataTinker() {
                 Playground
             </TitleHeading1>
             <ul>
-                <li className="text-2xl m-12 hover:text-purple-700">
+                <li className="m-12 hover:text-purple-700">
                     <Link href="/playground/metadata/aboutjson">
                         <a className="">What is JSON in the first place?</a>
                     </Link>
                 </li>
-                <li className="text-2xl m-12 hover:text-purple-700">
+                <li className="m-12 hover:text-purple-700">
                     <Link href="/playground/metadata/postgrest">
                         <a className="">View transaction metadata via PosgREST API</a>
                     </Link>
                 </li>
-                <li className="text-2xl m-12 hover:text-purple-700">
+                <li className="m-12 hover:text-purple-700">
                     <Link href="/playground/metadata/graphql">
                         <a className="">Metadata served up via GraphQL</a>
                     </Link>
                 </li>
-                <li className="text-2xl m-12 hover:text-purple-700">
+                <li className="m-12 hover:text-purple-700">
                     <Link href="/cardanostarterkits/csk006">
                         <a className="">To learn more, check out Cardano Starter Kit #006</a>
                     </Link>
                 </li>
-                <li className="text-2xl m-12 hover:text-purple-700">
+                <li className="m-12 hover:text-purple-700">
                     <Link href="/cardanostarterkits/csk006">
                         <a className="">To learn more, check out Cardano Starter Kit #006</a>
                     </Link>
