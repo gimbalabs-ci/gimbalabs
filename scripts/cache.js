@@ -57,7 +57,7 @@ function projectsData() {
 }
 
 function allData() {
-  const data = projectsData.concat(cskData().concat(dapisData()))
+  const data = projectsData().concat(cskData().concat(dapisData()))
   return `export const allContent = ${JSON.stringify(data)}`
 }
 
