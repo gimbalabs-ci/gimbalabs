@@ -29,3 +29,9 @@ export function CalendarButton() {
         </Link>
     )
 }
+
+export function TagButton({children}) {
+    return (
+        <div className="m-2 p-2 text-xs text-white bg-purple-700">{children}</div>
+    )
+}
