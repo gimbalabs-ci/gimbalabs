@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import CoverCard from '../components/Cards/CoverCard'
 import { CardHeading, CardText, TitleHeading1, HighlightText, CallOutText, Paragraph } from '../components/Type'
-import { DiscordButton } from '../components/Buttons'
+import { DiscordButton, CurrentButton } from '../components/Buttons'
 
 export default function Home() {
   return (
@@ -23,7 +23,7 @@ export default function Home() {
               <Paragraph>We envision a world where as many people as possible are empowered to solve problems using the Cardano platform.</Paragraph>
 
               <Paragraph>This site is a work in progress, and will be rolling out over the next few weeks. We invite you to take a look around and get in touch.</Paragraph>
-              <DiscordButton />
+              <DiscordButton /> <CurrentButton />
             </div>
             <div className="flex w-full content-center">
               <Image src={'/keepbees.jpeg'}  width="1000" height="800" objectFit="contain" className="shadow-xl" />
