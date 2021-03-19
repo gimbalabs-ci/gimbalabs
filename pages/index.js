@@ -13,18 +13,19 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-          <div className="flex grid grid-cols-1 lg:grid-cols-2 mx-auto w-full xl:w-5/6 m-5">
-            <div className="flex grid grid-cols-1 w-full content-center md:px-6">
+          <div className="flex grid grid-cols-1 lg:grid-cols-2 mx-auto w-full xl:w-5/6 m-2">
+            <div className="flex grid grid-cols-1 w-full content-center md:px-6 mx-2">
               <TitleHeading1>Welcome to Gimbalabs</TitleHeading1>
               <CallOutText>Are you ready to get started?</CallOutText>
               
               <Paragraph>Our mission is to mobilize everyone in the Cardano community by creating tools and real-world use cases that ignite the public imagination and facilitate adoption.</Paragraph>
               
               <Paragraph>We envision a world where as many people as possible are empowered to solve problems using the Cardano platform.</Paragraph>
-
-              <Paragraph>This site is a work in progress, and will be rolling out over the next few weeks. We invite you to take a look around and get in touch.</Paragraph>
-              <DiscordButton /> <CurrentButton />
+              <div className="flex grid grid-cols-2">
+                <DiscordButton /> <CurrentButton />
+              </div>
             </div>
+            
             <div className="flex w-full content-center">
               <Image src={'/keepbees.jpeg'}  width="1000" height="800" objectFit="contain" className="shadow-xl" />
             </div>

@@ -15,7 +15,7 @@ export function VideoLinkButton({children}) {
 export function DiscordButton() {
     return (
         <a href="https://discord.gg/XTvJBj7kzq">
-            <div className='p-3 mx-auto my-3 w-1/2 font-bold text-center justify-center bg-purple-100 hover:bg-purple-300 hover:text-black cursor-pointer'>Join Gimbalabs on Discord</div>
+            <div className='p-3 mx-auto mt-3 w-3/4 font-bold text-center justify-center bg-purple-100 hover:bg-purple-300 hover:text-black cursor-pointer'>Join Gimbalabs on Discord</div>
         </a>
     )
 }
@@ -24,7 +24,7 @@ export function CurrentButton() {
     return (
         <Link href="/projects">
             <a>
-                <div className='p-3 mx-auto my-3 w-1/2 font-bold text-center justify-center bg-purple-100 hover:bg-purple-300 hover:text-black cursor-pointer'>Currently at Gimbalabs</div>
+                <div className='p-3 mx-auto mt-3 w-3/4 font-bold text-center justify-center bg-purple-100 hover:bg-purple-300 hover:text-black cursor-pointer'>What's happening now?</div>
             </a>
         </Link>
     )
@@ -42,6 +42,6 @@ export function CalendarButton() {
 
 export function TagButton({children}) {
     return (
-        <div className="m-2 p-2 text-xs text-white bg-purple-700">{children}</div>
+        <div className="m-2 p-2 text-xs text-purple-900 bg-purple-100">{children}</div>
     )
 }
