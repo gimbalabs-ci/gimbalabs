@@ -14,3 +14,5 @@ How can we use a native asset on Cardano to create stability and predictability 
 
 Our goal is to get stuff done and build toward full time work for anyone who can contribute. Internal work plays a role, and so does cultivating other Catalyst projects.
 
+## Coming soon: Gimbal Pool
+
