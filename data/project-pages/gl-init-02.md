@@ -16,3 +16,5 @@ Our goal is to get stuff done and build toward full time work for anyone who can
 
 ## Coming soon: Gimbal Pool
 
+We are currently getting Gimbal Pool up and running, and we're eager to share more about the role it will play.
+
