@@ -10,11 +10,21 @@ budget: 5000
 ## Gimbalabs Initiatives
 # Experiment #2: Token-Based Incentive Structures
 
-How can we use a native asset on Cardano to create stability and predictability while maintaining a high level of flexibility and autonomy for all contributors?
+### We started a very open-ended experiment in defining a token-based incentive structure for Gimbalabs. We started with the following assumptions:
+1. Gimbalabs will be a DAO that creates educational content, connects builders, and consults with new and legacy organizations who want to learn about or build upon the blockchain.
+2. A wide variety of people, with different skills, learning goals, individual projects, and potential time commitments will participate in the Gimbalabs DAO.
+3. The income for this DAO will come from clients who hire teams to complete projects in blockchain adoption, use, and education.
 
-Our goal is to get stuff done and build toward full time work for anyone who can contribute. Internal work plays a role, and so does cultivating other Catalyst projects.
+### From these, we made this hypothesis...
+We can use native tokens on Cardano to create incentive structures that reward people who contribute to educational, open source, and commercial goals of Gimbalabs. What we create will serve the needs of this DAO, while also providing lessons and experience that we can all share widely.
 
-## Coming soon: Gimbal Pool
+### and we asked our community for this "deliverable":
+- A set of recommendations for how to build Gimbabals incentive structures.
 
-We are currently getting Gimbal Pool up and running, and we're eager to share more about the role it will play.
+What we got from our community was a far-reaching, invigorating conversation. You can see part of it on the Gimbalabs Discord in the #ex2-tokenomics-research channel. What we didn't quite reach is a clear set of recommendations. What we learned is that as an "initiative," this one was a bit too vague to lead to a real outcome.
+
+## Next Steps
+So what we're going to do is test some ideas, within safe bounds, for what the gimbal token can be. You can read about [our current plans on this GitLab repository](https://gitlab.com/gimbalabs/initiatives/ex2-tokenomics-research). Please share your feedback!
+
+Our present step is to get Gimbal Pool up and running. When that's ready, we'll share more on the status of Gimbalabs treasury and our intentions for running experiments with our current funds.
 
