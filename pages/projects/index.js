@@ -42,7 +42,9 @@ export default function projectmd({ allProjectsData }) {
                     
                         
                     ))}   
-                    
+                    <CurrentCard>
+                        <Paragraph><a href="https://youtu.be/zvVL380-udE">Check out the latest Gimbalabs Weekly Update</a></Paragraph>
+                    </CurrentCard>
                 </section>           
             </div>
             <div className="flex-1 mx-2">
