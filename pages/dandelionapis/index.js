@@ -20,7 +20,7 @@ function dandelionapis({dapis}) {
                 <TitleHeading1>{dapis.title}</TitleHeading1>
                 <Paragraph>{dapis.about}</Paragraph>
                 <br />
-                <Link href='/dandelionapis/dandelionmd'>markdown experiment</Link>
+                <Link href='/dandelionapis/builtondandelion'>What has been built on Dandelion?</Link>
             </section>
 
             

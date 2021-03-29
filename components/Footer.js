@@ -17,6 +17,12 @@ function Footer() {
                   </a>
                 </Link>
 
+                
+                <a href='https://www.youtube.com/channel/UChp9R55VgwkjMzGP9qMa66g' className="lg:inline-flex lg:w-auto md:px-5 text-center">
+                  Coding on Chain
+                </a>
+              
+
                 <Link href='/playground'>
                   <a className="lg:inline-flex lg:w-auto md:px-5 text-center">
                     Playground
