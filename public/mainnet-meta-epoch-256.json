@@ -3,5 +3,5 @@
     "ticker": "GMBL",
     "description": "Community Pool for Gimbalabs: learn, tinker, participate.",
     "homepage": "https://gimbalabs.com",
-    "extended": "https://gitlab.com/gimbalabs/documentation/-/blob/master/cardano/gimbal_pool/mainnet-meta-extended.json"
+    "extended": "https://gimbalabs.com/mainnet-meta-extended.json"
 }
