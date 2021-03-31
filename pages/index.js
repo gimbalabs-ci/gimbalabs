@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import CoverCard from '../components/Cards/CoverCard'
 import { CardHeading, CardText, TitleHeading1, HighlightText, CallOutText, Paragraph } from '../components/Type'
-import { DiscordButton, CurrentButton } from '../components/Buttons'
+import { DiscordButton, CurrentButton, GitlabButton } from '../components/Buttons'
 
 export default function Home() {
   return (
@@ -86,9 +86,12 @@ export default function Home() {
             </Link>
           </div>
 
-          <div className="flex w-5/6 justify-center mx-auto bg-purple-700 bg-opacity-70 text-white my-6 py-3">
+          <div className="flex w-5/6 justify-center mx-auto bg-purple-700 bg-opacity-70 text-white my-6 p-3">
             <HighlightText>Can't decide where to start? Don't worry - you'll end up doing a bit of learning, tinkering, and even participating, no matter where you start!</HighlightText>
           </div>
+
+          <GitlabButton />
+          
 
     </div>
   )
