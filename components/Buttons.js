@@ -24,7 +24,7 @@ export function CurrentButton() {
     return (
         <Link href="/projects">
             <a>
-                <div className='p-3 mx-auto m-6 w-3/4 font-bold text-center justify-center bg-purple-100 hover:bg-purple-300 hover:text-black cursor-pointer'>What's happening now?</div>
+                <div className='p-3 mx-auto my-6 font-bold text-center justify-center bg-purple-100 hover:bg-purple-300 hover:text-black cursor-pointer'>What's happening now?</div>
             </a>
         </Link>
     )
@@ -48,8 +48,8 @@ export function TagButton({children}) {
 
 export function GitlabButton() {
     return (
-        <div className="flex justify-center bg-yellow-500 bg-opacity-70 hover:bg-yellow-100 my-6 p-3 font-bold">
-            <a href="https://gitlab.com/gimbalabs/gimbalabs" className="classic">Contribute to this site on GitLab</a>
+        <div className="flex justify-center bg-white bg-opacity-50 hover:bg-yellow-100 my-6 p-3 font-bold">
+            <a href="https://gitlab.com/gimbalabs/gimbalabs">Contribute to this site on GitLab</a>
         </div>
     )
 }

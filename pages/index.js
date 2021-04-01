@@ -21,17 +21,29 @@ export default function Home() {
               <Paragraph>Our mission is to mobilize everyone in the Cardano community by creating tools and real-world use cases that ignite the public imagination and facilitate adoption.</Paragraph>
               
               <Paragraph>We envision a world where as many people as possible are empowered to solve problems using the Cardano platform.</Paragraph>
-              <div className="flex grid grid-cols-2">
-                <DiscordButton /> <CurrentButton />
-              </div>
             </div>
             
             <div className="flex w-full content-center">
               <Image src={'/keepbees.jpeg'}  width="1000" height="800" objectFit="contain" className="shadow-xl" />
             </div>
           </div>
+          
+          <div className="grid grid-cols-3 w-5/6 mx-auto mb-10 gap-2">
+            <Link href="/about"><a>
+              <div className="flex bg-purple-400 hover:bg-opacity-80 text-white font-bold text-xl h-48 justify-center"><p className="self-center">About Gimbalabs</p></div>
+            </a></Link>
+            <Link href="/dandelionapis"><a>
+              <div className="flex bg-purple-400 hover:bg-opacity-80 text-white font-bold text-xl h-48 justify-center"><p className="self-center">Dandelion APIs</p></div>
+            </a></Link>
+            <Link href="/playground"><a>
+              <div className="flex bg-purple-400 hover:bg-opacity-80 text-white font-bold text-xl h-48 justify-center"><p className="self-center">Gimbalabs Playground</p></div>
+            </a></Link>
+            <div className="bg-purple-400"><CurrentButton /></div>
+            <div className="bg-purple-400"><GitlabButton /></div>
+            <div className="bg-purple-400"><DiscordButton /></div>
+          </div>
 
-          <div className="flex w-5/6 mx-auto bg-purple-100 bg-opacity-70 py-10 md:mt-20 md:pb-15">
+          <div className="flex w-5/6 mx-auto bg-purple-100 bg-opacity-70 py-10 md:mt-5 md:pb-15">
             <p className="text-5xl font-title font-bold text-center mx-auto">How do you want to start?</p>
           </div>
 
@@ -86,11 +98,8 @@ export default function Home() {
             </Link>
           </div>
 
-          <div className="flex w-5/6 justify-center mx-auto bg-purple-700 bg-opacity-70 text-white my-6 p-3">
-            <HighlightText>Can't decide where to start? Don't worry - you'll end up doing a bit of learning, tinkering, and even participating, no matter where you start!</HighlightText>
-          </div>
 
-          <GitlabButton />
+           
           
 
     </div>
