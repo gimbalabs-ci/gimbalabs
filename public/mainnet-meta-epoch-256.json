@@ -3,5 +3,6 @@
     "ticker": "GMBL",
     "description": "Community Pool for Gimbalabs: learn, tinker, participate.",
     "homepage": "https://gimbalabs.com",
+    "nonce": "1617652699",
     "extended": "https://gimbalabs.com/mainnet-meta-extended.json"
 }
