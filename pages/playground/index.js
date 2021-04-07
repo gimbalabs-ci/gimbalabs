@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { TitleHeading1 } from '../../components/Type'
+import { TitleHeading1, TitleHeading3 } from '../../components/Type'
 
 function playground() {
     return (
@@ -19,6 +19,9 @@ function playground() {
                     </Link>
                 </li>
             </ul>
+            <TitleHeading3>
+                Metadata Workshop with IOHK on 30 March 2021
+            </TitleHeading3>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/bkPIUBN_o3I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     )
