@@ -28,11 +28,6 @@ export default function metadataTinker() {
                         <a className="">To learn more, check out Cardano Starter Kit #006</a>
                     </Link>
                 </li>
-                <li className="m-12 hover:text-purple-700">
-                    <Link href="/cardanostarterkits/csk006">
-                        <a className="">To learn more, check out Cardano Starter Kit #006</a>
-                    </Link>
-                </li>
             </ul>
             <TitleHeading3>
                 Additional Contributors

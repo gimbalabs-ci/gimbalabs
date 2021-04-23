@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import { ApolloClient, ApolloProvider, InMemoryCache, useQuery, gql } from '@apollo/client';
-import { Paragraph, TitleHeading1 } from '../../../../components/Type'
+import { Paragraph, TitleHeading1, TitleHeading2 } from '../../../../components/Type'
 import { Key100Index1, Key20210302Index0 } from '../../../../components/MetadatumResponses/KeyAndIndex'
 import Card from '../../../../components/Cards/Card'
 
@@ -23,7 +23,7 @@ const GET_METADATA_BY_KEY = gql`
     }
 `
 
-function MetadataTX({ metadatakey}) {
+function MetadataTX({ metadatakey }) {
     
     const { loading, error, data } = useQuery(GET_METADATA_BY_KEY, {
         variables: { metadatakey }
@@ -38,7 +38,19 @@ function MetadataTX({ metadatakey}) {
     // There's plenty more we could do for security here!
     if (metadatakey === "100") return (
         <Key100Index1>
-            {data.transactions[1].metadata[0].value.additionalInformation[0].winners.map((i) => <Card>{i.information.projectName}</Card>)}
+            {data.transactions[1].metadata[0].value.additionalInformation[0].winners.map((i) => (
+                <Card>
+                    <TitleHeading1>
+                        {i.information.projectName}
+                    </TitleHeading1>
+                    <Paragraph>
+                        {i.information.projectSolution}
+                    </Paragraph>
+                    <TitleHeading2>
+                        {i.information.fundingAmountUSD}
+                    </TitleHeading2>
+                </Card>
+                ))}
         </Key100Index1>
     )
     if (metadatakey === "20210302") return (
