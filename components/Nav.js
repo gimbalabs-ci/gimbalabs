@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { useState } from 'react'
 import Search from '../components/Search'
 
@@ -17,9 +18,7 @@ function Nav() {
         <nav className='flex items-center flex-wrap bg-purple-700 p-3 fixed w-full z-40'>
             <Link href='/'>
             <a className='inline-flex items-center p-2 mr-4'>
-                <span className='text-xl text-white font-bold uppercase tracking-wide'>
-                Gimbalabs
-                </span>
+                <Image src='/logotypewhite.png' width={277} height={87} />
             </a>
             </Link>
 
