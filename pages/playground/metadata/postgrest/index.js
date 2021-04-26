@@ -8,8 +8,9 @@ export async function getStaticProps() {
     const data = await res.json()
 
     if (!data) {
+        data = []
         return {
-            notFound: true,
+            data
         }
     }
 
@@ -29,17 +30,7 @@ function metadata({data}) {
             <TitleHeading1>
                 Playground: Metadata
             </TitleHeading1>
-            <div className="grid md:grid-cols-4 lg:grid-cols-7 gap-4 text-2xl pt-6">
-                {data.map(x =>
-                    <Link href={`/playground/metadata/postgrest/${x.metadatum}`}>
-                        <div className="flex h-16 border bg-blue-400 hover:bg-blue-700 hover:text-blue-100 bg-opacity-70 cursor-pointer">
-                            <a className="mx-auto my-auto">
-                                {x.metadatum}
-                            </a>
-                        </div>    
-                    </Link>
-                )}
-            </div>
+            
         </div>
     )
 }
