@@ -49,7 +49,7 @@ function about({videoList, teamList}) {
                     </div>
                 </div>
 
-                <TitleHeading2>Principals</TitleHeading2>
+                <TitleHeading2>Principles</TitleHeading2>
                 <Paragraph></Paragraph>
                 <TitleHeading3>Learn by Doing</TitleHeading3>
                 <Paragraph>Education makes the greatest impact when intrinsically motivating tasks are combined with a supportive environment. Workshop Maybe’s starter kits are compelling opportunities for people to try do new things, and we will provide the scaffolding to help learners become self-sufficient. </Paragraph>
