@@ -18,7 +18,7 @@ function Nav() {
         <nav className='flex items-center flex-wrap bg-purple-700 p-3 fixed w-full z-40'>
             <Link href='/'>
             <a className='inline-flex items-center p-2 mr-4'>
-                <Image src='/logotypewhite.png' width={277} height={87} />
+                <Image src='/logotypewhite.png' width={184} height={58} />
             </a>
             </Link>
 
