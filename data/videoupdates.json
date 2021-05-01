@@ -3,6 +3,26 @@
     "about" : "Live-stream updates from the Gimbalabs team.",
     "weekly" : [
         {
+            "date": "2021-04-30",
+            "number": 15,
+            "youtubeLink": "https://youtu.be/CxpLaON1lKs"
+        },
+        {
+            "date": "2021-04-23",
+            "number": 14,
+            "youtubeLink": "https://youtu.be/GlhCz4P4m8A"
+        },
+        {
+            "date": "2021-04-16",
+            "number": 13,
+            "youtubeLink": "https://youtu.be/aRsXum8SVKA"
+        },
+        {
+            "date": "2021-04-09",
+            "number": 12,
+            "youtubeLink": "https://youtu.be/CWTAU3DZxsY"
+        },
+        {
             "date": "2021-04-02",
             "number": 11,
             "youtubeLink": "https://youtu.be/5sNPFW48htI"
