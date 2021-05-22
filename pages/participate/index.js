@@ -39,7 +39,7 @@ export default function participate() {
                <Paragraph>
                     Already, this experiment generated a lot of great conversations, and we're ready to test some ideas. Token-based incentive schemes should be taken seriously, and we hope that our research and experimentation supports other organizations to get some good ideas. Like Experiment #1, this one has an initial budget of 5000 ADA, which is currently set aside to fund our community with the first version of the "gimbal" token. You can <a href="https://gitlab.com/gimbalabs/initiatives/ex2-tokenomics-research" className="classic">see our latest thinking on GitLab</a>, and we'll be rolling out the first version of Gimbals over the next few weeks.
                 </Paragraph>
-                <TitleHeading3>Experiement #3: Translating Gimbalabs Content (launching March 8!)</TitleHeading3>
+                <TitleHeading3>Experiment #3: Translating Gimbalabs Content (launching March 8!)</TitleHeading3>
                 <Paragraph>
                     The next Gimbalabs Initiative launches on March 8, and our goal is to create systems for translating content so that word of Cardano reaches the widest possible audience. In the first two experiments we were reminded that even in this new, decentralized, autonomous world, it's as important as ever to have clear, actionable goals and that identifying project-leaders early helps. If you'd like to participate, be sure to look us up on Discord - and starting next week, check back here for further updates about all Gimbalabs Initiatives.
                 </Paragraph>
