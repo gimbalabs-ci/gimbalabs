@@ -30,6 +30,13 @@ function about({videoList, teamList}) {
 
                 <Paragraph>We believe that people learn best by doing things. If you've been looking for an entry point into how you can participate in Cardano, we think you might find it here.</Paragraph>
 
+                <TitleHeading2>
+                    What is Gimbalabs?
+                </TitleHeading2>
+                <Paragraph><a href="https://gimbalabs.medium.com/what-is-gimbalabs-intro-part-1-ef2f1e4f3069">Part 1: Introduction and Gimbalabs Roots</a></Paragraph>
+                <Paragraph><a href="https://gimbalabs.medium.com/what-is-gimbalabs-part-2-3f10a935b998">Part 2: Our Current Work</a></Paragraph>
+                <Paragraph><a href="https://gimbalabs.medium.com/is-gimbalabs-a-dao-9da304f5cc01">Part 3: Is Gimbalabs a DAO?</a></Paragraph>
+
                 <TitleHeading2>Weekly Updates</TitleHeading2>
                 <Paragraph>
                    We are committed to transparency, but please don't take our word for that. Check out our weekly updates to hear what we're up to, and when there's something more we should share, let us know. 
@@ -45,7 +52,7 @@ function about({videoList, teamList}) {
                         </ul>
                     </div>
                     <div className="col-span-1 w-full hidden md:contents">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/CxpLaON1lKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/5vy3ORYQlBI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
 
