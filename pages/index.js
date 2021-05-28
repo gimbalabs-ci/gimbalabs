@@ -20,7 +20,7 @@ export default function Home() {
               
               <Paragraph>Our mission is to mobilize everyone in the Cardano community by creating tools and real-world use cases that ignite the public imagination and facilitate adoption.</Paragraph>
               
-              <Paragraph>We envision a world where as many people as possible are empowered to solve problems using the Cardano platform.</Paragraph>
+              <Paragraph>We envision a world where as many people as possible are empowered to solve problems using the Cardano protocol.</Paragraph>
             </div>
             
             <div className="flex w-full content-center">
