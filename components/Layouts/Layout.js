@@ -1,18 +1,16 @@
-import Nav from '../Nav'
-import Footer from '../Footer'
+import Nav from "../Nav";
+import Footer from "../Footer";
 
 function Layout({ children }) {
-    return (
-        <div className="flex flex-col min-h-screen bg-polygon bg-cover w-full">
-            <Nav />
-            <main className='flex-grow pt-16 mx-auto w-full'>
-                {children}
-            </main>
-            <Footer />    
-        </div>
-    )
+  return (
+    <div className="flex flex-col min-h-screen w-full">
+      <Nav />
+      <main className="flex-grow w-full h-full">{children}</main>
+      <Footer />
+    </div>
+  );
 }
 
-export default Layout
+export default Layout;
 
 // <img src='/polygon.png' className='fixed min-h-screen w-screen z-0' />

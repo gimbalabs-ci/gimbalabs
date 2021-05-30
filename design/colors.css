@@ -1,0 +1,17 @@
+.gds-green {
+  background: radial-gradient(
+    115.43% 618.9% at -15.43% -10.94%,
+    #7bfbec 0%,
+    #10decb 16.67%,
+    #00dcc8 33.85%,
+    #00c3b4 100%
+  );
+}
+.gds-purple {
+  background: radial-gradient(
+    118.31% 639.98% at -10.46% 0%,
+    #9939f4 3.4%,
+    #8000fa 19.56%,
+    #6900fa 70.54%
+  );
+}

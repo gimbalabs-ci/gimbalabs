@@ -1,16 +1,62 @@
 @import "tailwindcss/base";
 
-
 @import "tailwindcss/components";
-
 
 @import "tailwindcss/utilities";
 
-@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Saira:wght@300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Saira:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+
+.title {
+  @apply text-4xl md:text-6xl;
+}
+
+.subtitle {
+}
+
+body {
+  font-style: normal;
+  line-height: 140%;
+  letter-spacing: 0.005em;
+  font-weight: 300;
+  @apply font-body text-base md:text-xl;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+  font-style: normal;
+  line-height: 120%;
+  letter-spacing: 0.015em;
+  @apply font-heading;
+}
+
+h1 {
+}
+h2 {
+}
+h3 {
+}
 
 a.classic {
-    @apply text-blue-500 hover:text-purple-500;
+  @apply hover:text-purple-500;
+}
+
+.gds-button {
+  @apply px-8 py-1 rounded-md shadow-sm text-base;
+}
+.gds-button:hover {
+  @apply shadow-lg;
+}
+.gds-section {
+  @apply px-4 sm:px-6 md:px-8 py-6 sm:py-7 md:py-8 lg:py-10;
+}
+.gds-section-x {
+  @apply px-4 sm:px-6 md:px-8;
 }
