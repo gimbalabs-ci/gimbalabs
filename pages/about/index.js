@@ -52,7 +52,7 @@ function about({videoList, teamList}) {
                         </ul>
                     </div>
                     <div className="col-span-1 w-full hidden md:contents">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/5vy3ORYQlBI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/vub4Rz01QG8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
 
