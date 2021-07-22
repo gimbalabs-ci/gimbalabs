@@ -14,7 +14,6 @@ We want to send a coherent message to:
 
 ## How do we do it?
 Project Based Learning brief understandable definition and highlighting the value of the method including challenges with tech & learning facing change and adoption (from a participants perspective); include how are the dynamics of a playground, base vibe of “you in action”, involvement, accountability, etc.?
-Problem Based Learning
 
 ## What is Playground?
 
@@ -126,6 +125,7 @@ Of course we also emphasize the technology. This is how Playground connects to D
 3. Apprentice
 
 Role —> Learns —> Contributes —> Outcomes —> Repeat
+
 Role —> Contributes —> Learns —> New ideas…
 
 ### Contributing while learning
