@@ -1,8 +1,8 @@
 ## What are the objectives/outcomes of Playground?
 _Experience is Learning_
-	1.	Build network and relationships
-	2.	Build expertise
-	3.	Build dapps and tools
+1. Build network and relationships
+2. Build expertise
+3. Build dapps and tools
 
 ## What are the objectives of this web page? (gimbalabs.com/playground) 
 We want to send a coherent message to:
