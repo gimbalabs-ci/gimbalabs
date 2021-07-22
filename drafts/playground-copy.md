@@ -10,7 +10,7 @@ We want to send a coherent message to:
 - Potential builders - anyone who has an idea and wants to build on Cardano
 - Potential clients - entrepreneurs and business leaders who want to launch projects:
 	- Start ups & Catalyst Proposals
-	⁃ Legacy organizations
+	- Legacy organizations
 
 ## How do we do it?
 Show the thread from the open "Playground" to Project Based Learning and then to real outcomes. Provide a brief, understandable definition that highlights the value of this method, including technical and social challenges to adoption. Illustrate the dynamics of a playground, communicating the essential spirit of "YOU" in action, involved, accountable.
