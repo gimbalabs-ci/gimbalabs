@@ -13,7 +13,7 @@ We want to send a coherent message to:
 	⁃ Legacy organizations
 
 ## How do we do it?
-Project Based Learning brief understandable definition and highlighting the value of the method including challenges with tech & learning facing change and adoption (from a participants perspective); include how are the dynamics of a playground, base vibe of “you in action”, involvement, accountability, etc.?
+Show the thread from the open "Playground" to Project Based Learning and then to real outcomes. Provide a brief, understandable definition that highlights the value of this method, including technical and social challenges to adoption. Illustrate the dynamics of a playground, communicating the essential spirit of "YOU" in action, involved, accountable.
 
 ## What is Playground?
 
