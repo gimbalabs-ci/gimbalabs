@@ -142,7 +142,7 @@ Relationships and shared understanding are an end in themselves. See Sense Makin
 
 - projects launched
 - clients/projects supports
-- # of contributors
+- number of contributors
 - tools developed
 - NEXT PLAYGROUND MEETING: where/when/how to get involved BUTTON : discord
 
