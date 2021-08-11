@@ -42,18 +42,7 @@ function about({videoList, teamList}) {
                    We are committed to transparency, but please don't take our word for that. Check out our weekly updates to hear what we're up to, and when there's something more we should share, let us know. 
                 </Paragraph>
                 <div className="grid grid-cols-1 md:grid-cols-2 w-full mx-auto content-center justify-center">
-                    <div className="col-span-1 w-11/12 mx-auto">
-                        <ul>
-                            {videoList.weekly.map(i => <li>
-                                <VideoLinkButton>
-                                    Number {i.number}: <a href={i.youtubeLink}>{i.date}</a>
-                                </VideoLinkButton>
-                            </li>)}
-                        </ul>
-                    </div>
-                    <div className="col-span-1 w-full hidden md:contents">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/vub4Rz01QG8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
+                    <Paragraph>Here are our <a href="https://www.youtube.com/channel/UC0hHm4l90iwg4qdMT96G1iQ">Weekly Updates on YouTube</a></Paragraph>
                 </div>
 
                 <TitleHeading2>Principles</TitleHeading2>

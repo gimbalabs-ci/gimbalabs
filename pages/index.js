@@ -18,7 +18,7 @@ export default function Home() {
               <TitleHeading1>Welcome to Gimbalabs</TitleHeading1>
               <CallOutText>Are you ready to get started?</CallOutText>
               
-              <Paragraph>Our mission is to mobilize everyone in the Cardano community by creating tools and real-world use cases that ignite the public imagination and facilitate adoption.</Paragraph>
+              <Paragraph>Our mission is mobilize everyone to develop tools and applications through a unique experience of co-creation that facilitates adoption of the Cardano protocol, reveals new possibilities, and ignites the public imagination worldwide.</Paragraph>
               
               <Paragraph>We envision a world where as many people as possible are empowered to solve problems using the Cardano protocol.</Paragraph>
             </div>
