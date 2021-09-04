@@ -43,7 +43,7 @@ export default function projectmd({ allProjectsData }) {
                         
                     ))}   
                     <CurrentCard>
-                        <Paragraph><a href="https://youtu.be/zvVL380-udE">Check out the latest Gimbalabs Weekly Update</a></Paragraph>
+                        <Paragraph><a href="https://www.youtube.com/channel/UC0hHm4l90iwg4qdMT96G1iQ">Check out the latest Gimbalabs Weekly Update</a></Paragraph>
                     </CurrentCard>
                 </section>           
             </div>
