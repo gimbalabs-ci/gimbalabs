@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import dandelion from '../../data/dandelion.json'
 import CskCard from '../../components/Cards/CskCard'
+import DandelionCard from '../../components/Cards/DandelionCard'
 import { TitleHeading1, TitleHeading2, TitleHeading3, HighlightText, CallOutText, Paragraph, CardHeading, CardSubHeading, CardText } from '../../components/Type'
 
 export async function getStaticProps() {
@@ -20,24 +21,11 @@ function dandelionapis({dapis}) {
                 <TitleHeading1>{dapis.title}</TitleHeading1>
                 <Paragraph>{dapis.about}</Paragraph>
                 <br />
-                <Link href='/dandelionapis/builtondandelion'>What has been built on Dandelion?</Link>
-            </section>
-
-            
-            
-            <section className="w-11/12 xl:w-3/4 mx-auto md:grid md:grid-cols-2 gap-5 lg:gap-8">
-                {dapis.apiInfo.map(({headerTitle, headerSubtitle, headerText, id}) => 
-                    <Link href={`/dandelionapis/${id}`}>
-                        <a>
-                            <CskCard>
-                                <CardHeading>{headerTitle}</CardHeading>
-                                <CardSubHeading>{headerSubtitle}</CardSubHeading>
-                                <CardText>{headerText}</CardText>
-                                <br />
-                            </CskCard>
-                        </a>
-                    </Link>
-                )}
+                <section className="w-11/12 xl:w-3/4 mx-auto md:grid md:grid-cols-3 gap-5 lg:gap-8">
+                    <DandelionCard><Link href='/dandelionapis/apilist'>Show me the Dandelion APIs</Link></DandelionCard>
+                    <DandelionCard><Link href='/dandelionapis/builtondandelion'>Show me what has built with Dandelion</Link></DandelionCard>
+                    <DandelionCard><a href="https://gitlab.com/gimbalabs/dandelion/kustomize-dandelion">Show me how to deploy my own Dandelion</a></DandelionCard>
+                </section>
             </section>
         </>
     )
