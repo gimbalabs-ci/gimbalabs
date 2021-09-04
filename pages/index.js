@@ -16,7 +16,7 @@ export default function Home() {
           <div className="flex grid grid-cols-1 lg:grid-cols-2 mx-auto w-full xl:w-5/6 m-2">
             <div className="flex grid grid-cols-1 w-full content-center md:px-6 mx-2">
               <TitleHeading1>Welcome to Gimbalabs</TitleHeading1>
-              <CallOutText>Are you ready to get started?</CallOutText>
+              <CallOutText>People. Learning. Together.</CallOutText>
               
               <Paragraph>Our mission is to mobilize everyone to develop tools and applications through a unique experience of co-creation that facilitates adoption of the Cardano protocol, reveals new possibilities, and ignites the public imagination worldwide.</Paragraph>
               
@@ -36,7 +36,7 @@ export default function Home() {
               <div className="flex bg-purple-400 hover:bg-opacity-80 text-white font-bold text-xl h-48 justify-center"><p className="self-center">Dandelion APIs</p></div>
             </a></Link>
             <Link href="/playground"><a>
-              <div className="flex bg-purple-400 hover:bg-opacity-80 text-white font-bold text-xl h-48 justify-center"><p className="self-center">Gimbalabs Playground</p></div>
+              <div className="flex bg-purple-400 hover:bg-opacity-80 text-white font-bold text-xl h-48 justify-center"><p className="self-center">Project-Based Learning</p></div>
             </a></Link>
             <div className="bg-purple-400"><CurrentButton /></div>
             <div className="bg-purple-400"><GitlabButton /></div>

@@ -49,7 +49,7 @@ export function TagButton({children}) {
 export function GitlabButton() {
     return (
         <div className="flex justify-center bg-white bg-opacity-50 hover:bg-yellow-100 my-6 p-3 font-bold">
-            <a href="https://gitlab.com/gimbalabs/gimbalabs">Contribute to this site on GitLab</a>
+            <a href="https://gitlab.com/gimbalabs/">Public Projects on GitLab</a>
         </div>
     )
 }

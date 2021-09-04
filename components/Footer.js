@@ -22,6 +22,9 @@ function Footer() {
                   Coding on Chain
                 </a>
               
+                <a href='https://www.youtube.com/channel/UCLHorSv3uqGTgkX-OsBLwAg' className="lg:inline-flex lg:w-auto md:px-5 text-center">
+                  EASY1 Staking
+                </a>
 
                 <Link href='/playground'>
                   <a className="lg:inline-flex lg:w-auto md:px-5 text-center">
