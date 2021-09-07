@@ -15,7 +15,7 @@ export function VideoLinkButton({children}) {
 export function DiscordButton() {
     return (
         <a href="https://discord.gg/XTvJBj7kzq">
-            <div className='p-3 mx-auto m-6 font-bold text-center justify-center bg-purple-100 hover:bg-purple-300 hover:text-black cursor-pointer'>Join Gimbalabs on Discord</div>
+            <div className='p-3 mx-auto m-6 font-bold text-center justify-center bg-white bg-opacity-50 hover:bg-yellow-100 cursor-pointer'>Join Gimbalabs on Discord</div>
         </a>
     )
 }
@@ -24,7 +24,7 @@ export function CurrentButton() {
     return (
         <Link href="/projects">
             <a>
-                <div className='p-3 mx-auto my-6 font-bold text-center justify-center bg-purple-100 hover:bg-purple-300 hover:text-black cursor-pointer'>What's happening now?</div>
+                <div className='p-3 mx-auto my-6 font-bold text-center justify-center bg-white bg-opacity-50 hover:bg-yellow-100 cursor-pointer'>What we are working on</div>
             </a>
         </Link>
     )

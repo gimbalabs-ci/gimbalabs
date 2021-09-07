@@ -18,7 +18,7 @@ function Nav() {
         <nav className='flex items-center flex-wrap bg-purple-700 p-3 fixed w-full z-40'>
             <Link href='/'>
             <a className='inline-flex items-center p-2 mr-4'>
-                <Image src='/logotypewhite.png' width={184} height={58} />
+                <Image src='/logotypewhite.png' width={200} height={58} />
             </a>
             </Link>
 
@@ -52,32 +52,27 @@ function Nav() {
             }   w-full lg:inline-flex lg:flex-grow lg:w-auto`}
             >
                 <div className='lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto'>
-                    <Search />
-                    <Link href='/'>
-                    <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-purple-300 hover:text-black'>
-                        Home
-                    </a>
-                    </Link>
+
                     <Link href='/about'>
                     <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-purple-300 hover:text-black'>
                         About
                     </a>
                     </Link>
-                    <Link href='/learn'>
+                    <Link href='/contact'>
                     <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-purple-300 hover:text-black'>
-                        Learn
+                        Contact
                     </a>
                     </Link>
-                    <Link href='/tinker'>
+                    <Link href='/calendar'>
                     <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-purple-300 hover:text-black'>
-                        Tinker
+                        Calendar
                     </a>
                     </Link>
-                    <Link href='/participate'>
-                    <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-purple-300 hover:text-black'>
-                        Participate
+                    
+                    <a href="https://gimbalabs.medium.com/" className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-purple-300 hover:text-black'>
+                        Blog
                     </a>
-                    </Link>
+                    
                 </div>
             </div>
         </nav>
