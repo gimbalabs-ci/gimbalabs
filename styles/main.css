@@ -1,16 +1,58 @@
 @import "tailwindcss/base";
 
-
 @import "tailwindcss/components";
-
 
 @import "tailwindcss/utilities";
 
-@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Saira:wght@300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Saira:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+
+@font-face {
+  font-family: "CeraBold";
+  src: url("/fonts/Cera-Pro-Bold.woff2");
+}
+@font-face {
+  font-family: "CeraReg";
+  src: url("/fonts/Cera-Pro-Regular.woff2");
+}
 
 a.classic {
-    @apply text-blue-500 hover:text-purple-500;
+  @apply text-blue-500 hover:text-purple-500;
+}
+
+/* GDS */
+/* GDS */
+/* GDS */
+/* Gimbalabs Design System */
+/* GDS */
+/* GDS */
+/* GDS */
+
+/* Spacing */
+.spacing-x {
+  @apply px-9;
+}
+.spacing-y {
+  @apply py-9;
+}
+
+/* Gradients */
+.gradient-yellow {
+  background: linear-gradient(
+    153.27deg,
+    #fde4b2 3.65%,
+    #fddc9d 41.84%,
+    #fcd68b 84.98%
+  );
+}
+
+.gradient-green {
+  background: linear-gradient(316.4deg, #95ae8c 13.52%, #bbccb5 117.27%);
+}
+
+/* Helpers */
+.flex-center {
+  @apply flex items-center justify-center;
 }
