@@ -32,7 +32,7 @@ export function CurrentButton() {
 
 export function CalendarButton() {
     return (
-        <Link href="/participate/calendar">
+        <Link href="/calendar">
             <a className="classic">
                 <div className='p-3 my-6 font-bold text-center justify-center bg-purple-100 hover:bg-purple-300 hover:text-black cursor-pointer'>Check out the Gimbalabs Calendar</div>
             </a>

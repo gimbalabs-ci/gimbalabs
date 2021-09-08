@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import { TitleHeading1, TitleHeading2, Paragraph, TitleHeading3 } from '../../components/Type'
-import { DiscordButton } from '../../components/Buttons'
+import { TitleHeading1, TitleHeading2, Paragraph, TitleHeading3 } from '../components/Type'
+import { DiscordButton } from '../components/Buttons'
 
 export default function calendar() {
     return (
