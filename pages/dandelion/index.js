@@ -22,8 +22,8 @@ function dandelionapis({dapis}) {
                 <Paragraph>{dapis.about}</Paragraph>
                 <br />
                 <section className="w-11/12 xl:w-3/4 mx-auto md:grid md:grid-cols-3 gap-5 lg:gap-8">
-                    <DandelionCard><Link href='/dandelionapis/apilist'>Show me the Dandelion APIs</Link></DandelionCard>
-                    <DandelionCard><Link href='/dandelionapis/builtondandelion'>Show me what has built with Dandelion</Link></DandelionCard>
+                    <DandelionCard><Link href='/dandelion/apis'>Show me the Dandelion APIs</Link></DandelionCard>
+                    <DandelionCard><Link href='/dandelion/builtondandelion'>Show me what has built with Dandelion</Link></DandelionCard>
                     <DandelionCard><a href="https://gitlab.com/gimbalabs/dandelion/kustomize-dandelion">Show me how to deploy my own Dandelion</a></DandelionCard>
                 </section>
             </section>
