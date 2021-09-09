@@ -14,6 +14,7 @@ export default function Dandelion() {
         <GetIcon iconName="Axe" className="h-10 w-10" />
         <GetIcon iconName="Butterfly" className="h-10 w-10" />
         <GetIcon iconName="DandelionSeed" className="h-10 w-10" />
+        <GetIcon iconName="Bee" className="h-10 w-10" />
       </div>
     </div>
   );
