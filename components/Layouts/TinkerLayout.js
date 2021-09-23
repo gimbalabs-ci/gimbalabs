@@ -12,7 +12,7 @@ export default function TinkerLayout({ children }) {
                         <SideBarButton>What do we mean by tinkering?</SideBarButton>
                     </a>
                 </Link>
-                <Link href='/tinker/dandelionapis'>
+                <Link href='/tinker/dandelion/apis'>
                     <a>
                         <SideBarButton>Dandelion APIs</SideBarButton>
                     </a>

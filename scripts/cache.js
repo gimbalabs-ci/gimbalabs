@@ -23,7 +23,7 @@ function cskData() {
 function dapisData() {
   const dapisDirectory = path.join(process.cwd(), 'data/dandelion-pages')
   const fileNames = fs.readdirSync(dapisDirectory)
-  const sitePath = '/dandelionapis'
+  const sitePath = '/dandelion/apis'
   const dapis = fileNames.map(fileName => {
     const id = fileName.replace(/\.md$/, '')
     const fullPath = path.join(dapisDirectory, fileName)

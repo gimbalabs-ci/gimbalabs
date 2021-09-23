@@ -11,7 +11,7 @@ function Footer() {
                   </a>
                 </Link>
               
-                <Link href='/dandelionapis'>
+                <Link href='/dandelion/apis'>
                   <a className="lg:inline-flex lg:w-auto md:px-5 text-center">
                     Dandelion APIs
                   </a>

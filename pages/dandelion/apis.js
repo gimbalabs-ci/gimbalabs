@@ -19,7 +19,7 @@ function dandelionapis({dapis}) {
         <>    
             <section className="w-11/12 xl:w-3/4 mx-auto md:grid md:grid-cols-2 gap-5 lg:gap-8 mt-20">
                 {dapis.apiInfo.map(({headerTitle, headerSubtitle, headerText, id}) => 
-                    <Link href={`/dandelionapis/${id}`}>
+                    <Link href={`/dandelion/apis/${id}`}>
                         <a>
                             <CskCard>
                                 <CardHeading>{headerTitle}</CardHeading>
