@@ -37,7 +37,7 @@ export default function dapiMd({dapiData}) {
         <section className="w-full md:w-5/6 lg:w-3/4 mx-auto pb-5">
             <TitleHeading1>{dapiData.title}</TitleHeading1>
             <br />
-            <Link href='/dandelion'>Back</Link> | <Link href='/dandelion/dandelionmd'>.md</Link>
+            <Link href='/dandelion'>Back</Link> | <Link href='/dandelion/apis'>API list</Link>
             <br />
         </section>
         <div className='dandelioncard box-border shadow-xl h-auto w-full md:w-2/3 lg:w-1/2 mx-auto my-4 p-4 border-4 bg-purple-200 bg-opacity-50'>

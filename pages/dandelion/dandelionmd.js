@@ -24,7 +24,7 @@ export default function dandelionmd({ allDapisData }) {
                 <ul>
                    {allDapisData.map(({ id, date, title }) => (
                        <li key={id}>
-                           <Link href={`/dandelion/apis/${id}`}>
+                           <Link href={`/dandelion/${id}`}>
                                <a>
                                    {title} last edited {date}
                                </a>
