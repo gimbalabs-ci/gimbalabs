@@ -22,6 +22,10 @@ a.classic {
   @apply text-blue-500 hover:text-purple-500;
 }
 
+*::-webkit-scrollbar {
+  display: none;
+}
+
 /* GDS */
 /* GDS */
 /* GDS */
@@ -52,7 +56,43 @@ a.classic {
   background: linear-gradient(316.4deg, #95ae8c 13.52%, #bbccb5 117.27%);
 }
 
+.gradient-purple {
+  background: linear-gradient(
+    153.27deg,
+    #ada1c2 -13.16%,
+    #9f93b4 39.68%,
+    #9a8bb3 84.98%
+  );
+}
+
 /* Helpers */
 .flex-center {
   @apply flex items-center justify-center;
+}
+
+/* Gimbal Grid */
+/* Gimbal Grid */
+/* Gimbal Grid */
+/* Gimbal Grid */
+/* Gimbal Grid */
+
+.gg-title {
+  line-height: 101.5%;
+  letter-spacing: -0.01em;
+  @apply text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold;
+}
+
+.gg-subtitle {
+  line-height: 143%;
+  letter-spacing: 0.015em;
+  @apply text-base lg:text-xl;
+}
+.gg-copy {
+  line-height: 143%;
+  letter-spacing: 0.015em;
+  @apply text-base;
+}
+
+body {
+  scroll-behavior: smooth;
 }

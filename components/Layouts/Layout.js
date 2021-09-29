@@ -5,9 +5,7 @@ function Layout({ children }) {
   return (
     <div className="font-body flex flex-col min-h-screen w-screen ">
       <Nav />
-      <main className="spacing-x spacing-y flex-grow  mx-auto w-full">
-        {children}
-      </main>
+      <main className=" flex-grow  mx-auto w-full">{children}</main>
       <Footer />
     </div>
   );

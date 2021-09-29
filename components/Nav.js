@@ -14,7 +14,7 @@ function Nav() {
   };
 
   return (
-    <nav className="flex items-center flex-wrap bg-gray-900 p-2 fixed w-full z-40">
+    <nav className="flex items-center flex-wrap bg-gray-900 p-2  w-full z-40">
       <Link href="/">
         <a className="inline-flex items-center ">
           <Image src="/logotypewhite.png" width={184} height={58} />
