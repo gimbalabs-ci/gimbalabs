@@ -5,13 +5,18 @@ import Search from '../components/Search'
 function learn() {
     return (
         <div className="md:w-5/6 lg:w-3/4 mx-auto pb-20">
-            <TitleHeading1>Project-Based Learning (PBL)</TitleHeading1>
+            <TitleHeading1>Learning Opportunities at Gimbalabs</TitleHeading1>
             <div className="grid grid-cols-1 md:grid-cols-2 md:grid-rows-3 md:gap-10">
                 <div className="mx-5 p-3">
                     <TitleHeading2>Gimbalabs Playground</TitleHeading2>
                     <p className="ml-3">
                         Every Tuesday at 1600 UTC we meet to discuss big ideas, meet fellow builders, and to define action steps for delivering on our plans.
                     </p>
+                </div>
+                <div className="mx-5 p-3">
+                    <TitleHeading2>Plutus Project-Based Learning (PPBL)</TitleHeading2>
+                    <p className="ml-3"><Link href="/ppbl"><a className="classic">Plutus Project-Based Learning</a></Link> picks up where IOHK's Plutus Pioneers program leaves off, providing developers with the chance to get hands-on experience with Plutus while contributing value back to the Cardano community. We host weekly Office Hours at 1530 UTC in the Gimbalabs Discord server.</p>
+                    
                 </div>
                 <div className="mx-5 p-3">
                     <TitleHeading2>Coding on Chain</TitleHeading2>
@@ -23,11 +28,6 @@ function learn() {
                     <TitleHeading2>Cardano Starter Kits</TitleHeading2>
                     <p className="ml-3"><Link href="/cardanostarterkits"><a className="classic">Cardano Starter Kits (CSKs)</a></Link> are open source, Project Based Learning (PBL) opportunities for people to engage with Cardano in the real world, and to learn through experience what the Cardano platform can do. Our current focus in on the developer experience. By developing useful tools, we will continue to move toward creating experiences for end users.</p>
 
-                </div>
-                <div className="mx-5 p-3">
-                    <TitleHeading2>Plutus Project-Based Learning (PPBL)</TitleHeading2>
-                    <p className="ml-3">We host weekly Office Hours at 1530 UTC in our Discord server.</p>
-                    
                 </div>
                 <div className="mx-5 p-3">
                     <TitleHeading2>Educational Marketing Workshops</TitleHeading2>

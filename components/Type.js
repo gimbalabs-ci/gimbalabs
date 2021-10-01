@@ -1,7 +1,7 @@
 export function TitleHeading1({children}) {
     return(
         <div className="justify-center pt-10 pb-3">
-                <h1 className="text-2xl md:text-6xl pb-3 font-title">{children}</h1>  
+                <h1 className="text-2xl md:text-6xl py-10 font-title">{children}</h1>  
                 <svg viewBox="1 0 100 1" version="1.1" xmlns="http://www.w3.org/2000/svg">
                     <rect x="0" y="0" width="100%" height="100%"/>
                 </svg>

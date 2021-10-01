@@ -2,11 +2,8 @@ import Link from 'next/link'
 import ReactMarkdown from 'react-markdown'
 import {Prism as SyntaxHighlighter} from 'react-syntax-highlighter'
 
-
-
 import { TitleHeading1 } from '../../components/Type'
 import { getAllCskIds, getCskData } from '../../lib/csk'
-
 
 const renderers = {
   code: ({language, value}) => {

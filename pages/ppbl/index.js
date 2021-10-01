@@ -1,30 +1,45 @@
 import Link from 'next/link'
-import { TitleHeading1, TitleHeading3 } from '../../components/Type'
+import PPBLCard from '../../components/Cards/PPBLCard'
+import { TitleHeading1, TitleHeading2, TitleHeading3, HighlightText, CallOutText, Paragraph, CardHeading, CardSubHeading, CardText } from '../../components/Type'
+import { getSortedPpblData } from '../../lib/ppbl'
 
-function playground() {
+export async function getStaticProps() {
+    const allPPBLData = getSortedPpblData()
+
+    return {
+        props: {
+            allPPBLData
+        }
+    }
+}
+
+export default function ppbl({allPPBLData}) {
     return (
         <div className="p-12">
             <TitleHeading1>
                 Plutus Project-Based Learning (PPBL)
             </TitleHeading1>
-            <ul>
-                <li className="text-2xl m-12">
-                    <Link href="playground/metadata">
-                        <a className="classic">Tinkering with Metadata via Dandelion</a>
-                    </Link>
-                </li>
-                <li className="text-2xl m-12">
-                    <Link href="playground/ticketing">
-                        <a className="classic">Event ticketing with metadata and native assets</a>
-                    </Link>
-                </li>
-            </ul>
-            <TitleHeading3>
-                Metadata Workshop with IOHK on 30 March 2021
-            </TitleHeading3>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/bkPIUBN_o3I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <section className="w-full md:w-5/6 lg:w-3/4 mx-auto">
+                <ul>
+                {allPPBLData.map(({ id, month, tasks, link }) => (
+                    <li key={id}>
+                        <Link href={`/ppbl/${id}`}><a>
+                            <PPBLCard>
+                                <div> 
+                                    <TitleHeading2>
+                                        {month}
+                                    </TitleHeading2>
+                                    <p className="pb-10">{tasks.join(' + ')}</p>
+                                    
+                                    <p>Click this card for full details.</p>
+                                </div>
+                            </PPBLCard>
+                        </a></Link>
+                    </li>
+                ))}   
+                </ul>  
+            </section>
         </div>
     )
 }
-
-export default playground
