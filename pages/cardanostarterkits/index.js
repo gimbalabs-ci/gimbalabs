@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import csk from '../../data/csk.json'
 import CskCard from '../../components/Cards/CskCard'
 import { TitleHeading1, TitleHeading2, TitleHeading3, HighlightText, CallOutText, Paragraph, CardHeading, CardSubHeading, CardText } from '../../components/Type'
 import { getSortedCsksData } from '../../lib/csk'
@@ -26,11 +25,14 @@ function cardanostarterkits({allCSKData}) {
                     {allCSKData.map(({ id, number, title, date }) => (
                         <li key={id}>
                             <CskCard>
-                                <Link href={`/cardanostarterkits/${id}`}>
-                                    <a>
-                                        CSK {number}: {title} (last edited {date})
-                                    </a>
-                                </Link>
+                                <div>
+                                    <Link href={`/cardanostarterkits/${id}`}>
+                                        <a className="text-lg">
+                                            CSK {number}: {title} <br />
+                                        (last edited {date})
+                                        </a>
+                                    </Link>
+                                </div>
                             </CskCard>
                         </li>
                     ))}   
