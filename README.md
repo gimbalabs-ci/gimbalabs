@@ -20,3 +20,4 @@ Look at other files for format.
 ## Learning Resources
 - Content architecture with blog example: https://nextjs.org/learn/basics/create-nextjs-app/setup
 - Search was built with this: https://medium.com/@matswainson/building-a-search-component-for-your-next-js-markdown-blog-9e75e0e7d210
+
