@@ -17,7 +17,7 @@ export default function WithTransfer(props) {
       layoutId={layoutId}
       transition={{ ...gdsEase12, delay: 0.2 }}
       style={wi.width > 768 ? transferSize : { height: "100%", width: "100%" }}
-      className="bg-offWhite p-3 grid "
+      className="bg-offWhite  grid "
     >
       {props.children}
     </motion.div>

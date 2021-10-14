@@ -10,7 +10,7 @@ const fontSize = {
   "5xl": "48px",
   "6xl": "60px",
   "7xl": "72px",
-  "8xl": "90px",
+  "8xl": "80px",
 };
 
 module.exports = fontSize;

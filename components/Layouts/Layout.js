@@ -3,10 +3,10 @@ import Footer from "../Footer";
 
 function Layout({ children }) {
   return (
-    <div className="font-body flex flex-col min-h-screen w-screen ">
-      <Nav />
-      <main className=" flex-grow  mx-auto w-full">{children}</main>
-      <Footer />
+    <div className="bg-offWhite font-body flex flex-col min-h-screen w-screen ">
+      {/* <Nav /> */}
+      <main className="w-full overflow-x-hidden">{children}</main>
+      {/* <Footer /> */}
     </div>
   );
 }

@@ -14,6 +14,8 @@ import Letter from "../../components/gimbalgrid/sections/Letter";
 import HamburgerMenu from "../../components/gimbalgrid/sections/HamburgerMenu";
 import BlankWhite from "../../components/gimbalgrid/sections/BlankWhite";
 import InvisibleController from "../../components/gimbalgrid/InvisibleController";
+import DandelionPage from "../../components/dandelion/DandelionPage";
+import GBDandelion from "../../components/gimbalgrid/gridboxes/GBDandelion";
 
 const genFillers = (s) =>
   Array.from(Array(15).keys()).map((i) => {
@@ -210,14 +212,14 @@ const emptyBoxes = {
 const components = {
   // 0
   0: {
-    s: `bg-offWhite col-span-8 row-span-2 lg:row-span-3   `,
+    s: ` col-span-8 row-span-2 lg:row-span-3   `,
     c: TitleGroup,
     fs: "justify-start",
   },
 
   // 1
   1: {
-    s: `bg-offWhite row-span-1 col-span-6 bg-green-500 `,
+    s: ` row-span-1 col-span-6 bg-green-500 `,
     c: Testimony,
     cprops: {
       layoutId: "testimony-transfer",
@@ -233,7 +235,7 @@ const components = {
   },
   // 2
   2: {
-    s: `bg-offWhite col-span-6 row-span-2 lg:row-span-3 xl:row-span-2  bg-green-500 `,
+    s: ` col-span-6 row-span-2 lg:row-span-3 xl:row-span-2  bg-green-500 `,
     c: Testimony,
     cprops: {
       layoutId: "testimony-transfer-2",
@@ -250,14 +252,13 @@ const components = {
   },
   // 3
   3: {
-    s: `bg-offWhite row-span-1 col-span-6  `,
-    c: Testimony,
+    s: `row-span-2 col-span-7  `,
+    c: GBDandelion,
     cprops: {
-      layoutId: "testimony-transfer-3",
-      quote: "Hello,",
-      owner: "Julie",
+      layoutId: "gbdandelion-transfer-3",
     },
-    f: TestimonyFull,
+    hideTransferComponent: true,
+    f: DandelionPage,
     fprops: {
       text:
         "Hi, here is an opportunity to expand upon this testimonial and show some examples of projects or something.",
@@ -265,7 +266,7 @@ const components = {
     fs: "justify-center",
   },
   4: {
-    s: `bg-offWhite col-span-8 row-span-2 lg:row-span-3   `,
+    s: ` col-span-8 row-span-2 lg:row-span-3   `,
     c: TitleGroupDark,
     fs: "justify-start",
     cprops: {
@@ -399,14 +400,14 @@ export default function index() {
     element && element.scrollIntoView({ behavior: "smooth" });
   };
 
-  useEffect(() => {
-    setTimeout(() => {
-      setSelectionSize({
-        width: 700,
-        height: 700,
-      });
-    }, 2000);
-  }, []);
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setSelectionSize({
+  //       width: 700,
+  //       height: 700,
+  //     });
+  //   }, 2000);
+  // }, []);
 
   // Reset from full screen mode when there is no longer a slug
   useEffect(() => {
@@ -476,6 +477,7 @@ const ExpandedBox = ({ slug, selectionSize }) => {
   let fs = components[0].fs || null;
   let cprops = components[0].cprops || null;
   let fprops = components[0].fprops || null;
+  let hideTransferComponent = components[0].hideTransferComponent || false;
 
   // Check if the object is formatted properly, assign data from component list.
   if (components[index]) {
@@ -484,6 +486,7 @@ const ExpandedBox = ({ slug, selectionSize }) => {
     fs = components[index].fs;
     fprops = components[index].fprops;
     cprops = components[index].cprops;
+    hideTransferComponent = components[index].hideTransferComponent;
   }
 
   return (
@@ -491,45 +494,56 @@ const ExpandedBox = ({ slug, selectionSize }) => {
       style={{
         zIndex: 510,
       }}
-      className="fixed inset-0 max-h-screen bg-purple-500"
+      className="fixed inset-0 bg-purple-500   "
     >
-      <motion.div
-        {...animate}
-        variants={GdsPageTransition}
-        layoutId={`grid-switch-${slug}`}
-        className="bg-offWhite  absolute inset-0   m-1  "
-      ></motion.div>
-      <div className=" absolute inset-0  m-1">
-        <div className="flex flex-col w-full py-5 ">
-          {/* Transfer component */}
-          <motion.div className={`${fs} flex`} key={router.asPath + "222222"}>
-            <C
-              {...cprops}
-              slug={slug}
-              height={selectionSize.height}
-              width={selectionSize.width}
-            />
-          </motion.div>
-          {/* Full page  */}
-          <motion.div
-            key={router.asPath + "33333"}
-            initial={{ opacity: 0, y: -8 }}
-            animate={{ opacity: 1, y: 0, transition: { delay: 1 } }}
-            className="flex-1 relative"
-          >
-            {F && <F slug={slug} {...fprops} />}
-          </motion.div>
-        </div>
-        <div className="absolute top-0 right-2">
-          <Link href={`/gimbalgrid?id=${slug}`}>
-            <div
-              role="button"
-              className="relative z-50 text-center text-black py-1"
+      <div className="h-full w-full overflow-y-auto">
+        <motion.div
+          {...animate}
+          variants={GdsPageTransition}
+          layoutId={`grid-switch-${slug}`}
+          className="bg-offWhite  absolute inset-0 z-0  m-1  "
+        ></motion.div>
+        <div className=" z-10">
+          <div className="flex flex-col w-full  ">
+            {/* Transfer component */}
+            {!hideTransferComponent && (
+              <motion.div
+                className={`${fs} flex  z-10`}
+                key={router.asPath + "222222"}
+              >
+                <C
+                  {...cprops}
+                  slug={slug}
+                  height={selectionSize.height}
+                  width={selectionSize.width}
+                />
+              </motion.div>
+            )}
+            {/* Full page  */}
+            <motion.div
+              key={router.asPath + "33333"}
+              initial={{ opacity: 0, y: -8 }}
+              animate={{
+                opacity: 1,
+                y: 0,
+                transition: { delay: 0.7 },
+              }}
+              className=" relative"
             >
-              {esc}
-            </div>
-          </Link>
-          <InvisibleController link={`/gimbalgrid?id=${slug}`} />
+              {F && <F slug={slug} {...fprops} />}
+            </motion.div>
+          </div>
+          <div className="absolute top-0 right-2">
+            <Link href={`/gimbalgrid?id=${slug}`}>
+              <div
+                role="button"
+                className="relative z-50 text-center text-black py-1"
+              >
+                {esc}
+              </div>
+            </Link>
+            <InvisibleController link={`/gimbalgrid?id=${slug}`} />
+          </div>
         </div>
       </div>
     </div>
