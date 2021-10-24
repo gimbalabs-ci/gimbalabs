@@ -3,9 +3,10 @@ import Footer from "../Footer";
 
 function Layout({ children }) {
   return (
-    <div className="bg-offWhite font-body flex flex-col min-h-screen w-screen ">
+    <div className="relative bg-offWhite font-body flex flex-col  w-screen relative  overflow-x-hidden">
       <Nav />
-      <main className="w-full overflow-x-hidden">{children}</main>
+
+      <main className=" relative">{children}</main>
       {/* <Footer /> */}
     </div>
   );

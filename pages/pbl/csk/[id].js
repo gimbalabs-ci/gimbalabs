@@ -1,7 +1,8 @@
 import Link from "next/link";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { CornerDownLeft } from "react-feather";
 import ReactMarkdown from "react-markdown";
+import { useRouter } from "next/router";
 
 import { getAllCskIds, getCskData } from "../../../lib/csk";
 import LiteYouTubeEmbed from "react-lite-youtube-embed";
@@ -35,6 +36,7 @@ export default function SpecificCSKs({ cskData }) {
     version,
     videoId,
     videoTitle,
+    videos,
     fullWidthImageAndText,
     recirc,
   } = cskData;
@@ -49,9 +51,11 @@ export default function SpecificCSKs({ cskData }) {
   //   return () => clearTimeout(timer);
   // }, []);
   return (
-    <div>
+    <div className="relative">
       {/* Hero */}
       <FullWidthImageAndText {...fullWidthImageAndText} />
+
+      <VideoTabs videos={videos} />
       {/* Layout */}
       <div className="spacing-x spacing-y  relative overflow-hidden">
         {/* Mardown */}
@@ -59,18 +63,8 @@ export default function SpecificCSKs({ cskData }) {
         <div className="gds-markdown relative z-10  ">
           <ReactMarkdown children={contentReact} />
         </div>
-        {/* Suggestion Recirculation */}
-
-        {/* Video */}
-        {videoId && (
-          <div id="test">
-            <LiteYouTubeEmbed
-              id={videoId}
-              title={videoTitle ? videoTitle : "Gimbalabs Video"}
-            />
-          </div>
-        )}
       </div>
+      {/* Suggestion Recirculation */}
       <div>
         <RecircList {...recirc} />
       </div>
@@ -81,6 +75,45 @@ export default function SpecificCSKs({ cskData }) {
     </div>
   );
 }
+
+const VideoTabs = ({ videos }) => {
+  const [focusVideo, setFocusVideo] = useState(videos[0]);
+  const router = useRouter();
+  const searchParams = new URLSearchParams(router.asPath.split(/\?/)[1]);
+  const autoFocusVideoId = searchParams.get("videoId");
+
+  useEffect(() => {
+    setFocusVideo(videos.filter((i) => i.videoId === autoFocusVideoId));
+  }, [autoFocusVideoId]);
+
+  return (
+    <div className="sticky top-0 max-w-18 mx-auto spacing-x">
+      <div className="flex items-center">
+        {videos.map((video) => {
+          const isSelected = focusVideo.videoId === video.videoId;
+          return (
+            <div
+              role="button"
+              className={`gds-btn  mr-1 ${
+                isSelected ? "btn-yellow" : "btn-green"
+              }`}
+              key={video.videoId + "__v_button"}
+              onClick={() => setFocusVideo(video)}
+            >
+              {video.videoTitle}
+            </div>
+          );
+        })}
+      </div>
+      <div className="w-full">
+        <LiteYouTubeEmbed
+          id={focusVideo.videoId}
+          title={focusVideo.videoTitle}
+        />
+      </div>
+    </div>
+  );
+};
 
 const Pattern = () => {
   return (

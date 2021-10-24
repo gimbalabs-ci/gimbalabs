@@ -1,13 +1,61 @@
-import React from "react";
+import { motion } from "framer-motion";
+import React, { useState } from "react";
 import WithTransfer from "../WithTransfer";
 
+const gdsEase12 = {
+  duration: 0.3,
+
+  ease: [0.6, 0.01, -0.05, 0.9],
+};
 export default function HamburgerMenu(props) {
+  const [hov, setHov] = useState(true);
+
+  const regState = [];
+  const hovState = [];
+  const variants = hov ? hovState : regState;
+
+  const lineOne = {
+    transition: gdsEase12,
+    y: !hov ? 0 : 0,
+    x: !hov ? -9 : 0,
+    // rotate: !hov ? -90 : 0,
+  };
+  const lineTwo = {
+    transition: gdsEase12,
+    y: !hov ? 0 : 0,
+    x: !hov ? 0 : 0,
+  };
+  const lineThree = {
+    transition: gdsEase12,
+    y: !hov ? 0 : 0,
+    x: !hov ? 9 : 0,
+    // rotate: !hov ? -90 : 0,
+  };
+
   return (
     <WithTransfer {...props}>
-      <div className="flex items-center justify-center ">
-        <div className="flex flex-col items-center">
-          {svg}
-          <div>Menu</div>
+      <div
+        // onMouseOver={() => setHov(true)}
+        // onMouseLeave={() => setHov(false)}
+        className="  w-full grid "
+      >
+        <div className="w-full h-full flex items-center justify-center group">
+          <div className=" flex flex-col items-center">
+            <motion.div
+              animate={lineOne}
+              className="h-1 bg-black2-900 w-full my-1 "
+            ></motion.div>
+            <motion.div
+              animate={lineTwo}
+              className="h-1 bg-black2-900 w-full my-1 "
+            ></motion.div>
+            <motion.div
+              animate={lineThree}
+              className="h-1 bg-black2-900 w-full my-1 "
+            ></motion.div>
+
+            <div>Menu</div>
+          </div>
         </div>
       </div>
     </WithTransfer>

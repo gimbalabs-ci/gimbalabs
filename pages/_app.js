@@ -6,9 +6,9 @@ import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <Layout>
+    <>
       <Component {...pageProps} />
-    </Layout>
+    </>
   );
 }
 

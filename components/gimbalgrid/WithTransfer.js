@@ -3,7 +3,7 @@ import React from "react";
 import { useWindowSize } from "../../lib/hooks";
 
 export default function WithTransfer(props) {
-  const { width, height, slug, layoutId } = props;
+  const { width, height, slug, layoutId, className } = props;
 
   const transferSize = { width, height };
   const gdsEase12 = {
@@ -14,10 +14,12 @@ export default function WithTransfer(props) {
   const wi = useWindowSize();
   return (
     <motion.div
+      onMouseOver={() => props.onMouseOver && props.onMouseOver(true)}
+      onMouseLeave={() => props.onMouseLeave && props.onMouseLeave(false)}
       layoutId={layoutId}
       transition={{ ...gdsEase12, delay: 0.2 }}
       style={wi.width > 768 ? transferSize : { height: "100%", width: "100%" }}
-      className="bg-offWhite  grid "
+      className={`bg-offWhite  grid ${className} `}
     >
       {props.children}
     </motion.div>

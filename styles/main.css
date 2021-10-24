@@ -74,6 +74,16 @@ a.classic {
 /* Gradients */
 /* Gradients */
 /* Gradients */
+
+.gradient-pbl {
+  background: linear-gradient(
+    118.69deg,
+    #f7fbfc 5.67%,
+    #f0d4ca 53.47%,
+    #f1928e 104.01%
+  );
+}
+
 .gradient-yellow {
   background: linear-gradient(
     153.27deg,
@@ -286,4 +296,36 @@ ol > li::before {
   100% {
     opacity: 1;
   }
+}
+
+/* EAST */
+
+.stease {
+  animation-name: steaseIn;
+
+  /* transition-timing-function: cubic-bezier(0.6, 0.01, -0.05, 0.9); */
+  transition-timing-function: cubic-bezier(0.1, 0.7, 1, 0.1);
+}
+
+@keyframes steaseIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.6) translateY(-8px);
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.hide-scroll-bar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.hide-scroll-bar::-webkit-scrollbar {
+  display: none;
+}
+
+.origin-center-2 {
+  transform-origin: 0% 50%;
 }

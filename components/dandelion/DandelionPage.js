@@ -9,8 +9,8 @@ import ValidateIdeas from "./ValidateIdeas";
 
 export default function DandelionPage() {
   return (
-    <Layout>
-      <div className="">
+    <>
+      <div className="bg-offWhite">
         <Hero />
         <SupportedServices />
         <ValidateIdeas />
@@ -18,6 +18,6 @@ export default function DandelionPage() {
         <ThreeColList />
         <Ethos />
       </div>
-    </Layout>
+    </>
   );
 }

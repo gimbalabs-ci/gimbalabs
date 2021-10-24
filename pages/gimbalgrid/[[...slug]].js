@@ -9,13 +9,15 @@ import TitleGroup, {
 } from "../../components/gimbalgrid/sections/TitleGroup";
 import useElementSize from "../../lib/hooks/useElementSize";
 import Testimony from "../../components/gimbalgrid/sections/Testimony";
-import TestimonyFull from "./TestimonyFull";
+import TestimonyFull from "../../components/gimbalgrid/sections/TestimonyFull";
 import Letter from "../../components/gimbalgrid/sections/Letter";
 import HamburgerMenu from "../../components/gimbalgrid/sections/HamburgerMenu";
 import BlankWhite from "../../components/gimbalgrid/sections/BlankWhite";
 import InvisibleController from "../../components/gimbalgrid/InvisibleController";
 import DandelionPage from "../../components/dandelion/DandelionPage";
 import GBDandelion from "../../components/gimbalgrid/gridboxes/GBDandelion";
+import GBPBL from "../../components/gimbalgrid/gridboxes/GBPBL";
+import PBLPage from "../../components/pbl/PBLPage";
 
 const genFillers = (s) =>
   Array.from(Array(15).keys()).map((i) => {
@@ -212,26 +214,25 @@ const emptyBoxes = {
 const components = {
   // 0
   0: {
-    s: ` col-span-8 row-span-2 lg:row-span-3   `,
+    s: ` col-span-8 row-span-2 lg:row-span-2   `,
     c: TitleGroup,
     fs: "justify-start",
   },
 
   // 1
   1: {
-    s: ` row-span-1 col-span-6 bg-green-500 `,
-    c: Testimony,
+    bgColor: "bg-black2-900",
+    s: ` row-span-2 col-span-6  `,
+    c: GBPBL,
     cprops: {
-      layoutId: "testimony-transfer",
-      quote: "Gimbalabs provided me the support I need.",
-      owner: "Gabriel",
+      layoutId: "project-based-learning",
     },
-    f: TestimonyFull,
+    f: PBLPage,
     fprops: {
       text:
         "Hi, here is an opportunity to expand upon this testimonial and show some examples of projects or something.",
     },
-    fs: "justify-center",
+    fs: "justify-stretch",
   },
   // 2
   2: {
@@ -240,7 +241,7 @@ const components = {
     cprops: {
       layoutId: "testimony-transfer-2",
       quote:
-        "Hello this another testimony, and its going to be really long  and its going to be really long  and its going to be really long  and its going to be really long  and its going to be really long  and its going to be really long  and its going to be really long  and its going to be really long  and its going to be really long  and its going to be really long  and its going to be really long  and its going to be really long  and its going to be really long ",
+        "Hello and welcome to our community of developers, thinkers, experimenters, doers. We are glad to have you.",
       owner: "James",
     },
     f: TestimonyFull,
@@ -252,7 +253,8 @@ const components = {
   },
   // 3
   3: {
-    s: `row-span-2 col-span-7  `,
+    bgColor: "gradient-yellow",
+    s: `row-span-3 col-span-7  `,
     c: GBDandelion,
     cprops: {
       layoutId: "gbdandelion-transfer-3",
@@ -274,7 +276,7 @@ const components = {
     },
   },
   5: {
-    s: "col-span-3 row-span-1",
+    s: "col-span-3 row-span-1 bg-black2-900",
     c: HamburgerMenu,
     cprops: {
       layoutId: "hamburger-menu",
@@ -297,7 +299,7 @@ const gridSmall = {
   gridTemplateColumns: "1fr",
   gridTemplateRows: "minmax(100px, 300px)",
 };
-const borderColor = `border-purple-400`;
+const borderColor = `border-black2-900`;
 
 const animate = {
   initial: "initial",
@@ -429,14 +431,14 @@ export default function index() {
   }, [id]);
 
   return (
-    <div className={`bg-purple-400 relative w-screen min-h-screen `}>
+    <div className={`bg-black2-900 relative w-screen min-h-screen `}>
       <AnimateSharedLayout>
         <AnimatePresence>
           {fullBlackOut && (
             <motion.div
               key="fullblackout"
               style={{ zIndex: 500 }}
-              className="absolute inset-0 bg-purple-500 "
+              className="absolute inset-0 bg-black2-800 "
             />
           )}
         </AnimatePresence>
@@ -472,6 +474,7 @@ const ExpandedBox = ({ slug, selectionSize }) => {
   const index = slug.split("-")[1];
 
   // Set default data as the first element in the component list.
+  let bgColor = components[0].bgColor || "bg-offWhite";
   let C = components[0].c || null;
   let F = components[0].f || null;
   let fs = components[0].fs || null;
@@ -481,6 +484,7 @@ const ExpandedBox = ({ slug, selectionSize }) => {
 
   // Check if the object is formatted properly, assign data from component list.
   if (components[index]) {
+    bgColor = components[index].bgColor;
     C = components[index].c;
     F = components[index].f;
     fs = components[index].fs;
@@ -494,14 +498,14 @@ const ExpandedBox = ({ slug, selectionSize }) => {
       style={{
         zIndex: 510,
       }}
-      className="fixed inset-0 bg-purple-500   "
+      className="fixed inset-0 bg-black2-900  "
     >
       <div className="h-full w-full overflow-y-auto">
         <motion.div
           {...animate}
           variants={GdsPageTransition}
           layoutId={`grid-switch-${slug}`}
-          className="bg-offWhite  absolute inset-0 z-0  m-1  "
+          className={`  absolute inset-0 z-0   ${bgColor} `}
         ></motion.div>
         <div className=" z-10">
           <div className="flex flex-col w-full  ">
@@ -512,6 +516,7 @@ const ExpandedBox = ({ slug, selectionSize }) => {
                 key={router.asPath + "222222"}
               >
                 <C
+                  expanded
                   {...cprops}
                   slug={slug}
                   height={selectionSize.height}
@@ -565,7 +570,7 @@ const BoxList = (props) => {
   }, [width]);
 
   return (
-    <div className={`relative gap-1  p-1 ${borderColor}`} style={gridStyle}>
+    <div className={`relative gap-2  p-1 ${borderColor}`} style={gridStyle}>
       {Object.entries(components).map((i, index) => (
         <GridBox
           key={index + "__boxgrid"}
@@ -637,7 +642,7 @@ const GridBox = ({
     >
       {/* Hover notice to click */}
       {!disable && (
-        <div className="absolute top-0 right-2 text-purple-600 z-10 w-5 opacity-0 group-hover:opacity-100">
+        <div className="absolute top-0 right-2 text-black2-900 z-10 w-5 opacity-0 group-hover:opacity-100">
           {tap}
         </div>
       )}
@@ -669,7 +674,7 @@ const GridBox = ({
                 delay: `${index / 10}`,
               },
             }}
-            className="absolute inset-0 z-50  bg-purple-400 "
+            className="absolute inset-0 z-50  bg-black2-900 "
           ></motion.div>
         )}
       </AnimatePresence>

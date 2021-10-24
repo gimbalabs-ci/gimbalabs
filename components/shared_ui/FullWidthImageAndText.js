@@ -16,15 +16,15 @@ export default function FullWidthImageAndText({
     <div className="relative w-full h-13">
       <Image src={src} layout="fill" objectFit="cover" className="shadow-xl" />
       <div
-        className={`absolute inset-0 ${bgGradient} from-black  opacity-75`}
+        className={`absolute inset-0 ${bgGradient} from-black via-black  opacity-75`}
       />
       <div
         className={` spacing-x  absolute inset-0 z-10 flex flex-col justify-center ${textOrientation}`}
       >
-        <div className="max-w-16 text-white gg-title">{title}</div>
-        <div className="max-w-16 mt-4 text-gray-200 gg-subtitle">
+        <div className="max-w-16 mb-4 text-gray-200 gg-subtitle">
           {subtitle}
         </div>
+        <div className="max-w-17 text-white gg-title">{title}</div>
       </div>
     </div>
   );
