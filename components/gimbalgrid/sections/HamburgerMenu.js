@@ -39,7 +39,7 @@ export default function HamburgerMenu(props) {
         // onMouseLeave={() => setHov(false)}
         className="  w-full grid "
       >
-        <div className="w-full h-full flex items-center justify-center group">
+        <div className="py-5 w-full h-full flex items-center justify-center group">
           <div className=" flex flex-col items-center">
             <motion.div
               animate={lineOne}

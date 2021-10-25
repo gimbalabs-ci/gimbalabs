@@ -22,9 +22,9 @@ export default function WithTransfer(props) {
     <motion.div
       onMouseOver={() => props.onMouseOver && props.onMouseOver(true)}
       onMouseLeave={() => props.onMouseLeave && props.onMouseLeave(false)}
-      layoutId={layoutId}
+      // layoutId={layoutId}
       transition={{ ...gdsEase12, delay: 0.2 }}
-      style={wi.width > 768 ? transferSize : { height: "100%", width: "100%" }}
+      style={{ height: "100%", width: "100%" }}
       className={`overflow-hidden relative bg-offWhite  grid ${className} `}
     >
       {props.children}

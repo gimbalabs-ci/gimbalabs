@@ -33,7 +33,7 @@ const gimbalabs = {
   6: {
     disable: true,
     disabledColor: "bg-purple-500",
-    s: ` col-span-3  md:col-span-2 row-span-1 `,
+    s: ` col-span-1  md:col-span-2 row-span-1 `,
     c: Letter,
     cprops: {
       l: "G",
@@ -43,7 +43,7 @@ const gimbalabs = {
   7: {
     disable: true,
     disabledColor: "bg-purple-500",
-    s: ` col-span-3  md:col-span-2 row-span-1 `,
+    s: ` col-span-1  md:col-span-2 row-span-1 `,
     c: Letter,
     cprops: {
       l: "i",
@@ -52,7 +52,7 @@ const gimbalabs = {
   8: {
     disable: true,
     disabledColor: "bg-purple-500",
-    s: ` col-span-3  md:col-span-2 row-span-1 `,
+    s: ` col-span-1  md:col-span-2 row-span-1 `,
     c: Letter,
     cprops: {
       l: "M",
@@ -61,19 +61,19 @@ const gimbalabs = {
   9: {
     disable: true,
     disabledColor: "bg-offWhite",
-    s: ` col-span-3  md:col-span-1 row-span-1 `,
+    s: ` col-span-1  md:col-span-1 row-span-1 `,
     c: BlankWhite,
   },
   10: {
     disable: true,
     disabledColor: "bg-offWhite",
-    s: ` col-span-3  md:col-span-1 row-span-1 `,
+    s: ` col-span-1  md:col-span-1 row-span-1 `,
     c: BlankWhite,
   },
   11: {
     disable: true,
     disabledColor: "bg-purple-500",
-    s: ` col-span-3  md:col-span-2 row-span-1 `,
+    s: ` col-span-1  md:col-span-2 row-span-1 `,
     c: Letter,
     cprops: {
       l: "B",
@@ -82,7 +82,7 @@ const gimbalabs = {
   12: {
     disable: true,
     disabledColor: "bg-purple-500",
-    s: ` col-span-3  md:col-span-2 row-span-1 `,
+    s: ` col-span-1  md:col-span-2 row-span-1 `,
     c: Letter,
     cprops: {
       l: "A",
@@ -91,19 +91,19 @@ const gimbalabs = {
   13: {
     disable: true,
     disabledColor: "bg-offWhite",
-    s: ` col-span-3  md:col-span-1 row-span-1 `,
+    s: ` col-span-1  md:col-span-1 row-span-1 `,
     c: BlankWhite,
   },
   14: {
     disable: true,
     disabledColor: "bg-offWhite",
-    s: ` col-span-3  md:col-span-1 row-span-1 `,
+    s: ` col-span-1  md:col-span-1 row-span-1 `,
     c: BlankWhite,
   },
   15: {
     disable: true,
     disabledColor: "bg-purple-500",
-    s: ` col-span-3  md:col-span-2 row-span-1 `,
+    s: ` col-span-1  md:col-span-2 row-span-1 `,
     c: Letter,
     cprops: {
       l: "L",
@@ -112,19 +112,19 @@ const gimbalabs = {
   16: {
     disable: true,
     disabledColor: "bg-offWhite",
-    s: ` col-span-3  md:col-span-1 row-span-1 `,
+    s: ` col-span-1  md:col-span-1 row-span-1 `,
     c: BlankWhite,
   },
   17: {
     disable: true,
     disabledColor: "bg-offWhite",
-    s: ` col-span-3  md:col-span-1 row-span-1 `,
+    s: ` col-span-1  md:col-span-1 row-span-1 `,
     c: BlankWhite,
   },
   18: {
     disable: true,
     disabledColor: "bg-purple-500",
-    s: ` col-span-3  md:col-span-2 row-span-1 `,
+    s: ` col-span-1  md:col-span-2 row-span-1 `,
     c: Letter,
     cprops: {
       l: "L",
@@ -133,7 +133,7 @@ const gimbalabs = {
   19: {
     disable: true,
     disabledColor: "bg-purple-500",
-    s: ` col-span-3  md:col-span-2 row-span-1 `,
+    s: ` col-span-1  md:col-span-2 row-span-1 `,
     c: Letter,
     cprops: {
       l: "A",
@@ -142,7 +142,7 @@ const gimbalabs = {
   20: {
     disable: true,
     disabledColor: "bg-purple-500",
-    s: ` col-span-3  md:col-span-2 row-span-1 `,
+    s: ` col-span-1  md:col-span-2 row-span-1 `,
     c: Letter,
     cprops: {
       l: "B",
@@ -151,7 +151,7 @@ const gimbalabs = {
   21: {
     disable: true,
     disabledColor: "bg-purple-500",
-    s: ` col-span-3  md:col-span-3 row-span-1 `,
+    s: ` col-span-1  md:col-span-3 row-span-1 `,
     c: Letter,
     cprops: {
       l: "S",
@@ -213,19 +213,27 @@ const emptyBoxes = {
 const components = {
   // 0
   0: {
-    s: ` col-span-6 row-span-3    `,
+    s: `col-span-full sm:col-span-6 row-span-3    `,
     c: TitleGroup,
     fs: "justify-start",
   },
-
   // 1
   1: {
-    bgColor: "bg-black2-900",
-    s: ` row-span-2 col-span-6  `,
+    s: "col-span-2 row-span-1 bg-black2-900",
+    c: HamburgerMenu,
+    cprops: {
+      layoutId: "hamburger-menu",
+    },
+  },
+  // 2
+  2: {
+    bgColor: "bg-blue-600",
+    s: `  col-span-full sm:col-span-6  row-span-2`,
     c: GBPBL,
     cprops: {
       layoutId: "project-based-learning",
     },
+    hideTransferComponent: true,
     f: PBLPage,
     fprops: {
       text:
@@ -233,9 +241,10 @@ const components = {
     },
     fs: "justify-stretch",
   },
-  // 2
-  2: {
-    s: ` col-span-5 row-span-2   bg-green-500 `,
+  // 3
+  3: {
+    bgColor: "bg-offWhite",
+    s: `col-span-full  sm:col-span-5 row-span-2   bg-green-500 `,
     c: Testimony,
     cprops: {
       layoutId: "testimony-transfer-2",
@@ -250,10 +259,10 @@ const components = {
     },
     fs: "justify-center",
   },
-  // 3
-  3: {
+  // 4
+  4: {
     bgColor: "gradient-yellow",
-    s: `row-span-3 col-span-7  `,
+    s: `col-span-full sm:col-span-7 row-span-3   `,
     c: GBDandelion,
     cprops: {
       layoutId: "gbdandelion-transfer-3",
@@ -266,22 +275,16 @@ const components = {
     },
     fs: "justify-center",
   },
-  4: {
-    s: ` col-span-8 row-span-4   `,
+  // 5 -
+  5: {
+    s: ` col-span-full sm:col-span-8 row-span-4   `,
     c: TitleGroupDark,
     fs: "justify-start",
     cprops: {
       layoutId: "title-group-dark",
     },
   },
-  5: {
-    s: "col-span-2 row-span-1 bg-black2-900",
-    c: HamburgerMenu,
-    cprops: {
-      layoutId: "hamburger-menu",
-    },
-  },
-  // 5 -
+
   ...gimbalabs,
   // // 16
   // ...emptyBoxes,
@@ -437,7 +440,7 @@ export default function GimbalGrid() {
             <motion.div
               key="fullblackout"
               style={{ zIndex: 500 }}
-              className="absolute inset-0 bg-black2-800 "
+              className="absolute inset-0 bg-black2-900 "
             />
           )}
         </AnimatePresence>
@@ -509,7 +512,7 @@ const ExpandedBox = ({ slug, selectionSize }) => {
         <div className=" z-10">
           <div className="flex flex-col w-full  ">
             {/* Transfer component */}
-            {!hideTransferComponent && (
+            {/* {!hideTransferComponent && (
               <motion.div
                 className={`${fs} flex  z-10`}
                 key={router.asPath + "222222"}
@@ -522,7 +525,7 @@ const ExpandedBox = ({ slug, selectionSize }) => {
                   width={selectionSize.width}
                 />
               </motion.div>
-            )}
+            )} */}
             {/* Full page  */}
             <motion.div
               key={router.asPath + "33333"}
@@ -571,7 +574,7 @@ const BoxList = (props) => {
   }, [width]);
 
   return (
-    <div className={`relative gap-2  p-1 ${borderColor}`} style={gridStyle}>
+    <div className={`relative gap-2  p-1 ${borderColor}`} style={gridCss}>
       {Object.entries(components).map((i, index) => (
         <GridBox
           key={index + "__boxgrid"}
@@ -596,7 +599,7 @@ const GridBox = ({
 
   const sizeRef = useRef(null);
   const index = id.split("-")[1];
-  const { width, height } = useElementSize(sizeRef);
+  const { width, height } = useElementSize(sizeRef, id);
 
   // Set default data as the first element in the component list.
   let C = components[0].c || null;

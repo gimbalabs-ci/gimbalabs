@@ -19,7 +19,7 @@ export default function ValidateIdeas() {
       {/* Layout */}
       <div className="relative z-10 grid xl:grid-cols-2 spacing-x spacing-y">
         {/* Left Side Three Icons */}
-        <div className="order-2 xl:order-1 mx-auto md:mx-0 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-1 gap-5">
+        <div className="order-2 xl:order-1 mx-auto md:mx-0 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-1 gap-5">
           <IconCard
             icon={"Bonzai"}
             title={"Simulate Real Environments"}

@@ -25,10 +25,10 @@ export function TitleGroupDark(props) {
     <WithTransfer {...props}>
       <div className="py-5 text-pink-900">
         <div className="h-full flex flex-col z-10 relative">
-          <h3 className={`px-5 text-6xl  text-pink-900`}>
+          <h3 className={`px-5 text-3xl md:text-6xl  text-pink-900`}>
             Collaborate Launch{" "}
           </h3>
-          <h3 className="px-5 mb-7 text-6xl text-pink-900 bg-pink-100 w-full">
+          <h3 className="px-5 mb-7 text-3xl md:text-6xl text-pink-900 bg-pink-100 w-full">
             Projects
           </h3>
           <h4 className={` px-5 gg-subtitle `}>
