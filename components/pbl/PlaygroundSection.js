@@ -44,14 +44,14 @@ export default function PlaygroundSection({ colors, playgrounds }) {
           />
         </div>
         {/* Paragraphs */}
-        <div className="order-3 sm:order-2 text-blue-100 w-full sm:max-w-12 mx-5 mt-5 sm:mt-auto">
-          <div
+        <div className=" order-3 sm:order-2 text-blue-100 w-full sm:max-w-12 mx-5 mt-5 sm:mt-auto">
+          <p
             // animate={{ transition: { ...gdsEase12 }, y: hov ? -21 : 0 }}
-            className="relative  font-bold text-2xl "
+            className="text-white relative  font-bold text-2xl "
           >
             Where ideas get tested
-          </div>
-          <p className="mt-5">
+          </p>
+          <p className="text-white mt-5">
             This can describe the this section in some detail and you could take
             up a medium amount of space.
           </p>

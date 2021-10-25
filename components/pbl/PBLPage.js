@@ -88,10 +88,19 @@ export default function PBLPage() {
         <div className="absolute inset-0 z-0">{heroScene}</div>
       </div> */}
       {!fromGrid && (
-        <div className="flex justify-end">
+        <div className="flex flex-wrap justify-end items-end">
           <h1 className="gg-title text-white pt-9 pb-4 text-end ">
             Project Based Learning
           </h1>
+          <div>
+            <Link href="/gimbalgrid?id=0-3">
+              <a>
+                <button className=" gds-btn text-blue-100 border-b border-blue-100">
+                  /gimbalgrid
+                </button>
+              </a>
+            </Link>
+          </div>
         </div>
       )}
 

@@ -28,19 +28,17 @@ export default function GBPBL(props) {
         <div
           className={`${
             expanded ? "  " : " "
-          } bg-black2-900 flex flex-col p-5  relative overflow-hidden`}
+          } bg-black2-900 flex flex-col p-6  relative overflow-hidden`}
         >
-          <div className=" h-full relative z-10 flex items-center justify-end ">
+          <div className=" h-full relative z-10 flex items-start justify-start ">
             <motion.h2 animate={title} className="text-5xl text-blue-100 ">
               Project Based Learning
             </motion.h2>
           </div>
           <div>
             <div className="relative z-10 mt-auto text-blue-200 text-lg">
-              <p className="">
-                Here you can describe the PBL Page with a few sentances with a
-                few sentances
-              </p>
+              Here you can describe the PBL Page with a few sentances with a few
+              sentances
             </div>
             {!expanded && (
               <>

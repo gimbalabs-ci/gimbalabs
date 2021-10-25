@@ -73,45 +73,51 @@ const Square = ({ color, number, title, className }) => {
 
   return (
     <div>
-      <motion.div
-        animate={{
-          transition: { ...gdsEase12, duration: 0.3 },
-
-          y: localHov ? -5 : 0,
-        }}
-        layout
-        className={` grid  ${color} z-20 ${className}`}
-        onMouseOver={() => setLocalHov(true)}
-        onMouseLeave={() => setLocalHov(false)}
-      >
-        <div className="hidden md:flex flex flex-col justify-end p-3 overflow-hidden">
-          <div className="flex ">
+      <Link href="/pbl">
+        <a>
+          <div>
             <motion.div
               animate={{
-                transition: { ...gdsEase12 },
-                y: localHov ? 0 : 24,
-                opacity: localHov ? 1 : 0.2,
-                x: 32,
+                transition: { ...gdsEase12, duration: 0.3 },
+
+                y: localHov ? -5 : 0,
               }}
-              className="text-4xl font-heading"
+              layout
+              className={` grid  ${color} z-20 ${className}`}
+              onMouseOver={() => setLocalHov(true)}
+              onMouseLeave={() => setLocalHov(false)}
             >
-              {number}
+              <div className="hidden md:flex flex flex-col justify-end p-3 overflow-hidden">
+                <div className="flex ">
+                  <motion.div
+                    animate={{
+                      transition: { ...gdsEase12 },
+                      y: localHov ? 0 : 24,
+                      opacity: localHov ? 1 : 0.2,
+                      x: 32,
+                    }}
+                    className="text-4xl font-heading"
+                  >
+                    {number}
+                  </motion.div>
+                  <div className="inline-block transform -rotate-90 origin-center-2">
+                    <motion.div
+                      animate={{
+                        transition: { ...gdsEase12 },
+                        opacity: localHov ? 1 : 0,
+                        y: localHov ? 32 : 64,
+                      }}
+                      className=" ml-6 text-2xl text-blue-200  whitespace-nowrap font-body   "
+                    >
+                      {title}
+                    </motion.div>
+                  </div>
+                </div>
+              </div>
             </motion.div>
-            <div className="inline-block transform -rotate-90 origin-center-2">
-              <motion.div
-                animate={{
-                  transition: { ...gdsEase12 },
-                  opacity: localHov ? 1 : 0,
-                  y: localHov ? 32 : 64,
-                }}
-                className=" ml-6 text-2xl text-blue-200  whitespace-nowrap font-body   "
-              >
-                {title}
-              </motion.div>
-            </div>
           </div>
-        </div>
-      </motion.div>
+        </a>
+      </Link>
     </div>
   );
 };

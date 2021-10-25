@@ -5,6 +5,7 @@ export default function StickyNoteList({ colors }) {
   return (
     <div className="spacing-y relative flex flex-wrap justify-center items-center lg:grid lg:grid-cols-3">
       <SmallCard
+        link={"/pbl/csk"}
         id={"BLUE"}
         textColor={"text-blue-100"}
         colors={colors.blueColors}
@@ -13,6 +14,7 @@ export default function StickyNoteList({ colors }) {
       />
       <div className="ml-auto md:ml-0">
         <SmallCard
+          link={"/pbl/ppbl"}
           id={"RED"}
           textColor={"text-blue-100"}
           colors={colors.redColors}
@@ -21,6 +23,7 @@ export default function StickyNoteList({ colors }) {
         />
       </div>
       <SmallCard
+        link={"/pbl/"}
         id={"PINK"}
         textColor={"text-blue-100"}
         colors={colors.pinkColors}

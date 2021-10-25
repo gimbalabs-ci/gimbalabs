@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import { useWindowSize } from "../../lib/hooks";
 
 export default function WithTransfer(props) {
@@ -12,6 +12,12 @@ export default function WithTransfer(props) {
     ease: [0.6, 0.01, -0.05, 0.9],
   };
   const wi = useWindowSize();
+  // const mounts = useRef(0);
+  // useEffect(() => {
+  //   mounts.current += 1;
+  // }, []);
+
+  // console.log(wi.width > 768);
   return (
     <motion.div
       onMouseOver={() => props.onMouseOver && props.onMouseOver(true)}
@@ -19,7 +25,7 @@ export default function WithTransfer(props) {
       layoutId={layoutId}
       transition={{ ...gdsEase12, delay: 0.2 }}
       style={wi.width > 768 ? transferSize : { height: "100%", width: "100%" }}
-      className={`bg-offWhite  grid ${className} `}
+      className={`overflow-hidden relative bg-offWhite  grid ${className} `}
     >
       {props.children}
     </motion.div>

@@ -41,6 +41,8 @@ export default function SpecificCSKs({ cskData }) {
     recirc,
   } = cskData;
 
+  const link = "/pbl/csk";
+
   // useEffect(() => {
   //   const timer = setTimeout(() => {
   //     const el = document.getElementsByTagName("h5");
@@ -51,9 +53,13 @@ export default function SpecificCSKs({ cskData }) {
   //   return () => clearTimeout(timer);
   // }, []);
   return (
-    <div className="relative">
+    <div className="relative bg-white text-black2-900">
       {/* Hero */}
-      <FullWidthImageAndText {...fullWidthImageAndText} />
+      <FullWidthImageAndText
+        link={link}
+        color="blue"
+        {...fullWidthImageAndText}
+      />
 
       <VideoTabs videos={videos} />
       {/* Layout */}
@@ -66,10 +72,10 @@ export default function SpecificCSKs({ cskData }) {
       </div>
       {/* Suggestion Recirculation */}
       <div>
-        <RecircList {...recirc} />
+        <RecircList link={link} {...recirc} />
       </div>
       {/*  */}
-      <Link href={`/pbl/csk`}>
+      <Link href={link}>
         <a>Back to all CSKs</a>
       </Link>
     </div>
@@ -87,15 +93,23 @@ const VideoTabs = ({ videos }) => {
   }, [autoFocusVideoId]);
 
   return (
-    <div className="sticky top-0 max-w-18 mx-auto spacing-x">
-      <div className="flex items-center">
+    <div className="max-w-18 mx-auto spacing-x">
+      <div className=" pt-6 w-full">
+        <LiteYouTubeEmbed
+          id={focusVideo.videoId}
+          title={focusVideo.videoTitle}
+        />
+      </div>
+      <div className="flex flex-wrap items-center justify-center w-full">
         {videos.map((video) => {
           const isSelected = focusVideo.videoId === video.videoId;
           return (
             <div
               role="button"
               className={`gds-btn  mr-1 ${
-                isSelected ? "btn-yellow" : "btn-green"
+                isSelected
+                  ? "bg-blue-900 text-blue-100"
+                  : "bg-blue-100 text-blue-900 hover:bg-blue-700 hover:text-blue-100 border border-blue-600"
               }`}
               key={video.videoId + "__v_button"}
               onClick={() => setFocusVideo(video)}
@@ -104,12 +118,6 @@ const VideoTabs = ({ videos }) => {
             </div>
           );
         })}
-      </div>
-      <div className="w-full">
-        <LiteYouTubeEmbed
-          id={focusVideo.videoId}
-          title={focusVideo.videoTitle}
-        />
       </div>
     </div>
   );

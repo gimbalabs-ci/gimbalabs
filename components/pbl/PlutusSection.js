@@ -20,17 +20,17 @@ export default function PlutusSection({ colors, ppbls }) {
         <div className="order-3 lg:order-1 my-auto ">
           <motion.h3
             animate={{ transition: { ...gdsEase12 }, y: hov ? -21 : 0 }}
-            className="relative z-10 mt-5 w-full sm:max-w-12  text-6xl text-white"
+            className="relative z-10 mt-5 w-full sm:max-w-12  text-6xl text-red-100"
           >
             Plutus in action
           </motion.h3>
-          <div className="relative z-10  w-full sm:max-w-12 font-body text-2xl text-white">
+          <div className="relative z-10  w-full sm:max-w-12 font-body text-2xl text-red-100">
             Learn plutus through real life projects
           </div>
           <div className="mt-7">
             <Link href={`/pbl/ppbl`}>
               <a>
-                <button className="gds-btn bg-red-600 hover:bg-red-500 text-white  border-red-600">
+                <button className="gds-btn bg-red-600 hover:bg-red-500 text-red-100  border-red-600">
                   /ppbl
                 </button>
               </a>
@@ -39,11 +39,11 @@ export default function PlutusSection({ colors, ppbls }) {
         </div>
         {/* Paragraphs */}
         <div className="order-3 sm:order-2 text-red-100 w-full sm:max-w-12 mx-5 my-5">
-          <p className="mb-5">
+          <p className="text-white mb-5">
             This can describe the this section in some detail and you could take
             up a medium amount of space.
           </p>
-          <p className="">
+          <p className="text-white ">
             This can describe the this section in some detail and you could take
             up a medium amount of space.
           </p>

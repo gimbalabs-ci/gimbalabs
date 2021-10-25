@@ -16,7 +16,7 @@ export default function Testimony(props) {
           Welcome to our community,
         </div>
         <div className={`gg-subtitle mb-2 text-black2-900 `}>
-          of developers, thinkers, builders. Here to experiment and learn.
+          of developers, thinkers, builders.
         </div>
 
         <div className="mt-auto flex items-center">

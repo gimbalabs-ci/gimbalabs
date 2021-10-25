@@ -117,7 +117,7 @@ a.classic {
 .gg-title {
   line-height: 101.5%;
   letter-spacing: -0.01em;
-  @apply text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold;
+  @apply text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold;
 }
 
 .gg-subtitle {
@@ -209,12 +209,12 @@ h5 {
 .gds-markdown > h2 {
   letter-spacing: 0.05em;
   line-height: 34px;
-  @apply mt-6 text-2xl  font-heading text-black;
+  @apply mt-6 text-2xl font-heading;
 }
 .gds-markdown > h3 {
   letter-spacing: 0.05em;
   line-height: 34px;
-  @apply mt-6 text-xl  font-heading text-black;
+  @apply mt-6 text-xl font-heading;
 }
 
 .gds-markdown > blockquote {
