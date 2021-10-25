@@ -16,7 +16,7 @@ export default function LargeCards({ colors, list }) {
       <div
         onMouseOver={() => setHov(true)}
         onMouseLeave={() => setHov(false)}
-        className=" h-15 p-5 flex-1 relative flex flex-col justify-end"
+        className=" h-13 sm:h-15 p-5 flex-1 relative flex flex-col justify-end"
       >
         <div className="hidden lg:block relative z-10 ml-auto  p-7 max-w-12  text-white ">
           <p>
@@ -37,25 +37,25 @@ export default function LargeCards({ colors, list }) {
               className={`text-blue-100 flex flex-nowrap relative   group relative flex items-stretch mb-10 `}
             >
               <Square
-                className={"w-8 sm:w-10 lg:w-12 xl:w-14 h-14 z-30 "}
+                className={"w-8 sm:w-10 lg:w-12 xl:w-14 h-12 sm:h-14 z-30 "}
                 color={colors[0]}
                 number={list[0].number}
                 title={list[0].title}
               />
               <Square
-                className={"w-8 sm:w-10 h-14"}
+                className={"w-8 sm:w-10 h-12 sm:h-14"}
                 color={colors[1]}
                 number={list[1].number}
                 title={list[1].title}
               />
               <Square
-                className={"w-8 sm:w-10 h-14"}
+                className={"w-8 sm:w-10 h-12 sm:h-14"}
                 color={colors[2]}
                 number={list[2].number}
                 title={list[2].title}
               />
               <Square
-                className={"w-8 sm:w-10 h-14"}
+                className={"w-8 sm:w-10 h-12 sm:h-14"}
                 color={colors[3]}
                 number={list[3].number}
                 title={list[3].title}
