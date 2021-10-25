@@ -66,7 +66,7 @@ export default function SpecificCSKs({ cskData }) {
       <div className="spacing-x spacing-y  relative overflow-hidden">
         {/* Mardown */}
         {/* <Pattern /> */}
-        <div className="gds-markdown relative z-10  ">
+        <div className="gds-markdown max-w-16 mx-auto relative z-10  ">
           <ReactMarkdown children={contentReact} />
         </div>
       </div>

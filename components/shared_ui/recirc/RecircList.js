@@ -12,10 +12,12 @@ export default function RecircList({ link, list }) {
           <div className="title-line-height font-heading text-4xl sm:text-5xl">
             Continued learning
           </div>
-          <div className="max-w-13 ml-3">
+          <div className="max-w-13 ml-5">
             <Link href={link}>
               <a>
-                <button className="gds-btn  mb-6">View All</button>
+                <button className="gds-btn border-b border-white  mb-6">
+                  View All
+                </button>
               </a>
             </Link>
           </div>

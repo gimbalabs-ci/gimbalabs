@@ -55,7 +55,7 @@ const gimbalabs = {
     s: ` col-span-1  md:col-span-2 row-span-1 `,
     c: Letter,
     cprops: {
-      l: "M",
+      l: "m",
     },
   },
   9: {
@@ -76,7 +76,7 @@ const gimbalabs = {
     s: ` col-span-1  md:col-span-2 row-span-1 `,
     c: Letter,
     cprops: {
-      l: "B",
+      l: "b",
     },
   },
   12: {
@@ -85,7 +85,7 @@ const gimbalabs = {
     s: ` col-span-1  md:col-span-2 row-span-1 `,
     c: Letter,
     cprops: {
-      l: "A",
+      l: "a",
     },
   },
   13: {
@@ -106,7 +106,7 @@ const gimbalabs = {
     s: ` col-span-1  md:col-span-2 row-span-1 `,
     c: Letter,
     cprops: {
-      l: "L",
+      l: "l",
     },
   },
   16: {
@@ -121,13 +121,14 @@ const gimbalabs = {
     s: ` col-span-1  md:col-span-1 row-span-1 `,
     c: BlankWhite,
   },
+
   18: {
     disable: true,
     disabledColor: "bg-purple-500",
     s: ` col-span-1  md:col-span-2 row-span-1 `,
     c: Letter,
     cprops: {
-      l: "L",
+      l: "a",
     },
   },
   19: {
@@ -136,25 +137,16 @@ const gimbalabs = {
     s: ` col-span-1  md:col-span-2 row-span-1 `,
     c: Letter,
     cprops: {
-      l: "A",
+      l: "b",
     },
   },
   20: {
     disable: true,
     disabledColor: "bg-purple-500",
-    s: ` col-span-1  md:col-span-2 row-span-1 `,
-    c: Letter,
-    cprops: {
-      l: "B",
-    },
-  },
-  21: {
-    disable: true,
-    disabledColor: "bg-purple-500",
     s: ` col-span-1  md:col-span-3 row-span-1 `,
     c: Letter,
     cprops: {
-      l: "S",
+      l: "s",
     },
   },
 };
@@ -308,7 +300,7 @@ const animate = {
   animate: "animate",
   exit: "exit",
 };
-export const gdsEase12 = { duration: 0.7, ease: [0.6, 0.01, -0.05, 0.9] };
+export const gdsEase12 = { duration: 0.5, ease: [0.6, 0.01, -0.05, 0.9] };
 const GdsPageTransition = {
   initial: {
     y: 0,
@@ -510,7 +502,7 @@ const ExpandedBox = ({ slug, selectionSize }) => {
           className={`  absolute inset-0 z-0   ${bgColor} `}
         ></motion.div>
         <div className=" z-10">
-          <div className="flex flex-col w-full  ">
+          <div className={` flex flex-col w-full  `}>
             {/* Transfer component */}
             {/* {!hideTransferComponent && (
               <motion.div
@@ -529,12 +521,20 @@ const ExpandedBox = ({ slug, selectionSize }) => {
             {/* Full page  */}
             <motion.div
               key={router.asPath + "33333"}
-              initial={{ opacity: 0, y: -8 }}
+              initial={{
+                opacity: 0,
+                y: 24,
+              }}
               animate={{
                 opacity: 1,
                 y: 0,
-                transition: { delay: 0.7 },
+                transition: {
+                  delay: 0.5,
+
+                  ease: [0.6, 0.01, -0.05, 0.9],
+                },
               }}
+              layout
               className=" relative"
             >
               {F && <F slug={slug} {...fprops} />}

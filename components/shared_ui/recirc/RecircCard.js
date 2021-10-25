@@ -58,7 +58,7 @@ export default function RecircCard({ id }) {
           role="button"
           onMouseOver={() => setActive(true)}
           onMouseLeave={() => setActive(false)}
-          className="my-3  sm:mx-2 sm:my-2 text-white relative h-14   sm:w-13 group"
+          className="my-3  sm:mx-2 sm:my-2 text-white relative h-13   sm:w-13 group"
         >
           {/* Text Group */}
           <div className="p-5 z-20 absolute inset-0 flex flex-col justify-between">
