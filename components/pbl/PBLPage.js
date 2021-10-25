@@ -10,76 +10,72 @@ import { useRouter } from "next/router";
 import StarterKitsSection from "./StarterKitsSection";
 import PlutusSection from "./PlutusSection";
 import PlaygroundSection from "./PlaygroundSection";
+import { blueColors, redColors, pinkColors } from "../../lib/colors/color";
 
+// STATIC PROPS
+// STATIC PROPS
+// STATIC PROPS
+const csks = [
+  {
+    number: "",
+    title: "",
+  },
+  {
+    number: "006",
+    title: "Transaction Metadata",
+  },
+  {
+    number: "013",
+    title: "A starter kit",
+  },
+  {
+    number: "007",
+    title: "Another one",
+  },
+];
+const ppbls = [
+  {
+    number: "",
+    title: "",
+  },
+  {
+    number: "006",
+    title: "Transaction Metadata",
+  },
+  {
+    number: "013",
+    title: "A starter kit",
+  },
+  {
+    number: "007",
+    title: "Another one",
+  },
+];
+const playgrounds = [
+  {
+    number: "",
+    title: "",
+  },
+  {
+    number: "006",
+    title: "Transaction Metadata",
+  },
+  {
+    number: "013",
+    title: "A starter kit",
+  },
+  {
+    number: "007",
+    title: "Another one",
+  },
+];
+
+// PBL PAGE
+// PBL PAGE
+// PBL PAGE
 export default function PBLPage() {
-  const blueColors = [
-    "bg-blue-600",
-    "bg-blue-700",
-    "bg-blue-800",
-    "bg-blue-900",
-  ];
-  const redColors = ["bg-red-600", "bg-red-700", "bg-red-800", "bg-red-900"];
-  const pinkColors = [
-    "bg-pink-100",
-    "bg-pink-200",
-    "bg-pink-300",
-    "bg-pink-400",
-  ];
   const colors = { blueColors, redColors, pinkColors };
-  const csks = [
-    {
-      number: "",
-      title: "",
-    },
-    {
-      number: "006",
-      title: "Transaction Metadata",
-    },
-    {
-      number: "013",
-      title: "A starter kit",
-    },
-    {
-      number: "007",
-      title: "Another one",
-    },
-  ];
-  const ppbls = [
-    {
-      number: "",
-      title: "",
-    },
-    {
-      number: "006",
-      title: "Transaction Metadata",
-    },
-    {
-      number: "013",
-      title: "A starter kit",
-    },
-    {
-      number: "007",
-      title: "Another one",
-    },
-  ];
-  const playgrounds = [
-    {
-      number: "",
-      title: "",
-    },
-    {
-      number: "006",
-      title: "Transaction Metadata",
-    },
-    {
-      number: "013",
-      title: "A starter kit",
-    },
-    {
-      number: "007",
-      title: "Another one",
-    },
-  ];
+
   const router = useRouter();
   const fromGrid = router.asPath.includes("gimbalgrid");
   return (

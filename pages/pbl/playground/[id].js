@@ -1,33 +1,33 @@
 import Link from "next/link";
 import React from "react";
-import { getAllCskIds, getCskData } from "../../../lib/csk";
 import FullWidthImageAndText from "../../../components/shared_ui/FullWidthImageAndText";
 import RecircList from "../../../components/shared_ui/recirc/RecircList";
 import StyledMarkdown from "../../../components/shared_ui/StyledMarkdown";
 import VideosGroup from "../../../components/shared_ui/VideoTabs";
+import { getAllProjectIds, getProjectData } from "../../../lib/projects";
 
 export async function getStaticProps({ params }) {
-  const cskData = await getCskData(params.id);
+  const plutusData = await getProjectData(params.id);
   return {
     props: {
-      cskData,
+      plutusData,
     },
   };
 }
 
 export async function getStaticPaths() {
-  const paths = getAllCskIds();
+  const paths = getAllProjectIds();
   return {
     paths,
     fallback: false,
   };
 }
 
-export default function SpecificCSK({ cskData }) {
-  const { contentReact, videos, fullWidthImageAndText, recirc } = cskData;
+export default function SpecificPlayground({ plutusData }) {
+  const { contentReact, videos, fullWidthImageAndText, recirc } = plutusData;
 
-  const link = "/pbl/csk";
-  const color = "BLUE";
+  const link = "/pbl/playground";
+  const color = "PINK";
 
   return (
     <div className="relative bg-white text-black2-900">

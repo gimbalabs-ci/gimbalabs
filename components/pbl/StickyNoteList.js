@@ -14,7 +14,7 @@ export default function StickyNoteList({ colors }) {
       />
       <div className="ml-auto md:ml-0">
         <SmallCard
-          link={"/pbl/ppbl"}
+          link={"/pbl/plutus"}
           id={"RED"}
           textColor={"text-blue-100"}
           colors={colors.redColors}
@@ -23,7 +23,7 @@ export default function StickyNoteList({ colors }) {
         />
       </div>
       <SmallCard
-        link={"/pbl/"}
+        link={"/pbl/playground"}
         id={"PINK"}
         textColor={"text-blue-100"}
         colors={colors.pinkColors}
