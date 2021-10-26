@@ -3,15 +3,13 @@ import React, { useEffect, useRef } from "react";
 import { useWindowSize } from "../../lib/hooks";
 
 export default function WithTransfer(props) {
-  const { width, height, slug, layoutId, className } = props;
+  const { slug, layoutId, className } = props;
 
-  const transferSize = { width, height };
   const gdsEase12 = {
     duration: 0.7,
     delay: 0.1,
     ease: [0.6, 0.01, -0.05, 0.9],
   };
-  const wi = useWindowSize();
   // const mounts = useRef(0);
   // useEffect(() => {
   //   mounts.current += 1;

@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import React, { useState } from "react";
 import { useWindowSize } from "../../../lib/hooks";
+import LogoWithText from "../../brand/LogoWithText";
 import WithTransfer from "../WithTransfer";
 
 export default function TitleGroup(props) {

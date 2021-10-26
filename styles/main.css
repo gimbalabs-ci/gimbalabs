@@ -114,6 +114,19 @@ a.classic {
 /* Gimbal Grid */
 /* Gimbal Grid */
 /* Gimbal Grid */
+.gimbal-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(64px, 1fr));
+  grid-template-rows: repeat(1fr);
+  grid-auto-flow: dense;
+
+  @media (min-width: 768px) {
+    grid-template-columns: 1fr;
+    /* grid-template-rows: repeat(1fr); */
+    /* gridTemplateColumns: "1fr", */
+    /* gridTemplateRows: "minmax(100px, 300px)", */
+  }
+}
 .gg-title {
   line-height: 101.5%;
   letter-spacing: -0.01em;

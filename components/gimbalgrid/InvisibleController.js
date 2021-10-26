@@ -5,7 +5,7 @@ export default function InvisibleController({ link }) {
   const router = useRouter();
   return (
     <input
-      className="opacity-0 absolute top-0 left-0 z-0"
+      className="hidden sm:block opacity-0 absolute top-0 left-0 z-0"
       style={{ zIndex: 10000 }}
       onKeyDown={(e) => {
         if (e.keyCode === 27) {
