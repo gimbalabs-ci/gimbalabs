@@ -17,30 +17,30 @@ export default function HamburgerMenu(props) {
   const lineOne = {
     transition: gdsEase12,
     y: !hov ? 0 : 0,
-    x: !hov ? -9 : 0,
+    x: hov ? -2 : 0,
     // rotate: !hov ? -90 : 0,
   };
   const lineTwo = {
     transition: gdsEase12,
     y: !hov ? 0 : 0,
-    x: !hov ? 0 : 0,
+    x: hov ? 0 : 0,
   };
   const lineThree = {
     transition: gdsEase12,
     y: !hov ? 0 : 0,
-    x: !hov ? 9 : 0,
+    x: hov ? 2 : 0,
     // rotate: !hov ? -90 : 0,
   };
 
   return (
     <WithTransfer {...props}>
       <div
-        // onMouseOver={() => setHov(true)}
-        // onMouseLeave={() => setHov(false)}
-        className="  w-full grid "
+        onMouseLeave={() => setHov(false)}
+        onMouseOver={() => setHov(true)}
+        className="w-full h-full grid bg-offWhite text-black2-900 p-5"
       >
-        <div className="py-5 w-full h-full flex items-center justify-center group">
-          <div className=" flex flex-col items-center">
+        <div className="h-full w-full flex flex-col justify-between items-center">
+          <div className="h-full flex flex-col justify-center items-center">
             <motion.div
               animate={lineOne}
               className="h-1 bg-black2-900 w-full my-1 "
@@ -54,7 +54,7 @@ export default function HamburgerMenu(props) {
               className="h-1 bg-black2-900 w-full my-1 "
             ></motion.div>
 
-            <div>Menu</div>
+            <div className="mt-auto">Menu</div>
           </div>
         </div>
       </div>

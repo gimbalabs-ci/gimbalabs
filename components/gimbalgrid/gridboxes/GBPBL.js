@@ -32,7 +32,7 @@ export default function GBPBL(props) {
         >
           <div className=" h-full relative z-10 flex flex-col  ">
             <motion.h2 animate={title} className="text-5xl text-blue-100 ">
-              Project Based Learning
+              Get started
             </motion.h2>
             <div className="relative z-10 mt-auto text-blue-200 text-lg">
               Here you can describe the PBL Page with a few sentances with a few

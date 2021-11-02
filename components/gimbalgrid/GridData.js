@@ -1,4 +1,7 @@
+import CalendarPage from "../calendar/CalendarPage";
+import MenuPage from "../menu/MenuPage";
 import BlankWhite from "./gridboxes/BlankWhite";
+import GBCalendar from "./gridboxes/GBCalendar";
 import GBLogo from "./gridboxes/GBLogo";
 import Letter from "./gridboxes/Letter";
 
@@ -18,6 +21,49 @@ const gimbalabs = [
   {
     disable: true,
     gridBoxStyle: ` col-span-1  md:col-span-2 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+    gridBoxProps: {
+      color: "bg-offWhite",
+    },
+  },
+
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+    gridBoxProps: {
+      color: "bg-offWhite",
+    },
+  },
+
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
     gridBoxComponent: Letter,
     gridBoxProps: {
       l: "G",
@@ -26,7 +72,7 @@ const gimbalabs = [
 
   {
     disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-1 `,
+    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
     gridBoxComponent: Letter,
     gridBoxProps: {
       l: "i",
@@ -34,7 +80,7 @@ const gimbalabs = [
   },
   {
     disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-1 `,
+    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
     gridBoxComponent: Letter,
     gridBoxProps: {
       l: "m",
@@ -43,16 +89,6 @@ const gimbalabs = [
   {
     disable: true,
     gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-1 `,
     gridBoxComponent: Letter,
     gridBoxProps: {
       l: "b",
@@ -60,7 +96,7 @@ const gimbalabs = [
   },
   {
     disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-1 `,
+    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
     gridBoxComponent: Letter,
     gridBoxProps: {
       l: "a",
@@ -69,16 +105,6 @@ const gimbalabs = [
   {
     disable: true,
     gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-1 `,
     gridBoxComponent: Letter,
     gridBoxProps: {
       l: "l",
@@ -87,17 +113,6 @@ const gimbalabs = [
   {
     disable: true,
     gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-  },
-
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-1 `,
     gridBoxComponent: Letter,
     gridBoxProps: {
       l: "a",
@@ -105,7 +120,7 @@ const gimbalabs = [
   },
   {
     disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-1 `,
+    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
     gridBoxComponent: Letter,
     gridBoxProps: {
       l: "b",
@@ -113,12 +128,86 @@ const gimbalabs = [
   },
   {
     disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-3 row-span-1 `,
+    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
     gridBoxComponent: Letter,
     gridBoxProps: {
       l: "s",
     },
   },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-2 `,
+    gridBoxComponent: BlankWhite,
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+    gridBoxProps: {
+      color: "bg-offWhite",
+    },
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-2 `,
+    gridBoxComponent: BlankWhite,
+  },
+
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-2 `,
+    gridBoxComponent: BlankWhite,
+    gridBoxProps: {
+      color: "bg-offWhite",
+    },
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+    gridBoxProps: {
+      color: "bg-offWhite",
+    },
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+    gridBoxProps: {
+      color: "bg-offWhite",
+    },
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+  },
+
   {
     disable: true,
     gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
@@ -173,12 +262,25 @@ export const gridData = [
   {
     gridBoxStyle: "col-span-2 row-span-1 bg-black2-900",
     gridBoxComponent: HamburgerMenu,
+    transitionColor: "bg-offWhite",
     gridBoxProps: {},
+    fullPageComponent: MenuPage,
+    fullPageProps: {},
+  },
+  {
+    gridBoxStyle: ` col-span-2 row-span-1 `,
+    gridBoxComponent: GBCalendar,
+    gridBoxProps: {
+      color: "",
+    },
+    transitionColor: "bg-offWhite",
+    fullPageComponent: CalendarPage,
+    fullPageProps: {},
   },
   {
     gridBoxComponent: GBPBL,
     gridBoxProps: {},
-    gridBoxStyle: `col-span-full sm:col-span-6  row-span-3`,
+    gridBoxStyle: `col-span-full sm:col-span-6  row-span-2`,
     transitionColor: "bg-offWhite",
     fullPageComponent: PBLPage,
     fullPageProps: {

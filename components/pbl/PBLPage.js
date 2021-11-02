@@ -79,15 +79,18 @@ export default function PBLPage() {
   const router = useRouter();
   const fromGrid = router.asPath.includes("gimbalgrid");
   return (
-    <div className="relative spacing-x  bg-black2-900     ">
+    <div className="relative  bg-offWhite text-black2-900   ">
       {/* <div className="relative h-13">
         <div className="absolute inset-0 z-0">{heroScene}</div>
       </div> */}
-
-      <div className="flex flex-wrap justify-end items-end">
-        <h1 className="gg-title text-white pt-9 pb-4 text-end ">
+      <div className="flex pt-9  flex-col ">
+        <h1 className="gg-title spacing-x text-black2-900  ">
           Project Based Learning
         </h1>
+        <div className="h-1 bg-black2-900  w-full my-1 "></div>
+      </div>
+
+      <div className="flex flex-wrap justify-end items-end">
         <div>
           <Link href="/gimbalgrid">
             <a>
@@ -98,11 +101,15 @@ export default function PBLPage() {
           </Link>
         </div>
       </div>
-
-      <StickyNoteList colors={colors} />
-      <StarterKitsSection colors={colors} csks={csks} />
-      <PlutusSection colors={colors.redColors} ppbls={ppbls} />
-      <PlaygroundSection colors={colors.pinkColors} playgrounds={playgrounds} />
+      <div className="spacing-x">
+        <StickyNoteList colors={colors} />
+        <StarterKitsSection colors={colors} csks={csks} />
+        <PlutusSection colors={colors.redColors} ppbls={ppbls} />
+        <PlaygroundSection
+          colors={colors.pinkColors}
+          playgrounds={playgrounds}
+        />
+      </div>
     </div>
   );
 }

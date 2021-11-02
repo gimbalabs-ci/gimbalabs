@@ -6,8 +6,8 @@ export default function WithTransfer(props) {
   const { slug, layoutId, className } = props;
 
   const gdsEase12 = {
-    duration: 0.7,
-    delay: 0.1,
+    duration: 1.3,
+
     ease: [0.6, 0.01, -0.05, 0.9],
   };
   // const mounts = useRef(0);
@@ -21,7 +21,7 @@ export default function WithTransfer(props) {
       onMouseOver={() => props.onMouseOver && props.onMouseOver(true)}
       onMouseLeave={() => props.onMouseLeave && props.onMouseLeave(false)}
       // layoutId={layoutId}
-      transition={{ ...gdsEase12, delay: 0.2 }}
+      transition={{ ...gdsEase12 }}
       style={{ height: "100%", width: "100%" }}
       className={`overflow-hidden relative bg-offWhite  grid ${className} `}
     >

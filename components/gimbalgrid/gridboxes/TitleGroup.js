@@ -7,7 +7,7 @@ import WithTransfer from "../WithTransfer";
 export default function TitleGroup(props) {
   return (
     <WithTransfer {...props}>
-      <div className="p-5">
+      <div className="p-6">
         <h1 className={`gg-title mb-6 text-black2-800`}>
           People Learning <span className="text-black2-800">Together</span>
         </h1>
@@ -24,15 +24,15 @@ export default function TitleGroup(props) {
 export function TitleGroupDark(props) {
   return (
     <WithTransfer {...props}>
-      <div className="py-5 text-pink-900">
+      <div className="py-6 text-pink-900">
         <div className="h-full flex flex-col z-10 relative">
-          <h3 className={`px-5 text-3xl md:text-6xl  text-pink-900`}>
+          <h3 className={`px-6 text-3xl md:text-6xl  text-pink-900`}>
             Collaborate Launch{" "}
           </h3>
-          <h3 className="px-5 mb-7 text-3xl md:text-6xl text-pink-900 bg-pink-100 w-full">
+          <h3 className="px-6 mb-7 text-3xl md:text-6xl text-pink-900 bg-pink-100 w-full">
             Projects
           </h3>
-          <h4 className={` px-5 gg-subtitle `}>
+          <h4 className={` px-6 gg-subtitle `}>
             Our mission is to mobilize everyone in the Cardano community by
             creating tools and real-world use cases that ignite the public
             imagination and facilitate adoption.

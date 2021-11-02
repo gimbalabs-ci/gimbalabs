@@ -8,7 +8,7 @@ export default function GBDandelion(props) {
   const [hov, setHov] = useState(false);
   const ani = {
     transition: gdsEase12,
-    rotate: !hov ? 0 : 24,
+    rotate: !hov ? 0 : 4,
   };
   const ani2 = {
     transition: gdsEase12,

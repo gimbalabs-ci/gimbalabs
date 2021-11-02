@@ -7,7 +7,7 @@ export default function StickyNoteList({ colors }) {
       <SmallCard
         link={"/pbl/csk"}
         id={"BLUE"}
-        textColor={"text-blue-100"}
+        textColor={"text-black2-900"}
         colors={colors.blueColors}
         title={"Starter Kits"}
         subtitle={"Go now"}
@@ -16,7 +16,7 @@ export default function StickyNoteList({ colors }) {
         <SmallCard
           link={"/pbl/plutus"}
           id={"RED"}
-          textColor={"text-blue-100"}
+          textColor={"text-black2-900"}
           colors={colors.redColors}
           title={"Plutus Projects"}
           subtitle={"Learn by doing"}
@@ -25,7 +25,7 @@ export default function StickyNoteList({ colors }) {
       <SmallCard
         link={"/pbl/playground"}
         id={"PINK"}
-        textColor={"text-blue-100"}
+        textColor={"text-black2-900"}
         colors={colors.pinkColors}
         title={"Playground"}
         subtitle={"Got an idea?"}

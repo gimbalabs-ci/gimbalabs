@@ -18,15 +18,15 @@ export default function LargeCards({ colors, list }) {
         onMouseLeave={() => setHov(false)}
         className=" h-13 sm:h-15 p-5 flex-1 relative flex flex-col justify-end"
       >
-        <div className="hidden lg:block relative z-10 ml-auto  p-7 max-w-12  text-white ">
+        <div className="hidden lg:block relative z-10 ml-auto  p-7 max-w-12  ">
           <p>
             This can describe the starter kit in some detail and you could take
             up a medium amount of space.
           </p>
         </div>
         <motion.h3
-          animate={{ transition: { ...gdsEase12 }, y: hov ? -21 : 0 }}
-          className="relative z-10  max-w-13  text-6xl text-blue-100"
+          animate={{ transition: { ...gdsEase12 }, y: hov ? -21 : 20 }}
+          className="relative z-10  max-w-13   text-6xl "
         >
           Cardano Starter Kits
         </motion.h3>

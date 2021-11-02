@@ -58,15 +58,15 @@ export default function GimbalGrid() {
   };
 
   // Scroll to id after delay.
-  useEffect(() => {
-    let timer;
-    if (id !== undefined) {
-      timer = setTimeout(() => {
-        scrollToId(id);
-      }, 1000);
-    }
-    return () => clearTimeout(timer);
-  }, [id]);
+  // useEffect(() => {
+  //   let timer;
+  //   if (id !== undefined) {
+  //     timer = setTimeout(() => {
+  //       scrollToId(id);
+  //     }, 1000);
+  //   }
+  //   return () => clearTimeout(timer);
+  // }, [id]);
 
   return (
     <div className={`bg-black2-900 relative w-screen min-h-screen `}>
