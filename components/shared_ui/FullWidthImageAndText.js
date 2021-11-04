@@ -39,44 +39,6 @@ export default function FullWidthImageAndText({
         >
           {title}
         </div>
-        <div className="flex flex-wrap justify-center mt-5">
-          <div>
-            <Link href="/pbl">
-              <a>
-                <button className="    gds-btn text-white border-b border-black2-900">
-                  /pbl
-                </button>
-              </a>
-            </Link>
-          </div>
-          <div>
-            <Link href="/pbl/csk">
-              <a>
-                <button className="ml-5   gds-btn text-white border-b border-black2-900">
-                  /pbl/csk
-                </button>
-              </a>
-            </Link>
-          </div>
-          <div>
-            <Link href="/pbl/plutus">
-              <a>
-                <button className="ml-5   gds-btn text-white border-b border-black2-900">
-                  /pbl/plutus
-                </button>
-              </a>
-            </Link>
-          </div>
-          <div>
-            <Link href="/pbl/playground">
-              <a>
-                <button className="ml-5   gds-btn text-white border-b border-black2-900">
-                  /pbl/playground
-                </button>
-              </a>
-            </Link>
-          </div>
-        </div>
       </div>
     </div>
   );

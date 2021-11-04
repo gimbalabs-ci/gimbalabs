@@ -3,6 +3,8 @@ import React from "react";
 import { getSortedCsksData } from "../../../lib/csk";
 import ListAllBlocks from "../../../components/shared_ui/ListAllBlocks";
 import PageTitle from "../../../components/shared_ui/PageTitle";
+import PageTitleWithBorder from "../../../components/shared_ui/PageTitleWithBorder";
+import Layout from "../../../components/Layouts/Layout";
 
 export async function getStaticProps() {
   const allCSKData = getSortedCsksData();
@@ -16,19 +18,16 @@ export async function getStaticProps() {
 
 export default function index({ allCSKData }) {
   return (
-    <div className="spacing-x spacing-y">
-      <PageTitle
-        title={"Cardano Starter Kits"}
-        subtitle={"The fastest way to get started on cardano"}
-      />
-      <div>
-        <Link href="/pbl">
-          <a>
-            <button className=" mt-5 mb-9 gds-btn text-blue-900">/pbl</button>
-          </a>
-        </Link>
+    <Layout>
+      <div className="pb-9">
+        <PageTitleWithBorder
+          title={"Cardano Starter Kits"}
+          subtitle={"The fastest way to get started on cardano"}
+        />
+        <div className="spacing-x ">
+          <ListAllBlocks color="BLUE" data={allCSKData} />
+        </div>
       </div>
-      <ListAllBlocks color="BLUE" data={allCSKData} />
-    </div>
+    </Layout>
   );
 }

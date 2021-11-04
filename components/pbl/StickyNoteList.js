@@ -3,11 +3,11 @@ import SmallCard from "./SmallCard";
 
 export default function StickyNoteList({ colors }) {
   return (
-    <div className="spacing-y relative flex flex-wrap justify-center items-center lg:grid lg:grid-cols-3">
+    <div className="w-full bg-black2-900 spacing-x py-5 lg:py-9  relative flex flex-wrap justify-center items-center lg:justify-between ">
       <SmallCard
         link={"/pbl/csk"}
         id={"BLUE"}
-        textColor={"text-black2-900"}
+        textColor={"text-offWhite"}
         colors={colors.blueColors}
         title={"Starter Kits"}
         subtitle={"Go now"}
@@ -16,8 +16,8 @@ export default function StickyNoteList({ colors }) {
         <SmallCard
           link={"/pbl/plutus"}
           id={"RED"}
-          textColor={"text-black2-900"}
-          colors={colors.redColors}
+          textColor={"text-offWhite"}
+          colors={colors.pinkColors}
           title={"Plutus Projects"}
           subtitle={"Learn by doing"}
         />
@@ -25,8 +25,8 @@ export default function StickyNoteList({ colors }) {
       <SmallCard
         link={"/pbl/playground"}
         id={"PINK"}
-        textColor={"text-black2-900"}
-        colors={colors.pinkColors}
+        textColor={"text-offWhite"}
+        colors={colors.redColors}
         title={"Playground"}
         subtitle={"Got an idea?"}
       />

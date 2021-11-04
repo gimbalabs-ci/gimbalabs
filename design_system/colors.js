@@ -49,6 +49,7 @@ const colors = {
     900: "#802C32",
   },
   pink: {
+    50: "#FDF6F4",
     100: "#FAEAE4",
     200: "#F9E5DE",
     300: "#F7DCD2",

@@ -3,6 +3,8 @@ import React from "react";
 import { getSortedProjectsData } from "../../../lib/projects";
 import ListAllBlocks from "../../../components/shared_ui/ListAllBlocks";
 import PageTitle from "../../../components/shared_ui/PageTitle";
+import PageTitleWithBorder from "../../../components/shared_ui/PageTitleWithBorder";
+import Layout from "../../../components/Layouts/Layout";
 
 export async function getStaticProps() {
   const allProjectsData = getSortedProjectsData();
@@ -16,23 +18,22 @@ export async function getStaticProps() {
 
 export default function index({ allProjectsData }) {
   return (
-    <div className="spacing-x spacing-y">
-      <PageTitle
-        title={"Plutus Project Based Learning"}
-        subtitle={"Learn by doing."}
-      />
-      <div>
-        <Link href="/pbl">
-          <a>
-            <button className=" mt-5 mb-9 gds-btn text-red-900">/pbl</button>
-          </a>
-        </Link>
+    <Layout>
+      <div className="bg-black2-900">
+        <PageTitleWithBorder
+          className="text-offWhite"
+          borderColor="bg-offWhite"
+          title={"Plutus Project Based Learning"}
+          subtitle={"Learn by doing."}
+        />
+        <section className="spacing-x pb-9 ">
+          <ListAllBlocks
+            baseRoute={"/pbl/plutus/"}
+            color="PINK"
+            data={allProjectsData}
+          />
+        </section>
       </div>
-      <ListAllBlocks
-        baseRoute={"/pbl/plutus/"}
-        color="RED"
-        data={allProjectsData}
-      />
-    </div>
+    </Layout>
   );
 }

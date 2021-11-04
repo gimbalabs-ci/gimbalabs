@@ -5,6 +5,7 @@ import FullWidthImageAndText from "../../../components/shared_ui/FullWidthImageA
 import RecircList from "../../../components/shared_ui/recirc/RecircList";
 import StyledMarkdown from "../../../components/shared_ui/StyledMarkdown";
 import VideosGroup from "../../../components/shared_ui/VideoTabs";
+import Layout from "../../../components/Layouts/Layout";
 
 export async function getStaticProps({ params }) {
   const cskData = await getCskData(params.id);
@@ -30,26 +31,23 @@ export default function SpecificCSK({ cskData }) {
   const color = "BLUE";
 
   return (
-    <div className="relative bg-white text-black2-900">
-      {/* Hero */}
-      <FullWidthImageAndText
-        link={link}
-        color={color}
-        {...fullWidthImageAndText}
-      />
+    <Layout navbarBg="bg-offWhite">
+      <div className="relative bg-offWhite text-black2-900">
+        {/* Hero */}
+        <FullWidthImageAndText
+          link={link}
+          color={color}
+          {...fullWidthImageAndText}
+        />
 
-      <VideosGroup videos={videos} />
-      {/* Layout */}
-      <div className="spacing-x spacing-y">
-        <StyledMarkdown children={contentReact} />
+        <VideosGroup videos={videos} />
+        {/* Layout */}
+        <div className="spacing-x spacing-y">
+          <StyledMarkdown children={contentReact} />
+        </div>
+
+        <RecircList link={link} {...recirc} />
       </div>
-
-      <RecircList link={link} {...recirc} />
-
-      {/*  */}
-      <Link href={link}>
-        <a>Back to all CSKs</a>
-      </Link>
-    </div>
+    </Layout>
   );
 }

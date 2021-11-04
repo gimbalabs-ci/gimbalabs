@@ -11,7 +11,7 @@ export default function PlutusSection({ colors, ppbls }) {
 
   return (
     <div
-      className="spacing-y"
+      className="spacing-y spacing-x bg-black2-900 text-offWhite"
       onMouseOver={() => setHov(true)}
       onMouseLeave={() => setHov(false)}
     >
@@ -20,36 +20,36 @@ export default function PlutusSection({ colors, ppbls }) {
         <div className="order-3 lg:order-1 my-auto ">
           <motion.h3
             animate={{ transition: { ...gdsEase12 }, y: hov ? -21 : 0 }}
-            className="relative z-10 mt-5 w-full sm:max-w-12  text-6xl text-red-100"
+            className="relative z-10 mt-5 w-full sm:max-w-12  text-6xl "
           >
             Plutus in action
           </motion.h3>
-          <div className="relative z-10  w-full sm:max-w-12 font-body text-2xl text-red-100">
+          <div className="relative z-10  w-full sm:max-w-12 font-body text-2xl ">
             Learn plutus through real life projects
           </div>
           <div className="mt-7">
-            <Link href={`/pbl/ppbl`}>
+            <Link href={`/pbl/plutus`}>
               <a>
-                <button className="gds-btn bg-red-600 hover:bg-red-500 text-red-100  border-red-600">
-                  /ppbl
+                <button className="text-pink-900 gds-btn bg-pink-100 hover:bg-pink-400   border-pink-900">
+                  /plutus
                 </button>
               </a>
             </Link>
           </div>
         </div>
         {/* Paragraphs */}
-        <div className="order-3 sm:order-2 text-red-100 w-full sm:max-w-12 mx-5 my-5">
-          <p className="text-white mb-5">
+        <div className="order-3 sm:order-2  w-full sm:max-w-12 mx-5 my-5">
+          <p className=" mb-5">
             This can describe the this section in some detail and you could take
             up a medium amount of space.
           </p>
-          <p className="text-white ">
+          <p className=" ">
             This can describe the this section in some detail and you could take
             up a medium amount of space.
           </p>
         </div>
         {/* Blocks */}
-        <div className="order-2 sm:order-1 lg:order-3  flex flex-col ">
+        <div className="text-pink-900 order-2 sm:order-1 lg:order-3  flex flex-col ">
           <Square
             className={"w-12 h-8 sm:h-12 lg:h-13 xl:h-14  sm:w-14"}
             color={colors[0]}
@@ -110,7 +110,7 @@ const Square = ({ color, number, title, className }) => {
                   opacity: localHov ? 1 : 0,
                   x: localHov ? 0 : 32,
                 }}
-                className="  text-2xl text-red-100  font-body   "
+                className="  text-2xl   font-body   "
               >
                 {title}
               </motion.div>

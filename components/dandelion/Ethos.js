@@ -4,7 +4,7 @@ import GetIcon from "../../lib/icons/getIcon";
 
 export default function Ethos() {
   return (
-    <div className="relative margin-y">
+    <div className="relative margin-t padding-b">
       {/* Layout */}
       <div className="relative grid py-5 sm:py-9 lg:py-0 lg:grid-cols-2 gap-5 lg:gap-9 spacing-x ">
         {/* Left Side */}

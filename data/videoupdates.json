@@ -1,118 +1,138 @@
 {
-    "title" : "Gimbalabs Video Updates",
-    "about" : "Live-stream updates from the Gimbalabs team.",
-    "weekly" : [
-        {
-            "date": "2021-06-18",
-            "number": 22,
-            "youtubeLink": "https://youtu.be/vub4Rz01QG8"
-        },
-        {
-            "date": "2021-06-11",
-            "number": 21,
-            "youtubeLink": "https://youtu.be/_QdzDi0hRcU"
-        },
-        {
-            "date": "2021-06-04",
-            "number": 20,
-            "youtubeLink": "https://youtu.be/5U81b6cGnrc"
-        },
-        {
-            "date": "2021-05-28",
-            "number": 19,
-            "youtubeLink": "https://youtu.be/5vy3ORYQlBI"
-        },
-        {
-            "date": "2021-05-21",
-            "number": 18,
-            "youtubeLink": "https://youtu.be/DWWUVCkwMvM"
-        },
-        {
-            "date": "2021-05-14",
-            "number": 17,
-            "youtubeLink": "https://youtu.be/XftqAC9degc"
-        },
-        {
-            "date": "2021-05-07",
-            "number": 16,
-            "youtubeLink": "https://youtu.be/MlUXxwOKqRM"
-        },
-        {
-            "date": "2021-04-30",
-            "number": 15,
-            "youtubeLink": "https://youtu.be/CxpLaON1lKs"
-        },
-        {
-            "date": "2021-04-23",
-            "number": 14,
-            "youtubeLink": "https://youtu.be/GlhCz4P4m8A"
-        },
-        {
-            "date": "2021-04-16",
-            "number": 13,
-            "youtubeLink": "https://youtu.be/aRsXum8SVKA"
-        },
-        {
-            "date": "2021-04-09",
-            "number": 12,
-            "youtubeLink": "https://youtu.be/CWTAU3DZxsY"
-        },
-        {
-            "date": "2021-04-02",
-            "number": 11,
-            "youtubeLink": "https://youtu.be/5sNPFW48htI"
-        },
-        {
-            "date": "2021-03-26",
-            "number": 10,
-            "youtubeLink": "https://youtu.be/zvVL380-udE"
-        },
-        {
-            "date": "2021-03-19",
-            "number": 9,
-            "youtubeLink": "https://youtu.be/rcTZli2RCfw"
-        },
-        {
-            "date": "2021-03-12",
-            "number": 8,
-            "youtubeLink": "https://youtu.be/eWWlhf5Fz_Y"
-        },
-        {
-            "date": "2021-03-05",
-            "number": 7,
-            "youtubeLink": "https://youtu.be/NvA3b6A1658"
-        },
-        {
-            "date": "2021-02-26",
-            "number": 6,
-            "youtubeLink": "https://youtu.be/yYFGH3gGHJQ"
-        },
-        {
-            "date": "2021-02-19",
-            "number": 5,
-            "youtubeLink": "https://youtu.be/bKvFZ8KfAt0"
-        },
-        {
-            "date": "2021-02-12",
-            "number": 4,
-            "youtubeLink": "https://youtu.be/iMwmskk3H_w"
-        },
-        {
-            "date": "2021-02-05",
-            "number": 3,
-            "youtubeLink": "https://youtu.be/3ChL10wf03g"
-        },
-        {
-            "date": "2021-01-29",
-            "number": 2,
-            "youtubeLink": "https://youtu.be/zetZvvNe-S0"
-        },
-        {
-            "date": "2021-01-22",
-            "number": 1,
-            "youtubeLink": "https://youtu.be/rI79OzV53Ac"
-        }
-    ]
-}    
-
-
+  "title": "Gimbalabs Video Updates",
+  "about": "Live-stream updates from the Gimbalabs team.",
+  "weekly": [
+    {
+      "date": "2021-06-18",
+      "number": 22,
+      "youtubeId": "vub4Rz01QG8",
+      "tags": ["wallet", "metadata", "transactions"]
+    },
+    {
+      "date": "2021-06-11",
+      "number": 21,
+      "youtubeId": "_QdzDi0hRcU",
+      "tags": ["wallet", "metadata", "transactions"]
+    },
+    {
+      "date": "2021-06-04",
+      "number": 20,
+      "youtubeId": "5U81b6cGnrc",
+      "tags": ["wallet", "metadata", "transactions"]
+    },
+    {
+      "date": "2021-05-28",
+      "number": 19,
+      "youtubeId": "5vy3ORYQlBI",
+      "tags": ["wallet", "metadata", "transactions"]
+    },
+    {
+      "date": "2021-05-21",
+      "number": 18,
+      "youtubeId": "DWWUVCkwMvM",
+      "tags": ["wallet", "metadata", "transactions"]
+    },
+    {
+      "date": "2021-05-14",
+      "number": 17,
+      "youtubeId": "XftqAC9degc",
+      "tags": ["wallet", "metadata", "transactions"]
+    },
+    {
+      "date": "2021-05-07",
+      "number": 16,
+      "youtubeId": "MlUXxwOKqRM",
+      "tags": ["wallet", "metadata", "transactions"]
+    },
+    {
+      "date": "2021-04-30",
+      "number": 15,
+      "youtubeId": "CxpLaON1lKs",
+      "tags": ["wallet", "metadata", "transactions"]
+    },
+    {
+      "date": "2021-04-23",
+      "number": 14,
+      "youtubeId": "GlhCz4P4m8A",
+      "tags": ["wallet", "metadata", "transactions"]
+    },
+    {
+      "date": "2021-04-16",
+      "number": 13,
+      "youtubeId": "aRsXum8SVKA",
+      "tags": ["wallet", "metadata", "transactions"]
+    },
+    {
+      "date": "2021-04-09",
+      "number": 12,
+      "youtubeId": "CWTAU3DZxsY",
+      "tags": ["wallet", "metadata", "transactions"]
+    },
+    {
+      "date": "2021-04-02",
+      "number": 11,
+      "youtubeId": "5sNPFW48htI",
+      "tags": ["wallet", "metadata", "transactions"]
+    },
+    {
+      "date": "2021-03-26",
+      "number": 10,
+      "youtubeId": "zvVL380-udE",
+      "tags": ["wallet", "metadata", "transactions"]
+    },
+    {
+      "date": "2021-03-19",
+      "number": 9,
+      "youtubeId": "rcTZli2RCfw",
+      "tags": ["wallet", "metadata", "transactions"]
+    },
+    {
+      "date": "2021-03-12",
+      "number": 8,
+      "youtubeId": "eWWlhf5Fz_Y",
+      "tags": ["wallet", "metadata", "transactions"]
+    },
+    {
+      "date": "2021-03-05",
+      "number": 7,
+      "youtubeId": "NvA3b6A1658",
+      "tags": ["wallet", "metadata", "transactions"]
+    },
+    {
+      "date": "2021-02-26",
+      "number": 6,
+      "youtubeId": "yYFGH3gGHJQ",
+      "tags": ["wallet", "metadata", "transactions"]
+    },
+    {
+      "date": "2021-02-19",
+      "number": 5,
+      "youtubeId": "bKvFZ8KfAt0",
+      "tags": ["wallet", "metadata", "transactions"]
+    },
+    {
+      "date": "2021-02-12",
+      "number": 4,
+      "youtubeId": "iMwmskk3H_w",
+      "tags": ["wallet", "metadata", "transactions"]
+    },
+    {
+      "date": "2021-02-05",
+      "number": 3,
+      "youtubeId": "3ChL10wf03g",
+      "tags": ["wallet", "metadata", "transactions"]
+    },
+    {
+      "date": "2021-01-29",
+      "number": 2,
+      "youtubeId": "zetZvvNe-S0",
+      "tags": ["wallet", "metadata", "transactions"]
+    },
+    {
+      "date": "2021-01-22",
+      "number": 1,
+      "youtubeId": "rI79OzV53Ac",
+      "tags": ["wallet", "metadata", "transactions"]
+    }
+  ]
+}

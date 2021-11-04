@@ -1,13 +1,15 @@
 import Nav from "../Nav";
-import Footer from "../Footer";
+import Footer from "../footer/Footer";
+import Navbar from "../navbar/Navbar";
 
-function Layout({ children }) {
+function Layout(props) {
+  const { children, navbarBg, footerBg } = props;
   return (
-    <div className="relative bg-offWhite font-body flex flex-col  w-screen relative  overflow-x-hidden">
-      <Nav />
+    <div className="relative bg-offWhite flex flex-col w-screen  overflow-x-hidden">
+      <Navbar navbarBg={navbarBg} />
 
       <main className=" relative">{children}</main>
-      {/* <Footer /> */}
+      <Footer footerBg={footerBg} />
     </div>
   );
 }

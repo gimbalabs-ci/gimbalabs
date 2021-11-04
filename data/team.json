@@ -8,7 +8,8 @@
       "bio": "Expert marketing professional with diverse experience, bringing insight into large and small business relationships.",
       "twitter": "https://twitter.com/JuliMont01",
       "linkedIn": "https://www.linkedin.com/in/julianemontag/",
-      "color": "bg-green-400"
+      "color": "bg-green-400",
+      "textColor": "text-green-400"
     },
     {
       "name": "Roberto Carlos Morano",
@@ -16,7 +17,8 @@
       "bio": "Seasoned sysadmin and DevOps advocate and also an OpenSource-everything and decentralization enthusiast.",
       "twitter": "https://twitter.com/rc_morano",
       "linkedIn": "https://www.linkedin.com/in/rcmorano/",
-      "color": "bg-blue-800"
+      "color": "bg-blue-800",
+      "textColor": "text-blue-600"
     },
     {
       "name": "James Dunseith",
@@ -24,7 +26,8 @@
       "bio": "Teacher, coach, and facilitator with a passion for helping people gain agency in problem solving.",
       "twitter": "https://twitter.com/jamesdunseith",
       "linkedIn": "https://www.linkedin.com/in/james-dunseith-0135651/",
-      "color": "bg-red-600"
+      "color": "bg-red-600",
+      "textColor": "text-red-600"
     },
     {
       "name": "Kyle Johns",
@@ -32,7 +35,8 @@
       "bio": "Ever-learning polyglot who is passionate about problem solving and providing software solutions.",
       "twitter": "https://twitter.com/LiftStakePool",
       "linkedIn": "https://www.linkedin.com/in/johnskyle/",
-      "color": "bg-pink-300"
+      "color": "bg-pink-300",
+      "textColor": "text-pink-400"
     }
   ]
 }

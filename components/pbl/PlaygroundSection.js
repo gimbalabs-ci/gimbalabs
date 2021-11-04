@@ -11,13 +11,13 @@ export default function PlaygroundSection({ colors, playgrounds }) {
 
   return (
     <div
-      className="spacing-y"
+      className="spacing-y spacing-x "
       onMouseOver={() => setHov(true)}
       onMouseLeave={() => setHov(false)}
     >
       <div className="w-full flex flex-wrap lg:flex-no-wrap justify-between">
         {/* Blocks */}
-        <div className="flex flex-col ">
+        <div className="flex flex-col text-black2-900 ">
           <Square
             className={"w-12 h-8 sm:h-12 lg:h-13 xl:h-14  sm:w-14"}
             color={colors[0]}
@@ -44,14 +44,14 @@ export default function PlaygroundSection({ colors, playgrounds }) {
           />
         </div>
         {/* Paragraphs */}
-        <div className=" order-3 sm:order-2 text-blue-100 w-full sm:max-w-12 mx-5 mt-5 sm:mt-auto">
+        <div className=" order-3 sm:order-2  w-full sm:max-w-12 mx-5 mt-5 sm:mt-auto">
           <p
             // animate={{ transition: { ...gdsEase12 }, y: hov ? -21 : 0 }}
-            className="text-white relative  font-bold text-2xl "
+            className=" relative  font-bold text-2xl "
           >
             Where ideas get tested
           </p>
-          <p className="text-white mt-5">
+          <p className=" mt-5">
             This can describe the this section in some detail and you could take
             up a medium amount of space.
           </p>
@@ -60,7 +60,7 @@ export default function PlaygroundSection({ colors, playgrounds }) {
         <div className="order-2 sm:order-3 mb-auto my-auto ">
           <motion.h3
             animate={{ transition: { ...gdsEase12 }, y: hov ? -21 : 0 }}
-            className="relative mt-5 z-10  w-full sm:max-w-12   text-6xl text-pink-100"
+            className="relative mt-5 z-10  w-full sm:max-w-12   text-6xl "
           >
             Play ground
           </motion.h3>
@@ -68,7 +68,7 @@ export default function PlaygroundSection({ colors, playgrounds }) {
           <div className="mt-3">
             <Link href={`/pbl/ppbl`}>
               <a>
-                <button className="gds-btn bg-pink-100 hover:bg-pink-300 text-black2-900  border-pink-900">
+                <button className="gds-btn bg-red-600 hover:bg-red-600 text-black2-900  border-pink-900">
                   /ppbl
                 </button>
               </a>
@@ -99,7 +99,7 @@ const Square = ({ color, number, title, className }) => {
                 opacity: localHov ? 1 : 0.2,
                 x: 32,
               }}
-              className="text-4xl font-heading text-pink-900"
+              className="text-4xl font-heading "
             >
               {number}
             </motion.div>
@@ -110,7 +110,7 @@ const Square = ({ color, number, title, className }) => {
                   opacity: localHov ? 1 : 0,
                   x: localHov ? 0 : 32,
                 }}
-                className="  text-2xl text-pink-900  font-body   "
+                className="  text-2xl   font-body   "
               >
                 {title}
               </motion.div>

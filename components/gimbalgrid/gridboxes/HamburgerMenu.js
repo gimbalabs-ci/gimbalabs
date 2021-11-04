@@ -40,7 +40,7 @@ export default function HamburgerMenu(props) {
         className="w-full h-full grid bg-offWhite text-black2-900 p-5"
       >
         <div className="h-full w-full flex flex-col justify-between items-center">
-          <div className="h-full flex flex-col justify-center items-center">
+          <div className="mt-2 h-full flex flex-col justify-center items-center">
             <motion.div
               animate={lineOne}
               className="h-1 bg-black2-900 w-full my-1 "

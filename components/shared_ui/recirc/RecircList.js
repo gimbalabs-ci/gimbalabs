@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function RecircList({ link, list }) {
   return (
-    <div className="relative text-white">
+    <div className="relative text-offWhite">
       <div className="bg-black2-900 absolute inset-0" />
 
       <div className="relative z-10 spacing-y spacing-x ">

@@ -144,6 +144,7 @@ a.classic {
 
 body {
   scroll-behavior: smooth;
+  @apply bg-offWhite;
 }
 
 .gds-btn {
@@ -214,7 +215,13 @@ h5 {
 }
 
 .gds-markdown > p > a {
-  @apply underline;
+  @apply underline text-blue-900;
+}
+.gds-markdown > ol > li > a {
+  @apply underline text-blue-900;
+}
+.gds-markdown > ul > li > a {
+  @apply underline text-blue-900;
 }
 .gds-markdown > h1 {
   @apply mt-6 text-4xl md:text-6xl font-heading;

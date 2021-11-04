@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import React, { useState } from "react";
-
 const gdsEase12 = {
   duration: 0.7,
 
@@ -9,28 +8,10 @@ const gdsEase12 = {
 };
 
 export default function LargeCards({ colors, list }) {
-  const [hov, setHov] = useState(false);
-
   return (
     <div className="relative">
-      <div
-        onMouseOver={() => setHov(true)}
-        onMouseLeave={() => setHov(false)}
-        className=" h-13 sm:h-15 p-5 flex-1 relative flex flex-col justify-end"
-      >
-        <div className="hidden lg:block relative z-10 ml-auto  p-7 max-w-12  ">
-          <p>
-            This can describe the starter kit in some detail and you could take
-            up a medium amount of space.
-          </p>
-        </div>
-        <motion.h3
-          animate={{ transition: { ...gdsEase12 }, y: hov ? -21 : 20 }}
-          className="relative z-10  max-w-13   text-6xl "
-        >
-          Cardano Starter Kits
-        </motion.h3>
-        <div className="absolute  top-0 left-0 z-0 ">
+      <div className="  relative flex  justify-between">
+        <div className=" h-12 sm:h-14 top-0 left-0 z-0 ">
           <div>
             <div
               role="button"
@@ -62,6 +43,12 @@ export default function LargeCards({ colors, list }) {
               />
             </div>
           </div>
+        </div>
+        <div className="hidden lg:block relative z-10 ml-auto  p-7 max-w-12  ">
+          <p>
+            This this can describe the starter kit in some detail and you could
+            take up a medium amount of space.
+          </p>
         </div>
       </div>
     </div>

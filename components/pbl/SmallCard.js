@@ -24,7 +24,7 @@ export default function SmallCard({
           role="button"
           onMouseOver={() => setHov(true)}
           onMouseLeave={() => setHov(false)}
-          className={`w-13    lg:w-full group relative flex items-stretch mb-10 `}
+          className={`w-13    lg:w-full group relative flex items-stretch mb-9 `}
         >
           <div className={`mt-9 `}>
             <motion.div

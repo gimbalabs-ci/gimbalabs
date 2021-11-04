@@ -1,11 +1,11 @@
 import React from "react";
-import CalendarPage from "../../components/calendar/CalendarPage";
 import Layout from "../../components/Layouts/Layout";
+import UpdatePage from "../../components/updates/UpdatePage";
 
 export default function index() {
   return (
     <Layout>
-      <CalendarPage />
+      <UpdatePage />
     </Layout>
   );
 }

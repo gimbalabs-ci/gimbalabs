@@ -1,8 +1,11 @@
 import CalendarPage from "../calendar/CalendarPage";
 import MenuPage from "../menu/MenuPage";
+import TeamPage from "../team/TeamPage";
+import UpdatePage from "../updates/UpdatePage";
 import BlankWhite from "./gridboxes/BlankWhite";
 import GBCalendar from "./gridboxes/GBCalendar";
 import GBLogo from "./gridboxes/GBLogo";
+import GBWeeklyUpdates from "./gridboxes/GBWeeklyUpdates";
 import Letter from "./gridboxes/Letter";
 
 const { default: DandelionPage } = require("../dandelion/DandelionPage");
@@ -11,7 +14,6 @@ const { default: GBDandelion } = require("./gridboxes/GBDandelion");
 const { default: GBPBL } = require("./gridboxes/GBPBL");
 const { default: HamburgerMenu } = require("./gridboxes/HamburgerMenu");
 const { default: Testimony } = require("./gridboxes/Testimony");
-const { default: TestimonyFull } = require("./gridboxes/TestimonyFull");
 const {
   TitleGroupDark,
   default: TitleGroup,
@@ -270,11 +272,17 @@ export const gridData = [
   {
     gridBoxStyle: ` col-span-2 row-span-1 `,
     gridBoxComponent: GBCalendar,
-    gridBoxProps: {
-      color: "",
-    },
+    gridBoxProps: {},
     transitionColor: "bg-offWhite",
     fullPageComponent: CalendarPage,
+    fullPageProps: {},
+  },
+  {
+    gridBoxStyle: ` col-span-2 row-span-1 `,
+    gridBoxComponent: GBWeeklyUpdates,
+    gridBoxProps: {},
+    transitionColor: "bg-offWhite",
+    fullPageComponent: UpdatePage,
     fullPageProps: {},
   },
   {
@@ -289,19 +297,14 @@ export const gridData = [
     },
   },
   {
-    disable: true,
+    transitionColor: "bg-offWhite",
     gridBoxStyle: `col-span-full  sm:col-span-5 row-span-2   `,
     gridBoxComponent: Testimony,
     gridBoxProps: {
-      quote:
-        "Hello and welcome to our community of developers, thinkers, experimenters, doers. We are glad to have you.",
       owner: "James",
     },
-    fullPageComponent: TestimonyFull,
-    fullPageProps: {
-      text:
-        "Hi, here is an opportunity to expand upon this testimonial and show some examples of projects or something.",
-    },
+    fullPageComponent: TeamPage,
+    fullPageProps: {},
   },
   {
     transitionColor: "gradient-yellow",
@@ -318,6 +321,6 @@ export const gridData = [
     gridBoxProps: {},
   },
 
-  // 6-25
+  // letters and blank white squares
   ...gimbalabs,
 ];
