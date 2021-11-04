@@ -4,7 +4,7 @@ import Layout from "../../components/Layouts/Layout";
 
 export default function index() {
   return (
-    <Layout>
+    <Layout footerBg="bg-black2-900">
       <CalendarPage />
     </Layout>
   );

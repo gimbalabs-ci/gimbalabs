@@ -1,11 +1,11 @@
 import React from "react";
 import Layout from "../../components/Layouts/Layout";
-import UpdatePage from "../../components/updates/UpdatePage";
+import MenuPage from "../../components/menu/MenuPage";
 
 export default function index() {
   return (
     <Layout footerBg="bg-black2-900">
-      <UpdatePage />
+      <MenuPage />
     </Layout>
   );
 }

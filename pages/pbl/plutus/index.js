@@ -18,7 +18,7 @@ export async function getStaticProps() {
 
 export default function index({ allProjectsData }) {
   return (
-    <Layout>
+    <Layout navbarBg="bg-offWhite">
       <div className="bg-black2-900">
         <PageTitleWithBorder
           className="text-offWhite"

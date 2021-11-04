@@ -18,7 +18,7 @@ export async function getStaticProps() {
 
 export default function index({ allProjectsData }) {
   return (
-    <Layout navbarBg="bg-offWhite">
+    <Layout footerBg="bg-black2-900">
       <div className="pb-9 ">
         <PageTitleWithBorder
           title={"Playground"}

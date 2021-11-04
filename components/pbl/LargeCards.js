@@ -60,7 +60,7 @@ const Square = ({ color, number, title, className }) => {
 
   return (
     <div>
-      <Link href="/pbl">
+      <Link href={`/pbl/csk/csk${number}`}>
         <a>
           <div>
             <motion.div

@@ -18,7 +18,7 @@ export async function getStaticProps() {
 
 export default function index({ allCSKData }) {
   return (
-    <Layout>
+    <Layout footerBg="bg-black2-900">
       <div className="pb-9">
         <PageTitleWithBorder
           title={"Cardano Starter Kits"}

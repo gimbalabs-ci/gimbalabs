@@ -28,7 +28,7 @@ export default function SpecificPlayground({ plutusData }) {
   const { contentReact, videos, fullWidthImageAndText, recirc } = plutusData;
 
   const link = "/pbl/playground";
-  const color = "PINK";
+  const color = "RED";
 
   return (
     <Layout>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import Logo from "../brand/Logo";
 import LogoWithText from "../brand/LogoWithText";
@@ -9,11 +10,19 @@ export default function Navbar({ navbarBg = "bg-black2-900" }) {
     <div className={`${navbarBg} ${textColor}`}>
       <div className="spacing-x py-3 flex items-center justify-between">
         <div>
-          <Logo className="" />
+          <Link href="/gimbalgrid">
+            <a>
+              <Logo className="" />
+            </a>
+          </Link>
           {/* <LogoWithText className="text-offWhite" /> */}
         </div>
         <div>
-          <Hamburger navbarBg={navbarBg} />
+          <Link href="/menu">
+            <a>
+              <Hamburger navbarBg={navbarBg} />
+            </a>
+          </Link>
         </div>
       </div>
     </div>

@@ -85,39 +85,43 @@ const Square = ({ color, number, title, className }) => {
 
   return (
     <div>
-      <div
-        className={` grid  ${color} z-20 ${className}`}
-        onMouseOver={() => setLocalHov(true)}
-        onMouseLeave={() => setLocalHov(false)}
-      >
-        <div className="hidden md:flex flex flex-col justify-end p-3 overflow-hidden">
-          <div className="flex  justify-between items-center">
-            <motion.div
-              animate={{
-                transition: { ...gdsEase12 },
-                y: localHov ? 0 : 24,
-                opacity: localHov ? 1 : 0.2,
-                x: 32,
-              }}
-              className="text-4xl font-heading "
-            >
-              {number}
-            </motion.div>
-            <div className="">
-              <motion.div
-                animate={{
-                  transition: { ...gdsEase12 },
-                  opacity: localHov ? 1 : 0,
-                  x: localHov ? 0 : 32,
-                }}
-                className="  text-2xl   font-body   "
-              >
-                {title}
-              </motion.div>
+      <Link href={`/pbl/playground/${number}`}>
+        <a>
+          <div
+            className={` grid  ${color} z-20 ${className}`}
+            onMouseOver={() => setLocalHov(true)}
+            onMouseLeave={() => setLocalHov(false)}
+          >
+            <div className="hidden md:flex flex flex-col justify-end p-3 overflow-hidden">
+              <div className="flex  justify-between items-center">
+                <motion.div
+                  animate={{
+                    transition: { ...gdsEase12 },
+                    y: localHov ? 0 : 24,
+                    opacity: localHov ? 1 : 0.2,
+                    x: 32,
+                  }}
+                  className="text-4xl font-heading "
+                >
+                  {number}
+                </motion.div>
+                <div className="">
+                  <motion.div
+                    animate={{
+                      transition: { ...gdsEase12 },
+                      opacity: localHov ? 1 : 0,
+                      x: localHov ? 0 : 32,
+                    }}
+                    className="  text-2xl   font-body   "
+                  >
+                    {title}
+                  </motion.div>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
+        </a>
+      </Link>
     </div>
   );
 };
