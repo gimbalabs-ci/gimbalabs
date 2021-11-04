@@ -4,10 +4,160 @@ import React from "react";
 export default function Logo() {
   return (
     <div>
-      <img src="/branding/Logo_48px.svg" />
+      <GabesLogo1 />
+      {/* <GabesLogo2 /> */}
+      {/* <img src="/branding/Logo_48px.svg" /> */}
     </div>
   );
 }
+
+const GabesLogo1 = () => {
+  return (
+    <svg
+      width="49"
+      height="49"
+      viewBox="0 0 49 49"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <rect
+        x="47.6875"
+        y="1.36426"
+        width="47"
+        height="47"
+        transform="rotate(90 47.6875 1.36426)"
+        fill="#F4F3ED"
+        stroke="#232828"
+      />
+      <rect
+        x="24.1875"
+        y="36.8652"
+        width="12"
+        height="12"
+        transform="rotate(-90 24.1875 36.8652)"
+        fill="#232828"
+        fill-opacity="0.5"
+      />
+      <rect
+        x="12.1875"
+        y="36.8652"
+        width="12"
+        height="12"
+        transform="rotate(-90 12.1875 36.8652)"
+        fill="#232828"
+      />
+      <rect
+        x="12.1875"
+        y="24.8652"
+        width="12"
+        height="12"
+        transform="rotate(-90 12.1875 24.8652)"
+        fill="#232828"
+        fill-opacity="0.75"
+      />
+      <rect
+        x="24.1875"
+        y="24.8652"
+        width="12"
+        height="12"
+        transform="rotate(-90 24.1875 24.8652)"
+        fill="#232828"
+        fill-opacity="0.25"
+      />
+      <rect
+        x="30.1875"
+        y="18.8643"
+        width="12"
+        height="12"
+        transform="rotate(90 30.1875 18.8643)"
+        fill="#F4F3ED"
+      />
+    </svg>
+  );
+};
+
+const GabesLogo2 = () => {
+  return (
+    <svg
+      width="49"
+      height="49"
+      viewBox="0 0 49 49"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <rect
+        x="48.7227"
+        y="48.9775"
+        width="48"
+        height="48"
+        transform="rotate(180 48.7227 48.9775)"
+        fill="#F4F3ED"
+      />
+      <mask
+        id="mask0_939:197"
+        maskUnits="userSpaceOnUse"
+        x="0"
+        y="1"
+        width="49"
+        height="48"
+      >
+        <rect
+          x="0.753906"
+          y="1.12012"
+          width="47.9415"
+          height="47.7146"
+          fill="#F4F3ED"
+        />
+      </mask>
+      <g mask="url(#mask0_939:197)">
+        <rect
+          x="-1.2262"
+          y="-0.707942"
+          width="45.9263"
+          height="45.7298"
+          transform="matrix(-0.966231 0.257676 -0.259967 -0.965618 12.8815 32.2262)"
+          stroke="#FDE0A5"
+          stroke-width="2"
+        />
+        <rect
+          x="-1.2262"
+          y="-0.707942"
+          width="45.9263"
+          height="45.7298"
+          transform="matrix(-0.966231 0.257676 -0.259967 -0.965618 25.2917 78.3141)"
+          stroke="#265085"
+          stroke-width="2"
+        />
+        <rect
+          x="-1.2262"
+          y="-0.707942"
+          width="45.9263"
+          height="45.7298"
+          transform="matrix(-0.966231 0.257676 -0.259967 -0.965618 71.5964 65.9664)"
+          stroke="#9CB493"
+          stroke-width="2"
+        />
+        <rect
+          x="-1.2262"
+          y="-0.707942"
+          width="45.9263"
+          height="45.7298"
+          transform="matrix(-0.966231 0.257676 -0.259967 -0.965618 59.194 19.8756)"
+          stroke="#232828"
+          stroke-width="2"
+        />
+      </g>
+      <rect
+        x="48.2227"
+        y="48.4775"
+        width="47"
+        height="47"
+        transform="rotate(180 48.2227 48.4775)"
+        stroke="#232828"
+      />
+    </svg>
+  );
+};
 
 // Your dumb G logo
 // export default function Logo() {
