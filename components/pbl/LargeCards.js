@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import React, { useState } from "react";
+import CardanoLogo from "../../lib/icons/CardanoLogo";
 const gdsEase12 = {
   duration: 0.7,
 
@@ -10,19 +11,21 @@ const gdsEase12 = {
 export default function LargeCards({ colors, list }) {
   return (
     <div className="relative">
-      <div className="  relative flex  justify-between">
+      <div className="   relative flex  justify-between">
         <div className=" h-12 sm:h-14 top-0 left-0 z-0 ">
           <div>
             <div
               role="button"
-              className={`text-blue-100 flex flex-nowrap relative   group relative flex items-stretch mb-10 `}
+              className={` relative overflow-hidden text-blue-100 flex flex-nowrap relative   group relative flex items-stretch mb-10 `}
             >
               <Square
                 className={"w-8 sm:w-10 lg:w-12 xl:w-14 h-12 sm:h-14 z-30 "}
                 color={colors[0]}
                 number={list[0].number}
                 title={list[0].title}
-              />
+              >
+                <CardanoLogo className="w-8 text-blue-100 mb-3 ml-1" />
+              </Square>
               <Square
                 className={"w-8 sm:w-10 h-12 sm:h-14"}
                 color={colors[1]}
@@ -55,7 +58,7 @@ export default function LargeCards({ colors, list }) {
   );
 }
 
-const Square = ({ color, number, title, className }) => {
+const Square = ({ color, number, title, className, children }) => {
   const [localHov, setLocalHov] = useState(false);
 
   return (
@@ -76,6 +79,7 @@ const Square = ({ color, number, title, className }) => {
             >
               <div className="hidden md:flex flex flex-col justify-end p-3 overflow-hidden">
                 <div className="flex ">
+                  {children && <div className="">{children}</div>}
                   <motion.div
                     animate={{
                       transition: { ...gdsEase12 },

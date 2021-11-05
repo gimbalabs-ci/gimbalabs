@@ -7,7 +7,7 @@ export default function ValidateIdeas() {
   return (
     <div className=" relative flex flex-col justify-center">
       {/* Dark bg to fill in space above */}
-      <div className="h-13 z-0 top-0  absolute inset-x-0 bg-green-900" />
+      <div className="h-13 z-0 top-0  absolute inset-x-0 bg-gradient-to-t from-yellow-400" />
       {/* Clipped yellow bg */}
       <div className="clip-me-right h-full xl:h-16  absolute inset-x-0 gradient-yellow overflow-hidden">
         {/* Bamboo */}
@@ -17,7 +17,7 @@ export default function ValidateIdeas() {
         />
       </div>
       {/* Layout */}
-      <div className="relative z-10 grid xl:grid-cols-2 spacing-x spacing-y">
+      <div className="relative z-10 grid xl:grid-cols-2 spacing-x py-9">
         {/* Left Side Three Icons */}
         <div className="order-2 xl:order-1 mx-auto md:mx-0 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-1 gap-5">
           <IconCard

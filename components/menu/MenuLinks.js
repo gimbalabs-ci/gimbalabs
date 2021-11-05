@@ -7,7 +7,7 @@ const data = [
     link: "/pbl",
     list: [
       { title: "Starter Kits", link: "/pbl/csk", color: "bg-blue-600" },
-      { title: "Plutus", link: "/pbl/plutus", color: "bg-pink-400" },
+      { title: "Plutus", link: "/pbl/plutus", color: "bg-orange-400" },
       { title: "Playground", link: "/pbl/playground", color: "bg-red-600" },
     ],
   },

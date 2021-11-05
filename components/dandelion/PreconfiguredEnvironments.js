@@ -13,7 +13,7 @@ export default function PreconfiguredEnvironments() {
         className="z-0 absolute -top-10 -right-14 text-green-700 opacity-75 "
       />
       {/* Layout */}
-      <div className=" grid lg:grid-cols-2 spacing-x spacing-y">
+      <div className=" grid lg:grid-cols-2 spacing-x py-9">
         <div className="relative">
           <h3 className="text-green-400 text-4xl md:text-6xl max-w-14 mb-3   ">
             Preconfigured

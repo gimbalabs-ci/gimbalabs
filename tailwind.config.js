@@ -38,6 +38,7 @@ module.exports = {
     extend: {
       display: ["hover", "focus"],
       boxSizing: ["hover", "focus"],
+      rotate: ["group-hover"],
     },
   },
   plugins: [require("@tailwindcss/forms")],

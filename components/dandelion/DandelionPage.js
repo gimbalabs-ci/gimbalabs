@@ -12,7 +12,6 @@ export default function DandelionPage() {
     <>
       <div className="bg-offWhite">
         <Hero />
-        <SupportedServices />
         <ValidateIdeas />
         <PreconfiguredEnvironments />
         <ThreeColList />

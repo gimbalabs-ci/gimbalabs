@@ -29,7 +29,7 @@ export default function index({ allProjectsData }) {
         <section className="spacing-x pb-9 ">
           <ListAllBlocks
             baseRoute={"/pbl/plutus/"}
-            color="PINK"
+            color="ORANGE"
             data={allProjectsData}
           />
         </section>

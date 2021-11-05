@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import React from "react";
+import Layout from "../Layouts/Layout";
 import Esc from "../../lib/icons/Esc";
 import { animate, GdsPageTransition } from "../../lib/motion/motion";
 import { gridData } from "./GridData";
@@ -64,7 +65,9 @@ export default function ExpandedBox({ slug }) {
               className=" relative"
             >
               {FullPageComponent && (
-                <FullPageComponent slug={slug} {...fullPageProps} />
+                <Layout>
+                  <FullPageComponent slug={slug} {...fullPageProps} />
+                </Layout>
               )}
             </motion.div>
           </div>

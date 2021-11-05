@@ -1,4 +1,7 @@
 import React from "react";
+import CardanoLogo from "../../lib/icons/CardanoLogo";
+import PlaygroundSvg from "../../lib/icons/PlaygroundSvg";
+import PlutusSvg, { PlutusSvgBasic } from "../../lib/icons/PlutusSvg";
 import SmallCard from "./SmallCard";
 
 export default function StickyNoteList({ colors }) {
@@ -11,15 +14,17 @@ export default function StickyNoteList({ colors }) {
         colors={colors.blueColors}
         title={"Starter Kits"}
         subtitle={"Go now"}
+        Logo={() => <CardanoLogo className="w-7 text-black2-900" />}
       />
       <div className="ml-auto md:ml-0">
         <SmallCard
           link={"/pbl/plutus"}
-          id={"RED"}
+          id={"ORANGE"}
           textColor={"text-offWhite"}
-          colors={colors.pinkColors}
+          colors={colors.orangeColors}
           title={"Plutus Projects"}
           subtitle={"Learn by doing"}
+          Logo={() => <PlutusSvgBasic className="w-7 text-black2-900" />}
         />
       </div>
       <SmallCard
@@ -29,6 +34,7 @@ export default function StickyNoteList({ colors }) {
         colors={colors.redColors}
         title={"Playground"}
         subtitle={"Got an idea?"}
+        Logo={() => <PlaygroundSvg className="w-7 text-black2-900" />}
       />
     </div>
   );

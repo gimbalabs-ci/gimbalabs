@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 // Gabes cool logo
 export default function Logo() {
@@ -14,66 +14,74 @@ export default function Logo() {
 
 const GabesLogo1 = () => {
   return (
-    <svg
-      width="49"
-      height="49"
-      viewBox="0 0 49 49"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <rect
-        x="47.6875"
-        y="1.36426"
-        width="47"
-        height="47"
-        transform="rotate(90 47.6875 1.36426)"
-        fill="#F4F3ED"
-        stroke="#232828"
-      />
-      <rect
-        x="24.1875"
-        y="36.8652"
-        width="12"
-        height="12"
-        transform="rotate(-90 24.1875 36.8652)"
-        fill="#232828"
-        fill-opacity="0.5"
-      />
-      <rect
-        x="12.1875"
-        y="36.8652"
-        width="12"
-        height="12"
-        transform="rotate(-90 12.1875 36.8652)"
-        fill="#232828"
-      />
-      <rect
-        x="12.1875"
-        y="24.8652"
-        width="12"
-        height="12"
-        transform="rotate(-90 12.1875 24.8652)"
-        fill="#232828"
-        fill-opacity="0.75"
-      />
-      <rect
-        x="24.1875"
-        y="24.8652"
-        width="12"
-        height="12"
-        transform="rotate(-90 24.1875 24.8652)"
-        fill="#232828"
-        fill-opacity="0.25"
-      />
-      <rect
-        x="30.1875"
-        y="18.8643"
-        width="12"
-        height="12"
-        transform="rotate(90 30.1875 18.8643)"
-        fill="#F4F3ED"
-      />
-    </svg>
+    <div className="group relative">
+      <div className="easeIn transition duration-400 transform group-hover:rotate-45 absolute inset-0 border border-black2-900"></div>
+
+      <svg
+        className=""
+        width="49"
+        height="49"
+        viewBox="0 0 49 49"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <rect
+          x="47.6875"
+          y="1.36426"
+          width="47"
+          height="47"
+          transform="rotate(90 47.6875 1.36426)"
+          fill="#F4F3ED"
+        />
+        <rect
+          x="24.1875"
+          y="36.8652"
+          width="12"
+          height="12"
+          transform="rotate(-90 24.1875 36.8652)"
+          fill="#232828"
+          fill-opacity="0.5"
+          className={`fill-current transition easeIn delay-300 text-black2-900 group-hover:text-orange-500`}
+        />
+        <rect
+          x="12.1875"
+          y="36.8652"
+          width="12"
+          height="12"
+          transform="rotate(-90 12.1875 36.8652)"
+          fill="#232828"
+          className={`fill-current transition easeIn delay-200 text-black2-900 group-hover:text-green-400`}
+        />
+        <rect
+          x="12.1875"
+          y="24.8652"
+          width="12"
+          height="12"
+          transform="rotate(-90 12.1875 24.8652)"
+          fill="#232828"
+          className={`fill-current transition easeIn  text-black2-900 group-hover:text-blue-600`}
+          fill-opacity="0.75"
+        />
+        <rect
+          x="24.1875"
+          y="24.8652"
+          width="12"
+          height="12"
+          transform="rotate(-90 24.1875 24.8652)"
+          fill="#232828"
+          className={`fill-current transition easeIn delay-100 text-black2-900 group-hover:text-red-600`}
+          fill-opacity="0.25"
+        />
+        <rect
+          x="30.1875"
+          y="18.8643"
+          width="12"
+          height="12"
+          transform="rotate(90 30.1875 18.8643)"
+          fill="#F4F3ED"
+        />
+      </svg>
+    </div>
   );
 };
 

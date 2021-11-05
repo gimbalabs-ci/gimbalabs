@@ -30,7 +30,7 @@ export default function ThreeColList() {
         return (
           <div
             key={i.title1 + "_tcl"}
-            className="spacing-x spacing-y w-full grid lg:grid-cols-2 border-b border-green-100"
+            className="spacing-x py-9 w-full grid lg:grid-cols-2 border-b border-green-100"
           >
             <div className="w-full flex flex-col sm:flex-row justify-center  lg:justify-between items-start">
               <div className="text-green-900 w-11">

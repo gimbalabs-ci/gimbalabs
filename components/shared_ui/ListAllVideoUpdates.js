@@ -40,18 +40,33 @@ export default function ListAllVideoUpdates({ baseRoute = "/updates/", data }) {
         return (
           <li className=" w-full h-full grid " key={youtubeId + index}>
             <>
-              <div className="rounded-md shadow-md  overflow-hidden">
+              <div className=" shadow-md  overflow-hidden">
                 <Link href={`${baseRoute}${number}`}>
                   <a>
-                    <div className={`relative   max-h-13    `}>
+                    <div className={`relative   max-h-14 pb-9    `}>
                       <LiteYouTubeEmbed id={youtubeId} title={number} />
                       <div className="absolute inset-0 flex   items-end">
-                        <div className="px-5 py-3 bg-black2-900 text-offWhite w-full flex items-center justify-between">
-                          <div className={`  text-4xl font-heading `}>
-                            # {number}
+                        <div className="px-5 py-3 bg-black2-900  w-full flex items-center justify-between">
+                          <div
+                            className={`text-white opacity-25 flex items-start  text-4xl font-heading `}
+                          >
+                            <span className="opacity-100 text-base  -mt-2 mr-1">
+                              #{" "}
+                            </span>
+                            {number}
                           </div>
 
-                          <div className="text-lg   text-right  ">{date}</div>
+                          <div className="flex items-start ">
+                            <div className="flex items-start text-white text-lg text-right mr-3 ">
+                              <span className=" text-yellow-400 ">
+                                {date.split("-")[1]}
+                              </span>
+                              -{date.split("-")[2]}
+                            </div>
+                            <div className=" text-sm text-gray-300  text-right  ">
+                              {date.split("-")[0]}
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>

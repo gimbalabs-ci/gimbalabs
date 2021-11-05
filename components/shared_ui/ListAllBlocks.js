@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
-import { bgOptions, textColors } from "../../lib/colors/color";
+import { textColors } from "../../lib/colors/color";
 
 export const ease1 = { ease: [0.6, 0.01, -0.05, 0.8] };
 export const stagger1Parent = {
@@ -51,24 +51,37 @@ export default function ListAllBlocks({
   );
 }
 
-export const blueColors = [
-  "bg-blue-600",
-  "bg-blue-700",
-  "bg-blue-800",
-  "bg-blue-900",
+const blueColors = [
+  "border-blue-600",
+  "border-blue-700",
+  "border-blue-800",
+  "border-blue-900",
 ];
-export const redColors = [
-  "bg-red-600",
-  "bg-red-700",
-  "bg-red-800",
-  "bg-red-900",
+const redColors = [
+  "border-red-600",
+  "border-red-700",
+  "border-red-800",
+  "border-red-900",
 ];
-export const pinkColors = [
-  "bg-pink-100",
-  "bg-pink-200",
-  "bg-pink-300",
-  "bg-pink-400",
+const pinkColors = [
+  "border-pink-100",
+  "border-pink-200",
+  "border-pink-300",
+  "border-pink-400",
 ];
+const orangeColors = [
+  "border-orange-100",
+  "border-orange-200",
+  "border-orange-300",
+  "border-orange-400",
+];
+
+const borderOptions = {
+  BLUE: blueColors,
+  RED: redColors,
+  PINK: pinkColors,
+  ORANGE: orangeColors,
+};
 const Block = ({ d, color, baseRoute }) => {
   const { id, number, title } = d;
   const [state, setState] = useState({
@@ -77,8 +90,8 @@ const Block = ({ d, color, baseRoute }) => {
   });
 
   useEffect(() => {
-    const myText = textColors[color][100];
-    const colors = bgOptions[color];
+    const myText = textColors[color][900];
+    const colors = borderOptions[color];
     const random = Math.floor(Math.random() * (4 - 0) + 0);
     const myColor = colors[random];
     console.log(myText);
@@ -96,7 +109,7 @@ const Block = ({ d, color, baseRoute }) => {
       <Link href={`${baseRoute}${id}`}>
         <a>
           <div
-            className={`${state.myColor} ${state.myText}  shadow-md rounded-md sm:max-w-14 h-12 sm:h-13 flex justify-center p-5 items-center `}
+            className={`border-4  ${state.myColor} ${state.myText}  shadow-md  sm:max-w-14 h-12 sm:h-13 flex justify-center p-5 items-center `}
           >
             <div className={` mr-auto mb-auto text-4xl font-heading `}>
               {number ? number : ""}

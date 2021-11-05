@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import React, { useState } from "react";
+import { ArrowRight } from "react-feather";
+import PlutusSvg from "../../lib/icons/PlutusSvg";
 const gdsEase12 = {
   duration: 0.7,
   ease: [0.6, 0.01, -0.05, 0.9],
@@ -17,26 +19,28 @@ export default function PlutusSection({ colors, ppbls }) {
     >
       <div className="w-full flex flex-wrap lg:flex-no-wrap justify-between">
         {/* Title */}
-        <div className="order-3 lg:order-1 my-auto ">
-          <motion.h3
-            animate={{ transition: { ...gdsEase12 }, y: hov ? -21 : 0 }}
-            className="relative z-10 mt-5 w-full sm:max-w-12  text-6xl "
-          >
-            Plutus in action
-          </motion.h3>
-          <div className="relative z-10  w-full sm:max-w-12 font-body text-2xl ">
-            Learn plutus through real life projects
-          </div>
-          <div className="mt-7">
-            <Link href={`/pbl/plutus`}>
-              <a>
-                <button className="text-pink-900 gds-btn bg-pink-100 hover:bg-pink-400   border-pink-900">
-                  /plutus
+        <Link href={`/pbl/plutus`}>
+          <a>
+            <div className="order-3 lg:order-1  ">
+              <PlutusSvg className=" w-8 mb-7  " />
+              <motion.h3
+                animate={{ transition: { ...gdsEase12 }, y: hov ? -21 : 0 }}
+                className="relative z-10 mt-5 w-full sm:max-w-12  text-6xl "
+              >
+                Plutus in action
+              </motion.h3>
+              <div className="relative z-10  w-full sm:max-w-12 font-body text-2xl ">
+                Learn plutus through real life projects
+              </div>
+              <div className="mt-7">
+                <button className="flex items-center  gds-btn text-orange-100 border border-orange-100 hover:bg-black2-800  ">
+                  Start learning Plutus
+                  <ArrowRight className="ml-3" />
                 </button>
-              </a>
-            </Link>
-          </div>
-        </div>
+              </div>
+            </div>
+          </a>
+        </Link>
         {/* Paragraphs */}
         <div className="order-3 sm:order-2  w-full sm:max-w-12 mx-5 my-5">
           <p className=" mb-5">
@@ -49,27 +53,29 @@ export default function PlutusSection({ colors, ppbls }) {
           </p>
         </div>
         {/* Blocks */}
-        <div className="text-pink-900 order-2 sm:order-1 lg:order-3  flex flex-col ">
+        <div className=" order-2 sm:order-1 lg:order-3  flex flex-col ">
           <Square
-            className={"w-12 h-8 sm:h-12 lg:h-13 xl:h-14  sm:w-14"}
+            className={
+              "text-black2-900 w-12 h-8 sm:h-12 lg:h-13 xl:h-14  sm:w-14"
+            }
             color={colors[0]}
             number={ppbls[0].number}
             title={ppbls[0].title}
           />
           <Square
-            className={"w-12 h-8 sm:h-8  sm:w-14"}
+            className={"text-white w-12 h-8 sm:h-8  sm:w-14"}
             color={colors[1]}
             number={ppbls[1].number}
             title={ppbls[1].title}
           />
           <Square
-            className={"w-12 h-8 sm:h-8  sm:w-14"}
+            className={"text-white w-12 h-8 sm:h-8  sm:w-14"}
             color={colors[2]}
             number={ppbls[2].number}
             title={ppbls[2].title}
           />
           <Square
-            className={"w-12 h-8 sm:h-8  sm:w-14"}
+            className={"text-white w-12 h-8 sm:h-8  sm:w-14"}
             color={colors[3]}
             number={ppbls[3].number}
             title={ppbls[3].title}
@@ -99,7 +105,7 @@ const Square = ({ color, number, title, className }) => {
                 opacity: localHov ? 1 : 0.2,
                 x: 32,
               }}
-              className="text-4xl font-heading"
+              className="text-4xl font-heading text-orange-100"
             >
               {number}
             </motion.div>

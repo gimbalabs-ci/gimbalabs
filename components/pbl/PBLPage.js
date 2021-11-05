@@ -10,7 +10,12 @@ import { useRouter } from "next/router";
 import StarterKitsSection from "./StarterKitsSection";
 import PlutusSection from "./PlutusSection";
 import PlaygroundSection from "./PlaygroundSection";
-import { blueColors, redColors, pinkColors } from "../../lib/colors/color";
+import {
+  blueColors,
+  redColors,
+  pinkColors,
+  orangeColors,
+} from "../../lib/colors/color";
 import PageTitleWithBorder from "../shared_ui/PageTitleWithBorder";
 
 // STATIC PROPS
@@ -75,7 +80,7 @@ const playgrounds = [
 // PBL PAGE
 // PBL PAGE
 export default function PBLPage() {
-  const colors = { blueColors, redColors, pinkColors };
+  const colors = { blueColors, redColors, pinkColors, orangeColors };
 
   const router = useRouter();
   const fromGrid = router.asPath.includes("gimbalgrid");
@@ -94,7 +99,7 @@ export default function PBLPage() {
 
       <StickyNoteList colors={colors} />
       <StarterKitsSection colors={colors} csks={csks} />
-      <PlutusSection colors={colors.pinkColors} ppbls={ppbls} />
+      <PlutusSection colors={colors.orangeColors} ppbls={ppbls} />
       <PlaygroundSection colors={colors.redColors} playgrounds={playgrounds} />
       <div className="spacing-x "></div>
     </div>

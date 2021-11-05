@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import React, { useState } from "react";
+import PlaygroundSvg from "../../lib/icons/PlaygroundSvg";
 const gdsEase12 = {
   duration: 0.7,
   ease: [0.6, 0.01, -0.05, 0.9],
@@ -17,13 +18,13 @@ export default function PlaygroundSection({ colors, playgrounds }) {
     >
       <div className="w-full flex flex-wrap lg:flex-no-wrap justify-between">
         {/* Blocks */}
-        <div className="flex flex-col text-black2-900 ">
+        <div className="flex flex-col text-white ">
           <Square
             className={"w-12 h-8 sm:h-12 lg:h-13 xl:h-14  sm:w-14"}
             color={colors[0]}
             number={playgrounds[0].number}
             title={playgrounds[0].title}
-          />
+          ></Square>
           <Square
             className={"w-12 h-8 sm:h-8  sm:w-14"}
             color={colors[1]}
@@ -57,7 +58,8 @@ export default function PlaygroundSection({ colors, playgrounds }) {
           </p>
         </div>
         {/* Title */}
-        <div className="order-2 sm:order-3 mb-auto my-auto ">
+        <div className="order-2 sm:order-3 mb-auto  ">
+          <PlaygroundSvg className="w-8 mb-7 " />
           <motion.h3
             animate={{ transition: { ...gdsEase12 }, y: hov ? -21 : 0 }}
             className="relative mt-5 z-10  w-full sm:max-w-12   text-6xl "
@@ -101,7 +103,7 @@ const Square = ({ color, number, title, className }) => {
                     opacity: localHov ? 1 : 0.2,
                     x: 32,
                   }}
-                  className="text-4xl font-heading "
+                  className="text-4xl font-heading text-red-100 "
                 >
                   {number}
                 </motion.div>

@@ -41,7 +41,7 @@ export default function SpecificUpdate({ videoData }) {
   return (
     <Layout footerBg="bg-black2-900">
       <PageTitleWithBorder title={`Weekly Update ${videoData.number}`} />
-      <div className="rounded-md overflow-hidden relative max-w-17 mx-auto mt-7 my-9">
+      <div className=" overflow-hidden relative max-w-17 mx-auto mt-7 my-9">
         <LiteYouTubeEmbed id={videoData.youtubeId} title={videoData.date} />
 
         <div className="">

@@ -13,7 +13,10 @@ const { default: PBLPage } = require("../pbl/PBLPage");
 const { default: GBDandelion } = require("./gridboxes/GBDandelion");
 const { default: GBPBL } = require("./gridboxes/GBPBL");
 const { default: HamburgerMenu } = require("./gridboxes/HamburgerMenu");
-const { default: Testimony } = require("./gridboxes/Testimony");
+const {
+  default: Testimony,
+  TestimonyRoberto,
+} = require("./gridboxes/Testimony");
 const {
   TitleGroupDark,
   default: TitleGroup,
@@ -188,8 +191,52 @@ const gimbalabs = [
     gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
     gridBoxComponent: BlankWhite,
     gridBoxProps: {
+      color: "bg-black2-900",
+    },
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+    gridBoxProps: {
       color: "bg-offWhite",
     },
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-2 `,
+    gridBoxComponent: BlankWhite,
+  },
+
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-1 `,
+    gridBoxComponent: BlankWhite,
   },
   {
     disable: true,
@@ -206,43 +253,23 @@ const gimbalabs = [
   },
   {
     disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
+    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-2 `,
     gridBoxComponent: BlankWhite,
-  },
-
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
-    gridBoxComponent: BlankWhite,
+    gridBoxProps: {
+      color: "bg-black2-900",
+    },
   },
   {
     disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
+    gridBoxStyle: ` col-span-1  md:col-span-3 row-span-3 `,
     gridBoxComponent: BlankWhite,
+    gridBoxProps: {
+      color: "bg-offWhite",
+    },
   },
   {
     disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
+    gridBoxStyle: ` col-span-1  md:col-span-3 row-span-3 `,
     gridBoxComponent: BlankWhite,
     gridBoxProps: {
       color: "bg-offWhite",
@@ -306,6 +333,7 @@ export const gridData = [
     fullPageComponent: TeamPage,
     fullPageProps: {},
   },
+
   {
     transitionColor: "gradient-yellow",
     gridBoxStyle: `col-span-full sm:col-span-7 row-span-3   `,
@@ -316,9 +344,17 @@ export const gridData = [
   },
 
   {
-    gridBoxStyle: ` col-span-full sm:col-span-8 row-span-4   `,
+    gridBoxStyle: ` col-span-full sm:col-span-8 row-span-5   `,
     gridBoxComponent: TitleGroupDark,
     gridBoxProps: {},
+  },
+  {
+    transitionColor: "bg-offWhite",
+    gridBoxStyle: `col-span-full  sm:col-span-5 row-span-2   `,
+    gridBoxComponent: TestimonyRoberto,
+    gridBoxProps: {},
+    fullPageComponent: TeamPage,
+    fullPageProps: {},
   },
 
   // letters and blank white squares

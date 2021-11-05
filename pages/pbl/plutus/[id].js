@@ -28,7 +28,7 @@ export default function SpecificPlutus({ plutusData }) {
   const { contentReact, videos, fullWidthImageAndText, recirc } = plutusData;
 
   const link = "/pbl/plutus";
-  const color = "PINK";
+  const color = "ORANGE";
 
   return (
     <Layout>

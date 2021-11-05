@@ -14,6 +14,7 @@ export default function SmallCard({
   subtitle,
   textColor,
   link,
+  Logo,
 }) {
   const [hov, setHov] = useState(false);
 
@@ -27,6 +28,14 @@ export default function SmallCard({
           className={`w-13    lg:w-full group relative flex items-stretch mb-9 `}
         >
           <div className={`mt-9 `}>
+            {Logo && (
+              <motion.div
+                animate={{ transition: { ...gdsEase12 }, x: hov ? 9 : 0 }}
+                className="z-50 w-9 h-9 absolute top-0 left-0 flex flex-col justify-center items-center"
+              >
+                <Logo />
+              </motion.div>
+            )}
             <motion.div
               animate={{ transition: { ...gdsEase12 }, x: hov ? -3 : 0 }}
               className={` w-9 h-9 ${colors[3]} `}
@@ -47,14 +56,17 @@ export default function SmallCard({
           <div className={`${textColor} h-full mx-5 flex flex-col `}>
             <div className="flex-1">
               <motion.div
-                animate={{ transition: gdsEase12, y: hov ? 48 : 0 }}
+                animate={{
+                  transition: { ...gdsEase12, delay: 0.03 },
+                  y: hov ? 48 : 0,
+                }}
                 className={`text-lg mb-1`}
               >
                 {subtitle}
               </motion.div>
               <motion.div
                 animate={{
-                  transition: { ...gdsEase12, delay: 0.03 },
+                  transition: { ...gdsEase12 },
                   y: hov ? 48 : 0,
                 }}
                 className={`text-4xl font-heading`}
