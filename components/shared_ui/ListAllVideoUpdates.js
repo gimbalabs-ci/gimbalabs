@@ -43,7 +43,7 @@ export default function ListAllVideoUpdates({ baseRoute = "/updates/", data }) {
               <div className=" shadow-md  overflow-hidden">
                 <Link href={`${baseRoute}${number}`}>
                   <a>
-                    <div className={`relative   max-h-14 pb-9    `}>
+                    <div className={`relative   max-h-14 sm:pb-5    `}>
                       <LiteYouTubeEmbed id={youtubeId} title={number} />
                       <div className="absolute inset-0 flex   items-end">
                         <div className="px-5 py-3 bg-black2-900  w-full flex items-center justify-between">

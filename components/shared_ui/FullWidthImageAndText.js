@@ -5,6 +5,7 @@ import { bgOptions } from "../../lib/colors/color";
 import PlaygroundSvg from "../../lib/icons/PlaygroundSvg";
 import CardanoLogo from "../../lib/icons/CardanoLogo";
 import { PlutusSvgBasic } from "../../lib/icons/PlutusSvg";
+import { DandelionSeed } from "../../lib/icons/svgs";
 
 export default function FullWidthImageAndText({
   src = "/keepbees.jpeg",
@@ -19,9 +20,10 @@ export default function FullWidthImageAndText({
     orientation === "right" ? "bg-gradient-to-l" : "bg-gradient-to-r";
 
   const logos = {
-    RED: () => <PlaygroundSvg className="w-8 text-red-100" />,
+    RED: () => <PlaygroundSvg className="w-8 text-black2-900" />,
     BLUE: () => <CardanoLogo className="w-8 text-blue-100" />,
     ORANGE: () => <PlutusSvgBasic className="w-8 text-black2-900" />,
+    GREEN: () => <DandelionSeed className="w-8 text-offWhite mt-8" />,
   };
   const Logo = logos[color];
   return (
@@ -43,11 +45,13 @@ export default function FullWidthImageAndText({
       <div className={`absolute inset-0 ${bgOptions[color][0]}`} />
       <div
         className={`${
-          color === "ORANGE" ? "text-black2-900" : "text-white"
+          color === "ORANGE" || color === "GREEN" || color === "RED"
+            ? "text-black2-900"
+            : "text-white"
         } spacing-x  absolute inset-0 z-10 flex flex-col justify-center ${textOrientation}`}
       >
         <div className={` max-w-16 mb-4 gg-subtitle`}>{subtitle}</div>
-        <div className={` gg-title  pt-9 pb-5`}>{title}</div>
+        <div className={` max-w-16 gg-title  pt-9 pb-5`}>{title}</div>
       </div>
     </div>
   );

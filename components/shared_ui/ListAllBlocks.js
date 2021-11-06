@@ -75,12 +75,19 @@ const orangeColors = [
   "border-orange-300",
   "border-orange-400",
 ];
+const greenColors = [
+  "border-green-500",
+  "border-green-800",
+  "border-green-900",
+  "border-green-400",
+];
 
 const borderOptions = {
   BLUE: blueColors,
   RED: redColors,
   PINK: pinkColors,
   ORANGE: orangeColors,
+  GREEN: greenColors,
 };
 const Block = ({ d, color, baseRoute }) => {
   const { id, number, title } = d;
@@ -109,7 +116,7 @@ const Block = ({ d, color, baseRoute }) => {
       <Link href={`${baseRoute}${id}`}>
         <a>
           <div
-            className={`border-4  ${state.myColor} ${state.myText}  shadow-md  sm:max-w-14 h-12 sm:h-13 flex justify-center p-5 items-center `}
+            className={`border-4  ${state.myColor} ${state.myText}  shadow-md  sm:max-w-14 h-12  flex justify-center p-5 items-center `}
           >
             <div className={` mr-auto mb-auto text-4xl font-heading `}>
               {number ? number : ""}

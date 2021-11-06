@@ -50,11 +50,9 @@ export function TestimonyRoberto(props) {
     <WithTransfer {...props}>
       <div className="p-6 flex flex-col">
         <div className={`text-4xl font-heading mb-2 text-black2-900 `}>
-          Open source technology,
+          Open source
         </div>
-        <div className={`gg-subtitle mb-2 text-black2-900 `}>
-          opens up vast opportunities.
-        </div>
+        <div className={`gg-subtitle mb-2 text-black2-900 `}>the world</div>
 
         <div className="mt-auto flex items-center">
           <div className="flex justify-start">

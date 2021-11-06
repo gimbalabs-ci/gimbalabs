@@ -1,4 +1,6 @@
+import Link from "next/link";
 import React from "react";
+import { ArrowRight } from "react-feather";
 import GetIcon from "../../lib/icons/getIcon";
 import HighlightSpan from "../shared_ui/HighlightSpan";
 import IconCard from "./IconCard";
@@ -50,7 +52,7 @@ export default function ValidateIdeas() {
               Validate Ideas{" "}
               <span className="block text-yellow-900">Instantly</span>
             </h3>
-            <div>
+            <div className="">
               <p className="text-2xl md:text-4xl title-line-height text-right max-w-15">
                 Deploy on{" "}
                 <HighlightSpan
@@ -61,13 +63,17 @@ export default function ValidateIdeas() {
                 />
                 to orchestrate a complete catalog of required Cardano services.{" "}
               </p>
-              <div className="w-full ml-auto my-5  flex justify-end">
-                <button className="gds-btn btn-yellow border border-yellow-900">
-                  Get Started
-                </button>
+              <div className="w-full ml-auto mt-9  flex justify-end">
+                <Link href="/dandelion/endpoints">
+                  <a>
+                    <button className="gds-btn flex items-center hover:bg-yellow-400 border border-yellow-900">
+                      Full list of endpoints
+                      <ArrowRight className="ml-3" />
+                    </button>
+                  </a>
+                </Link>
               </div>
             </div>
-            <div></div>
           </div>
         </div>
       </div>

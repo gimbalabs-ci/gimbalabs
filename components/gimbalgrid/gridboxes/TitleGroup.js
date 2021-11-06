@@ -37,7 +37,7 @@ export function TitleGroupDark(props) {
             creating tools and real-world use cases that ignite the public
             imagination and facilitate adoption.
           </h4>
-          <div className="relative z-10 p-7 mt-8  bg-pink-400  ">start now</div>
+          {/* <div className="relative z-10 p-7 mt-8  bg-pink-400  ">start now</div> */}
         </div>
         <div className="absolute inset-0 flex flex-col z-0 ">
           <div className="w-full h-11 "></div>

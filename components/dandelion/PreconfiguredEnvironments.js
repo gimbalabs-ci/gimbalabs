@@ -1,4 +1,6 @@
+import Link from "next/link";
 import React from "react";
+import { ArrowRight } from "react-feather";
 import GetIcon from "../../lib/icons/getIcon";
 import HighlightSpan from "../shared_ui/HighlightSpan";
 
@@ -43,9 +45,14 @@ export default function PreconfiguredEnvironments() {
                 Cut your set up time to minutes instead of hours
               </p>
               <div className="">
-                <button className="gds-btn  text-green-400 border border-green-400">
-                  Get Started
-                </button>
+                <Link href="/dandelion/endpoints">
+                  <a>
+                    <button className="gds-btn hover:bg-green-800 flex items-center  text-green-400 border border-green-400">
+                      Get Started
+                      <ArrowRight className="ml-3" />
+                    </button>
+                  </a>
+                </Link>
               </div>
             </div>
           </div>

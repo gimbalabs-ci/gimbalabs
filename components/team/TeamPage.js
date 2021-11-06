@@ -146,7 +146,7 @@ export default function TeamPage() {
         </div>
       </section>
       <section className="bg-black2-900 py-9 text-white">
-        <h2 className="spacing-x mb-5 lg:mb-0  text-4xl lg:text-6xl text-pink-100">
+        <h2 className="spacing-x mb-5 lg:mb-0  text-4xl lg:text-6xl text-offWhite">
           Principles
         </h2>
 

@@ -5,6 +5,7 @@ import ListAllBlocks from "../../../components/shared_ui/ListAllBlocks";
 import PageTitle from "../../../components/shared_ui/PageTitle";
 import PageTitleWithBorder from "../../../components/shared_ui/PageTitleWithBorder";
 import Layout from "../../../components/Layouts/Layout";
+import PlutusSvg from "../../../lib/icons/PlutusSvg";
 
 export async function getStaticProps() {
   const allProjectsData = getSortedProjectsData();
@@ -25,7 +26,9 @@ export default function index({ allProjectsData }) {
           borderColor="bg-offWhite"
           title={"Plutus Project Based Learning"}
           subtitle={"Learn by doing."}
-        />
+        >
+          <PlutusSvg className="w-7" />
+        </PageTitleWithBorder>
         <section className="spacing-x pb-9 ">
           <ListAllBlocks
             baseRoute={"/pbl/plutus/"}

@@ -55,7 +55,7 @@ export default function Hero() {
         </div>
       </div>
       {/* Dandelion Icons */}
-      <div className="z-20 w-full h-full relative">
+      <div className="z-20 w-full h-full relative bg-green-900">
         <SupportedServices />
       </div>
     </div>

@@ -5,6 +5,7 @@ import ListAllBlocks from "../../../components/shared_ui/ListAllBlocks";
 import PageTitle from "../../../components/shared_ui/PageTitle";
 import PageTitleWithBorder from "../../../components/shared_ui/PageTitleWithBorder";
 import Layout from "../../../components/Layouts/Layout";
+import PlaygroundSvg from "../../../lib/icons/PlaygroundSvg";
 
 export async function getStaticProps() {
   const allProjectsData = getSortedProjectsData();
@@ -23,7 +24,9 @@ export default function index({ allProjectsData }) {
         <PageTitleWithBorder
           title={"Playground"}
           subtitle={"Where ideas get tested."}
-        />
+        >
+          <PlaygroundSvg className="w-7 text-black2-900" />
+        </PageTitleWithBorder>
         <div className="spacing-x">
           <ListAllBlocks
             baseRoute={"/pbl/playground/"}

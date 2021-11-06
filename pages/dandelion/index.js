@@ -4,7 +4,7 @@ import Layout from "../../components/Layouts/Layout";
 
 export default function Dandelion() {
   return (
-    <Layout>
+    <Layout navbarBg="bg-green-900">
       <DandelionPage />
     </Layout>
   );

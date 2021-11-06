@@ -13,8 +13,15 @@ const data = [
   },
   {
     title: "APIs",
-    link: "/",
-    list: [{ title: "Dandelion", link: "/dandelion_r", color: "bg-green-400" }],
+    link: "/dandelion",
+    list: [
+      { title: "Dandelion", link: "/dandelion", color: "bg-green-400" },
+      {
+        title: "Endpoints",
+        link: "/dandelion/endpoints",
+        color: "bg-green-700",
+      },
+    ],
   },
   {
     title: "Updates",

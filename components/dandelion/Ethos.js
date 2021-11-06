@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React, { useState } from "react";
 import { Minus, Plus } from "react-feather";
 import GetIcon from "../../lib/icons/getIcon";
@@ -8,25 +9,29 @@ export default function Ethos() {
       {/* Layout */}
       <div className="relative grid py-5 sm:py-9 lg:py-0 lg:grid-cols-2 gap-5 lg:gap-9 spacing-x ">
         {/* Left Side */}
-        <div className="z-10 relative h-14 lg:max-w-14 shadow-lg rounded-md gradient-yellow flex flex-col justify-center items-center overflow-hidden">
-          <GetIcon
-            iconName="Tree2"
-            className="absolute  -bottom-8 sm:bottom-0 -left-8 lg:-left-9 xl:-left-8 text-green-900"
-          />
-          <div className="relative flex flex-col justify-center  text-green-900">
-            <div className="text-6xl font-heading title-line-height text-center">
-              <p className="text-yellow-700">Our ethos</p>
-              <p className="">is open</p>
+        <Link href="/team">
+          <a>
+            <div className="z-10 relative h-14 lg:max-w-14 shadow-lg rounded-md gradient-yellow flex flex-col justify-center items-center overflow-hidden">
+              <GetIcon
+                iconName="Tree2"
+                className="absolute  -bottom-8 sm:bottom-0 -left-8 lg:-left-9 xl:-left-8 text-green-900"
+              />
+              <div className="relative flex flex-col justify-center  text-green-900">
+                <div className="text-6xl font-heading title-line-height text-center">
+                  <p className="text-yellow-700">Our ethos</p>
+                  <p className="">is open</p>
+                </div>
+                <div
+                  role="button"
+                  className="bee-cursor-dark mt-8 p-5 text-2xl mx-auto  "
+                >
+                  {leftArrow}
+                  <span>Meet the team</span>
+                </div>
+              </div>
             </div>
-            <div
-              role="button"
-              className="bee-cursor-dark mt-8 p-5 text-2xl mx-auto  "
-            >
-              {leftArrow}
-              <span>Meet the team</span>
-            </div>
-          </div>
-        </div>
+          </a>
+        </Link>
 
         {/* Right Side */}
         <div className="z-10 relative w-full h-full ">

@@ -5,6 +5,7 @@ import ListAllBlocks from "../../../components/shared_ui/ListAllBlocks";
 import PageTitle from "../../../components/shared_ui/PageTitle";
 import PageTitleWithBorder from "../../../components/shared_ui/PageTitleWithBorder";
 import Layout from "../../../components/Layouts/Layout";
+import CardanoLogo from "../../../lib/icons/CardanoLogo";
 
 export async function getStaticProps() {
   const allCSKData = getSortedCsksData();
@@ -23,7 +24,9 @@ export default function index({ allCSKData }) {
         <PageTitleWithBorder
           title={"Cardano Starter Kits"}
           subtitle={"The fastest way to get started on cardano"}
-        />
+        >
+          <CardanoLogo className="w-7 text-black2-900" />
+        </PageTitleWithBorder>
         <div className="spacing-x ">
           <ListAllBlocks color="BLUE" data={allCSKData} />
         </div>

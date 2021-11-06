@@ -41,11 +41,11 @@ export default function ThreeColList() {
                   <p className="text-green-500">{i.title1}</p>
                   <p>{i.title2}</p>
                 </div>
-                <div>
+                {/* <div>
                   <button className="mt-5 gds-btn bg-green-900 text-offWhite">
                     {i.button}
                   </button>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="mt-7 lg:mt-0 lg:ml-auto text-xl w-full lg:max-w-13 text-green-800  ">
