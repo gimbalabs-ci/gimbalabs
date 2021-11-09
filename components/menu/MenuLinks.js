@@ -41,7 +41,7 @@ const data = [
 export default function MenuLinks() {
   return (
     <section>
-      <ul className="spacing-x  flex flex-wrap justify-start lg:justify-evenly">
+      <div className="spacing-x  flex flex-wrap justify-start lg:justify-evenly">
         {data.map((group, index) => {
           return (
             <div
@@ -57,7 +57,7 @@ export default function MenuLinks() {
               </Link>
 
               {/* List */}
-              <div className="mt-3">
+              <ul className="mt-3">
                 {group.list.map((i, index) => {
                   return (
                     <li
@@ -78,11 +78,11 @@ export default function MenuLinks() {
                     </li>
                   );
                 })}
-              </div>
+              </ul>
             </div>
           );
         })}
-      </ul>
+      </div>
     </section>
   );
 }

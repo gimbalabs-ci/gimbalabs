@@ -41,9 +41,9 @@ const Hamburger = ({ navbarBg }) => {
       role="button"
       className=" group rounded    h-full flex flex-col justify-center items-center"
     >
-      <div className={`h-1 ${color} group-hover:bg-orange-300 w-6 my-1 `}></div>
-      <div className={`h-1 ${color} group-hover:bg-orange-300 w-6 my-1 `}></div>
-      <div className={`h-1 ${color} group-hover:bg-orange-300 w-6 my-1 `}></div>
+      <div className={`h-1 ${color} group-hover:bg-green-400 w-6 my-1 `}></div>
+      <div className={`h-1 ${color} group-hover:bg-green-400 w-6 my-1 `}></div>
+      <div className={`h-1 ${color} group-hover:bg-green-400 w-6 my-1 `}></div>
     </div>
   );
 };

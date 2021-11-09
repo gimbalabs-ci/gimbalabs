@@ -23,13 +23,13 @@ export async function getStaticPaths() {
 }
 
 export default function SpecificDandelion({ data }) {
-  console.log(data);
+  const color = "GREEN";
   return (
     <Layout footerBg="bg-black2-900">
       <div>
         <FullWidthImageAndText color="GREEN" title={data.title} />
         <div className="max-w-16 mx-auto pb-9">
-          <StyledMarkdown children={data.contentReact} />
+          <StyledMarkdown color={color} children={data.contentReact} />
         </div>
       </div>
     </Layout>

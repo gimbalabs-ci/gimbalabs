@@ -288,7 +288,39 @@ ol > li::before {
   @apply border-b border-blue-600   text-lg;
 }
 .gds-markdown > ul > li {
-  background: url("/ulli.svg") no-repeat left center;
+  background: url("/ulli-green.svg") no-repeat left center;
+
+  list-style: none;
+  margin: 0;
+  vertical-align: middle;
+  @apply ml-3 pl-4 mt-2;
+}
+.md-orange > ul > li {
+  background: url("/ulli-orange.svg") no-repeat left center;
+
+  list-style: none;
+  margin: 0;
+  vertical-align: middle;
+  @apply ml-3 pl-4 mt-2;
+}
+.md-blue > ul > li {
+  background: url("/ulli-blue.svg") no-repeat left center;
+
+  list-style: none;
+  margin: 0;
+  vertical-align: middle;
+  @apply ml-3 pl-4 mt-2;
+}
+.md-green > ul > li {
+  background: url("/ulli-green.svg") no-repeat left center;
+
+  list-style: none;
+  margin: 0;
+  vertical-align: middle;
+  @apply ml-3 pl-4 mt-2;
+}
+.md-red > ul > li {
+  background: url("/ulli-red.svg") no-repeat left center;
 
   list-style: none;
   margin: 0;

@@ -43,7 +43,7 @@ export default function SpecificCSK({ cskData }) {
         <VideosGroup videos={videos} />
         {/* Layout */}
         <div className="spacing-x spacing-y">
-          <StyledMarkdown children={contentReact} />
+          <StyledMarkdown color={color} children={contentReact} />
         </div>
 
         <RecircList link={link} {...recirc} />

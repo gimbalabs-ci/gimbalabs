@@ -40,8 +40,8 @@ const GabesLogo1 = () => {
           height="12"
           transform="rotate(-90 24.1875 36.8652)"
           fill="#232828"
-          fill-opacity="0.5"
-          className={`fill-current transition easeIn delay-300 text-black2-900 group-hover:text-orange-500`}
+          fillOpacity="0.5"
+          className={`fill-current transition easeIn delay-300 text-black2-900 group-hover:textOrange-500`}
         />
         <rect
           x="12.1875"
@@ -60,7 +60,7 @@ const GabesLogo1 = () => {
           transform="rotate(-90 12.1875 24.8652)"
           fill="#232828"
           className={`fill-current transition easeIn  text-black2-900 group-hover:text-blue-600`}
-          fill-opacity="0.75"
+          fillOpacity="0.75"
         />
         <rect
           x="24.1875"
@@ -70,7 +70,7 @@ const GabesLogo1 = () => {
           transform="rotate(-90 24.1875 24.8652)"
           fill="#232828"
           className={`fill-current transition easeIn delay-100 text-black2-900 group-hover:text-red-600`}
-          fill-opacity="0.25"
+          fillOpacity="0.25"
         />
         <rect
           x="30.1875"
