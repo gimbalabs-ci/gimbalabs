@@ -14,10 +14,10 @@ export default function Testimony(props) {
     <WithTransfer {...props}>
       <div className="p-6 flex flex-col">
         <div className={`text-4xl font-heading mb-2 text-black2-900 `}>
-          Welcome to our community,
+          At Gimbalabs,
         </div>
         <div className={`gg-subtitle mb-2 text-black2-900 `}>
-          of developers, thinkers, builders.
+          we're building a community of developers, thinkers, and builders.
         </div>
 
         <div className="mt-auto flex items-center">
@@ -28,10 +28,10 @@ export default function Testimony(props) {
           </div>
           <div className="ml-5 flex flex-col w-full">
             <div className={`gg-subtitle  text-black2-900 flex `}>
-              {props.owner}
+              James Dunseith
             </div>
             <div className="w-full flex justify-between">
-              <div className="text-sm text-gray-400">Let's chat on discord</div>
+              <div className="text-sm text-gray-400">co-founder</div>
               <DiscordButton className="w-6 text-red-600" />
             </div>
           </div>
@@ -50,7 +50,7 @@ export function TestimonyRoberto(props) {
     <WithTransfer {...props}>
       <div className="p-6 flex flex-col">
         <div className={`text-4xl font-heading mb-2 text-black2-900 `}>
-          Open source
+          Let's open source
         </div>
         <div className={`gg-subtitle mb-2 text-black2-900 `}>the world</div>
 
@@ -61,9 +61,9 @@ export function TestimonyRoberto(props) {
             </div>
           </div>
           <div className="ml-5 flex flex-col w-full">
-            <div className={`gg-subtitle  text-black2-900 flex `}>Roberto</div>
+            <div className={`gg-subtitle  text-black2-900 flex `}>Roberto C. Morano</div>
             <div className="w-full flex justify-between">
-              <div className="text-sm text-gray-400">Hello </div>
+              <div className="text-sm text-gray-400">co-founder</div>
               <div className="w-6 text-2xl">✌️</div>
             </div>
           </div>

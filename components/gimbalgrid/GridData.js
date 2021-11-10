@@ -7,6 +7,7 @@ import GBCalendar from "./gridboxes/GBCalendar";
 import GBLogo from "./gridboxes/GBLogo";
 import GBWeeklyUpdates from "./gridboxes/GBWeeklyUpdates";
 import Letter from "./gridboxes/Letter";
+import OldG from "./gridboxes/OldG";
 
 const { default: DandelionPage } = require("../dandelion/DandelionPage");
 const { default: PBLPage } = require("../pbl/PBLPage");
@@ -138,6 +139,14 @@ const gimbalabs = [
     gridBoxProps: {
       l: "s",
     },
+  },
+  {
+    gridBoxStyle: `col-span-3 row-span-2 bg-black2-900`,
+    gridBoxComponent: OldG,
+    transitionColor: "bg-offWhite",
+    gridBoxProps: {},
+    fullPageComponent: MenuPage,
+    fullPageProps: {},
   },
   {
     disable: true,
@@ -283,6 +292,7 @@ export const gridData = [
     gridBoxStyle: `col-span-full sm:col-span-4 row-span-1    `,
     gridBoxComponent: GBLogo,
   },
+
   {
     disable: true,
     gridBoxStyle: `col-span-full sm:col-span-6 row-span-4    `,
@@ -315,12 +325,12 @@ export const gridData = [
   {
     gridBoxComponent: GBPBL,
     gridBoxProps: {},
-    gridBoxStyle: `col-span-full sm:col-span-6  row-span-2`,
+    gridBoxStyle: `col-span-full sm:col-span-6 row-span-2`,
     transitionColor: "bg-offWhite",
     fullPageComponent: PBLPage,
     fullPageProps: {
       text:
-        "Hi, here is an opportunity to expand upon this testimonial and show some examples of projects or something.",
+      "Hi, here is an opportunity to expand upon this testimonial and show some examples of projects or something.",
     },
   },
   {
@@ -333,7 +343,7 @@ export const gridData = [
     fullPageComponent: TeamPage,
     fullPageProps: {},
   },
-
+  
   {
     transitionColor: "gradient-yellow",
     gridBoxStyle: `col-span-full sm:col-span-7 row-span-3   `,
@@ -342,7 +352,7 @@ export const gridData = [
     fullPageComponent: DandelionPage,
     fullPageProps: {},
   },
-
+  
   {
     gridBoxStyle: ` col-span-full sm:col-span-8 row-span-5   `,
     gridBoxComponent: TitleGroupDark,

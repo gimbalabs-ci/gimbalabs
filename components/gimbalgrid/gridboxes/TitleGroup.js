@@ -12,9 +12,7 @@ export default function TitleGroup(props) {
           People Learning <span className="text-black2-800">Together</span>
         </h1>
         <h2 className={`gg-subtitle text-black2-800`}>
-          Our mission is to mobilize everyone in the Cardano community by
-          creating tools and real-world use cases that ignite the public
-          imagination and facilitate adoption.
+        We envision a world where as many people as possible are empowered to solve problems using the Cardano protocol.
         </h2>
       </div>
     </WithTransfer>
@@ -33,9 +31,7 @@ export function TitleGroupDark(props) {
             Projects
           </h3>
           <h4 className={` px-6 gg-subtitle `}>
-            Our mission is to mobilize everyone in the Cardano community by
-            creating tools and real-world use cases that ignite the public
-            imagination and facilitate adoption.
+          Our mission is to mobilize everyone to develop tools and applications through a unique experience of co-creation that facilitates adoption of the Cardano protocol, reveals new possibilities, and ignites the public imagination worldwide.
           </h4>
           {/* <div className="relative z-10 p-7 mt-8  bg-pink-400  ">start now</div> */}
         </div>
