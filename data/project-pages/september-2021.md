@@ -9,7 +9,7 @@ budget: 100
 
 # September
 
-Results of our first month of work.
+Results of our first month of work. Video etc
 
 ## What to include:
 1. Video of recent meeting
