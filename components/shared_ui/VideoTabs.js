@@ -45,7 +45,7 @@ export default function VideosGroup({ videos }) {
                 }`}
                 onClick={() => setFocusVideo(video)}
               >
-                {video.videoTitle}
+                <span className="text-blue-400 text-sm">{video.videoPart}</span> {video.videoTitle}
               </div>
             );
           })}
