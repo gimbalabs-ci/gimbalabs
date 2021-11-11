@@ -59,12 +59,12 @@ export default function ListAllVideoUpdates({ baseRoute = "/updates/", data }) {
                           <div className="flex items-start ">
                             <div className="flex items-start text-white text-lg text-right mr-3 ">
                               <span className=" text-yellow-400 ">
-                                {date.split("-")[1]}
+                                {date.split("-")[0]}
                               </span>
-                              -{date.split("-")[2]}
+                              -{date.split("-")[1]}
                             </div>
                             <div className=" text-sm text-gray-300  text-right  ">
-                              {date.split("-")[0]}
+                              {date.split("-")[2]}
                             </div>
                           </div>
                         </div>
