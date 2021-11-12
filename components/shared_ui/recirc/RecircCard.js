@@ -44,6 +44,7 @@ export default function RecircCard({ id }) {
   const date = data?.props?.date || null;
   const bgColor = data?.props?.recirc?.color || "bg-black";
   const path = data?.props?.path || "/pbl";
+  const about = data?.props?.about || null;
 
   //   Change animate variant when group is hovered
   const animate = {
@@ -75,7 +76,7 @@ export default function RecircCard({ id }) {
                     {date}
                   </motion.li>
                   <motion.li variants={orientation.ani} className={``}>
-                    {id}
+                    {about}
                   </motion.li>
                 </motion.ul>
               </div>

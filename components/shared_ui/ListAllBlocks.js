@@ -90,7 +90,7 @@ const borderOptions = {
   GREEN: greenColors,
 };
 const Block = ({ d, color, baseRoute }) => {
-  const { id, number, title } = d;
+  const { id, number, title, about } = d;
   const [state, setState] = useState({
     myText: "",
     myColor: "",

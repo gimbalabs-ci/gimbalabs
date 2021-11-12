@@ -10,7 +10,7 @@ export default function RecircList({ link, list }) {
       <div className="relative z-10 spacing-y spacing-x ">
         <div className="flex justify-start pb-5 ">
           <div className="title-line-height font-heading text-4xl sm:text-5xl">
-            Continued learning
+            Keep Learning
           </div>
           <div className="max-w-13 ml-5">
             <Link href={link}>
