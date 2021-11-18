@@ -44,12 +44,10 @@ export default function PlutusSection({ colors, ppbls }) {
         {/* Paragraphs */}
         <div className="order-3 sm:order-2  w-full sm:max-w-12 mx-5 my-5">
           <p className=" mb-5">
-            This can describe the this section in some detail and you could take
-            up a medium amount of space.
+            We're learning Plutus by collaborating on a list of tasks each month.
           </p>
           <p className=" ">
-            This can describe the this section in some detail and you could take
-            up a medium amount of space.
+            Along the way, we're elucidating the principles of project based learning, so that we can apply to Atala Prism, Dandelion, DAO-building and beyond.
           </p>
         </div>
         {/* Blocks */}

@@ -27,16 +27,16 @@ const csks = [
     title: "",
   },
   {
-    number: "006",
-    title: "Transaction Metadata",
-  },
-  {
-    number: "013",
-    title: "A starter kit",
-  },
-  {
     number: "007",
-    title: "Another one",
+    title: "Building Transactions the Hard Way",
+  },
+  {
+    number: "008",
+    title: "Minting, Metadata, and Unsigs",
+  },
+  {
+    number: "009",
+    title: "The Lobster Challenge",
   },
 ];
 const ppbls = [
@@ -45,16 +45,16 @@ const ppbls = [
     title: "",
   },
   {
-    number: "006",
-    title: "Transaction Metadata",
+    number: "2021-11",
+    title: "November",
   },
   {
-    number: "013",
-    title: "A starter kit",
+    number: "2021-10",
+    title: "October",
   },
   {
-    number: "007",
-    title: "Another one",
+    number: "2021-09",
+    title: "September",
   },
 ];
 const playgrounds = [

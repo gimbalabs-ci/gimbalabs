@@ -31,14 +31,12 @@ export default function StarterKitsSection({ csks, colors }) {
                 </motion.h3>
                 <div className="max-w-12 ml-5 lg:ml-9 ">
                   <p>
-                    This can describe the starter kit in some detail and you
-                    could take up a medium amount of space.
+                    Starter kits are our invitation to you to start tinkering.
                   </p>
                 </div>
                 <div className="max-w-12 mt-5 lg:hidden ml-9 lg:ml-9 ">
                   <p>
-                    This can describe the starter kit in some detail and you
-                    could take up a medium amount of space.
+                    Hello
                   </p>
                 </div>
                 <div className="w-full flex justify-end">

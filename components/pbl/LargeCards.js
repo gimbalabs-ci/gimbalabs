@@ -47,10 +47,9 @@ export default function LargeCards({ colors, list }) {
             </div>
           </div>
         </div>
-        <div className="hidden lg:block relative z-10 ml-auto  p-7 max-w-12  ">
+        <div className="hidden lg:block relative z-10 ml-auto p-7 w-1/3 ">
           <p>
-            This this can describe the starter kit in some detail and you could
-            take up a medium amount of space.
+            What you learn is up to you. When you're ready to get started, jump in. Then, join us to talk about what you've learned.
           </p>
         </div>
       </div>

@@ -53,8 +53,7 @@ export default function PlaygroundSection({ colors, playgrounds }) {
             Where ideas get tested
           </p>
           <p className=" mt-5">
-            This can describe the this section in some detail and you could take
-            up a medium amount of space.
+            Playground meets every Tuesday at 5pm UTC. It's also what we call our learning sandbox.
           </p>
         </div>
         {/* Title */}
