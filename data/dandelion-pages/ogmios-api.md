@@ -1,8 +1,32 @@
 ---
-title: 'ogmios-api'
-date: '05-02-2021'
+number: "Ogmios API"
+title: "ogmios-api"
+date: "2021-04-07"
 version: 1
----    
+videoId: ""
+videoTitle: ""
+path: "/dandelion/endpoints/ogmios-api"
+videos:
+  [
+  ]
+fullWidthImageAndText:
+  {
+    src: "/keepbees.jpeg",
+    title: "Ogmios API",
+    subtitle: "Dandelion Endpoint",
+    orientation: "right",
+  }
+objectives:
+  {
+    title: "What can I do with Ogmios?",
+    list:
+      [
+        "You can use this JSON-WSP (websocket) API to gather live blockchain info directly from a cardano-node instance",
+      ],
+  }
+recirc:
+  { image: "/learn.jpeg", color: "bg-blue-600", list: ["2021-09", "2021-10"] }
+---     
 
 # ogmios-api
 ## headerTitle: "KtorZ's cardano-node ogmios-api

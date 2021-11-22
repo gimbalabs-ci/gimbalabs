@@ -1,8 +1,33 @@
 ---
-title: 'cardano-node-socket'
-date: '05-02-2021'
+number: "Cardano Node Socket"
+title: "cardano-node-socket"
+date: "2021-04-07"
 version: 1
----      
+videoId: ""
+videoTitle: ""
+path: "/dandelion/endpoints/cardano-node-socket"
+videos:
+  [
+  ]
+fullWidthImageAndText:
+  {
+    src: "/keepbees.jpeg",
+    title: "Submit API",
+    subtitle: "Dandelion Endpoint",
+    orientation: "right",
+  }
+objectives:
+  {
+    title: "What can I do with Submit API?",
+    list:
+      [
+        "Send signed transactions to the blockchain",
+        "This API is deprecated",
+      ],
+  }
+recirc:
+  { image: "/learn.jpeg", color: "bg-blue-600", list: ["2021-09", "2021-10"] }
+---  
 
 # cardano-node-socket
 ## [coming-soon] cardano-node-socket-over-https

@@ -1,15 +1,37 @@
 ---
-title: 'postgrest-api'
-date: '05-02-2021'
-version: 1
----    
+number: "PostgREST API"
+title: "postgrest-api"
+date: "2021-09-30"
+version: "11.0.4"
+videoId: ""
+videoTitle: ""
+path: "/dandelion/endpoints/postgrest-api"
+videos:
+  [
+  ]
+fullWidthImageAndText:
+  {
+    src: "/keepbees.jpeg",
+    title: "Submit API",
+    subtitle: "Dandelion Endpoint",
+    orientation: "right",
+  }
+objectives:
+  {
+    title: "About",
+    list:
+      [
+        "You can use this REST API to perform SQL queries to gather info from the blockchain.",
+      ],
+  }
+recirc:
+  { image: "/learn.jpeg", color: "bg-blue-600", list: ["2021-09", "2021-10"] }
+---  
 
 # postgrest-api
 ## cardano-db-sync/postgrest-api
 
-You can use this REST API to perform SQL queries to gather info from the blockchain.
-
-Cardano DB Sync is to follow the Cardano chain and take information from the chain and an internally maintained copy of ledger state. Data is then extracted from the chain and inserted into a PostgreSQL database that can be accessed through a read-only REST API exposed by an instance of the postgREST project.
+Cardano DB Sync is used to follow the Cardano chain and take information from the chain in an internally maintained copy of ledger state. Data is then extracted from the chain and inserted into a PostgreSQL database that can be accessed through a read-only REST API exposed by an instance of the postgREST project.
 
 ![](/showcase-postgrest-api.png)
 

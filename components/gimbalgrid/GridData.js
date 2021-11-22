@@ -141,14 +141,6 @@ const gimbalabs = [
     },
   },
   {
-    gridBoxStyle: `col-span-3 row-span-2 bg-black2-900`,
-    gridBoxComponent: OldG,
-    transitionColor: "bg-offWhite",
-    gridBoxProps: {},
-    fullPageComponent: MenuPage,
-    fullPageProps: {},
-  },
-  {
     disable: true,
     gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
     gridBoxComponent: BlankWhite,
@@ -170,6 +162,14 @@ const gimbalabs = [
     gridBoxProps: {
       color: "bg-offWhite",
     },
+  },
+  {
+    gridBoxStyle: `col-span-3 row-span-2`,
+    gridBoxComponent: OldG,
+    transitionColor: "bg-green-600",
+    gridBoxProps: {},
+    fullPageComponent: MenuPage,
+    fullPageProps: {},
   },
   {
     disable: true,
@@ -343,7 +343,6 @@ export const gridData = [
     fullPageComponent: TeamPage,
     fullPageProps: {},
   },
-  
   {
     transitionColor: "gradient-yellow",
     gridBoxStyle: `col-span-full sm:col-span-7 row-span-3   `,

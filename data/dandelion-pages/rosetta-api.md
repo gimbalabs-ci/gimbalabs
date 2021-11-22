@@ -1,14 +1,36 @@
 ---
-title: 'rosetta-api'
-date: '05-02-2021'
+number: "Rosetta API"
+title: "rosetta-api"
+date: "2021-10-07"
 version: 1
----        
+videoId: ""
+videoTitle: ""
+path: "/dandelion/endpoints/rosetta-api"
+videos:
+  [
+  ]
+fullWidthImageAndText:
+  {
+    src: "/keepbees.jpeg",
+    title: "Submit API",
+    subtitle: "Dandelion Endpoint",
+    orientation: "right",
+  }
+objectives:
+  {
+    title: "What can I do with Rosetta?",
+    list:
+      [
+        "Rosetta is an open-source specification and set of tools that makes integrating with blockchains simpler, faster, and more reliable.",
+      ],
+  }
+recirc:
+  { image: "/learn.jpeg", color: "bg-blue-600", list: ["2021-09", "2021-10"] }
+---   
 
 
 # rosetta-api
 ## rosetta-api
-
-Rosetta is an open-source specification and set of tools that makes integrating with blockchains simpler, faster, and more reliable.
 
 ![](/showcase-rosetta-api.png)
 

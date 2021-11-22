@@ -1,15 +1,36 @@
 ---
-title: 'submit-api'
-date: '05-02-2021'
-version: 1 
----    
+number: "Submit API"
+title: "submit-api"
+date: "2021-04-07"
+version: 1
+videoId: ""
+videoTitle: ""
+path: "/dandelion/endpoints/submit-api"
+videos:
+  [
+  ]
+fullWidthImageAndText:
+  {
+    src: "/keepbees.jpeg",
+    title: "Submit API",
+    subtitle: "Dandelion Endpoint",
+    orientation: "right",
+  }
+objectives:
+  {
+    title: "What can I do with Submit API?",
+    list:
+      [
+        "Send signed transactions to the blockchain",
+        "This API is deprecated",
+      ],
+  }
+recirc:
+  { image: "/learn.jpeg", color: "bg-blue-600", list: ["2021-09", "2021-10"] }
+---  
 
 # submit-api
 ## cardano-rest/submit-api
-
-You can use this REST API to send signed-transactions to the blockchain
-
-This is the currently officially supported API to submit signed Cardano transactions to the blockchain.
 
 ![](/showcase-submit-api.png)
 - [View on IOHK GitHub](https://github.com/input-output-hk/cardano-rest#overview)

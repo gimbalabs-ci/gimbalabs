@@ -1,8 +1,32 @@
 ---
-title: 'graphql-api'
-date: '05-02-2021'
+number: "GraphQL API"
+title: "graphql-api"
+date: "2021-04-07"
 version: 1
----    
+videoId: ""
+videoTitle: ""
+path: "/dandelion/endpoints/graphql-api"
+videos:
+  [
+  ]
+fullWidthImageAndText:
+  {
+    src: "/keepbees.jpeg",
+    title: "GraphQL API",
+    subtitle: "Dandelion Endpoint",
+    orientation: "right",
+  }
+objectives:
+  {
+    title: "What can I do with GraphQL?",
+    list:
+      [
+        "You can use this GraphQL API to gather composed info from the blockchain",
+      ],
+  }
+recirc:
+  { image: "/learn.jpeg", color: "bg-blue-600", list: ["2021-09", "2021-10"] }
+---  
 
 # graphql-api
 ## hasura/graphql-api

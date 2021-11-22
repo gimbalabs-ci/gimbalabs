@@ -1,11 +1,34 @@
 ---
-title: 'explorer-api'
-date: '05-02-2021'
+number: "Explorer API"
+title: "explorer-api"
+date: "2021-04-07"
 version: 1
----
+videoId: ""
+videoTitle: ""
+path: "/dandelion/endpoints/explorer-api"
+videos:
+  [
+  ]
+fullWidthImageAndText:
+  {
+    src: "/keepbees.jpeg",
+    title: "Submit API",
+    subtitle: "Dandelion Endpoint",
+    orientation: "right",
+  }
+objectives:
+  {
+    title: "What can I do with Explorer API?",
+    list:
+      [
+        "You can use this REST API to gather basic info from the blockchain",
+      ],
+  }
+recirc:
+  { image: "/learn.jpeg", color: "bg-blue-600", list: ["2021-09", "2021-10"] }
+---  
 
 # cardano-rest/explorer-api
-## You can use this REST API to gather basic info from the blockchain
 
 This is the currently officially supported API to explore Cardano transactions. In future it may be augmented or replaced by cardano-graphql, but cardano-explorer-api will be supported for some time, even once alternatives become available.
 
