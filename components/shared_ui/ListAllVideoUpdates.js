@@ -69,9 +69,9 @@ export default function ListAllVideoUpdates({ baseRoute = "/updates/", data }) {
             <div className={`flex  items-start`}>
               <div className="flex-1 text-black w-full flex flex-col items-start justify-between">
                 <div
-                  className={` text-gray-400 flex items-start  text-4xl font-heading `}
+                  className={` text-gray-600 flex items-start  text-4xl font-heading `}
                 >
-                  <span className="opacity-100 text-base  -mt-2 mr-1"># </span>
+                  {/* <span className="opacity-100 text-base  -mt-2 mr-1"># </span> */}
                   {number}
                 </div>
 
