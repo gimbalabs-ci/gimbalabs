@@ -6,7 +6,7 @@ export default function Objectives({ color, objectives }) {
   return (
     <div className="max-w-18 mx-auto mt-6 spacing-x  flex flex-col items-start justify-between">
       <div className={``}>
-        <div className="text-2xl mb-3 font-heading">{title}</div>
+        <div className="text-2xl md:text-4xl mb-3 font-heading">{title}</div>
       </div>
       <List color={color} list={list} />
     </div>
@@ -27,7 +27,9 @@ const List = ({ list, color }) => {
           <div className={`${c} mr-2 w-5 h-5 flex items-center justify-center`}>
             {index + 1}
           </div>
-          <div className="flex-1">{li}</div>
+          <div className="text-gray-800 flex-1 gds-body-medium -mt-1 mb-2">
+            {li}
+          </div>
         </div>
       ))}
     </div>

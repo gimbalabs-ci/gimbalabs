@@ -102,6 +102,7 @@ const Square = ({ color, number, title, className }) => {
             <div className="hidden md:flex flex flex-col justify-end p-3 overflow-hidden">
               <div className="flex  justify-between items-center">
                 <motion.div
+                  key={`${title}--sq_${number}`}
                   animate={{
                     transition: { ...gdsEase12 },
                     y: localHov ? 0 : 24,
@@ -114,6 +115,7 @@ const Square = ({ color, number, title, className }) => {
                 </motion.div>
                 <div className="">
                   <motion.div
+                    key={`${title}--sq-2_${number}`}
                     animate={{
                       transition: { ...gdsEase12 },
                       opacity: localHov ? 1 : 0,

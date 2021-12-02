@@ -50,7 +50,7 @@ export default function FullWidthImageAndText({
           className={`flex-1 h-full ${bgOptions[color][0]} flex justify-end items-center`}
         >
           {subtitle && (
-            <div className={`spacing-r gg-subtitle ${textColor}`}>
+            <div className={`spacing-x gg-subtitle ${textColor}`}>
               {" "}
               {subtitle}
             </div>
@@ -62,7 +62,7 @@ export default function FullWidthImageAndText({
       {/* <div className={`absolute inset-0 ${bgOptions[color][0]}`} /> */}
       {title && (
         <div
-          className={`max-w-18 mx-auto pt-6 spacing-x  relative z-10 flex flex-col justify-end ${textOrientation}`}
+          className={`max-w-18 mx-auto pt-6 lg:pt-7 spacing-x  relative z-10 flex flex-col justify-end ${textOrientation}`}
         >
           <div
             className={`text-black2-900 max-w-16 text-6xl font-heading font-bold gg-title-small  `}

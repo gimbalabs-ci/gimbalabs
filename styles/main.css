@@ -236,7 +236,22 @@ h5 {
   line-height: 34px;
   @apply mt-6 text-2xl font-heading;
 }
+.gds-body-medium {
+  letter-spacing: 0.05em;
+  line-height: 34px;
+  @apply text-lg md:text-2xl;
+}
 .gds-markdown > h3 {
+  letter-spacing: 0.05em;
+  line-height: 34px;
+  @apply mt-6 text-xl font-heading;
+}
+.gds-markdown > h4 {
+  letter-spacing: 0.05em;
+  line-height: 34px;
+  @apply mt-6 text-xl font-heading;
+}
+.gds-markdown > h5 {
   letter-spacing: 0.05em;
   line-height: 34px;
   @apply mt-6 text-xl font-heading;
