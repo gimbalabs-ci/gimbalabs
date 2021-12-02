@@ -40,7 +40,7 @@ export default function SpecificCSK({ cskData }) {
           {...fullWidthImageAndText}
         />
 
-        <VideosGroup videos={videos} />
+        <VideosGroup color={color} videos={videos} />
         {/* Layout */}
         <div className="spacing-x spacing-b">
           <StyledMarkdown color={color} children={contentReact} />

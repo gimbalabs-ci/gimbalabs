@@ -34,9 +34,6 @@ export default function GBPBL(props) {
             <motion.h2 animate={title} className="text-4xl text-blue-100 ">
               Start your journey
             </motion.h2>
-            <div className="relative z-10 mt-auto text-blue-200 text-lg">
-              Cardano Starter Kits, Plutus PBL and Gimbalabs Playground
-            </div>
           </div>
           <div>
             {!expanded && (
@@ -46,6 +43,9 @@ export default function GBPBL(props) {
                 \
               </>
             )}
+          </div>
+          <div className="relative z-10 mt-auto text-blue-200 text-lg">
+            Cardano Starter Kits, Plutus PBL and Gimbalabs Playground
           </div>
         </div>
       </div>

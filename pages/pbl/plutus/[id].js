@@ -47,7 +47,7 @@ export default function SpecificPlutus({ plutusData }) {
           {...fullWidthImageAndText}
         />
         <Objectives color={color} objectives={objectives} />
-        <VideosGroup videos={videos} />
+        <VideosGroup color={color} videos={videos} />
         {/* Layout */}
         <div className="spacing-x spacing-b">
           <StyledMarkdown color={color} children={contentReact} />

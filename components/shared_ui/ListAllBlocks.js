@@ -51,35 +51,20 @@ export default function ListAllBlocks({
   );
 }
 
-const blueColors = [
-  "border-blue-600",
-  "border-blue-700",
-  "border-blue-800",
-  "border-blue-900",
-];
-const redColors = [
-  "border-red-600",
-  "border-red-700",
-  "border-red-800",
-  "border-red-900",
-];
-const pinkColors = [
-  "border-pink-100",
-  "border-pink-200",
-  "border-pink-300",
-  "border-pink-400",
-];
+const blueColors = ["bg-blue-600", "bg-blue-700", "bg-blue-800", "bg-blue-900"];
+const redColors = ["bg-red-600", "bg-red-700", "bg-red-800", "bg-red-900"];
+const pinkColors = ["bg-pink-100", "bg-pink-200", "bg-pink-300", "bg-pink-400"];
 const orangeColors = [
-  "border-orange-100",
-  "border-orange-200",
-  "border-orange-300",
-  "border-orange-400",
+  "bg-orange-100",
+  "bg-orange-200",
+  "bg-orange-300",
+  "bg-orange-400",
 ];
 const greenColors = [
-  "border-green-500",
-  "border-green-800",
-  "border-green-900",
-  "border-green-400",
+  "bg-green-500",
+  "bg-green-800",
+  "bg-green-900",
+  "bg-green-400",
 ];
 
 const borderOptions = {
@@ -97,7 +82,7 @@ const Block = ({ d, color, baseRoute }) => {
   });
 
   useEffect(() => {
-    const myText = textColors[color][900];
+    const myText = textColors[color][100];
     const colors = borderOptions[color];
     const random = Math.floor(Math.random() * (4 - 0) + 0);
     const myColor = colors[random];
@@ -116,7 +101,7 @@ const Block = ({ d, color, baseRoute }) => {
       <Link href={`${baseRoute}${id}`}>
         <a>
           <div
-            className={`border-4  ${state.myColor} ${state.myText}  shadow-md  sm:max-w-14 h-12  flex flex-wrap justify-center p-5 items-center `}
+            className={`  ${state.myColor} ${state.myText}  shadow-md  sm:max-w-14 h-12  flex flex-wrap justify-center p-5 items-center `}
           >
             <div className={` mr-auto mb-auto text-4xl font-heading `}>
               {number ? number : ""}

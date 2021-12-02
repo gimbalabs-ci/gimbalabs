@@ -14,7 +14,7 @@ export default function Footer({ footerBg = "bg-offWhite" }) {
       <div className="spacing-y  flex justify-center">
         <Link href="/gimbalgrid">
           <a>
-            <LogoWithText className="w-12" />
+            <LogoWithText className="" />
           </a>
         </Link>
       </div>

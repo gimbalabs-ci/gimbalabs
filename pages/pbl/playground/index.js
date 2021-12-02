@@ -27,7 +27,7 @@ export default function index({ allProjectsData }) {
         >
           <PlaygroundSvg className="w-7 text-black2-900" />
         </PageTitleWithBorder>
-        <div className="spacing-x">
+        <div className="spacing-x py-6 md:py-9">
           <ListAllBlocks
             baseRoute={"/pbl/playground/"}
             color="RED"

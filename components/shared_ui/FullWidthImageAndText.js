@@ -37,7 +37,7 @@ export default function FullWidthImageAndText({
   return (
     <div className="relative w-full ">
       <div
-        className={`relative z-10 h-9 w-full flex justify-start items-stretch`}
+        className={`relative z-10 h-9 lg:h-10 w-full flex justify-start items-stretch`}
       >
         <div className={` ${bgOptions[color][3]}`}>
           <div className="px-6 w-full h-full flex flex-col justify-center">

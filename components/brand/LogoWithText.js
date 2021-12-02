@@ -3,7 +3,7 @@ import Logo from "./Logo";
 
 export default function LogoWithText({ className = "text-black2-900" }) {
   return (
-    <div className={`flex items-center ${className}`}>
+    <div className={` flex items-center ${className}`}>
       <Logo />
       <svg
         className="ml-3 fill-current"

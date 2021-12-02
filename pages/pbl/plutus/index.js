@@ -29,7 +29,7 @@ export default function index({ allProjectsData }) {
         >
           <PlutusSvg className="w-7" />
         </PageTitleWithBorder>
-        <section className="spacing-x pb-9 ">
+        <section className="spacing-x py-6 md:py-9 ">
           <ListAllBlocks
             baseRoute={"/pbl/plutus/"}
             color="ORANGE"

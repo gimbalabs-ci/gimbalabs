@@ -26,7 +26,7 @@ export default function index({ allCSKData }) {
           <CardanoLogo className="w-7 text-black2-900" />
         </PageTitleWithBorder>
 
-        <div className="spacing-x ">
+        <div className="spacing-x py-6 md:py-9">
           <ListAllBlocks color="BLUE" data={allCSKData} />
         </div>
       </div>

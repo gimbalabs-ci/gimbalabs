@@ -26,7 +26,7 @@ export default function Endpoints({ data }) {
         >
           <DandelionSeed className="w-7 text-green-900" />
         </PageTitleWithBorder>
-        <div className="spacing-x ">
+        <div className="spacing-x py-6 md:py-9">
           <ListAllBlocks
             baseRoute={"/dandelion/endpoints/"}
             color="GREEN"
