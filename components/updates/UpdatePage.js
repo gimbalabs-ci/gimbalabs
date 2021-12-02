@@ -11,7 +11,7 @@ export default function UpdatePage() {
       <PageTitleWithBorder title="Weekly Updates" />
       <MostRecentVideo data={firstVideo} />
 
-      <div className="spacing-x pb-9">
+      <div className=" spacing-x  py-6">
         <ListAllVideoUpdates data={videoupdates.weekly} />
       </div>
     </div>
@@ -19,24 +19,32 @@ export default function UpdatePage() {
 }
 
 const MostRecentVideo = ({ data }) => {
+  const _date = new Date(data.date);
+  let shortMonth = _date.toLocaleString("en-us", {
+    month: "short",
+  });
   return (
     <div className=" bg-black2-900">
-      <div className="py-9 spacing-x  border-8 border-black2-900 overflow-hidden relative max-w-17 mx-auto mt-7 my-9">
-        <div className="">
-          <div className="px-5 py-3 bg-black2-900 text-offWhite w-full flex items-center justify-between">
-            <div className={`  text-4xl font-heading `}># {data.number}</div>
-            <div className=" text-2xl  text-right  ">{data.date}</div>
+      <div className="flex flex-wrap justify-between max-w-18 py-6  spacing-x   overflow-hidden relative  mx-auto ">
+        <div className={`mr-6  w-15`}>
+          <LiteYouTubeEmbed id={data.youtubeId} title={data.date} />
+        </div>
+        <div className="mt-5 flex-1  text-offWhite flex flex-col items-start justify-cetner">
+          <div className={`  text-4xl font-heading `}># {data.number}</div>
+          <div className="flex items-center ">
+            <div className=" text-sm text-gray-300  text-right  ">
+              {shortMonth}
+            </div>
+          </div>
+          <div className="text-white  ">
+            {data.tags.map((i, index) => (
+              <div className="mr-1" key={i + data.number + "__videotag"}>
+                {i}
+                {index < data.tags.length - 1 && ","}
+              </div>
+            ))}
           </div>
         </div>
-        <ul className="text-black  text-right flex items-center  ">
-          {data.tags.map((i, index) => (
-            <li className="mr-1" key={i + data.number + "__videotag"}>
-              {i}
-              {index < data.tags.length - 1 && ","}
-            </li>
-          ))}
-        </ul>
-        <LiteYouTubeEmbed id={data.youtubeId} title={data.date} />
       </div>
     </div>
   );
