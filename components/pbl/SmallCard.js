@@ -25,51 +25,47 @@ export default function SmallCard({
           role="button"
           onMouseOver={() => setHov(true)}
           onMouseLeave={() => setHov(false)}
-          className={`w-13    lg:w-full group relative flex items-stretch mb-9 `}
+          className={` group relative flex lg:justify-center  `}
         >
-          <div className={`mt-9 `}>
-            {Logo && (
-              <motion.div
-                animate={{ transition: { ...gdsEase12 }, x: hov ? 9 : 0 }}
-                className="z-50 w-9 h-9 absolute top-0 left-0 flex flex-col justify-center items-center"
-              >
-                <Logo />
-              </motion.div>
-            )}
+          <div className={` relative  `}>
             <motion.div
               animate={{ transition: { ...gdsEase12 }, x: hov ? -3 : 0 }}
-              className={` w-9 h-9 ${colors[3]} `}
-            ></motion.div>
+              className={`relative z-50 flex flex-col justify-center items-center w-9 h-9 ${colors[0]} `}
+            >
+              {Logo && <Logo />}
+            </motion.div>
             <motion.div
               animate={{ transition: { ...gdsEase12 }, x: hov ? 5 : 0 }}
-              className={`  w-9 h-9 ${colors[2]} -mt-10`}
+              className={`mt-4 z-40  w-9 h-9 ${colors[1]} absolute top-0 left-0`}
             ></motion.div>
             <motion.div
               animate={{ transition: { ...gdsEase12 }, x: hov ? -8 : 0 }}
-              className={` w-9 h-9  ${colors[1]} -mt-10`}
+              className={`mt-6 z-30 w-9 h-9  ${colors[2]} absolute top-0 left-0`}
             ></motion.div>
             <motion.div
               animate={{ transition: { ...gdsEase12 }, x: hov ? 12 : 0 }}
-              className={` w-9 h-9 ${colors[0]} -mt-10`}
+              className={`mt-7 z-20 w-9 h-9 ${colors[3]} absolute top-0 left-0`}
             ></motion.div>
           </div>
-          <div className={`${textColor} h-full mx-5 flex flex-col `}>
+          <div
+            className={`${textColor} mb-9 lg:mb-0 relative  mx-5  flex flex-col `}
+          >
             <div className="flex-1">
               <motion.div
                 animate={{
                   transition: { ...gdsEase12, delay: 0.03 },
-                  y: hov ? 48 : 0,
+                  y: hov ? 24 : 0,
                 }}
-                className={`text-lg mb-1`}
+                className={`md:text-lg md:mb-1`}
               >
                 {subtitle}
               </motion.div>
               <motion.div
                 animate={{
                   transition: { ...gdsEase12 },
-                  y: hov ? 48 : 0,
+                  y: hov ? 24 : 0,
                 }}
-                className={`text-4xl font-heading`}
+                className={`text-2xl md:text-4xl font-heading`}
               >
                 {title}
               </motion.div>

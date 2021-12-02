@@ -64,10 +64,10 @@ export default function TeamPage() {
             <div className="max-w-13 m-5  flex flex-col ">
               <div className=" relative  ">
                 <div
-                  className={`-left-2 top-3 rounded absolute w-8 h-8  ${i.color}`}
+                  className={`-left-2 top-3  absolute w-8 h-8  ${i.color}`}
                 ></div>
                 <div
-                  className={`${i.color} shadow-lg rounded w-11 h-11 overflow-hidden inline-block`}
+                  className={`${i.color} shadow-lg  w-11 h-11 overflow-hidden inline-block`}
                 >
                   <Image src={i.image} width={192} height={192} />
                 </div>

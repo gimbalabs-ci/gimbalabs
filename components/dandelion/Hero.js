@@ -22,7 +22,7 @@ export default function Hero() {
           </div>
         </div>
         {/* Green Group */}
-        <div className="relative z-10 text-green-900 shadow-lg flex flex-col  margin-x mt-6 p-5 lg:p-8 relative  md:w-14 lg:w-15  md:h-15 gradient-green">
+        <div className="relative z-50 text-green-900 shadow-lg flex flex-col  margin-x my-6 p-5 lg:p-8 relative  md:w-14 lg:w-15  md:h-15 gradient-green">
           <div className="z-10 absolute inset-0 -top-12 -left-9 hidden xl:block">
             {largeDandelionSeeds}
           </div>

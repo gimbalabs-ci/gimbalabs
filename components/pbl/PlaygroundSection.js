@@ -53,12 +53,13 @@ export default function PlaygroundSection({ colors, playgrounds }) {
             Where ideas get tested
           </p>
           <p className=" mt-5">
-            Playground meets every Tuesday at 5pm UTC. It's also what we call our learning sandbox.
+            Playground meets every Tuesday at 5pm UTC. It's also what we call
+            our learning sandbox.
           </p>
         </div>
         {/* Title */}
         <div className="order-2 sm:order-3 mb-auto  ">
-          <PlaygroundSvg className="w-8 mb-7 " />
+          <PlaygroundSvg className="w-8 my-6 " />
           <motion.h3
             animate={{ transition: { ...gdsEase12 }, y: hov ? -21 : 0 }}
             className="relative mt-5 z-10  w-full sm:max-w-12   text-6xl "

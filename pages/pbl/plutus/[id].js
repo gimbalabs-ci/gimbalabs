@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import Layout from "../../../components/Layouts/Layout";
+import Objectives from "../../../components/pbl/Objectives";
 import FullWidthImageAndText from "../../../components/shared_ui/FullWidthImageAndText";
 import RecircList from "../../../components/shared_ui/recirc/RecircList";
 import StyledMarkdown from "../../../components/shared_ui/StyledMarkdown";
@@ -25,8 +26,14 @@ export async function getStaticPaths() {
 }
 
 export default function SpecificPlutus({ plutusData }) {
-  const { contentReact, videos, fullWidthImageAndText, recirc } = plutusData;
-
+  const {
+    contentReact,
+    videos,
+    fullWidthImageAndText,
+    recirc,
+    objectives,
+  } = plutusData;
+  console.log(plutusData);
   const link = "/pbl/plutus";
   const color = "ORANGE";
 
@@ -39,10 +46,10 @@ export default function SpecificPlutus({ plutusData }) {
           color={color}
           {...fullWidthImageAndText}
         />
-
+        <Objectives color={color} objectives={objectives} />
         <VideosGroup videos={videos} />
         {/* Layout */}
-        <div className="spacing-x spacing-y">
+        <div className="spacing-x spacing-b">
           <StyledMarkdown color={color} children={contentReact} />
         </div>
 

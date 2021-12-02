@@ -10,7 +10,7 @@ export default function Navbar({ navbarBg = "bg-black2-900" }) {
       : "text-black2-900";
   return (
     <div className={`${navbarBg} ${textColor}`}>
-      <div className="spacing-x py-3 flex items-center justify-between">
+      <div className="max-w-18 mx-auto spacing-x py-3 flex items-center justify-between">
         <div>
           <Link href="/gimbalgrid">
             <a>

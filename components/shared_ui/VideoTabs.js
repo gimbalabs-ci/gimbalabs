@@ -1,6 +1,7 @@
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
 import LiteYouTubeEmbed from "react-lite-youtube-embed";
+import WeeklyUpdatesSvg from "../../lib/icons/WeeklyUpdatesSvg";
 
 export default function VideosGroup({ videos }) {
   const [focusVideo, setFocusVideo] = useState(null);
@@ -19,37 +20,80 @@ export default function VideosGroup({ videos }) {
       setFocusVideo(videos[0]);
     }
   }, [videos]);
+  console.log(videos);
 
-  return (
-    <div className="max-w-18 mx-auto spacing-x">
-      <div className=" pt-6 w-full">
-        {focusVideo && (
-          <LiteYouTubeEmbed
-            id={focusVideo.videoId}
-            title={focusVideo.videoTitle}
-          />
-        )}
+  const only1Video = videos.length === 1;
+  if (only1Video) {
+    return (
+      <div className="max-w-18 mx-auto spacing-x pt-6 pb-6 ">
+        <div className={`   `}>
+          {focusVideo && (
+            <div className={` mx-auto max-w-15  `}>
+              <LiteYouTubeEmbed
+                id={focusVideo.videoId}
+                title={focusVideo.videoTitle}
+              />
+            </div>
+          )}
+        </div>
       </div>
-      <div className="flex flex-wrap items-center justify-center w-full">
-        {videos &&
-          videos.map((video) => {
-            const isSelected = focusVideo?.videoId === video.videoId;
-            return (
-              <div
-                key={video.videoId + "__v_button"}
-                role="button"
-                className={`gds-btn  mr-1 ${
-                  isSelected
-                    ? "bg-blue-900 text-blue-100"
-                    : "bg-blue-100 text-blue-900 hover:bg-blue-700 hover:text-blue-100 border border-blue-600"
-                }`}
-                onClick={() => setFocusVideo(video)}
-              >
-                <span className="text-blue-400 text-sm">{video.videoPart}</span> {video.videoTitle}
-                <p className="text-yellow-600 text-lg">{video.developer}</p>
-              </div>
-            );
-          })}
+    );
+  }
+  return (
+    <div className="max-w-18 mx-auto spacing-x pt-6 pb-6 ">
+      <div className={`grid md:grid-cols-2  `}>
+        {focusVideo && (
+          <div className={` my-auto max-w-15  `}>
+            <LiteYouTubeEmbed
+              id={focusVideo.videoId}
+              title={focusVideo.videoTitle}
+            />
+          </div>
+        )}
+
+        <div className="flex justify-center items-center">
+          <div className="pl-4 ml-auto xl:mr-auto  max-w-14 grid xl:grid-cols-2 gap-1 ">
+            {videos &&
+              videos.map((video) => {
+                const isSelected = focusVideo?.videoId === video.videoId;
+                return (
+                  <div
+                    key={video.videoId + "__v_button"}
+                    role="button"
+                    className={` group flex flex-col item-start px-3 py-1 w-full   ${
+                      isSelected
+                        ? "bg-black2-900 text-offWhite"
+                        : "text-black2-900 hover:bg-black2-900 hover:text-white "
+                    }`}
+                    onClick={() => setFocusVideo(video)}
+                  >
+                    <div className={`flex justify-between`}>
+                      <div className={` flex items-center justify-end`}>
+                        {/* Replace with developer image */}
+                        <div
+                          className={`${
+                            isSelected
+                              ? "bg-white opacity-75"
+                              : "bg-black opacity-25 group-hover:bg-white "
+                          }  w-6 h-6  rounded-full mr-2`}
+                        />
+                        <p className="text-lg  font-heading">
+                          {video.developer}
+                        </p>
+                      </div>
+                      <div className={` overflow-hidden flex items-center`}>
+                        <WeeklyUpdatesSvg className="w-4 mr-2 -mt-1" />
+                        <div className=" text-sm">{video.videoPart}</div>
+                      </div>
+                    </div>
+                    <div className={`flex-1 text-sm flex justify-start`}>
+                      {video.videoTitle}
+                    </div>
+                  </div>
+                );
+              })}
+          </div>
+        </div>
       </div>
     </div>
   );

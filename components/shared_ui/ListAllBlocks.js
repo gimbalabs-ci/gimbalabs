@@ -116,7 +116,7 @@ const Block = ({ d, color, baseRoute }) => {
       <Link href={`${baseRoute}${id}`}>
         <a>
           <div
-            className={`border-4  ${state.myColor} ${state.myText}  shadow-md  sm:max-w-14 h-12  flex justify-center p-5 items-center `}
+            className={`border-4  ${state.myColor} ${state.myText}  shadow-md  sm:max-w-14 h-12  flex flex-wrap justify-center p-5 items-center `}
           >
             <div className={` mr-auto mb-auto text-4xl font-heading `}>
               {number ? number : ""}

@@ -132,6 +132,11 @@ a.classic {
   letter-spacing: -0.01em;
   @apply text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold;
 }
+.gg-title-small {
+  line-height: 101.5%;
+  letter-spacing: -0.01em;
+  @apply text-3xl sm:text-4xl lg:text-6xl font-bold;
+}
 
 .gg-subtitle {
   line-height: 143%;
@@ -148,7 +153,7 @@ body {
 }
 
 .gds-btn {
-  @apply py-3 px-5 text-2xl shadow-md;
+  @apply py-3 px-5 text-base lg:text-xl shadow-md;
 }
 .btn-yellow {
   @apply text-yellow-900 bg-yellow-400;
@@ -263,69 +268,70 @@ hr {
 } */
 .gds-markdown > ol > li {
   counter-increment: my-awesome-counter;
-  @apply px-3  pt-2;
+  /* @apply; */
 }
 ol {
   list-style: none;
   counter-reset: my-awesome-counter;
-  @apply pl-4;
+  @apply relative;
 }
 ol > li {
-  @apply relative;
+  @apply mx-4 pl-6 relative;
 }
 ol > li::before {
   content: counter(my-awesome-counter);
   position: absolute;
-  --size: 24px;
-  left: calc(-1 * var(--size) - 10px);
-  line-height: var(--size);
+  --size: 16px;
+  top: 6px;
+  left: calc(-1 * var(--size));
+  line-height: 16px;
   width: var(--size);
   height: var(--size);
 
   /* transform: rotate(-4deg); */
   text-align: center;
 
-  @apply border-b border-blue-600   text-lg;
+  @apply ml-4 underline  text-black2-900  text-lg;
 }
 .gds-markdown > ul > li {
-  background: url("/ulli-green.svg") no-repeat left center;
+  background: url("/ulli-green.svg") no-repeat left top;
 
   list-style: none;
   margin: 0;
   vertical-align: middle;
-  @apply ml-3 pl-4 mt-2;
+  @apply mx-4 pl-6;
 }
 .md-orange > ul > li {
-  background: url("/ulli-orange.svg") no-repeat left center;
+  background: url("/ulli-orange.svg") no-repeat left top;
 
   list-style: none;
   margin: 0;
   vertical-align: middle;
-  @apply ml-3 pl-4 mt-2;
+  @apply mx-4 pl-6;
 }
 .md-blue > ul > li {
-  background: url("/ulli-blue.svg") no-repeat left center;
+  background: url("/ulli-blue.svg") no-repeat left top;
 
   list-style: none;
   margin: 0;
   vertical-align: middle;
-  @apply ml-3 pl-4 mt-2;
+  @apply mx-4 pl-6;
 }
 .md-green > ul > li {
-  background: url("/ulli-green.svg") no-repeat left center;
+  background: url("/ulli-green.svg") no-repeat left top;
 
   list-style: none;
   margin: 0;
   vertical-align: middle;
-  @apply ml-3 pl-4 mt-2;
+  @apply mx-4 pl-6;
 }
 .md-red > ul > li {
-  background: url("/ulli-red.svg") no-repeat left center;
+  background: url("/ulli-red.svg") no-repeat left top;
 
   list-style: none;
   margin: 0;
   vertical-align: middle;
-  @apply ml-3 pl-4 mt-2;
+  @apply mx-4 pl-6;
 }
 
 /* Animations */

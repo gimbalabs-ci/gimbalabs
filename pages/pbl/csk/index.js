@@ -1,8 +1,6 @@
-import Link from "next/link";
 import React from "react";
 import { getSortedCsksData } from "../../../lib/csk";
 import ListAllBlocks from "../../../components/shared_ui/ListAllBlocks";
-import PageTitle from "../../../components/shared_ui/PageTitle";
 import PageTitleWithBorder from "../../../components/shared_ui/PageTitleWithBorder";
 import Layout from "../../../components/Layouts/Layout";
 import CardanoLogo from "../../../lib/icons/CardanoLogo";
@@ -27,8 +25,6 @@ export default function index({ allCSKData }) {
         >
           <CardanoLogo className="w-7 text-black2-900" />
         </PageTitleWithBorder>
-
-        
 
         <div className="spacing-x ">
           <ListAllBlocks color="BLUE" data={allCSKData} />

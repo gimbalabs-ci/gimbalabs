@@ -6,7 +6,16 @@ import SmallCard from "./SmallCard";
 
 export default function StickyNoteList({ colors }) {
   return (
-    <div className="w-full bg-black2-900 spacing-x py-5 lg:py-9  relative flex flex-wrap justify-center items-center lg:justify-between ">
+    <div className="w-full bg-black2-900 spacing-x py-5 lg:py-9 grid sm:grid-cols-2 lg:grid-cols-3  relative ">
+      <SmallCard
+        link={"/pbl/plutus"}
+        id={"ORANGE"}
+        textColor={"text-offWhite"}
+        colors={colors.orangeColors}
+        title={"Plutus Projects"}
+        subtitle={"Learn by doing"}
+        Logo={() => <PlutusSvgBasic className="w-7 h-7 text-black2-900" />}
+      />
       <SmallCard
         link={"/pbl/csk"}
         id={"BLUE"}
@@ -14,19 +23,9 @@ export default function StickyNoteList({ colors }) {
         colors={colors.blueColors}
         title={"Starter Kits"}
         subtitle={"Go now"}
-        Logo={() => <CardanoLogo className="w-7 text-black2-900" />}
+        Logo={() => <CardanoLogo className="w-7 h-7 text-black2-900" />}
       />
-      <div className="ml-auto md:ml-0">
-        <SmallCard
-          link={"/pbl/plutus"}
-          id={"ORANGE"}
-          textColor={"text-offWhite"}
-          colors={colors.orangeColors}
-          title={"Plutus Projects"}
-          subtitle={"Learn by doing"}
-          Logo={() => <PlutusSvgBasic className="w-7 text-black2-900" />}
-        />
-      </div>
+
       <SmallCard
         link={"/pbl/playground"}
         id={"PINK"}
@@ -34,7 +33,7 @@ export default function StickyNoteList({ colors }) {
         colors={colors.redColors}
         title={"Playground"}
         subtitle={"Got an idea?"}
-        Logo={() => <PlaygroundSvg className="w-7 text-black2-900" />}
+        Logo={() => <PlaygroundSvg className="w-7 h-7 text-black2-900" />}
       />
     </div>
   );

@@ -25,18 +25,20 @@ const data = [
 
 export default function ThreeColList() {
   return (
-    <div>
-      {data.map((i) => {
+    <div className={`pt-9`}>
+      {data.map((i, index) => {
         return (
           <div
             key={i.title1 + "_tcl"}
-            className="spacing-x py-9 w-full grid lg:grid-cols-2 border-b border-green-100"
+            className={`${
+              index < data.length - 1 ? "mb-6" : ""
+            } pb-6 spacing-x w-full grid lg:grid-cols-2 border-b border-green-100`}
           >
             <div className="w-full flex flex-col sm:flex-row justify-center  lg:justify-between items-start">
               <div className="text-green-900 w-11">
                 <GetIcon iconName={i.icon} />
               </div>
-              <div className="  w-full md:w-14">
+              <div className="  w-full lg:w-14">
                 <div className="text-4xl font-heading  text-green-700  title-line-height">
                   <p className="text-green-500">{i.title1}</p>
                   <p>{i.title2}</p>
@@ -48,7 +50,7 @@ export default function ThreeColList() {
                 </div> */}
               </div>
             </div>
-            <div className="mt-7 lg:mt-0 lg:ml-auto text-xl w-full lg:max-w-13 text-green-800  ">
+            <div className="mt-6 lg:mt-0 lg:ml-auto text-xl w-full lg:max-w-13 text-green-800  ">
               {i.text}
             </div>
           </div>

@@ -9,7 +9,7 @@ export default function ValidateIdeas() {
   return (
     <div className=" relative flex flex-col justify-center">
       {/* Dark bg to fill in space above */}
-      <div className="h-13 z-0 top-0  absolute inset-x-0 bg-gradient-to-t from-yellow-400" />
+      <div className="h-13 z-0 top-0  absolute inset-x-0 bg-green-700" />
       {/* Clipped yellow bg */}
       <div className="clip-me-right h-full xl:h-16  absolute inset-x-0 gradient-yellow overflow-hidden">
         {/* Bamboo */}
@@ -48,7 +48,7 @@ export default function ValidateIdeas() {
         {/* Right Side Text Group*/}
         <div className="order-1 xl:order-2  flex flex-col justify-center  xl:ml-auto ">
           <div className="flex flex-col md:flex-row xl:flex-col justify-between">
-            <h3 className="text-yellow-700 text-4xl md:text-6xl text-right md:text-left xl:text-right ">
+            <h3 className="text-yellow-800 text-4xl md:text-6xl text-right md:text-left xl:text-right ">
               Validate Ideas{" "}
               <span className="block text-yellow-900">Instantly</span>
             </h3>
@@ -63,7 +63,7 @@ export default function ValidateIdeas() {
                 />
                 to orchestrate a complete catalog of required Cardano services.{" "}
               </p>
-              <div className="w-full ml-auto mt-9  flex justify-end">
+              <div className="w-full ml-auto my-6 lg:mt-9  lg:mb-0 flex justify-end">
                 <Link href="/dandelion/endpoints">
                   <a>
                     <button className="gds-btn flex items-center hover:bg-yellow-400 border border-yellow-900">

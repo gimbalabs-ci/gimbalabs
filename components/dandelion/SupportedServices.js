@@ -26,9 +26,9 @@ export default function SupportedServices() {
   const [focusService, setFocusService] = useState(servicesArr[0]);
   const focusName = focusService.name;
   return (
-    <div className="  py-9">
-      <h3 className="relative z-50  my-5 lg:mb-7 xl:-mt-5 xl:mr-10 text-4xl md:text-5xl text-yellow-100 text-right">
-        <span className="bg-green-900 text-white p-1">Supported services</span>
+    <div className="spacing-x  py-9">
+      <h3 className="relative z-50 mb-4   text-4xl md:text-5xl text-yellow-100 text-right">
+        <span className="bg-green-900 text-white ">Supported services</span>
       </h3>
       <div className="max-w-18 mx-auto grid ">
         {/* Left Side, FOCUS SERVICE */}

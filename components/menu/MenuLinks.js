@@ -41,21 +41,22 @@ const data = [
 export default function MenuLinks() {
   return (
     <section>
-      <div className="spacing-x  flex flex-wrap justify-start lg:justify-evenly">
+      <div className="max-w-18 mx-auto spacing-x gap-4  grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 ">
         {data.map((group, index) => {
           return (
             <div
               key={group.title + index + "gt"}
-              className="flex-1 m-5 relative flex flex-col"
+              className="  relative flex flex-col  items-center"
             >
-              <Link href={group.link}>
-                <a>
-                  <button className="  text-2xl border-b border-black2-900 ">
-                    {group.title}
-                  </button>
-                </a>
-              </Link>
-
+              <div className="w-full sm:w-auto">
+                <Link href={group.link}>
+                  <a>
+                    <button className="  text-2xl border-b border-black2-900 ">
+                      {group.title}
+                    </button>
+                  </a>
+                </Link>
+              </div>
               {/* List */}
               <ul className="mt-3">
                 {group.list.map((i, index) => {

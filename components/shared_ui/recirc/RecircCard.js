@@ -59,10 +59,10 @@ export default function RecircCard({ id }) {
           role="button"
           onMouseOver={() => setActive(true)}
           onMouseLeave={() => setActive(false)}
-          className="rounded-md shadow-md overflow-hidden my-3  sm:mx-2 sm:my-2 text-white relative h-13   sm:w-13 group"
+          className=" shadow-md overflow-hidden my-3  sm:mx-2 sm:my-2 text-white relative  w-full h-11 sm:w-11   lg:h-13   lg:w-13 group"
         >
           {/* Text Group */}
-          <div className="p-5 z-20 absolute inset-0 flex flex-col justify-between">
+          <div className="p-4 lg:p-5 z-20 absolute inset-0 flex flex-col justify-between">
             {orientation.direction && (
               <div
                 className={`relative flex flex-col overflow-hidden ${
@@ -82,9 +82,10 @@ export default function RecircCard({ id }) {
               </div>
             )}
             <div
+              style={{ lineHeight: "1.2em" }}
               className={`${
                 orientation.direction === "left" ? "order-2" : "order-1"
-              }  relative z-20 text-2xl font-heading`}
+              } lg:text-2xl relative z-20 `}
             >
               {title}
             </div>
@@ -94,7 +95,10 @@ export default function RecircCard({ id }) {
             className={`${bgColor} absolute inset-0 z-10  opacity-0 group-hover:opacity-90`}
           />
           {/* Black background to provide contrast for Text when not active */}
-          <div className="absolute inset-0 z-10 bg-black opacity-20 group-hover:opacity-0" />
+          <div
+            style={{ background: "#000" }}
+            className="absolute inset-0 z-10  opacity-50 group-hover:opacity-0"
+          />
           {image && (
             <Image
               layout="fill"

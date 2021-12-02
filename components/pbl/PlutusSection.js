@@ -22,7 +22,7 @@ export default function PlutusSection({ colors, ppbls }) {
         <Link href={`/pbl/plutus`}>
           <a>
             <div className="order-3 lg:order-1  ">
-              <PlutusSvg className=" w-8 mb-7  " />
+              <PlutusSvg className=" w-8 mb-6  " />
               <motion.h3
                 animate={{ transition: { ...gdsEase12 }, y: hov ? -21 : 0 }}
                 className="relative z-10 mt-5 w-full sm:max-w-12  text-6xl "
@@ -32,22 +32,25 @@ export default function PlutusSection({ colors, ppbls }) {
               <div className="relative z-10  w-full sm:max-w-12 font-body text-2xl ">
                 Learn plutus through real life projects
               </div>
-              <div className="mt-7">
-                <button className="flex items-center  gds-btn text-orange-100 border border-orange-100 hover:bg-black2-800  ">
+              <div className="my-6 ">
+                <button className="w-12 lg:w-full flex items-center  gds-btn text-orange-100 border border-orange-100 hover:bg-black2-800  ">
                   Start learning Plutus
-                  <ArrowRight className="ml-3" />
+                  <ArrowRight className="ml-auto lg:ml-3" />
                 </button>
               </div>
             </div>
           </a>
         </Link>
         {/* Paragraphs */}
-        <div className="order-3 sm:order-2  w-full sm:max-w-12 mx-5 my-5">
+        <div className="order-3 sm:order-2  w-full sm:max-w-12 mx-5 my-5 mb-0 ">
           <p className=" mb-5">
-            We're learning Plutus by collaborating on a list of tasks each month.
+            We're learning Plutus by collaborating on a list of tasks each
+            month.
           </p>
           <p className=" ">
-            Along the way, we're elucidating the principles of project based learning, so that we can apply to Atala Prism, Dandelion, DAO-building and beyond.
+            Along the way, we're elucidating the principles of project based
+            learning, so that we can apply to Atala Prism, Dandelion,
+            DAO-building and beyond.
           </p>
         </div>
         {/* Blocks */}
@@ -89,39 +92,43 @@ const Square = ({ color, number, title, className }) => {
 
   return (
     <div>
-      <div
-        className={` grid  ${color} z-20 ${className}`}
-        onMouseOver={() => setLocalHov(true)}
-        onMouseLeave={() => setLocalHov(false)}
-      >
-        <div className="hidden md:flex flex flex-col justify-end p-3 overflow-hidden">
-          <div className="flex  justify-between items-center">
-            <motion.div
-              animate={{
-                transition: { ...gdsEase12 },
-                y: localHov ? 0 : 24,
-                opacity: localHov ? 1 : 0.2,
-                x: 32,
-              }}
-              className="text-4xl font-heading text-orange-100"
-            >
-              {number}
-            </motion.div>
-            <div className="">
-              <motion.div
-                animate={{
-                  transition: { ...gdsEase12 },
-                  opacity: localHov ? 1 : 0,
-                  x: localHov ? 0 : 32,
-                }}
-                className="  text-2xl   font-body   "
-              >
-                {title}
-              </motion.div>
+      <Link href={`/pbl/plutus/${number}`}>
+        <a>
+          <div
+            className={` grid  ${color} z-20 ${className}`}
+            onMouseOver={() => setLocalHov(true)}
+            onMouseLeave={() => setLocalHov(false)}
+          >
+            <div className="hidden md:flex flex flex-col justify-end p-3 overflow-hidden">
+              <div className="flex  justify-between items-center">
+                <motion.div
+                  animate={{
+                    transition: { ...gdsEase12 },
+                    y: localHov ? 0 : 24,
+                    opacity: localHov ? 1 : 0.2,
+                    x: 32,
+                  }}
+                  className="text-4xl font-heading text-orange-100"
+                >
+                  {number}
+                </motion.div>
+                <div className="">
+                  <motion.div
+                    animate={{
+                      transition: { ...gdsEase12 },
+                      opacity: localHov ? 1 : 0,
+                      x: localHov ? 0 : 32,
+                    }}
+                    className="  text-2xl   font-body   "
+                  >
+                    {title}
+                  </motion.div>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
+        </a>
+      </Link>
     </div>
   );
 };

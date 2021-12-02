@@ -3,6 +3,7 @@ import GridBox from "./GridBox";
 import { gridData } from "./GridData";
 
 export default function BoxList(props) {
+  console.log(gridData);
   return (
     <div className={`gimbal-grid relative gap-2  p-2 `}>
       {gridData.map((i, index) => (

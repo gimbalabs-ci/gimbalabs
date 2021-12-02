@@ -42,7 +42,7 @@ export default function SpecificPlayground({ plutusData }) {
 
         <VideosGroup videos={videos} />
         {/* Layout */}
-        <div className="spacing-x spacing-y">
+        <div className="spacing-x spacing-b">
           <StyledMarkdown color={color} children={contentReact} />
         </div>
 
