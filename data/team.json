@@ -12,7 +12,7 @@
       "textColor": "text-green-400"
     },
     {
-      "name": "Roberto Carlos Morano",
+      "name": "Roberto Morano",
       "image": "/team/roberto-square.jpg",
       "bio": "Seasoned sysadmin and DevOps advocate and also an OpenSource-everything and decentralization enthusiast.",
       "twitter": "https://twitter.com/rc_morano",
@@ -30,13 +30,76 @@
       "textColor": "text-red-600"
     },
     {
-      "name": "Kyle Johns",
-      "image": "/team/kyle.png",
+      "name": "Piotr Napierala",
+      "image": "/team/piotr.jpg",
       "bio": "Ever-learning polyglot who is passionate about problem solving and providing software solutions.",
       "twitter": "https://twitter.com/LiftStakePool",
       "linkedIn": "https://www.linkedin.com/in/johnskyle/",
       "color": "bg-pink-300",
       "textColor": "text-pink-400"
+    },
+    {
+      "name": "Randall Harmon",
+      "image": "/team/suit.jpg",
+      "bio": "Ever-learning polyglot who is passionate about problem solving and providing software solutions.",
+      "twitter": "https://twitter.com/LiftStakePool",
+      "linkedIn": "https://www.linkedin.com/in/johnskyle/",
+      "color": "bg-pink-300",
+      "textColor": "text-pink-400"
+    },
+    {
+      "name": "OCG",
+      "image": "/team/suit.jpg",
+      "bio": "Ever-learning polyglot who is passionate about problem solving and providing software solutions.",
+      "twitter": "https://twitter.com/LiftStakePool",
+      "linkedIn": "https://www.linkedin.com/in/johnskyle/",
+      "color": "bg-red-600",
+      "textColor": "text-red-400"
+    },
+    {
+      "name": "Steve Lockhart",
+      "image": "/team/steve.jpg",
+      "bio": "Ever-learning polyglot who is passionate about problem solving and providing software solutions.",
+      "twitter": "https://twitter.com/LiftStakePool",
+      "linkedIn": "https://www.linkedin.com/in/johnskyle/",
+      "color": "bg-blue-800",
+      "textColor": "text-blue-400"
+    },
+    {
+      "name": "Ryan Stierman",
+      "image": "/team/ryan.jpg",
+      "bio": "Ever-learning polyglot who is passionate about problem solving and providing software solutions.",
+      "twitter": "https://twitter.com/LiftStakePool",
+      "linkedIn": "https://www.linkedin.com/in/johnskyle/",
+      "color": "bg-green-400",
+      "textColor": "text-green-400"
+    },
+    {
+      "name": "Adriano Fiorenza",
+      "image": "/team/suit.jpg",
+      "bio": "Ever-learning polyglot who is passionate about problem solving and providing software solutions.",
+      "twitter": "https://twitter.com/GameChangerOk",
+      "linkedIn": "https://www.linkedin.com/in/adriano-fiorenza/",
+      "color": "bg-green-400",
+      "textColor": "text-green-400"
+    },
+    {
+      "name": "Kyle Johns",
+      "image": "/team/kyle.png",
+      "bio": "Ever-learning polyglot who is passionate about problem solving and providing software solutions.",
+      "twitter": "https://twitter.com/LiftStakePool",
+      "linkedIn": "https://www.linkedin.com/in/johnskyle/",
+      "color": "bg-blue-800",
+      "textColor": "text-blue-800"
+    },
+    {
+      "name": "Giovanni Gargiulo",
+      "image": "/team/suit.jpg",
+      "bio": "Ever-learning polyglot who is passionate about problem solving and providing software solutions.",
+      "twitter": "https://twitter.com/LiftStakePool",
+      "linkedIn": "https://www.linkedin.com/in/johnskyle/",
+      "color": "bg-red-600",
+      "textColor": "text-red-600"
     }
   ]
 }

@@ -86,7 +86,7 @@ export default function VideosGroup({ videos, color }) {
                           />
                           {/* Replace with developer image */}
                           <p className="text-lg  font-heading">
-                            {video.developer}
+                            {video.videoTitle}
                           </p>
                         </div>
                         <div
@@ -95,7 +95,7 @@ export default function VideosGroup({ videos, color }) {
                           <div className={`${textColor} text-sm text-gray-600`}>
                             {video.videoPart}
                           </div>
-                          <div className={`text-sm`}>{video.videoTitle}</div>
+                          <div className={`text-sm`}>{video.developer}</div>
                         </div>
                       </div>
                     </div>

@@ -14,7 +14,7 @@ const principles = [
       "Education makes the greatest impact when intrinsically motivating tasks are combined with a supportive environment. Workshop Maybe’s starter kits are compelling opportunities for people to try do new things, and we will provide the scaffolding to help learners become self-sufficient.",
   },
   {
-    label: "Seek Collaboration",
+    label: "Collaborate",
     text:
       "We recognize new opportunities for citywide and worldwide collaboration. Partnerships take root when contributors have tools for building trust and can share ideas constructively. There haven’t really been tools like these before. Should we go build something?",
   },
@@ -36,12 +36,7 @@ export default function TeamPage() {
       <PageTitleWithBorder title="About us" />
       <section className="spacing-x pb-7 text-black2-900 flex flex-wrap justify-between ">
         <p className="max-w-14  ">
-          GimbaLabs is a collaborative platform for people who want to show the
-          world what Cardano can do. We are creating free and open source tools,
-          lessons, and resources that people can learn from. We believe that
-          people learn best by doing things. If you've been looking for an entry
-          point into how you can participate in Cardano, we think you might find
-          it here.
+          Gimbalabs builds technical, educational, and community infrastructure for people who want to show the world what Cardano can do. We believe that people learn best by doing things. If you've been looking for an entry point into how you can participate in Cardano, we think you might find it here.
         </p>
         <div className="mt-5 ">
           <div className="border-l-4 border-black2-900 pl-5 w-full flex flex-col  items-start">
@@ -112,8 +107,9 @@ export default function TeamPage() {
       <section className="spacing-x py-9 text-black2-900 ">
         <h3 className="  gg-title text-center ">What we're building</h3>
         <div className="max-w-15 mx-auto">
-          <p className=" mt-7">
-            Cardano APIs as Community Service will serve as an entrypoint for
+          <h4 className=" gg-title-small mt-7">Dandelion</h4>
+          <p className=" mt-5">
+            Dandelion as an entrypoint for
             developers by offering open, free interfaces for new adopters to
             explore ideas and launch proofs of concept for new projects. These
             public, free services will ease adoption of Cardano by providing
@@ -121,6 +117,7 @@ export default function TeamPage() {
             encouraging developers to start building by reducing the time
             invested from days to minutes.
           </p>
+          <h4 className=" gg-title-small mt-7">Project-Based Learning</h4>
           <p className=" mt-5 ">
             Cardano Starter Kits (CSKs) are open source, Project Based Learning
             (PBL) opportunities for people to engage with Cardano in the real
@@ -135,6 +132,7 @@ export default function TeamPage() {
             to start local businesses and to host local events that drive
             hands-on understanding of Cardano.
           </p>
+          <h4 className=" gg-title-small mt-7">Playground</h4>
           <p className=" mt-5 ">
             GimbaLabs is building a platform for sharing APIs and CSKs that
             allow users to share experiences about what works, what they've
