@@ -4,11 +4,13 @@ export default function Objectives({ color, objectives }) {
   const { list, title } = objectives;
 
   return (
-    <div className="max-w-18 mx-auto mt-6 spacing-x  flex flex-col items-start justify-between">
-      <div className={``}>
-        <div className="text-2xl md:text-4xl mb-3 font-heading">{title}</div>
+    <div className="mt-6 spacing-x flex flex-col items-start justify-between">
+      <div className="w-full max-w-16 mx-auto">
+        <div>
+          <div className="text-2xl md:text-4xl mb-4 font-heading">{title}</div>
+        </div>
+        <List color={color} list={list} />
       </div>
-      <List color={color} list={list} />
     </div>
   );
 }
@@ -27,7 +29,7 @@ const List = ({ list, color }) => {
           <div className={`${c} mr-2 w-5 h-5 flex items-center justify-center`}>
             {index + 1}
           </div>
-          <div className="text-gray-800 flex-1 gds-body-medium -mt-1 mb-2">
+          <div className="text-gray-800 flex-1 gds-body-medium -mt-1 mb-3">
             {li}
           </div>
         </div>
