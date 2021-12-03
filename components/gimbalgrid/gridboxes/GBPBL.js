@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import React, { useState } from "react";
+import { ArrowRight } from "react-feather";
 import WithTransfer from "../WithTransfer";
 
 const gdsEase12 = {
@@ -30,10 +31,11 @@ export default function GBPBL(props) {
             expanded ? "  " : " "
           } bg-black2-900 flex flex-col p-6  relative overflow-hidden`}
         >
-          <div className=" h-full relative z-10 flex flex-col  ">
+          <div className=" h-full relative z-10 flex items-center  ">
             <motion.h2 animate={title} className="text-4xl text-blue-100 ">
               Start your journey
             </motion.h2>
+            <ArrowRight className="m-1 text-white" />
           </div>
           <div>
             {!expanded && (
@@ -44,7 +46,7 @@ export default function GBPBL(props) {
               </>
             )}
           </div>
-          <div className="relative z-10 mt-auto text-blue-200 text-lg">
+          <div className="relative z-10 mt-auto text-white text-lg">
             Cardano Starter Kits, Plutus PBL and Gimbalabs Playground
           </div>
         </div>

@@ -16,17 +16,26 @@ export default function Objectives({ color, objectives }) {
 }
 const colors = {
   RED: "bg-red-100",
-  BLUE: "bg-blue-100",
+  BLUE: "bg-blue-600",
   ORANGE: "bg-orange-100 ",
   GREEN: "bg-green-300",
 };
+const textcolors = {
+  RED: "text-black2-900",
+  BLUE: "text-white",
+  ORANGE: "text-black2-900 ",
+  GREEN: "text-black2-900",
+};
 const List = ({ list, color }) => {
   const c = colors[color];
+  const t = textcolors[color];
   return (
     <div>
       {list.map((li, index) => (
         <div key={`${index}- `} className={`text-black flex  `}>
-          <div className={`${c} mr-2 w-5 h-5 flex items-center justify-center`}>
+          <div
+            className={`${c} ${t} mr-2 w-5 h-5 flex items-center justify-center`}
+          >
             {index + 1}
           </div>
           <div className="text-gray-800 flex-1 gds-body-medium -mt-1 mb-3">

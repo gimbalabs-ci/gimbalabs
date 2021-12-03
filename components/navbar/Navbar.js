@@ -12,7 +12,7 @@ export default function Navbar({ navbarBg = "bg-black2-900" }) {
     <div className={`${navbarBg} ${textColor}`}>
       <div className="max-w-18 mx-auto spacing-x py-3 flex items-center justify-between">
         <div>
-          <Link href="/gimbalgrid">
+          <Link href="/">
             <a>
               <Logo className="" />
             </a>

@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import GimbalGrid from "../components/gimbalgrid/GimbalGrid";
 
 export default function Home() {
   return (
@@ -9,13 +10,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Link href="/gimbalgrid">
-        <a>
-          <button className="gds-btn bg-black2-900 text-white">
-            /gimbalgrid
-          </button>
-        </a>
-      </Link>
+      <GimbalGrid />
     </div>
   );
 }

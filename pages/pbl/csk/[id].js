@@ -6,6 +6,7 @@ import RecircList from "../../../components/shared_ui/recirc/RecircList";
 import StyledMarkdown from "../../../components/shared_ui/StyledMarkdown";
 import VideosGroup from "../../../components/shared_ui/VideoTabs";
 import Layout from "../../../components/Layouts/Layout";
+import Objectives from "../../../components/pbl/Objectives";
 
 export async function getStaticProps({ params }) {
   const cskData = await getCskData(params.id);
@@ -25,7 +26,13 @@ export async function getStaticPaths() {
 }
 
 export default function SpecificCSK({ cskData }) {
-  const { contentReact, videos, fullWidthImageAndText, recirc } = cskData;
+  const {
+    contentReact,
+    videos,
+    fullWidthImageAndText,
+    recirc,
+    objectives,
+  } = cskData;
 
   const link = "/pbl/csk";
   const color = "BLUE";
@@ -39,6 +46,7 @@ export default function SpecificCSK({ cskData }) {
           color={color}
           {...fullWidthImageAndText}
         />
+        <Objectives color={color} objectives={objectives} />
 
         <VideosGroup color={color} videos={videos} />
         {/* Layout */}

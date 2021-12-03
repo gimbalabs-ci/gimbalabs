@@ -73,7 +73,7 @@ export default function ExpandedBox({ slug }) {
           </div>
 
           <div className="absolute top-0 right-2">
-            <Link href={`/gimbalgrid?id=${slug}`}>
+            <Link href={`/?id=${slug}`}>
               <div
                 role="button"
                 className={`${transitionColor} ${

@@ -163,15 +163,15 @@ const gimbalabs = [
       color: "bg-offWhite",
     },
   },
-  // Old G Component James made now turned off because we use the g at the start
-  // {
-  //   gridBoxStyle: `col-span-3 row-span-2`,
-  //   gridBoxComponent: OldG,
-  //   transitionColor: "bg-green-600",
-  //   gridBoxProps: {},
-  //   fullPageComponent: MenuPage,
-  //   fullPageProps: {},
-  // },
+  // Old G Component
+  {
+    gridBoxStyle: `col-span-2 row-span-1`,
+    gridBoxComponent: OldG,
+    transitionColor: "bg-green-600",
+    gridBoxProps: {},
+    fullPageComponent: MenuPage,
+    fullPageProps: {},
+  },
   {
     disable: true,
     gridBoxStyle: ` col-span-1  md:col-span-1 row-span-2 `,
@@ -354,6 +354,7 @@ export const gridData = [
   },
 
   {
+    disable: true,
     gridBoxStyle: ` col-span-full sm:col-span-8 row-span-5   `,
     gridBoxComponent: TitleGroupDark,
     gridBoxProps: {},

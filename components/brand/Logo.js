@@ -4,10 +4,10 @@ import React, { useState } from "react";
 export default function Logo() {
   return (
     <div>
-      {/* <GabesLogo1 /> */}
+      <GabesLogo1 />
       {/* <GabesLogo2 /> */}
       {/* <img src="/branding/Logo_48px.svg" /> */}
-      <OldBrandThatShouldNotBeUsed />
+      {/* <OldBrandThatShouldNotBeUsed /> */}
     </div>
   );
 }
@@ -41,7 +41,7 @@ const GabesLogo1 = () => {
           transform="rotate(-90 24.1875 36.8652)"
           fill="#232828"
           fillOpacity="0.5"
-          className={`fill-current transition easeIn delay-300 text-black2-900 group-hover:textOrange-500`}
+          className={`fill-current transition easeIn delay-300 text-black2-900 group-hover:text-orange-400`}
         />
         <rect
           x="12.1875"
