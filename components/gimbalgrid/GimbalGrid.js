@@ -41,7 +41,7 @@ export default function GimbalGrid() {
     setTimeout(() => {
       // After 1.2 seconds,
       // Initiate full screen version of a box by navigating to /[slug]
-      router.push(`/${arg}`);
+      router.push(`/gimbalgrid/${arg}`);
     }, 1200);
   };
 

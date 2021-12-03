@@ -15,7 +15,7 @@ function Nav() {
 
   return (
     <nav className="absolute top-0 inset-x-0 bg-black2-900 flex items-center flex-wrap  h-9  w-full z-40">
-      <Link href="/">
+      <Link href="/gimbalgrid">
         <a className="inline-flex items-center ">
           <Image src="/logotypewhite.png" width={184} height={58} />
         </a>
@@ -52,7 +52,7 @@ function Nav() {
       >
         <div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto">
           <Search />
-          <Link href="/">
+          <Link href="/gimbalgrid">
             <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-purple-300 hover:text-black">
               Home
             </a>

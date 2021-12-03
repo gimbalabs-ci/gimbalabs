@@ -12,7 +12,7 @@ export default function Footer({ footerBg = "bg-offWhite" }) {
       className={`relative overflow-hidden spacing-x spacing-b ${footerBg} ${textColor} `}
     >
       <div className="spacing-y  flex justify-center">
-        <Link href="/">
+        <Link href="/gimbalgrid">
           <a>
             <LogoWithText className="" />
           </a>

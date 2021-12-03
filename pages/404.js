@@ -6,7 +6,7 @@ export default function index() {
     <div className="flex flex-col justify-between items-center">
       <h1>404</h1>
 
-      <Link href="/">Go Home</Link>
+      <Link href="/gimbalgrid">Go Home</Link>
     </div>
   );
 }
