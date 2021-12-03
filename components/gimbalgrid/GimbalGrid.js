@@ -41,7 +41,7 @@ export default function GimbalGrid() {
     setTimeout(() => {
       // After 1.2 seconds,
       // Initiate full screen version of a box by navigating to /[slug]
-      router.push(`/gimbalgrid/${arg}`);
+      router.push(`/${arg}`);
     }, 1200);
   };
 
@@ -52,12 +52,11 @@ export default function GimbalGrid() {
     }
   }, [slug]);
 
-  const scrollToId = (id) => {
-    const element = document.getElementById(id);
-    element && element.scrollIntoView({ behavior: "smooth" });
-  };
-
   // Scroll to id after delay.
+  // const scrollToId = (id) => {
+  //   const element = document.getElementById(id);
+  //   element && element.scrollIntoView({ behavior: "smooth" });
+  // };
   // useEffect(() => {
   //   let timer;
   //   if (id !== undefined) {
