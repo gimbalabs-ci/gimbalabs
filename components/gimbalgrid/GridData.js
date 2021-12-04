@@ -331,8 +331,24 @@ export const gridData = [
     fullPageComponent: PBLPage,
     fullPageProps: {
       text:
-        "Hi, here is an opportunity to expand upon this testimonial and show some examples of projects or something.",
+      "Hi, here is an opportunity to expand upon this testimonial and show some examples of projects or something.",
     },
+  },
+  {
+    transitionColor: "gradient-yellow",
+    gridBoxStyle: `col-span-full sm:col-span-7 row-span-3   `,
+    gridBoxComponent: GBDandelion,
+    gridBoxProps: {},
+    fullPageComponent: DandelionPage,
+    fullPageProps: {},
+  },
+  {
+    transitionColor: "bg-offWhite",
+    gridBoxStyle: `col-span-full  sm:col-span-5 row-span-2   `,
+    gridBoxComponent: TestimonyRoberto,
+    gridBoxProps: {},
+    fullPageComponent: TeamPage,
+    fullPageProps: {},
   },
   {
     transitionColor: "bg-offWhite",
@@ -344,28 +360,12 @@ export const gridData = [
     fullPageComponent: TeamPage,
     fullPageProps: {},
   },
-  {
-    transitionColor: "gradient-yellow",
-    gridBoxStyle: `col-span-full sm:col-span-7 row-span-3   `,
-    gridBoxComponent: GBDandelion,
-    gridBoxProps: {},
-    fullPageComponent: DandelionPage,
-    fullPageProps: {},
-  },
 
   {
     disable: true,
     gridBoxStyle: ` col-span-full sm:col-span-8 row-span-5   `,
     gridBoxComponent: TitleGroupDark,
     gridBoxProps: {},
-  },
-  {
-    transitionColor: "bg-offWhite",
-    gridBoxStyle: `col-span-full  sm:col-span-5 row-span-2   `,
-    gridBoxComponent: TestimonyRoberto,
-    gridBoxProps: {},
-    fullPageComponent: TeamPage,
-    fullPageProps: {},
   },
 
   // letters and blank white squares

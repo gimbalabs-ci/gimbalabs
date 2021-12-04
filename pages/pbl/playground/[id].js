@@ -5,10 +5,10 @@ import FullWidthImageAndText from "../../../components/shared_ui/FullWidthImageA
 import RecircList from "../../../components/shared_ui/recirc/RecircList";
 import StyledMarkdown from "../../../components/shared_ui/StyledMarkdown";
 import VideosGroup from "../../../components/shared_ui/VideoTabs";
-import { getAllProjectIds, getProjectData } from "../../../lib/projects";
+import { getAllPlaygroundIds, getPlaygroundData } from "../../../lib/playground";
 
 export async function getStaticProps({ params }) {
-  const plutusData = await getProjectData(params.id);
+  const plutusData = await getPlaygroundData(params.id);
   return {
     props: {
       plutusData,
@@ -17,7 +17,7 @@ export async function getStaticProps({ params }) {
 }
 
 export async function getStaticPaths() {
-  const paths = getAllProjectIds();
+  const paths = getAllPlaygroundIds();
   return {
     paths,
     fallback: false,

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link"
 import React from "react";
 import { Linkedin, Twitter } from "react-feather";
 import team from "../../data/team.json";
@@ -11,22 +12,17 @@ const principles = [
   {
     label: "Learn by Doing",
     text:
-      "Education makes the greatest impact when intrinsically motivating tasks are combined with a supportive environment. Workshop Maybe’s starter kits are compelling opportunities for people to try do new things, and we will provide the scaffolding to help learners become self-sufficient.",
+      "When we have experiences, our learning is real.",
   },
   {
     label: "Collaborate",
     text:
-      "We recognize new opportunities for citywide and worldwide collaboration. Partnerships take root when contributors have tools for building trust and can share ideas constructively. There haven’t really been tools like these before. Should we go build something?",
-  },
-  {
-    label: "Lead by Example",
-    text:
-      "In order for Cardano to be successful in living up to its first principles, our community must consistently show what open source, decentralized movements look like. This not a static goal that can be achieved, but a moving target. We’ll seek to be held accountable for putting in the work and will celebrate shared success.",
+      "New technology always creates new ways for people to collaborate, and blockchain is no different.",
   },
   {
     label: "Stay Flexible",
     text:
-      "We don’t yet know where this work is headed. The principles laid out here are broad. Questions about grassroots adoption and education may lead to brand new technical or political ones. By recognizing good ideas, contributing where we can, and staying open to new questions, each of us is responsible for the growth of Cardano.",
+      "We don't know exactly where this new technology will take us, so we create space for incomplete ideas and we embrace uncertainty.",
   },
 ];
 
@@ -103,46 +99,35 @@ export default function TeamPage() {
           ))}
         </div>
       </section>
-
+      {/* WHAT WE'RE BUILDING */}
       <section className="spacing-x py-9 text-black2-900 ">
         <h3 className="  gg-title text-center ">What we're building</h3>
         <div className="max-w-15 mx-auto">
-          <h4 className=" gg-title-small mt-7">Dandelion</h4>
-          <p className=" mt-5">
-            Dandelion as an entrypoint for
-            developers by offering open, free interfaces for new adopters to
-            explore ideas and launch proofs of concept for new projects. These
-            public, free services will ease adoption of Cardano by providing
-            infrastructure for initial setup and testing of ideas, therefore
-            encouraging developers to start building by reducing the time
-            invested from days to minutes.
-          </p>
-          <h4 className=" gg-title-small mt-7">Project-Based Learning</h4>
-          <p className=" mt-5 ">
-            Cardano Starter Kits (CSKs) are open source, Project Based Learning
-            (PBL) opportunities for people to engage with Cardano in the real
-            world, and to learn through experience what the Cardano platform can
-            do􏰉 CSKs consist of smart contract code, voting apparatus, guided
-            learning materials, and implementation tips. CSKs will support users
-            to learn about Cardano while also producing real-world outcomes, and
-            will vary in complexity, for everyone from beginners to experts.
-            CSKs will not be "grab and go", but are grounded in the
-            understanding that we learn best by doing experiential learning.
-            Anyone who is interested will be able to build upon open source CSKs
-            to start local businesses and to host local events that drive
-            hands-on understanding of Cardano.
-          </p>
-          <h4 className=" gg-title-small mt-7">Playground</h4>
-          <p className=" mt-5 ">
-            GimbaLabs is building a platform for sharing APIs and CSKs that
-            allow users to share experiences about what works, what they've
-            learned, and how to improve our open source resources. Community
-            members will also be able to contribute their own APIs and CSKs,
-            supporting our intention to make GimbaLabs a valuable resource for
-            the Cardano commons.{" "}
-          </p>
+        <p className=" mt-5">
+          Our founding team met by engaging deeply in <a href="https://cardano.ideascale.com/" target="_blank">Project Catalyst</a>. We recognized that by sharing ideas and seeking connections between projects, we could start a process that led to more people solving more problems and building more solutions on Cardano. You can still <a href="https://cardano.ideascale.com/a/dtd/Cardano-Starter-Kits-+-APIs/322195-48088" target="_blank">read our original proposal here</a>. 
+        </p>
+        <p className=" mt-5">
+          Here are some things we are working on right now:
+        </p>
+        <h4 className=" gg-subtitle mt-5">Dandelion</h4>
+        <p className=" mt-4">
+          Dandelion is both a set of services and a containerized framework for deploying those services. We are currently teaching operators how to run Kubernetes to deploy a Dandelion node, and we are building ways for those nodes to communicate seamlessly to provide distributed access to Cardano. <Link href="/dandelion">Learn more</Link>.
+        </p>
+        <h4 className=" gg-subtitle mt-5">Project-Based Learning</h4>
+        <p className=" mt-4 ">
+          We are piloting a "Plutus Project-Based Learning" (PPBL) team that gives developers a chance to gain hands on experience with Plutus by working on real projects. One outcome of PPBL is that we are creating documentation and task suggestions for additional developers to learn Plutus by using it. Another is that we will apply what we are learning about Project-Based Learning to other tools, like Atala Prism and Dandelion.
+        </p>
+        <h4 className=" gg-subtitle mt-5">Playground</h4>
+        <p className=" mt-4 ">
+          At weekly Playground meetings, community members can share ideas. Join us every Tuesday at 5pm UTC - all details are on the Gimbalabs Discord server and on our community calendar.{" "}
+        </p>
+        <h4 className=" gg-subtitle mt-5">Projects</h4>
+        <p className=" mt-4 ">
+          There are several projects that we are eager to release in the next few months. Take a look around this site to learn more about what we are building. As each project is released, we will share it here.{" "}
+        </p>
         </div>
       </section>
+      {/* PRINCIPLES */}
       <section className="bg-black2-900 py-9 text-white">
         <h2 className="spacing-x mb-5 lg:mb-0  text-4xl lg:text-6xl text-offWhite">
           Principles
@@ -167,6 +152,7 @@ export default function TeamPage() {
           })}
         </ul>
       </section>
+
     </div>
   );
 }

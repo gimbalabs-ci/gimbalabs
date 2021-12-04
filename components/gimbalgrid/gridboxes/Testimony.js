@@ -14,10 +14,10 @@ export default function Testimony(props) {
     <WithTransfer {...props}>
       <div className="p-6 flex flex-col">
         <div className={`text-4xl font-heading mb-2 text-black2-900 `}>
-          At Gimbalabs,
+          learn by doing
         </div>
         <div className={`gg-subtitle mb-2 text-black2-900 `}>
-          we're building a community of developers, thinkers, and builders.
+        
         </div>
 
         <div className="mt-auto flex items-center">
@@ -50,9 +50,9 @@ export function TestimonyRoberto(props) {
     <WithTransfer {...props}>
       <div className="p-6 flex flex-col">
         <div className={`text-4xl font-heading mb-2 text-black2-900 `}>
-          Let's open source
+          open source development
         </div>
-        <div className={`gg-subtitle mb-2 text-black2-900 `}>the world</div>
+        <div className={`gg-subtitle mb-2 text-black2-900 `}></div>
 
         <div className="mt-auto flex items-center">
           <div className="flex justify-start">

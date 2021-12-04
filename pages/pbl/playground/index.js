@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import { getSortedProjectsData } from "../../../lib/projects";
+import { getSortedPlaygroundData } from "../../../lib/playground";
 import ListAllBlocks from "../../../components/shared_ui/ListAllBlocks";
 import PageTitle from "../../../components/shared_ui/PageTitle";
 import PageTitleWithBorder from "../../../components/shared_ui/PageTitleWithBorder";
@@ -8,16 +8,16 @@ import Layout from "../../../components/Layouts/Layout";
 import PlaygroundSvg from "../../../lib/icons/PlaygroundSvg";
 
 export async function getStaticProps() {
-  const allProjectsData = getSortedProjectsData();
+  const allPlaygroundData = getSortedPlaygroundData();
 
   return {
     props: {
-      allProjectsData,
+      allPlaygroundData,
     },
   };
 }
 
-export default function index({ allProjectsData }) {
+export default function index({ allPlaygroundData }) {
   return (
     <Layout footerBg="bg-black2-900">
       <div className="pb-9 ">
@@ -31,7 +31,7 @@ export default function index({ allProjectsData }) {
           <ListAllBlocks
             baseRoute={"/pbl/playground/"}
             color="RED"
-            data={allProjectsData}
+            data={allPlaygroundData}
           />
         </div>
       </div>

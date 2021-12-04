@@ -1,6 +1,5 @@
 {
   "title": "Gimbalabs Team",
-  "about": "Our team met by engaging deeply with the Catalyst process and we are just getting started in our collaborative approach to problem solving. As the founders of Gimbalabs, we are creating synergies across our competencies by delivering within our roles and contributing big ideas to shared outcomes. We aim to keep building a team that demonstrates the value of sustainable, thoughtful work in the discovery of creative solutions.",
   "founders": [
     {
       "name": "Juliane Montag",
@@ -32,16 +31,15 @@
     {
       "name": "Piotr Napierala",
       "image": "/team/piotr.jpg",
-      "bio": "Ever-learning polyglot who is passionate about problem solving and providing software solutions.",
+      "bio": "Full-stack software engineer and pioneering buidler.",
       "twitter": "https://twitter.com/LiftStakePool",
-      "linkedIn": "https://www.linkedin.com/in/johnskyle/",
       "color": "bg-pink-300",
       "textColor": "text-pink-400"
     },
     {
       "name": "Randall Harmon",
-      "image": "/team/suit.jpg",
-      "bio": "Ever-learning polyglot who is passionate about problem solving and providing software solutions.",
+      "image": "/team/randall.jpg",
+      "bio": "Senior full stack developer, project manager, and bridge builder.",
       "twitter": "https://twitter.com/LiftStakePool",
       "linkedIn": "https://www.linkedin.com/in/johnskyle/",
       "color": "bg-pink-300",
@@ -50,34 +48,33 @@
     {
       "name": "OCG",
       "image": "/team/suit.jpg",
-      "bio": "Ever-learning polyglot who is passionate about problem solving and providing software solutions.",
-      "twitter": "https://twitter.com/LiftStakePool",
-      "linkedIn": "https://www.linkedin.com/in/johnskyle/",
+      "bio": "",
+      "twitter": "https://twitter.com/oldcryptogeek",
+      "linkedIn": "",
       "color": "bg-red-600",
       "textColor": "text-red-400"
     },
     {
       "name": "Steve Lockhart",
       "image": "/team/steve.jpg",
-      "bio": "Ever-learning polyglot who is passionate about problem solving and providing software solutions.",
-      "twitter": "https://twitter.com/LiftStakePool",
-      "linkedIn": "https://www.linkedin.com/in/johnskyle/",
+      "bio": "Community builder, decentralization advocate, arborist, dog owner.",
+      "twitter": "https://twitter.com/BobArchangel",
       "color": "bg-blue-800",
       "textColor": "text-blue-400"
     },
     {
       "name": "Ryan Stierman",
       "image": "/team/ryan.jpg",
-      "bio": "Ever-learning polyglot who is passionate about problem solving and providing software solutions.",
-      "twitter": "https://twitter.com/LiftStakePool",
-      "linkedIn": "https://www.linkedin.com/in/johnskyle/",
+      "bio": "Experienced senior executive with a passion for supporting community with technological innovation.",
+      "twitter": "https://twitter.com/stiermania",
+      "linkedIn": "https://www.linkedin.com/in/ryan-stierman-cpa-cma-mba-674a574b/",
       "color": "bg-green-400",
       "textColor": "text-green-400"
     },
     {
       "name": "Adriano Fiorenza",
-      "image": "/team/suit.jpg",
-      "bio": "Ever-learning polyglot who is passionate about problem solving and providing software solutions.",
+      "image": "/team/adriano.jpg",
+      "bio": "Senior full stack developer & Entrepreneur. Creator of GameChanger Wallet. Buidler. Filmmaker. Human.",
       "twitter": "https://twitter.com/GameChangerOk",
       "linkedIn": "https://www.linkedin.com/in/adriano-fiorenza/",
       "color": "bg-green-400",
@@ -86,7 +83,7 @@
     {
       "name": "Kyle Johns",
       "image": "/team/kyle.png",
-      "bio": "Ever-learning polyglot who is passionate about problem solving and providing software solutions.",
+      "bio": "Founder of CardanoSharp, passionate problem solver, and ever-learning polyglot.",
       "twitter": "https://twitter.com/LiftStakePool",
       "linkedIn": "https://www.linkedin.com/in/johnskyle/",
       "color": "bg-blue-800",
@@ -95,9 +92,9 @@
     {
       "name": "Giovanni Gargiulo",
       "image": "/team/suit.jpg",
-      "bio": "Ever-learning polyglot who is passionate about problem solving and providing software solutions.",
-      "twitter": "https://twitter.com/LiftStakePool",
-      "linkedIn": "https://www.linkedin.com/in/johnskyle/",
+      "bio": "Co-Founder of StakeLabs, operator of EASY1 Stake Pool, and educator extraordinaire.",
+      "twitter": "https://twitter.com/CryptoJoe101",
+      "linkedIn": "https://www.linkedin.com/in/giovannigargiulo/",
       "color": "bg-red-600",
       "textColor": "text-red-600"
     }

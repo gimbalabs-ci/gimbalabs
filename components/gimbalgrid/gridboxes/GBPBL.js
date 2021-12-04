@@ -42,7 +42,7 @@ export default function GBPBL(props) {
               <>
                 <div className="z-0 bg-blue-600 absolute inset-0 scale-50 transform translate-x-10"></div>
                 <div className="z-0 bg-red-600 absolute inset-0 scale-50 transform translate-x-12"></div>
-                \
+                
               </>
             )}
           </div>
