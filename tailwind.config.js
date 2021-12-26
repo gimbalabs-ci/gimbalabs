@@ -29,6 +29,7 @@ module.exports = {
         learn: "url('/learn.jpeg')",
         collab: "url('/collab.jpeg')",
         polygon: "url('/polygon.png')",
+        passcha: "url('/projects/passwordchaos.png')",
       }),
     },
   },
