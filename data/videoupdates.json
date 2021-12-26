@@ -3,6 +3,12 @@
   "about": "Live-stream updates from the Gimbalabs team.",
   "weekly": [
     {
+      "date": "2021-12-16",
+      "number": 44,
+      "youtubeId": "mR820aGOE1o",
+      "tags": ["Introducing our new web site!"]
+    },
+    {
       "date": "2021-12-02",
       "number": 43,
       "youtubeId": "47L6e-n1dpE",
