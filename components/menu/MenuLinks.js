@@ -34,6 +34,7 @@ const data = [
     list: [
       { title: "Team", link: "/team", color: "bg-blue-600" },
       { title: "Calendar", link: "/calendar", color: "bg-blue-700" },
+      { title: "Stake Pools", link: "/stakepools", color: "bg-blue-600" },
     ],
   },
 ];
