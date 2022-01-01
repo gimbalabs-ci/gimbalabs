@@ -49,7 +49,7 @@
     {
       "name": "OCG",
       "image": "/team/suit.jpg",
-      "bio": "",
+      "bio": "Cardano OG.",
       "twitter": "https://twitter.com/oldcryptogeek",
       "linkedIn": "https://www.linkedin.com",
       "color": "bg-red-600",
@@ -92,7 +92,7 @@
     },
     {
       "name": "Giovanni Gargiulo",
-      "image": "/team/suit.jpg",
+      "image": "/team/ggargiulo.jpg",
       "bio": "Co-Founder of StakeLabs, educator extraordinaire. EASY1 Stake Pool Op.",
       "twitter": "https://twitter.com/CryptoJoe101",
       "linkedIn": "https://www.linkedin.com/in/giovannigargiulo/",
