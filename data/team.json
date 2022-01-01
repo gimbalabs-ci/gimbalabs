@@ -11,9 +11,9 @@
       "textColor": "text-green-400"
     },
     {
-      "name": "Roberto Morano",
+      "name": "Roberto C. Morano",
       "image": "/team/roberto-square.jpg",
-      "bio": "Seasoned sysadmin and DevOps advocate and also an OpenSource-everything and decentralization enthusiast.",
+      "bio": "Cardano ninja since Byron genesis. FLOSS, DevOps and decentralization advocate. Dandelion Founder and Op. PEACE Stake Pool Op.",
       "twitter": "https://twitter.com/rc_morano",
       "linkedIn": "https://www.linkedin.com/in/rcmorano/",
       "color": "bg-blue-800",
@@ -32,7 +32,8 @@
       "name": "Piotr Napierala",
       "image": "/team/piotr.jpg",
       "bio": "Full-stack software engineer and pioneering buidler.",
-      "twitter": "https://twitter.com/LiftStakePool",
+      "twitter": "https://twitter.com",
+      "linkedIn": "https://www.linkedin.com/",
       "color": "bg-pink-300",
       "textColor": "text-pink-400"
     },
@@ -40,8 +41,8 @@
       "name": "Randall Harmon",
       "image": "/team/randall.jpg",
       "bio": "Senior full stack developer, project manager, and bridge builder.",
-      "twitter": "https://twitter.com/LiftStakePool",
-      "linkedIn": "https://www.linkedin.com/in/johnskyle/",
+      "twitter": "https://twitter.com/",
+      "linkedIn": "https://www.linkedin.com/in/randall-harmon-aa52765/",
       "color": "bg-pink-300",
       "textColor": "text-pink-400"
     },
@@ -50,7 +51,7 @@
       "image": "/team/suit.jpg",
       "bio": "",
       "twitter": "https://twitter.com/oldcryptogeek",
-      "linkedIn": "",
+      "linkedIn": "https://www.linkedin.com",
       "color": "bg-red-600",
       "textColor": "text-red-400"
     },
@@ -83,8 +84,8 @@
     {
       "name": "Kyle Johns",
       "image": "/team/kyle.png",
-      "bio": "Founder of CardanoSharp, passionate problem solver, and ever-learning polyglot.",
-      "twitter": "https://twitter.com/LiftStakePool",
+      "bio": "Founder of CardanoSharp library, passionate problem solver, and ever-learning polyglot. SHARP Stake Pool Op.",
+      "twitter": "https://twitter.com/The_Kyle_Johns",
       "linkedIn": "https://www.linkedin.com/in/johnskyle/",
       "color": "bg-blue-800",
       "textColor": "text-blue-800"
@@ -92,7 +93,7 @@
     {
       "name": "Giovanni Gargiulo",
       "image": "/team/suit.jpg",
-      "bio": "Co-Founder of StakeLabs, operator of EASY1 Stake Pool, and educator extraordinaire.",
+      "bio": "Co-Founder of StakeLabs, educator extraordinaire. EASY1 Stake Pool Op.",
       "twitter": "https://twitter.com/CryptoJoe101",
       "linkedIn": "https://www.linkedin.com/in/giovannigargiulo/",
       "color": "bg-red-600",
