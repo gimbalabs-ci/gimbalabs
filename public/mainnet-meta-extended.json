@@ -1,0 +1,21 @@
+{
+    "info": {
+        "url_png_icon_64x64": "https://gimbalabs.com/gimbalg.png",
+        "url_png_logo": "https://gimbalabs.com/gimbalg.png",
+        "location": "Warsaw, Poland",
+        "social": {
+            "twitter_handle": "gimbalabs",
+            "telegram_handle": "workshopmaybe",
+            "facebook_handle": "",
+            "youtube_handle": "",
+            "twitch_handle": "",
+            "discord_handle": "",
+            "github_handle": "maybe-workshop"
+        },
+        "about": {
+            "me": "Gimbalabs Community Pool",
+            "server": "Resilient and Highly-Available Kubernetes-backed cluster."
+        },
+        "rss": "http(s) url to valid RSS feed"
+    }
+}
