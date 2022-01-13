@@ -2,7 +2,7 @@ import React from "react";
 
 export default function DiscordButton({ className }) {
   return (
-    <a target="blank" href="https://discord.gg/yJwMC63Q">
+    <a target="blank" href="https://discord.gg/Va7DXqSSn8">
       <svg
         viewBox="0 0 24 19"
         className={`fill-current ${className}`}

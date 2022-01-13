@@ -3,6 +3,7 @@ import MenuPage from "../menu/MenuPage";
 import TeamPage from "../team/TeamPage";
 import UpdatePage from "../updates/UpdatePage";
 import StakePoolPage from "../stakepools/StakePoolPage"
+import GimbalTokenPage from "../gimbaltoken/GimbalTokenPage";
 import GimbalGrid from "./GimbalGrid";
 import BlankWhite from "./gridboxes/BlankWhite";
 import GBCalendar from "./gridboxes/GBCalendar";
@@ -12,6 +13,7 @@ import Letter from "./gridboxes/Letter";
 import OldG from "./gridboxes/OldG";
 import PasswordChaos from "./gridboxes/PasswordChaos";
 import Stake from "./gridboxes/Stake";
+import Token from "./gridboxes/Token";
 
 const { default: DandelionPage } = require("../dandelion/DandelionPage");
 const { default: PBLPage } = require("../pbl/PBLPage");
@@ -289,6 +291,14 @@ const gimbalabs = [
       color: "bg-offWhite",
     },
   },
+  {
+    gridBoxStyle: `col-span-2 row-span-3`,
+    gridBoxComponent: Token,
+    transitionColor: "black",
+    //gridBoxProps: {},
+    fullPageComponent: GimbalTokenPage,
+    //fullPageProps: {},
+  },
 ];
 
 export const gridData = [
@@ -384,6 +394,7 @@ export const gridData = [
     fullPageComponent: StakePoolPage,
     //fullPageProps: {},
   },
+
 
   // letters and blank white squares
   ...gimbalabs,
