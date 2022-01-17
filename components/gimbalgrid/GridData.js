@@ -14,6 +14,7 @@ import OldG from "./gridboxes/OldG";
 import PasswordChaos from "./gridboxes/PasswordChaos";
 import Stake from "./gridboxes/Stake";
 import Token from "./gridboxes/Token";
+import Joeys from "./gridboxes/Joeys";
 
 const { default: DandelionPage } = require("../dandelion/DandelionPage");
 const { default: PBLPage } = require("../pbl/PBLPage");
@@ -72,6 +73,14 @@ const gimbalabs = [
     disable: true,
     gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
     gridBoxComponent: BlankWhite,
+  },
+  {
+    gridBoxStyle: `col-span-4 row-span-1`,
+    gridBoxComponent: Token,
+    transitionColor: "black",
+    //gridBoxProps: {},
+    fullPageComponent: GimbalTokenPage,
+    //fullPageProps: {},
   },
   {
     disable: true,
@@ -169,15 +178,6 @@ const gimbalabs = [
       color: "bg-offWhite",
     },
   },
-  // Old G Component
-  {
-    gridBoxStyle: `col-span-2 row-span-1`,
-    gridBoxComponent: OldG,
-    transitionColor: "bg-green-600",
-    gridBoxProps: {},
-    fullPageComponent: MenuPage,
-    fullPageProps: {},
-  },
   {
     disable: true,
     gridBoxStyle: ` col-span-1  md:col-span-1 row-span-2 `,
@@ -235,69 +235,66 @@ const gimbalabs = [
     gridBoxComponent: BlankWhite,
   },
   {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-    gridBoxProps: {
-      color: "bg-offWhite",
-    },
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-2 `,
-    gridBoxComponent: BlankWhite,
-    gridBoxProps: {
-      color: "bg-black2-900",
-    },
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-3 row-span-3 `,
-    gridBoxComponent: BlankWhite,
-    gridBoxProps: {
-      color: "bg-offWhite",
-    },
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-3 row-span-3 `,
-    gridBoxComponent: BlankWhite,
-    gridBoxProps: {
-      color: "bg-offWhite",
-    },
-  },
-  {
-    gridBoxStyle: `col-span-2 row-span-3`,
-    gridBoxComponent: Token,
+    gridBoxStyle: `col-span-4 row-span-3`,
+    gridBoxComponent: Joeys,
     transitionColor: "black",
-    //gridBoxProps: {},
-    fullPageComponent: GimbalTokenPage,
-    //fullPageProps: {},
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+    gridBoxProps: {
+      color: "bg-offWhite",
+    },
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-2 `,
+    gridBoxComponent: BlankWhite,
+    gridBoxProps: {
+      color: "bg-black2-900",
+    },
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-3 row-span-3 `,
+    gridBoxComponent: BlankWhite,
+    gridBoxProps: {
+      color: "bg-offWhite",
+    },
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-3 row-span-3 `,
+    gridBoxComponent: BlankWhite,
+    gridBoxProps: {
+      color: "bg-offWhite",
+    },
   },
 ];
 
@@ -384,7 +381,6 @@ export const gridData = [
   {
     gridBoxStyle: `col-span-6 row-span-1`,
     gridBoxComponent: PasswordChaos,
-    fullPageComponent: MenuPage,
   },
   {
     gridBoxStyle: `col-span-2 row-span-2`,
