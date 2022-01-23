@@ -355,15 +355,15 @@ export const gridData = [
   },
   {
     transitionColor: "bg-offWhite",
-    gridBoxStyle: `col-span-full  sm:col-span-5 row-span-2   `,
+    gridBoxStyle: `col-span-full  sm:col-span-5 row-span-1   `,
     gridBoxComponent: TestimonyRoberto,
     gridBoxProps: {},
-    fullPageComponent: TeamPage,
+    fullPageComponent: CalendarPage,
     fullPageProps: {},
   },
   {
     transitionColor: "bg-offWhite",
-    gridBoxStyle: `col-span-full  sm:col-span-5 row-span-2   `,
+    gridBoxStyle: `col-span-full  sm:col-span-5 row-span-1   `,
     gridBoxComponent: Testimony,
     gridBoxProps: {
       owner: "James",

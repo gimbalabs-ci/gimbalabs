@@ -17,23 +17,15 @@ export default function Testimony(props) {
           learn by doing
         </div>
         <div className={`gg-subtitle mb-2 text-black2-900 `}>
-        
+
         </div>
 
         <div className="mt-auto flex items-center">
-          <div className="flex justify-start">
-            <div className="rounded-full w-8 h-8 overflow-hidden">
-              <img src={james} />
-            </div>
-          </div>
-          <div className="ml-5 flex flex-col w-full">
+          <div className="flex flex-col w-full">
             <div className={`gg-subtitle  text-black2-900 flex `}>
-              James Dunseith
+              Join Gimbalabs on Discord
             </div>
-            <div className="w-full flex justify-between">
-              <div className="text-sm text-gray-400">co-founder</div>
-              <DiscordButton className="w-6 text-red-600" />
-            </div>
+            <DiscordButton className="w-6 pt-4 text-red-600" />
           </div>
         </div>
       </div>
@@ -55,16 +47,11 @@ export function TestimonyRoberto(props) {
         <div className={`gg-subtitle mb-2 text-black2-900 `}></div>
 
         <div className="mt-auto flex items-center">
-          <div className="flex justify-start">
-            <div className="rounded-full w-8 h-8 overflow-hidden">
-              <img src={roberto} />
-            </div>
-          </div>
-          <div className="ml-5 flex flex-col w-full">
-            <div className={`gg-subtitle  text-black2-900 flex `}>Roberto C. Morano</div>
-            <div className="w-full flex justify-between">
-              <div className="text-sm text-gray-400">co-founder</div>
-              <div className="w-6 text-2xl">✌️</div>
+          <div className="mt-auto flex items-center">
+            <div className="flex flex-col w-full">
+              <div className={`gg-subtitle  text-black2-900 flex `}>
+                Learn about Dandelion every other Tuesday at 2030 UTC
+              </div>
             </div>
           </div>
         </div>
