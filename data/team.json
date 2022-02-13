@@ -47,15 +47,6 @@
       "textColor": "text-pink-400"
     },
     {
-      "name": "OCG",
-      "image": "/team/suit.jpg",
-      "bio": "Cardano OG.",
-      "twitter": "https://twitter.com/oldcryptogeek",
-      "linkedIn": "https://www.linkedin.com",
-      "color": "bg-red-600",
-      "textColor": "text-red-400"
-    },
-    {
       "name": "Steve Lockhart",
       "image": "/team/steve.jpg",
       "bio": "Community builder, decentralization advocate, arborist, dog owner.",
