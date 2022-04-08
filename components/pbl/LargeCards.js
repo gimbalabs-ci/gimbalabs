@@ -49,7 +49,7 @@ export default function LargeCards({ colors, list }) {
         </div>
         <div className="hidden lg:block relative z-10 ml-auto p-7 w-1/3 ">
           <p>
-            What you learn is up to you. When you're ready to get started, jump in. Then, join us to talk about what you've learned.
+            Cardano Starter Kits are an invitation for you to start learning about how Cardano works. You can use these video explanations and documentation to move at your own pace. When you have questions or feel ready to learn more, we hope you'll let us know.
           </p>
         </div>
       </div>

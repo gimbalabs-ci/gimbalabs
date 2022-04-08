@@ -57,16 +57,6 @@ export default function SmallCard({
             >
               <div className="flex-1">
                 <motion.div
-                  key={`${title}-15`}
-                  animate={{
-                    transition: { ...gdsEase12, delay: 0.03 },
-                    y: hov ? 24 : 0,
-                  }}
-                  className={`md:text-lg md:mb-1`}
-                >
-                  {subtitle}
-                </motion.div>
-                <motion.div
                   key={`${title}-16`}
                   animate={{
                     transition: { ...gdsEase12 },
@@ -75,6 +65,16 @@ export default function SmallCard({
                   className={`text-2xl md:text-4xl font-heading`}
                 >
                   {title}
+                </motion.div>
+                <motion.div
+                  key={`${title}-15`}
+                  animate={{
+                    transition: { ...gdsEase12, delay: 0.03 },
+                    y: hov ? 24 : 0,
+                  }}
+                  className={`md:text-lg md:mb-1`}
+                >
+                  {subtitle}
                 </motion.div>
               </div>
               {/* <div className="ml-auto mt-7 opacity-0 group-hover:opacity-100">

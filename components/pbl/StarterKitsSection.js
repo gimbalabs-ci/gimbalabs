@@ -29,16 +29,7 @@ export default function StarterKitsSection({ csks, colors }) {
                 >
                   Cardano Starter Kits
                 </motion.h3>
-                <div className="max-w-12 ml-5 lg:ml-9 ">
-                  <p>
-                    Starter kits are our invitation to you to start tinkering.
-                  </p>
-                </div>
-                <div className="max-w-12 mt-5 lg:hidden ml-9 lg:ml-9 ">
-                  <p>
-                    Hello
-                  </p>
-                </div>
+
                 <div className="w-full flex justify-end">
                   <div>
                     <button className="gds-btn bg-blue-600 hover:bg-blue-200 text-blue-100 hover:text-black2-900 border-blue-600">

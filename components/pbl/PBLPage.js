@@ -9,7 +9,7 @@ import LargeCards from "../../components/pbl/LargeCards";
 import { useRouter } from "next/router";
 import StarterKitsSection from "./StarterKitsSection";
 import PlutusSection from "./PlutusSection";
-import PlaygroundSection from "./PlaygroundSection";
+import TokenomicsSection from "./TokenomicsSection";
 import {
   blueColors,
   redColors,
@@ -27,16 +27,16 @@ const csks = [
     title: "",
   },
   {
-    number: "007",
-    title: "Building Transactions the Hard Way",
-  },
-  {
     number: "008",
     title: "Minting, Metadata, and Unsigs",
   },
   {
-    number: "009",
-    title: "The Lobster Challenge",
+    number: "010",
+    title: "What can I do with GameChanger Wallet?",
+  },
+  {
+    number: "011",
+    title: "Gimbal Bounty Prototype",
   },
 ];
 const ppbls = [
@@ -100,7 +100,7 @@ export default function PBLPage() {
       <StickyNoteList colors={colors} />
       <StarterKitsSection colors={colors} csks={csks} />
       <PlutusSection colors={colors.orangeColors} ppbls={ppbls} />
-      <PlaygroundSection colors={colors.redColors} playgrounds={playgrounds} />
+      <TokenomicsSection colors={colors.redColors} playgrounds={playgrounds} />
       <div className="spacing-x "></div>
     </div>
   );

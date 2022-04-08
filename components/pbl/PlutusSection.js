@@ -27,10 +27,10 @@ export default function PlutusSection({ colors, ppbls }) {
                 animate={{ transition: { ...gdsEase12 }, y: hov ? -21 : 0 }}
                 className="relative z-10 mt-5 w-full sm:max-w-12  text-6xl "
               >
-                Plutus in action
+                Plutus PBL
               </motion.h3>
               <div className="relative z-10  w-full sm:max-w-12 font-body text-2xl ">
-                Learn plutus through real life projects
+                Collaborate with our team to learn full-stack Plutus development.
               </div>
               <div className="my-6 ">
                 <button className="w-12 lg:w-full flex items-center  gds-btn text-orange-100 border border-orange-100 hover:bg-black2-800  ">
@@ -44,13 +44,10 @@ export default function PlutusSection({ colors, ppbls }) {
         {/* Paragraphs */}
         <div className="order-3 sm:order-2  w-full sm:max-w-12 mx-5 my-5 mb-0 ">
           <p className=" mb-5">
-            We're learning Plutus by collaborating on a list of tasks each
-            month.
+            Explore the <a href="https://gitlab.com/gimbalabs/ppbl-course-01" className="text-orange-400 hover:text-orange-200" target="_blank">public PPBL repos on GitLab</a>.
           </p>
-          <p className=" ">
-            Along the way, we're elucidating the principles of project based
-            learning, so that we can apply to Atala Prism, Dandelion,
-            DAO-building and beyond.
+          <p className=" mb-5">
+            Join for Live Coding Sessions every Wednesday at 1600 UTC and Thursday at 1500 UTC. Details on <a href="https://discord.gg/XTvJBj7kzq" className="text-orange-400 hover:text-orange-200" target="_blank">Gimbalabs Discord</a>.
           </p>
         </div>
         {/* Blocks */}
