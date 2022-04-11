@@ -21,7 +21,7 @@ objectives:
     title: "Goals",
     list:
       [
-        "Write a goal here",
+        "Testing a code change with a Commit for James' demo",
         "And another here",
         "More if needed...",
       ],
