@@ -31,6 +31,7 @@ recirc:
 ---
 
 ## What we are doing
+Supporting other tokenomics teams
 
 ### Current Steps
 - Each group can list current projects here
