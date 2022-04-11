@@ -24,6 +24,8 @@ objectives:
         "Write a goal here",
         "And another here",
         "More if needed...",
+        "Here is our 4th goal!",
+        "I can have five goals too!"
       ],
   }
 recirc:
@@ -32,12 +34,14 @@ recirc:
 
 ## What we are doing
 
+I can start writing a paragraph about what we are doing!
+
 ### Current Steps
 - Each group can list current projects here
 
 ### Next Steps
-- Upcoming work
-- Help wanted / bounties
+1. Upcoming work
+2. Help wanted / bounties
 
 ## How to get involved
 - You can share links to resources
