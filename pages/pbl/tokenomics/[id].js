@@ -9,10 +9,10 @@ import { getAllTokenomicsIds, getTokenomicsData } from "../../../lib/tokenomics"
 import Objectives from "../../../components/pbl/Objectives";
 
 export async function getStaticProps({ params }) {
-  const plutusData = await getTokenomicsData(params.id);
+  const tokenomicsData = await getTokenomicsData(params.id);
   return {
     props: {
-      plutusData,
+      tokenomicsData,
     },
   };
 }
@@ -25,9 +25,9 @@ export async function getStaticPaths() {
   };
 }
 
-export default function SpecificTokenomics({ plutusData }) {
-  const { contentReact, videos, fullWidthImageAndText, recirc, objectives } = plutusData;
-
+export default function SpecificTokenomics({ tokenomicsData }) {
+  const { contentReact, videos, fullWidthImageAndText, recirc, objectives } = tokenomicsData;
+  console.log("Tokenomics Data", tokenomicsData)
   const link = "/pbl/tokenomics";
   const color = "RED";
 

@@ -27,7 +27,7 @@ objectives:
       ],
   }
 recirc:
-  { image: "/learn.jpeg", color: "bg-blue-600", list: ["2021-09", "2021-10"] }
+  { image: "/learn.jpeg", color: "bg-blue-600", list: ["a0-cardano-4-climate", "a0-littlefish-foundation"] }
 ---
 
 ## What we are doing

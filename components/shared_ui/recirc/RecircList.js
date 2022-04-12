@@ -3,6 +3,8 @@ import RecircCard from "./RecircCard";
 import Link from "next/link";
 
 export default function RecircList({ link, list }) {
+  console.log("RecircList", link)
+  console.log("RecircList", list)
   return (
     <div className="relative text-offWhite">
       <div className="bg-black2-900 absolute inset-0" />
