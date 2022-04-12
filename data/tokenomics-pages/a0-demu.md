@@ -42,3 +42,11 @@ recirc:
 ## How to get involved
 - You can share links to resources
 - Or meeting times
+
+## A0 Voter Suggested Goals - DEMU Jukebox
+- Report back to broader tokenomics team with recommendations for future Case Studies + TPBL Course Projects
+- Figure out how Felix can play these tunes at Sat Swarm meeting.
+- Let the other groups be beta testers!
+- Enable participation in project development process for our in-house devs.
+- have interesting experiments to share with the group
+- Option to play music using Gimbals

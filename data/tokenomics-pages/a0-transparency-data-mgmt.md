@@ -42,3 +42,10 @@ recirc:
 ## How to get involved
 - You can share links to resources
 - Or meeting times
+
+## A0 Voter Suggested Goals - Transparency Data Management
+- Produce a set of recommendations for Gimbalabs to level up transparency and data management practices; create proposals to Technical Group to create tools for transparency + data management; initialize a Gimbal Token FAQ
+- Create easy access templates to be used by non-technical communities like C4C?
+- Find a great way to track where Gimbals go, how were they flowing in the community?
+- have interesting experiments to share with the group
+- support reproting of usecases as well

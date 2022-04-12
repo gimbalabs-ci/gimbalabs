@@ -42,3 +42,11 @@ recirc:
 ## How to get involved
 - You can share links to resources
 - Or meeting times
+
+## A0 Voter Suggested Goals - Cardano After Dark
+- Report back to broader tokenomics team with recommendations for future Case Studies + TPBL Course Projects
+- Incentivise addiction awareness and safeguarding
+- See how Gimbals can be used with building out a project, incentivize participation
+- Enable participation in project development process for our in-house devs.
+- have interesting experiments to share with the group
+- Open-source smart contract design which has all the possible features when playing one hand. Gimbals used as bets.

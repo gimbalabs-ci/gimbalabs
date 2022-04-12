@@ -43,3 +43,12 @@ Supporting other tokenomics teams
 ## How to get involved
 - You can share links to resources
 - Or meeting times
+
+## A0 Voter Suggested Goals - Technical
+- Write a Development Agenda consisting of tooling that will directly support the outcomes of other Groups in TPBL and facilitate scaling in A1 - A7. Consider starting with urgent tasks like distributing keys to the Gimbal treasury and initializing tools to help track/audit/visualize movement of gimbals. Then set priorities and choose a development framework to practice using.
+- How do we create an offchain placeholder token (to be used within the C4C circle economy) "pegged" to a gimbal that can be traded for gimbals if the holder so desires. How can we simulate transactions for members who are unfamiliar with crypto?
+- Be a resource for other groups in TPBL and the greater community to solve or implement technical requests	Collect information about "What people want to do?" inside this group.
+- Create two revenue-generating products
+- have interesting experiments to share with the group, build tools
+- 1. Build the infrastructure
+- 2. work with the groups to build tech that serve the purpose/needs (tuff task with multiple potential needs & ideas)

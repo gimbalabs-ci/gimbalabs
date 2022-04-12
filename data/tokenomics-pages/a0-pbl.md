@@ -42,3 +42,11 @@ recirc:
 ## How to get involved
 - You can share links to resources
 - Or meeting times
+
+## A0 Voter Suggested Goals - Project Based Learning
+- Promote GMBL for payment of project dev	Take the raw material of TPBL A0 and PPBL Course #1 and begin to write cohesive PBL Curriculum. Create systems so that other Groups can make rec's for Projects + Case Studies
+- Will help when I can.	Create a cleaned-up and tighter curriculum for how to launch a new token.	Find out how to best structure accquried knowledge & materials to create new iterrations of our previous PBL courses.
+- Create a revenue-generating product from PPBL
+- have interesting experiments to share with the group, build learning material
+- "Report how long A0 Project took and what was achieved.
+- Report should be reusable in A1"

@@ -42,3 +42,13 @@ recirc:
 ## How to get involved
 - You can share links to resources
 - Or meeting times
+
+## A0 Voter Suggested Goals - PR, Marketing & Communications
+- Help tell the story of TPBL Allocation 0 and how to get involved in A1; Meet with Susana to see what we can learn from Joey's Hot Sauce project
+- How will you share tips for navigating communication platforms & marketing to the community?
+- Market, publicize, and create materials so people can learn about Gimbals, the story and how it will benefit the community
+- Try to set up weekly/biweekly meetings with different communities in Cardano ecosystem, (make podcasts, recordings?) and put on YT channel.
+- Bring PPBL to market as a paid product ; generate traffic for all our products
+- have interesting experiments to share with the group, market things
+- Share Gimbals far and wide. Demonstrate achievements on other chains
+- Central support but also for the various groups/use cases

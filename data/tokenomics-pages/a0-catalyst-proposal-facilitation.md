@@ -42,3 +42,10 @@ recirc:
 ## How to get involved
 - You can share links to resources
 - Or meeting times
+
+## A0 Voter Suggested Goals - Catalyst Proposal Facilitation
+- Boost the morale of valuable but failed proposers between Funds.
+- Figure out how to work with C4C Community proposals if possible
+- How can Gimbals be used to trade for services, in particular facilitating catalyst proposals
+- have interesting experiments to share with the group
+- engage new commers, better proposal for direct impact on CA / VCA process

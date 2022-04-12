@@ -42,3 +42,9 @@ recirc:
 ## How to get involved
 - You can share links to resources
 - Or meeting times
+
+## A0 Voter Suggested Goals - Catalyst Constitution
+- Source contributing ideas from as wide a base of humanity as possible
+- Can Gimbals be used to incentivize people to participate in creating a constitution for Catalyst?
+- have interesting experiments to share with the group
+- Outreach for constitution feedback in Townhall

@@ -42,3 +42,11 @@ recirc:
 ## How to get involved
 - You can share links to resources
 - Or meeting times
+
+## A0 Voter Suggested Goals - Cardano 4 Climate
+- Targetting Carbon Credits Issuance
+- Report back to broader tokenomics team with recommendations for future Case Studies + TPBL Course Projects
+- Incentivise real and verified impact metrics gathering
+- Experiment with Gimbals to build community
+- have interesting experiments to share with the group
+- Onboarding people outside the crypto space to own Gimbals	Coomunity use case for inclusive, growing and engaging community

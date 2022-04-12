@@ -42,3 +42,9 @@ recirc:
 ## How to get involved
 - You can share links to resources
 - Or meeting times
+
+## A0 Voter Suggested Goals - Littlefish Foundation
+- Report back to broader tokenomics team with recommendations for future Case Studies + TPBL Course Projects
+- Looking forward to what comes out of this group!
+- How can Gimbals be used in the LIttlefish Colony model?
+- have interesting experiments to share with the group
