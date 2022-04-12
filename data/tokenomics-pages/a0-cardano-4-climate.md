@@ -1,5 +1,5 @@
 ---
-number: "Cardano 4 Climate"
+number: "Cardano4Climate"
 title: "TPBL Allocation 0"
 allocation: "Allocation 0"
 version: 1
@@ -12,7 +12,7 @@ videos:
 fullWidthImageAndText:
   {
     src: "/keepbees.jpeg",
-    title: "Cardano 4 Climate Group",
+    title: "Cardano4Climate Community Experiment",
     subtitle: "Allocation 0",
     orientation: "right",
   }
@@ -29,7 +29,7 @@ objectives:
 recirc:
   { image: "/learn.jpeg", color: "bg-blue-600", list: ["a0-cardano-4-climate", "a0-littlefish-foundation"] }
 ---
-
+## Making the World Work Better For All People, Animals and the Planet
 ## What we are doing
 
 ### Current Steps
