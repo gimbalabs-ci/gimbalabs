@@ -21,9 +21,10 @@ objectives:
     title: "Goals",
     list:
       [
-        "Write a goal here",
-        "And another here",
-        "More if needed...",
+        "Current & new community members joining experiment by C4C weekly meetup (April 20) will collectively determine Why Statement for C4C GTPBL Experiment by next group meeting, April 22, 2022.",
+        "Sub-experiments will be formed, ready to implement, and Gimbal Tokens allocated to groups by the conclusion of group meeting April 29, 2022",
+        "Sub-experiments will run for x # of weeks - based on expectations of Original GTPBL Cohort",
+        "Ongoing progress, Records & Final Presentation to Gimbalabs Token PBL by TBD"
       ],
   }
 recirc:
@@ -33,15 +34,17 @@ recirc:
 ## What we are doing
 
 ### Current Steps
-- Each group can list current projects here
+- Forming a process to communicate ideas and reach decisions based on member concensus over centralized/leadership
+- Reaching a collective C4C GTPBL "Why/Purpose/Value" before moving into "How & What"
 
 ### Next Steps
-- Upcoming work
-- Help wanted / bounties
+- Exploring sub-experiments
+- Creating appropriate timelines & expectations both from within the group experiment & GTPBL
+- Communicating & including C4C Community both to the experiment as participants and as co-creators
 
 ## How to get involved
-- You can share links to resources
-- Or meeting times
+- Telegram: https://t.me/+qHw_qQEcDMFlODJh, C4C Discord: https://discord.gg/cw6xTe6Q3M & Gimbalabs Discord: https://discord.gg/DVz3UB2Xse 
+- Meetings: ~4pm UTC Wednesdays (C4C Weekly meetup-breakout room) & 2pm UTC Fridays (see Tg/Discord for links.
 
 ## A0 Voter Suggested Goals - Cardano 4 Climate
 - Targetting Carbon Credits Issuance
