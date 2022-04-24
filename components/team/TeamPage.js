@@ -47,10 +47,10 @@ export default function TeamPage() {
       {/* TEAM CARDS */}
       <section className="py-9 bg-black2-900 text-offWhite">
         <h2 className="spacing-x mb-5 lg:mb-0     text-4xl lg:text-6xl ">
-          Team
+          Team: Updates Coming Soon (May 2022)
         </h2>
 
-        <div className="  mx-auto flex justify-center items-start flex-wrap">
+        {/* <div className="  mx-auto flex justify-center items-start flex-wrap">
           {team.founders.map((i) => (
             <div className="max-w-13 m-5  flex flex-col ">
               <div className=" relative  ">
@@ -63,9 +63,7 @@ export default function TeamPage() {
                   <Image src={i.image} width={192} height={192} />
                 </div>
               </div>
-              {/* Content Group */}
               <div className=" flex  ">
-                {/* Socials */}
                 <div
                   className={`mx-5 flex flex-col justify-center items-center ${i.textColor}`}
                 >
@@ -81,7 +79,6 @@ export default function TeamPage() {
                     strokeWidth="1"
                   />
                 </div>
-                {/* Text group */}
                 <div className="flex flex-col">
                   <div
                     className={`flex text-2xl md:text-4xl font-heading mb-2  `}
@@ -97,14 +94,14 @@ export default function TeamPage() {
               </div>
             </div>
           ))}
-        </div>
+        </div> */}
       </section>
       {/* WHAT WE'RE BUILDING */}
       <section className="spacing-x py-9 text-black2-900 ">
         <h3 className="  gg-title text-center ">What we're building</h3>
         <div className="max-w-15 mx-auto">
         <p className=" mt-5">
-          Our founding team met by engaging deeply in <a href="https://cardano.ideascale.com/" target="_blank">Project Catalyst</a>. We recognized that by sharing ideas and seeking connections between projects, we could start a process that led to more people solving more problems and building more solutions on Cardano. You can still <a href="https://cardano.ideascale.com/a/dtd/Cardano-Starter-Kits-+-APIs/322195-48088" target="_blank">read our original proposal here</a>. 
+          Our founding team met by engaging deeply in <a href="https://cardano.ideascale.com/" target="_blank">Project Catalyst</a>. We recognized that by sharing ideas and seeking connections between projects, we could start a process that led to more people solving more problems and building more solutions on Cardano. You can still <a href="https://cardano.ideascale.com/a/dtd/Cardano-Starter-Kits-+-APIs/322195-48088" target="_blank">read our original proposal here</a>.
         </p>
         <p className=" mt-5">
           Here are some things we are working on right now:
