@@ -4,6 +4,7 @@ title: "TPBL Allocation 0"
 allocation: "Allocation 0"
 amount: "917,864.02"
 version: 1
+updated: "2022-04-26"
 videoId: ""
 videoTitle: ""
 path: "/pbl/tokenomics/a0-cardano-4-climate"
@@ -32,7 +33,6 @@ recirc:
   { image: "/learn.jpeg", color: "bg-blue-600", list: ["a0-cardano-4-climate", "a0-littlefish-foundation"] }
 ---
 ## Making the World Work Better For All People, Animals and the Planet
-## What we are doing
 
 ### Current Steps
 - Forming a process to communicate ideas and reach decisions based on member concensus over centralized/leadership
@@ -44,8 +44,9 @@ recirc:
 - Communicating & including C4C Community both to the experiment as participants and as co-creators
 
 ## How to get involved
-- Telegram: https://t.me/+qHw_qQEcDMFlODJh, C4C Discord: https://discord.gg/cw6xTe6Q3M & Gimbalabs Discord: https://discord.gg/DVz3UB2Xse 
-- Meetings: ~4pm UTC Wednesdays (C4C Weekly meetup-breakout room) & 2pm UTC Fridays (see Tg/Discord for links.
+- Telegram: [https://t.me/+qHw_qQEcDMFlODJh](https://t.me/+qHw_qQEcDMFlODJh), C4C Discord: [https://discord.gg/cw6xTe6Q3M](https://discord.gg/cw6xTe6Q3M) & Gimbalabs Discord: [https://discord.gg/DVz3UB2Xse](https://discord.gg/DVz3UB2Xse)
+- Meetings: ~4pm UTC Wednesdays (C4C Weekly meetup-breakout room) & 2pm UTC Fridays. See Tg/Discord for links.
+
 
 ## A0 Voter Suggested Goals - Cardano 4 Climate
 - Targetting Carbon Credits Issuance

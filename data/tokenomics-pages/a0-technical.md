@@ -22,9 +22,9 @@ objectives:
     title: "Goals",
     list:
       [
-        "Write a goal here",
-        "And another here",
-        "More if needed...",
+        "Informed by the process that started to emerge in A0, build an MVP (d)app for A1 Group formation, commitment, and Allocation voting",
+        "Develop and document Gimbal Bounty Treasury + Escrow a point where it can be deployed by other A0 Working Groups",
+        "Support A0 Working Groups with Bounty Treasury + Escrow, and other development needs"
       ],
   }
 recirc:
@@ -35,15 +35,13 @@ recirc:
 Supporting other tokenomics teams
 
 ### Current Steps
-- Each group can list current projects here
+- Building and documenting [Gimbal Bounty Treasury + Escrow](https://gitlab.com/gimbalabs/gimbal-bounty-treasury-and-escrow)
 
 ### Next Steps
-- Upcoming work
-- Help wanted / bounties
+- Deploy Gimbal Bounty Treasury + Escrow for this Working Group, and use it to list additional tasks.
 
-## How to get involved
-- You can share links to resources
-- Or meeting times
+### How to get involved
+- Plutus PBL meets for Live Coding every Wednesday and Thursday (and right now, most Mondays and Tuesdays). Join us in Gimbalabs Discord.
 
 ## A0 Voter Suggested Goals - Technical
 - Write a Development Agenda consisting of tooling that will directly support the outcomes of other Groups in TPBL and facilitate scaling in A1 - A7. Consider starting with urgent tasks like distributing keys to the Gimbal treasury and initializing tools to help track/audit/visualize movement of gimbals. Then set priorities and choose a development framework to practice using.
