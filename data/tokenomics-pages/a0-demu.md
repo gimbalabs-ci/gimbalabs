@@ -2,6 +2,7 @@
 number: "DEMU Jukebox"
 title: "TPBL Allocation 0"
 allocation: "Allocation 0"
+amount: "859,179.39"
 version: 1
 videoId: ""
 videoTitle: ""

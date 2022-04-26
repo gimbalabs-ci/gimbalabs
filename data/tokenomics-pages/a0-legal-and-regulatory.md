@@ -2,6 +2,7 @@
 number: "Legal + Regulatory"
 title: "TPBL Allocation 0"
 allocation: "Allocation 0"
+amount: "932,006.45"
 version: 1
 videoId: ""
 videoTitle: ""

@@ -2,6 +2,7 @@
 number: "Bridge Builders"
 title: "TPBL Allocation 0"
 allocation: "Allocation 0"
+amount: "923,724.58"
 version: 1
 videoId: ""
 videoTitle: ""

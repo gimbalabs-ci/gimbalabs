@@ -2,6 +2,7 @@
 number: "Project Based Learning"
 title: "TPBL Allocation 0"
 allocation: "Allocation 0"
+amount: "1,222,939.12"
 version: 1
 videoId: ""
 videoTitle: ""

@@ -2,6 +2,7 @@
 number: "Catalyst Constitution"
 title: "TPBL Allocation 0"
 allocation: "Allocation 0"
+amount: "806,216.95"
 version: 1
 videoId: ""
 videoTitle: ""

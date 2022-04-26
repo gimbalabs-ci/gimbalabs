@@ -7,6 +7,7 @@ import StyledMarkdown from "../../../components/shared_ui/StyledMarkdown";
 import VideosGroup from "../../../components/shared_ui/VideoTabs";
 import { getAllTokenomicsIds, getTokenomicsData } from "../../../lib/tokenomics";
 import Objectives from "../../../components/pbl/Objectives";
+import Amount from "../../../components/pbl/Amount";
 
 export async function getStaticProps({ params }) {
   const tokenomicsData = await getTokenomicsData(params.id);
@@ -26,7 +27,7 @@ export async function getStaticPaths() {
 }
 
 export default function SpecificTokenomics({ tokenomicsData }) {
-  const { contentReact, videos, fullWidthImageAndText, recirc, objectives } = tokenomicsData;
+  const { contentReact, videos, fullWidthImageAndText, recirc, objectives, amount } = tokenomicsData;
   console.log("Tokenomics Data", tokenomicsData)
   const link = "/pbl/tokenomics";
   const color = "RED";
@@ -41,6 +42,7 @@ export default function SpecificTokenomics({ tokenomicsData }) {
           {...fullWidthImageAndText}
         />
         <Objectives color={color} objectives={objectives} />
+        <Amount gimbals={amount} />
 
         <VideosGroup color={color} videos={videos} />
         {/* Layout */}

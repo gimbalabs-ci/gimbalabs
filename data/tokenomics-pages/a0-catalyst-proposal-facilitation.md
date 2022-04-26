@@ -2,6 +2,7 @@
 number: "Catalyst Proposal Facilitation"
 title: "TPBL Allocation 0"
 allocation: "Allocation 0"
+amount: "704,798.68"
 version: 1
 videoId: ""
 videoTitle: ""

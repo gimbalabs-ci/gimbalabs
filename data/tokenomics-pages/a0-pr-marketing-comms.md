@@ -2,6 +2,7 @@
 number: "PR, Marketing & Communications"
 title: "TPBL Allocation 0"
 allocation: "Allocation 0"
+amount: "1,013,342.67"
 version: 1
 videoId: ""
 videoTitle: ""

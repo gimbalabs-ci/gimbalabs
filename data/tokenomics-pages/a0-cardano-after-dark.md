@@ -2,6 +2,7 @@
 number: "Cardano After Dark"
 title: "TPBL Allocation 0"
 allocation: "Allocation 0"
+amount: "563,334.92"
 version: 1
 videoId: ""
 videoTitle: ""

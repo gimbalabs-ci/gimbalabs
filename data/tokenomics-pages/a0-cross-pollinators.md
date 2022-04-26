@@ -2,6 +2,7 @@
 number: "Connectors, Cross Pollinators, Network Builders, Recruiters"
 title: "TPBL Allocation 0"
 allocation: "Allocation 0"
+amount: "1,023,482.53"
 version: 1
 videoId: ""
 videoTitle: ""

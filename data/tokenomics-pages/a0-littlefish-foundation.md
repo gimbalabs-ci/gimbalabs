@@ -2,6 +2,7 @@
 number: "Littlefish Foundation"
 title: "TPBL Allocation 0"
 allocation: "Allocation 0"
+amount: "638,039.72"
 version: 1
 videoId: ""
 videoTitle: ""

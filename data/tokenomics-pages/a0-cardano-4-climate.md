@@ -2,6 +2,7 @@
 number: "Cardano4Climate"
 title: "TPBL Allocation 0"
 allocation: "Allocation 0"
+amount: "917,864.02"
 version: 1
 videoId: ""
 videoTitle: ""

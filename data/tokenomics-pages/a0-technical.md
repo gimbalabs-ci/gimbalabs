@@ -2,6 +2,7 @@
 number: "Technical Group"
 title: "TPBL Allocation 0"
 allocation: "Allocation 0"
+amount: "2,285,202.13"
 version: 1
 videoId: ""
 videoTitle: ""

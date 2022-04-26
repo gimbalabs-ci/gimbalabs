@@ -2,6 +2,7 @@
 number: "Transparency + Data Management"
 title: "TPBL Allocation 0"
 allocation: "Allocation 0"
+amount: "799,951.20"
 version: 1
 videoId: ""
 videoTitle: ""
