@@ -75,7 +75,7 @@ const borderOptions = {
   GREEN: greenColors,
 };
 const Block = ({ d, color, baseRoute }) => {
-  const { id, number, title, about } = d;
+  const { id, number, title, about, amount, updated } = d;
   const [state, setState] = useState({
     myText: "",
     myColor: "",
@@ -106,7 +106,17 @@ const Block = ({ d, color, baseRoute }) => {
             <div className={` mr-auto mb-auto text-4xl font-heading `}>
               {number ? number : ""}
             </div>
-            <div className="mt-auto text-2xl ml-auto text-right  ">{title}</div>
+            <div className="mt-auto text-2xl ml-auto text-right  ">
+              <p className="text-md font-simibold pb-1">
+                {amount} gimbals
+              </p>
+              <p className="text-sm font-bold">
+                {title}
+              </p>
+              <p className="text-sm">
+                {updated ? `Updated: ${updated}` : "Needs Update: Goals + Next Steps"}
+              </p>
+            </div>
           </div>
         </a>
       </Link>

@@ -15,6 +15,7 @@ import Link from "next/link";
 export default function RecircCard({ id }) {
   // Grab Data
   const data = useAPIById(id);
+  console.log("recirc card", id, data)
 
   // Is hovered?
   const [active, setActive] = useState(false);
@@ -51,6 +52,7 @@ export default function RecircCard({ id }) {
     initial: "initial",
     animate: active ? "animate" : "initial",
   };
+
 
   return (
     <Link href={path} alt={id}>

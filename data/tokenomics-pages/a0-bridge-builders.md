@@ -2,6 +2,7 @@
 number: "Bridge Builders"
 title: "TPBL Allocation 0"
 allocation: "Allocation 0"
+amount: "923,724.58"
 version: 1
 videoId: ""
 videoTitle: ""
@@ -46,3 +47,11 @@ I can start writing a paragraph about what we are doing!
 ## How to get involved
 - You can share links to resources
 - Or meeting times
+
+## A0 Voter Suggested Goals - Bridge Builders
+- Taste test the incentivisation of Swarm activities as a high priority with the expectation of future Swarm specific allocation
+- Report back to broader tokenomics team with recommendations for future Case Studies + TPBL Course Projects
+- Look at how Gimbals can be used between groups and communities.
+- Research which communities in blockchain ecosystem allign most with our own missions & goals.
+- have interesting experiments to share with the group
+- Creating use cases for Gimbal Tokens (locking, staking, paying)

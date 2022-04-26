@@ -2,6 +2,7 @@
 number: "Catalyst Proposal Facilitation"
 title: "TPBL Allocation 0"
 allocation: "Allocation 0"
+amount: "704,798.68"
 version: 1
 videoId: ""
 videoTitle: ""
@@ -27,7 +28,7 @@ objectives:
       ],
   }
 recirc:
-  { image: "/learn.jpeg", color: "bg-blue-600", list: ["2021-09", "2021-10"] }
+  { image: "/learn.jpeg", color: "bg-blue-600", list: ["a0-cardano-4-climate", "a0-littlefish-foundation"] }
 ---
 
 ## What we are doing
@@ -42,3 +43,10 @@ recirc:
 ## How to get involved
 - You can share links to resources
 - Or meeting times
+
+## A0 Voter Suggested Goals - Catalyst Proposal Facilitation
+- Boost the morale of valuable but failed proposers between Funds.
+- Figure out how to work with C4C Community proposals if possible
+- How can Gimbals be used to trade for services, in particular facilitating catalyst proposals
+- have interesting experiments to share with the group
+- engage new commers, better proposal for direct impact on CA / VCA process
