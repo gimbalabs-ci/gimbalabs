@@ -38,11 +38,13 @@ recirc:
 
 ### Current Steps
 - Planning Iteration #2 of Plutus PBL by debriefing Iteration #1 and moving toward a modular, self-paced, project-based model.
-- Onboarding to Canvas LMS (please contact James to be a teacher/admin)
+- Onboarding to Canvas LMS (see Get Involved, below)
 - Planning the role that Tokenomics PBL will play in Gimbal Allocation 1, by collecting best ideas/processes/outcomes from Allocation 0 and drafting a modular TPBL Curriculum.
 
+### Get Involved
+- Take a look at this custom deployment of the [Gimbal Token Bounty Treasury and Escrow](https://a0pblworkinggroup.gatsbyjs.io/bounties). This instance of the Treasury and Escrow dapp can be used to organize, track, and distribute rewards for contributing to the A0 PBL Working Group.
+
 ### Next Steps
-- Implement Bounty Treasury and Escrow for PBL Group and for Technical Group
 - Establish a meeting cadence and onboard PBL Working Group members
 
 ### Big Dreams
