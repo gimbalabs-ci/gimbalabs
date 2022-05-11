@@ -10,8 +10,8 @@ videoTitle: ""
 path: "/pbl/tokenomics/a0-pbl"
 videos:
   [
-    { videoId: "A3xOS8cu5kk", videoPart: "intro", videoTitle: "Gimbal Treasury + Escrow for A0 Working Groups" },
-    { videoId: "5FWrwQ3AAos", videoPart: "deep dive", videoTitle: "Another video!" },
+    { videoId: "S01fqeCDqE8", videoPart: "followup", videoTitle: "Next Steps 2022-05-11" },
+    { videoId: "A3xOS8cu5kk", videoPart: "demo", videoTitle: "Gimbal Treasury + Escrow for A0 Working Groups" },
   ]
 fullWidthImageAndText:
   {
