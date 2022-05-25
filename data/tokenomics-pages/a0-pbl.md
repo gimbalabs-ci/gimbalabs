@@ -38,20 +38,30 @@ recirc:
 - Planning Iteration #2 of Plutus PBL by debriefing Iteration #1 and moving toward a modular, self-paced, project-based model.
 - Onboarding to Canvas LMS
 - Planning the role that Tokenomics PBL will play in Gimbal Allocation 1, by collecting best ideas/processes/outcomes from Allocation 0 and drafting a modular TPBL Curriculum.
+- Exploring the role that a PBL Framework might play in building a Distributed Autonomous Org Chart
 
-### Links 2022-05-17
+### Links 2022-05-24
 - [Miro Board: A0 PBL Working Group](https://miro.com/app/board/uXjVO4u0254=/?share_link_id=953117716780)
+- [Meeting recording 2022-05-24](https://drive.google.com/file/d/1Ac9KQsdozelIaVmOjHbU33A21xAFgVvq/view?usp=sharing)
 - [Meeting recording 2022-05-17](https://drive.google.com/file/d/1f1ZWJ0UeTWTQoxtX_c3qK1D4v0BD31aw/view?usp=sharing)
 - [Meeting recording 2022-05-10](https://drive.google.com/file/d/1XG28TWBGYVG28UatmmpcFlvC2X4zY1wA/view?usp=sharing)
 - [Meeting recording 2022-05-03](https://drive.google.com/file/d/14i7-9cnavpDfFYQBMOA-qM9yQW8TbRbl/view?usp=sharing)
 
-### Current Steps 2022-05-17
-- Complete the "Growing With Canvas" Course at [https://gimbalabs.instructure.com](https://gimbalabs.instructure.com). See the note below about Learning Canvas + Current Bounty.
-- We are currently drafting desired outcomes for Plutus and Tokenomics PBL. On the Miro board linked above, look for the links to "Raw Material" in PPBL and TPBL. How can these materials help us to define outcomes for the next iteration of each course?
-- Optional: If you want to be an Admin on the Gimbalabs Canvas account, thank you! Our current Admins are Alex, Ali, Chad, Curtis, Genty, Melanie, Nori, Piotr, and me. If you'd like to be an Admin, please let one of us know, and we'll learn how to add you ;) There is a training course for Admins called "Be the Hero" - all are welcome to take this course.
-- Optional: There is a meeting every Wednesday for the next 5 weeks for anyone who wants to learn more from the Canvas team about our onboarding. Let me know if you'd like to participate.
+## Current Steps 2022-05-24
+### What do you want to work on? Is there work you want to lead?
+- Please complete this task before 31 May.
+- Review the [A0 PBL Working Group Miro Board](https://miro.com/app/board/uXjVO4u0254=/?share_link_id=953117716780).
+- Near the bottom of the Miro board, look for the purple sticky note that says "Where + how do you most want to build + test this PBL Framework?".
+- Add your own purple sticky note somewhere on the chart. Look at others for examples. If you want to contribute to making BBK Modules for the PPBL Course, place a sticky there with your name and a description of your interest. If you want to contribute to building the TPBL course, place a sticky there, etc.
+- More information in [Meeting recording 2022-05-24](https://drive.google.com/file/d/1Ac9KQsdozelIaVmOjHbU33A21xAFgVvq/view?usp=sharing)
 
-### Next Meeting (2022-05-17 at 1830 UTC)
+### Learning Canvas
+- Continue to complete the "Growing With Canvas" Course at [https://gimbalabs.instructure.com](https://gimbalabs.instructure.com). See the note below about Learning Canvas + Current Bounty.
+
+### Writing PBL Course Content
+- We are currently drafting desired outcomes for Plutus and Tokenomics PBL. On the Miro board linked above, look for the links to "Raw Material" in PPBL and TPBL. How can these materials help us to define outcomes for the next iteration of each course?
+
+## Next Meeting (2022-05-31 at 1930 UTC)
 - This Working Group meets every Tuesday at 1930 UTC, on [Zoom](https://us06web.zoom.us/j/93346917668?pwd=QnhXSEVLTFlkRGw5czNGMTUvUnFIZz09)
 
 ### Learning Canvas + Current Bounty (Updated 2022-05-17)
