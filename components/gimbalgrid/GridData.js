@@ -301,12 +301,13 @@ export const gridData = [
     gridBoxStyle: `col-span-full sm:col-span-4 row-span-1    `,
     gridBoxComponent: GBLogo,
   },
-
   {
     disable: true,
-    gridBoxStyle: `col-span-full sm:col-span-6 row-span-4    `,
-    gridBoxComponent: TitleGroup,
+    gridBoxStyle: ` col-span-full sm:col-span-8 row-span-3   `,
+    gridBoxComponent: TitleGroupDark,
+    gridBoxProps: {},
   },
+
   {
     gridBoxStyle: "col-span-2 row-span-1 bg-black2-900",
     gridBoxComponent: HamburgerMenu,
@@ -343,14 +344,6 @@ export const gridData = [
     },
   },
   {
-    transitionColor: "gradient-yellow",
-    gridBoxStyle: `col-span-full sm:col-span-7 row-span-3   `,
-    gridBoxComponent: GBDandelion,
-    gridBoxProps: {},
-    fullPageComponent: DandelionPage,
-    fullPageProps: {},
-  },
-  {
     transitionColor: "bg-offWhite",
     gridBoxStyle: `col-span-full  sm:col-span-5 row-span-1   `,
     gridBoxComponent: LiveCoding,
@@ -369,13 +362,12 @@ export const gridData = [
     fullPageProps: {},
   },
 
+
   {
     disable: true,
-    gridBoxStyle: ` col-span-full sm:col-span-8 row-span-5   `,
-    gridBoxComponent: TitleGroupDark,
-    gridBoxProps: {},
+    gridBoxStyle: `col-span-full sm:col-span-6 row-span-4    `,
+    gridBoxComponent: TitleGroup,
   },
-
   {
     gridBoxStyle: `col-span-2 row-span-2`,
     gridBoxComponent: Stake,
@@ -383,6 +375,14 @@ export const gridData = [
     //gridBoxProps: {},
     fullPageComponent: StakePoolPage,
     //fullPageProps: {},
+  },
+  {
+    transitionColor: "gradient-yellow",
+    gridBoxStyle: `col-span-full sm:col-span-20 row-span-3   `,
+    gridBoxComponent: GBDandelion,
+    gridBoxProps: {},
+    fullPageComponent: DandelionPage,
+    fullPageProps: {},
   },
 
 

@@ -33,7 +33,7 @@ export default function GBPBL(props) {
         >
           <div className=" h-full relative z-10 flex items-center  ">
             <motion.h2 animate={title} className="text-4xl text-blue-100 ">
-              Start your journey
+              start Your Journey
             </motion.h2>
             <ArrowRight className="m-1 text-white" />
           </div>
@@ -42,7 +42,7 @@ export default function GBPBL(props) {
               <>
                 <div className="z-0 bg-blue-600 absolute inset-0 scale-50 transform translate-x-10"></div>
                 <div className="z-0 bg-red-600 absolute inset-0 scale-50 transform translate-x-12"></div>
-                
+
               </>
             )}
           </div>
