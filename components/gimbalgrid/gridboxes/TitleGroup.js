@@ -8,11 +8,14 @@ export default function TitleGroup(props) {
   return (
     <WithTransfer {...props}>
       <div className="p-6">
-        <h1 className={`gg-title mb-6 text-black2-800`}>
-          People Learning <span className="text-black2-800">Together</span>
+        <h1 className={`text-6xl mb-6 text-black2-800`}>
+          Web3 is more than blockchain
         </h1>
         <h2 className={`gg-subtitle text-black2-800`}>
-        We envision a world where as many people as possible are empowered to solve problems using the Cardano protocol.
+          That's why Gimbalabs is building Dandelion distributed infrastructure and Project-Based Learning courses.
+        </h2>
+        <h2 className={`gg-subtitle text-black2-800 pt-5`}>
+          What do you want to build?
         </h2>
       </div>
     </WithTransfer>
@@ -24,14 +27,14 @@ export function TitleGroupDark(props) {
     <WithTransfer {...props}>
       <div className="py-6 text-pink-900">
         <div className="h-full flex flex-col z-10 relative">
-          <h3 className={`px-6 text-3xl md:text-6xl  text-pink-900`}>
-            Collaborate Launch{" "}
+          <h3 className={`px-6 text-3xl md:text-5xl  text-pink-900`}>
+            People Learning &{" "}
           </h3>
-          <h3 className="px-6 mb-7 text-3xl md:text-6xl text-pink-900 bg-pink-100 w-full">
-            Projects
+          <h3 className="px-6 mb-7 text-3xl md:text-5xl text-pink-900 bg-pink-100 w-full">
+            Innovating Together
           </h3>
           <h4 className={` px-6 gg-subtitle `}>
-          Our mission is to mobilize everyone to develop tools and applications through a unique experience of co-creation that facilitates adoption of the Cardano protocol, reveals new possibilities, and ignites the public imagination worldwide.
+            Not sure where to start? Drop by Gimbalabs Playground on Tuesdays, 1800-1930utc.
           </h4>
           {/* <div className="relative z-10 p-7 mt-8  bg-pink-400  ">start now</div> */}
         </div>

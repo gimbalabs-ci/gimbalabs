@@ -33,16 +33,12 @@ export default function Testimony(props) {
   );
 }
 
-export function TestimonyRoberto(props) {
-  const james = "/team/james-square.jpg";
-  const juliane = "/team/juliane-square.jpg";
-  const roberto = "/team/roberto-square.jpg";
-  const kyle = "/team/kyle.png";
+export function LiveCoding(props) {
   return (
     <WithTransfer {...props}>
       <div className="p-6 flex flex-col">
         <div className={`text-4xl font-heading mb-2 text-black2-900 `}>
-          open source development
+          Live Coding Sessions
         </div>
         <div className={`gg-subtitle mb-2 text-black2-900 `}></div>
 
@@ -50,7 +46,7 @@ export function TestimonyRoberto(props) {
           <div className="mt-auto flex items-center">
             <div className="flex flex-col w-full">
               <div className={`gg-subtitle  text-black2-900 flex `}>
-                Learn about Dandelion every other Tuesday at 2030 UTC
+                Every Wednesday and Thursday 1430-1600utc
               </div>
             </div>
           </div>

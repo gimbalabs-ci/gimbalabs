@@ -24,6 +24,7 @@ const { default: HamburgerMenu } = require("./gridboxes/HamburgerMenu");
 const {
   default: Testimony,
   TestimonyRoberto,
+  LiveCoding,
 } = require("./gridboxes/Testimony");
 const {
   TitleGroupDark,
@@ -234,11 +235,7 @@ const gimbalabs = [
     gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
     gridBoxComponent: BlankWhite,
   },
-  {
-    gridBoxStyle: `col-span-4 row-span-3`,
-    gridBoxComponent: Joeys,
-    transitionColor: "black",
-  },
+
   {
     disable: true,
     gridBoxStyle: ` col-span-1  md:col-span-2 row-span-1 `,
@@ -356,7 +353,7 @@ export const gridData = [
   {
     transitionColor: "bg-offWhite",
     gridBoxStyle: `col-span-full  sm:col-span-5 row-span-1   `,
-    gridBoxComponent: TestimonyRoberto,
+    gridBoxComponent: LiveCoding,
     gridBoxProps: {},
     fullPageComponent: CalendarPage,
     fullPageProps: {},
@@ -378,10 +375,7 @@ export const gridData = [
     gridBoxComponent: TitleGroupDark,
     gridBoxProps: {},
   },
-  {
-    gridBoxStyle: `col-span-6 row-span-1`,
-    gridBoxComponent: PasswordChaos,
-  },
+
   {
     gridBoxStyle: `col-span-2 row-span-2`,
     gridBoxComponent: Stake,
