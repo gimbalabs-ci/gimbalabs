@@ -252,6 +252,14 @@ const gimbalabs = [
     gridBoxComponent: BlankWhite,
   },
   {
+    gridBoxStyle: `col-span-2 row-span-1`,
+    gridBoxComponent: Stake,
+    transitionColor: "bg-blue-600",
+    //gridBoxProps: {},
+    fullPageComponent: StakePoolPage,
+    //fullPageProps: {},
+  },
+  {
     disable: true,
     gridBoxStyle: ` col-span-1  md:col-span-2 row-span-1 `,
     gridBoxComponent: BlankWhite,
@@ -363,22 +371,15 @@ export const gridData = [
   },
 
 
+
   {
     disable: true,
-    gridBoxStyle: `col-span-full sm:col-span-6 row-span-4    `,
+    gridBoxStyle: `col-span-full sm:col-span-6 row-span-3    `,
     gridBoxComponent: TitleGroup,
   },
   {
-    gridBoxStyle: `col-span-2 row-span-2`,
-    gridBoxComponent: Stake,
-    transitionColor: "bg-blue-600",
-    //gridBoxProps: {},
-    fullPageComponent: StakePoolPage,
-    //fullPageProps: {},
-  },
-  {
     transitionColor: "gradient-yellow",
-    gridBoxStyle: `col-span-full sm:col-span-20 row-span-3   `,
+    gridBoxStyle: `col-span-full sm:col-span-full row-span-3   `,
     gridBoxComponent: GBDandelion,
     gridBoxProps: {},
     fullPageComponent: DandelionPage,
