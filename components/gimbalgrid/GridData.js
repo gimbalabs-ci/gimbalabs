@@ -369,6 +369,14 @@ export const gridData = [
     fullPageComponent: TeamPage,
     fullPageProps: {},
   },
+  {
+    transitionColor: "gradient-yellow",
+    gridBoxStyle: `col-span-full sm:col-span-10 row-span-2   `,
+    gridBoxComponent: GBDandelion,
+    gridBoxProps: {},
+    fullPageComponent: DandelionPage,
+    fullPageProps: {},
+  },
 
 
 
@@ -376,14 +384,6 @@ export const gridData = [
     disable: true,
     gridBoxStyle: `col-span-full sm:col-span-6 row-span-3    `,
     gridBoxComponent: TitleGroup,
-  },
-  {
-    transitionColor: "gradient-yellow",
-    gridBoxStyle: `col-span-full sm:col-span-full row-span-3   `,
-    gridBoxComponent: GBDandelion,
-    gridBoxProps: {},
-    fullPageComponent: DandelionPage,
-    fullPageProps: {},
   },
 
 
