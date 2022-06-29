@@ -4,7 +4,7 @@ title: "TPBL Allocation 0"
 allocation: "Allocation 0"
 amount: "1,222,939.12"
 version: 1
-updated: "2022-06-16"
+updated: "2022-06-29"
 videoId: ""
 videoTitle: ""
 path: "/pbl/tokenomics/a0-pbl"
