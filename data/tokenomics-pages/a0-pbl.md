@@ -35,12 +35,13 @@ recirc:
   { image: "/learn.jpeg", color: "bg-blue-600", list: ["a0-cardano-4-climate", "a0-littlefish-foundation"] }
 ---
 
-### Links 2022-06-16
+### Key Links 2022-06-29
 - [Miro Board: A0 PBL Working Group](https://miro.com/app/board/uXjVO4u0254=/?share_link_id=953117716780)
-- [Gimbalabs Canvas](https://gimbalabs.instructure.com/)
-- [Self-Enrollment Link for "Mini-Course" on Gimbal Bounty Treasury + Escrow: https://gimbalabs.instructure.com/enroll/R9B94J](https://gimbalabs.instructure.com/enroll/R9B94J). While we are not yet ready to officially announce the release of this course, please feel free to share this link with anyone who might be interested. If you do, please request that they share feedback to help us improve the course.
+- [Gimbalabs Canvas](https://gimbalabs.instructure.com/) + [PPBL Course v2 with "How to a be a Lead Teacher Module](https://gimbalabs.instructure.com/courses/26)
+- [PPBL Gitlab repo with drafts of Student Learning Targets for each course module](https://gitlab.com/gimbalabs/ppbl/plutus-pbl-course)
 
 ### Meeting Recordings
+- [Meeting recording 2022-06-28](https://drive.google.com/file/d/1UyzVthfrlHFS5JrhAcjYO8r6amoJudTU/view?usp=sharing)
 - [Meeting recording 2022-06-14](https://drive.google.com/file/d/1BMieReCwLZuTUxSf-H8csIVAyh-PZqj0/view?usp=sharing)
 - [Meeting recording 2022-05-31](https://drive.google.com/file/d/1BMieReCwLZuTUxSf-H8csIVAyh-PZqj0/view?usp=sharing)
 - [Meeting recording 2022-05-24](https://drive.google.com/file/d/1Ac9KQsdozelIaVmOjHbU33A21xAFgVvq/view?usp=sharing)
@@ -48,26 +49,25 @@ recirc:
 - [Meeting recording 2022-05-10](https://drive.google.com/file/d/1XG28TWBGYVG28UatmmpcFlvC2X4zY1wA/view?usp=sharing)
 - [Meeting recording 2022-05-03](https://drive.google.com/file/d/14i7-9cnavpDfFYQBMOA-qM9yQW8TbRbl/view?usp=sharing)
 
-## Current Milestones:
-1. Deliver the next version of the Plutus PBL Course by July 18.
-2. Catalyst Fund 9 proposals are due by June 30. What opportunities to we have to write proposals from "Contribution Nodes"?
+## Next Meeting (2022-07-05 at 1930 UTC)
+- This Working Group meets every Tuesday at 1930 UTC, on [Zoom](https://us06web.zoom.us/j/93346917668?pwd=QnhXSEVLTFlkRGw5czNGMTUvUnFIZz09)
 
-## Current Next Steps - Focus on Action:
-1. For the next 4 weeks, we will use our Working Group time (Tuesdays at 1930utc) to focus on the Plutus PBL Course. Everyone in this working group is welcome to contribute to the Plutus PBL Course (see below).
-2. And, contribution to PPBL is not required. If you're working on Catalyst Proposals or exploring questions of education and governance, keep it up! After the Fund 9 proposal deadline and the PPBL Course Launch, we'll zoom out from our focused time to further develop the DAOrg Chart, PBL Framework, and look ahead to Tokenomics PBL and Allocation 1.
+## Current Milestone:
+1. Iteration #2 of the Plutus PBL Course starts on July 18.
 
 ## How to Contribute to PPBL Course:
-1. Review Content: Everyone is welcome to review [Plutus PBL, Version 1.0](https://gimbalabs.instructure.com/courses/15) and the ["Mini-Course" on Gimbal Bounty Treasury + Escrow](https://gimbalabs.instructure.com/courses/16). Thank you to Melanie, Sebastian, Stephen W., and Hinson for providing feedback already!
-2. Keep learning: Before we can write great educational content, there is plenty we still have to learn. If you're learning about the Cardano-Serialization Libraries, testing upcoming changes with the Vasil hard fork, diving deep into Smart Contract Design Patterns, or thinking about how to teach Haskell, you're preparing to contribute.
-3. Build Specialization and Contribution Modules. If you want to practice building a Module about any topic, go for it!
+1. Be a Lead Teacher for a module: review the key links above and the June 28 meeting recording to learn more about what this entails, or ping the group on Discord.
+2. Review Content: Everyone is welcome to review [Plutus PBL, Version 1.0](https://gimbalabs.instructure.com/courses/15) and the ["Mini-Course" on Gimbal Bounty Treasury + Escrow](https://gimbalabs.instructure.com/courses/16). Thank you to Melanie, Sebastian, Stephen W., and Hinson for providing feedback already!
+3. Keep learning: Before we can write great educational content, there is plenty we still have to learn. If you're learning about the Cardano-Serialization Libraries, testing upcoming changes with the Vasil hard fork, diving deep into Smart Contract Design Patterns, or thinking about how to teach Haskell, you're preparing to contribute.
 4. Write documentation for [Gimbal Bounty Treasury and Escrow](https://gitlab.com/gimbalabs/gimbal-bounty-treasury-and-escrow).
 5. We will discuss these + additional next steps when we meet on 21 June. If you need immediate help or access to contribute in any of the ways listed above, please ping this working group on Discord (#a0-project-based-learning).
 
+---
+
+# Prior Notes:
+
 ### Keep Learning Canvas
 - Continue to complete the "Growing With Canvas" Course at [https://gimbalabs.instructure.com](https://gimbalabs.instructure.com). See the note below about Learning Canvas + Current Bounty.
-
-## Next Meeting (2022-06-21 at 1930 UTC)
-- This Working Group meets every Tuesday at 1930 UTC, on [Zoom](https://us06web.zoom.us/j/93346917668?pwd=QnhXSEVLTFlkRGw5czNGMTUvUnFIZz09)
 
 ### Learning Canvas + Current Bounty (Updated 2022-05-17)
 - Everyone who successfully completes the Growing with Canvas course will earn 25000 gimbals and 75 ada. You can commit to completing the course at the [A0 PBL Working Group Treasury](https://a0pblworkinggroup.gatsbyjs.io/bounties). This instance of the Treasury and Escrow dapp can be used to organize, track, and distribute rewards for contributing to the A0 PBL Working Group. As a group, we can continue to add bounties to the list.
