@@ -15,6 +15,7 @@ import PasswordChaos from "./gridboxes/PasswordChaos";
 import Stake from "./gridboxes/Stake";
 import Token from "./gridboxes/Token";
 import Joeys from "./gridboxes/Joeys";
+import PPBL from "./gridboxes/PPBL";
 
 const { default: DandelionPage } = require("../dandelion/DandelionPage");
 const { default: PBLPage } = require("../pbl/PBLPage");
@@ -308,6 +309,11 @@ export const gridData = [
     disable: true,
     gridBoxStyle: `col-span-full sm:col-span-4 row-span-1    `,
     gridBoxComponent: GBLogo,
+  },
+  {
+    gridBoxStyle: ` col-span-full sm:col-span-8 row-span-1`,
+    gridBoxComponent: PPBL,
+    transitionColor: "bg-orange-200",
   },
   {
     disable: true,

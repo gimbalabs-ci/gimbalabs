@@ -4,7 +4,7 @@ title: "TPBL Allocation 0"
 allocation: "Allocation 0"
 amount: "1,222,939.12"
 version: 1
-updated: "2022-06-29"
+updated: "2022-07-18"
 videoId: ""
 videoTitle: ""
 path: "/pbl/tokenomics/a0-pbl"
@@ -35,10 +35,13 @@ recirc:
   { image: "/learn.jpeg", color: "bg-blue-600", list: ["a0-cardano-4-climate", "a0-littlefish-foundation"] }
 ---
 
-### Key Links 2022-06-29
+## The Plutus-PBL Course is Live!
+Thank you to everyone who has contributed so far. We will continue to meet at 1930 UTC on Tuesdays to coordinate on building the rest of the course - and whatever comes next!
+
+### Key Links 2022-07-18
 - [Miro Board: A0 PBL Working Group](https://miro.com/app/board/uXjVO4u0254=/?share_link_id=953117716780)
 - [Gimbalabs Canvas](https://gimbalabs.instructure.com/) + [PPBL Course v2 with "How to a be a Lead Teacher Module](https://gimbalabs.instructure.com/courses/26)
-- [PPBL Gitlab repo with drafts of Student Learning Targets for each course module](https://gitlab.com/gimbalabs/ppbl/plutus-pbl-course)
+
 
 ### Meeting Recordings
 - [Meeting recording 2022-06-28](https://drive.google.com/file/d/1UyzVthfrlHFS5JrhAcjYO8r6amoJudTU/view?usp=sharing)
@@ -49,11 +52,12 @@ recirc:
 - [Meeting recording 2022-05-10](https://drive.google.com/file/d/1XG28TWBGYVG28UatmmpcFlvC2X4zY1wA/view?usp=sharing)
 - [Meeting recording 2022-05-03](https://drive.google.com/file/d/14i7-9cnavpDfFYQBMOA-qM9yQW8TbRbl/view?usp=sharing)
 
-## Next Meeting (2022-07-05 at 1930 UTC)
+## Next Meeting (2022-07-19 at 1930 UTC)
 - This Working Group meets every Tuesday at 1930 UTC, on [Zoom](https://us06web.zoom.us/j/93346917668?pwd=QnhXSEVLTFlkRGw5czNGMTUvUnFIZz09)
 
-## Current Milestone:
-1. Iteration #2 of the Plutus PBL Course starts on July 18.
+## Milestones:
+1. Iteration #2 of the Plutus PBL Course starts on July 18. Modules 100, 101 and 102 have been DELIVERED on time!
+2. Next, we are building the rest of of the Plutus PBL modules, starting with 201: "Three Ways to Mint a Token".
 
 ## How to Contribute to PPBL Course:
 1. Be a Lead Teacher for a module: review the key links above and the June 28 meeting recording to learn more about what this entails, or ping the group on Discord.
