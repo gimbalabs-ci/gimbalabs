@@ -308,6 +308,14 @@ ol > li::before {
 
   @apply ml-4 underline  text-black2-900  text-lg;
 }
+ul {
+  list-style-type: disc;
+  @apply ml-4
+}
+ul > li {
+  @apply mx-4 pl-1 relative;
+}
+
 .gds-markdown > ul > li {
   background: url("/ulli-green.svg") no-repeat left top;
 

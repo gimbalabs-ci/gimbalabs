@@ -78,6 +78,9 @@ const colors = {
     // 800: "#474945",
     // 900: "#414340",
   },
+  onboard: "#fef23c",
+  bbk: "#f9c011",
+  specialize: "#f05e45"
 };
 
 module.exports = colors;
