@@ -16,6 +16,7 @@ import Stake from "./gridboxes/Stake";
 import Token from "./gridboxes/Token";
 import Joeys from "./gridboxes/Joeys";
 import PPBL from "./gridboxes/PPBL";
+import MasteryPolicyPage from "../masterypolicy/MasteryPolicyPage";
 
 const { default: DandelionPage } = require("../dandelion/DandelionPage");
 const { default: PBLPage } = require("../pbl/PBLPage");
@@ -313,6 +314,7 @@ export const gridData = [
   {
     gridBoxStyle: ` col-span-full sm:col-span-8 row-span-1`,
     gridBoxComponent: PPBL,
+    fullPageComponent: MasteryPolicyPage,
     transitionColor: "bg-orange-200",
   },
   {

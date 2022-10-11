@@ -1,13 +1,21 @@
 import React from "react";
+import Link from "next/link";
 
 export default function PPBL() {
   return (
-    <a href="https://gimbalabs.instructure.com/enroll/3CFNFB" target="_blank">
-      <div className="h-full flex flex-col p-6 justify-center items-center">
-        <h1 className="text-4xl">Plutus Project-Based Learning</h1>
-        <h2 className="py-1">Summer 2022 Course - Enrollment Open Now</h2>
-        <h2 className="py-1">click here to sign up</h2>
+    <div className="h-full grid grid-cols-3 p-3 justify-center items-center">
+      <div className="col-span-2 p-3">
+        <h1 className="text-2xl">Plutus Project-Based Learning</h1>
+        <h2 className="py-1">Enrollment Open Now</h2>
       </div>
-    </a>
+      <div className="p-3">
+        <a href="https://gimbalabs.instructure.com/enroll/3CFNFB" target="_blank" className="hover:text-purple-700">
+          <h2 className="py-1">Sign Me Up!</h2>
+        </a>
+        <Link href="/mastery-policy">
+          <h2 className="py-1 hover:text-purple-700">Learn More</h2>
+        </Link>
+      </div>
+    </div>
   );
 }

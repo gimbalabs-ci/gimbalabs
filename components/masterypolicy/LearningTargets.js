@@ -44,7 +44,7 @@ function Onboard() {
             <h1>Onboarding</h1>
             <div class='module-number'>100 Getting Started</div>
             <div>
-                <ul start='5'>
+                <ul class='list-decimal ml-5'>
                     <li>I can connect a Cardano wallet to the Pre-Production test network.</li>
                     <li>I can get FREE tADA on Pre-Production testnet</li>
                     <li>I know how to safely store my keys.</li>

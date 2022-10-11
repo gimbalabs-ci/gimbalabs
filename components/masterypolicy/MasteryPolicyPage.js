@@ -15,6 +15,8 @@ export default function MasteryPolicyPage() {
       <div className="spacing-x mb-7 text-black2-900">
         <h1 className="text-6xl py-4">Plutus Project-Based Learning</h1>
         <MasteryOverview />
+        <div className="border border-black m-4" />
+        <h2 className="text-4xl py-4">Course Outline and Student Learning Targets</h2>
         <LearningTargets />
         {/* <CourseOutlineTable /> */}
         {/* <AboutCompletionToken /> */}
