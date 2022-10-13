@@ -374,11 +374,7 @@ ol > li::before {
   @apply mx-1 p-5 border border-grey-500
 }
 
-.mastery-content > h1 {
-  @apply text-4xl py-3
-}
-
-.mastery-content > .module-number {
+h2.module-heading {
   @apply text-2xl my-2 mt-5 font-bold
 }
 
