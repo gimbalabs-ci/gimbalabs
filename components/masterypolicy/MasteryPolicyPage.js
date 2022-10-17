@@ -13,7 +13,7 @@ export default function MasteryPolicyPage() {
     <div className="w-full h-full bg-offWhite min-h-screen ">
       <PageTitleWithBorder title="Gimbalabs PBL Mastery Policies" />
       <div className="spacing-x mb-7 text-black2-900">
-        <h1 className="text-6xl py-8">Plutus Project-Based Learning</h1>
+
         <MasteryOverview />
         <div className="my-5 w-2/3 mx-auto">
           <h2 className="text-4xl text-center">What qualifies as Evidence of Mastery?</h2>
