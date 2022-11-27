@@ -37,10 +37,15 @@ export async function getStaticPaths() {
   };
 }
 
+function getVideoTitle(str) {
+  if (str == "PPBL Live Coding") return str
+  else return "Gimbalabs Update"
+}
+
 export default function SpecificUpdate({ videoData }) {
   return (
     <Layout footerBg="bg-black2-900">
-      <PageTitleWithBorder title={`Weekly Update ${videoData.number}`} />
+      <PageTitleWithBorder title={`${getVideoTitle(videoData.tags[0])} ${videoData.number}`} />
       <div className=" overflow-hidden relative max-w-17 mx-auto mt-7 my-9">
         <LiteYouTubeEmbed id={videoData.youtubeId} title={videoData.date} />
 

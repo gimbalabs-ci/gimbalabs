@@ -3,292 +3,644 @@
   "about": "Live-stream updates from the Gimbalabs team.",
   "weekly": [
     {
+      "date": "2022-11-09",
+      "number": 20221109,
+      "youtubeId": "S5_ZRopQNDg",
+      "tags": [
+        "PPBL Live Coding"
+      ]
+    },
+    {
+      "date": "2022-11-10",
+      "number": 20221110,
+      "youtubeId": "021NH7ptOT0",
+      "tags": [
+        "PPBL Live Coding"
+      ]
+    },
+    {
+      "date": "2022-11-03",
+      "number": 20221103,
+      "youtubeId": "KI0bDRrFvLY",
+      "tags": [
+        "PPBL Live Coding"
+      ]
+    },
+    {
+      "date": "2022-10-27",
+      "number": 20221027,
+      "youtubeId": "DIRvx8olSh8",
+      "tags": [
+        "PPBL Live Coding"
+      ]
+    },
+    {
+      "date": "2022-10-26",
+      "number": 20221026,
+      "youtubeId": "Y3_FEuicHZ0",
+      "tags": [
+        "PPBL Live Coding"
+      ]
+    },
+    {
+      "date": "2022-10-24",
+      "number": 60,
+      "youtubeId": "NnSHiyZBsk4",
+      "tags": [
+        "PPBL Update"
+      ]
+    },
+    {
+      "date": "2022-10-20",
+      "number": 20221020,
+      "youtubeId": "PN7nN7hoI8k",
+      "tags": [
+        "PPBL Live Coding"
+      ]
+    },
+    {
+      "date": "2022-10-19",
+      "number": 20221019,
+      "youtubeId": "vR_ldibieMY",
+      "tags": [
+        "PPBL Live Coding"
+      ]
+    },
+    {
+      "date": "2022-10-13",
+      "number": 20221013,
+      "youtubeId": "QL8zDrMvWNc",
+      "tags": [
+        "PPBL Live Coding"
+      ]
+    },
+    {
+      "date": "2022-10-12",
+      "number": 20221012,
+      "youtubeId": "Dx5Tau9z_70",
+      "tags": [
+        "PPBL Live Coding"
+      ]
+    },
+    {
+      "date": "2022-10-06",
+      "number": 20221006,
+      "youtubeId": "bt8jLvEO8CI",
+      "tags": [
+        "PPBL Live Coding"
+      ]
+    },
+    {
+      "date": "2022-10-05",
+      "number": 20221005,
+      "youtubeId": "cRkd1UAS8Cs",
+      "tags": [
+        "PPBL Live Coding"
+      ]
+    },
+    {
+      "date": "2022-10-03",
+      "number": 59,
+      "youtubeId": "SSgXKywxy-k",
+      "tags": [
+        "Plutus PBL Update"
+      ]
+    },
+    {
+      "date": "2022-09-30",
+      "number": 20220930,
+      "youtubeId": "C_SJFkktIKw",
+      "tags": [
+        "PPBL Live Coding"
+      ]
+    },
+    {
+      "date": "2022-09-29",
+      "number": 20220929,
+      "youtubeId": "TKkm7X_28vk",
+      "tags": [
+        "PPBL Live Coding"
+      ]
+    },
+    {
+      "date": "2022-09-22",
+      "number": 20220922,
+      "youtubeId": "PFJm_ZEWuVc",
+      "tags": [
+        "PPBL Live Coding"
+      ]
+    },
+    {
+      "date": "2022-09-21",
+      "number": 20200921,
+      "youtubeId": "y96SX4g8zLQ",
+      "tags": [
+        "PPBL Live Coding"
+      ]
+    },
+    {
+      "date": "2022-09-14",
+      "number": 20220914,
+      "youtubeId": "Yd7a_mYnvm4",
+      "tags": [
+        "PPBL Live Coding"
+      ]
+    },
+    {
+      "date": "2022-09-08",
+      "number": 20220908,
+      "youtubeId": "2_NUHIC6yNo",
+      "tags": [
+        "PPBL Live Coding"
+      ]
+    },
+    {
+      "date": "2022-09-07",
+      "number": 20220907,
+      "youtubeId": "zbSEWF1xwNc",
+      "tags": [
+        "PPBL Live Coding"
+      ]
+    },
+    {
+      "date": "2022-09-01",
+      "number": 20220901,
+      "youtubeId": "PzlsL2qMDyY",
+      "tags": [
+        "PPBL Live Coding"
+      ]
+    },
+    {
+      "date": "2022-08-31",
+      "number": 20220831,
+      "youtubeId": "Z7169g9s0X4",
+      "tags": [
+        "PPBL Live Coding"
+      ]
+    },
+    {
+      "date": "2022-08-25",
+      "number": 20220825,
+      "youtubeId": "lrHt3LlwEiI",
+      "tags": [
+        "PPBL Live Coding"
+      ]
+    },
+    {
+      "date": "2022-08-18",
+      "number": 20220818,
+      "youtubeId": "aKmZ2QXI-DI",
+      "tags": [
+        "PPBL Live Coding"
+      ]
+    },
+    {
+      "date": "2022-08-17",
+      "number": 20220817,
+      "youtubeId": "E_bRIbTzpZw",
+      "tags": [
+        "PPBL Live Coding"
+      ]
+    },
+    {
+      "date": "2022-08-10",
+      "number": 20220810,
+      "youtubeId": "EMfeql7JQP4",
+      "tags": [
+        "PPBL Live Coding"
+      ]
+    },
+    {
+      "date": "2022-08-04",
+      "number": 20220804,
+      "youtubeId": "92RfY8egIys",
+      "tags": [
+        "PPBL Live Coding"
+      ]
+    },
+    {
+      "date": "2022-08-03",
+      "number": 20220803,
+      "youtubeId": "hIFRwdO_ZDw",
+      "tags": [
+        "PPBL Live Coding"
+      ]
+    },
+    {
+      "date": "2022-07-28",
+      "number": 20220728,
+      "youtubeId": "x8QOueZutnw",
+      "tags": [
+        "PPBL Live Coding"
+      ]
+    },
+    {
+      "date": "2022-07-27",
+      "number": 20220727,
+      "youtubeId": "iGkIwJfvbsA",
+      "tags": [
+        "PPBL Live Coding"
+      ]
+    },
+    {
+      "date": "2022-07-21",
+      "number": 20220721,
+      "youtubeId": "2CbGsw0Ecm4",
+      "tags": [
+        "PPBL Live Coding"
+      ]
+    },
+    {
+      "date": "2022-07-20",
+      "number": 20220720,
+      "youtubeId": "0WuB3LbBfUQ",
+      "tags": [
+        "PPBL Live Coding"
+      ]
+    },
+    {
       "date": "2022-03-24",
       "number": 49,
       "youtubeId": "-owVoon35MA",
-      "tags": ["We are back!"]
+      "tags": [
+        "We are back!"
+      ]
     },
     {
       "date": "2022-02-24",
       "number": 48,
       "youtubeId": "QQu8esZzWL0",
-      "tags": ["War + Infrastructure"]
+      "tags": [
+        "War + Infrastructure"
+      ]
     },
     {
       "date": "2022-02-10",
       "number": 47,
       "youtubeId": "zb5rgizgxQ4",
-      "tags": ["Joey's Hot Sauce Drop!"]
+      "tags": [
+        "Joey's Hot Sauce Drop!"
+      ]
     },
     {
       "date": "2022-01-27",
       "number": 46,
       "youtubeId": "NrAV6VpCJzI",
-      "tags": ["Inspiring broad development through story-telling."]
+      "tags": [
+        "Inspiring broad development through story-telling."
+      ]
     },
     {
       "date": "2022-01-13",
       "number": 45,
       "youtubeId": "07gG_GiI-yU",
-      "tags": ["Password Chaos Series 2, Gimbal Tokens, Project-Based Learning and Joey's Hot Sauce"]
+      "tags": [
+        "Password Chaos Series 2, Gimbal Tokens, Project-Based Learning and Joey's Hot Sauce"
+      ]
     },
     {
       "date": "2021-12-16",
       "number": 44,
       "youtubeId": "mR820aGOE1o",
-      "tags": ["Introducing the new gimbalabs.com!"]
+      "tags": [
+        "Introducing the new gimbalabs.com!"
+      ]
     },
     {
       "date": "2021-12-02",
       "number": 43,
       "youtubeId": "47L6e-n1dpE",
-      "tags": ["Chaos incoming"]
+      "tags": [
+        "Chaos incoming"
+      ]
     },
     {
       "date": "2021-11-18",
       "number": 42,
       "youtubeId": "rtxVp-dwkZM",
-      "tags": ["It's number 42!"]
+      "tags": [
+        "It's number 42!"
+      ]
     },
     {
       "date": "2021-11-11",
       "number": 41,
       "youtubeId": "oTzr8jitdwA",
-      "tags": ["Building technical, community, and educational infrastructure"]
+      "tags": [
+        "Building technical, community, and educational infrastructure"
+      ]
     },
     {
       "date": "2021-11-05",
       "number": 40,
       "youtubeId": "M6mNhoa8Th4",
-      "tags": ["How can you get involved at Gimbalabs?"]
+      "tags": [
+        "How can you get involved at Gimbalabs?"
+      ]
     },
     {
       "date": "2021-10-29",
       "number": 39,
       "youtubeId": "UOzrQvOYJQQ",
-      "tags": ["What does our Catalyst funding mean for you?"]
+      "tags": [
+        "What does our Catalyst funding mean for you?"
+      ]
     },
     {
       "date": "2021-10-22",
       "number": 38,
       "youtubeId": "puM7i9GcI34",
-      "tags": ["Building infrastructure with Dandelion and Plutus PBL"]
+      "tags": [
+        "Building infrastructure with Dandelion and Plutus PBL"
+      ]
     },
     {
       "date": "2021-10-15",
       "number": 37,
       "youtubeId": "WSw_HACuiPI",
-      "tags": [""]
+      "tags": [
+        ""
+      ]
     },
     {
       "date": "2021-10-08",
       "number": 36,
       "youtubeId": "-G8dq9qLj7M",
-      "tags": ["Catalyst Fund 6 Proposals from the Gimablabs community"]
+      "tags": [
+        "Catalyst Fund 6 Proposals from the Gimablabs community"
+      ]
     },
     {
       "date": "2021-10-01",
       "number": 35,
       "youtubeId": "Z5sIPvcELU0",
-      "tags": ["We're back from global Cardano Summits - what's next?"]
+      "tags": [
+        "We're back from global Cardano Summits - what's next?"
+      ]
     },
     {
       "date": "2021-09-17",
       "number": 34,
       "youtubeId": "Ao5W_vGl_bc",
-      "tags": ["Building Dandelion infrastructure: ArgoCD, homelab, and more"]
+      "tags": [
+        "Building Dandelion infrastructure: ArgoCD, homelab, and more"
+      ]
     },
     {
       "date": "2021-09-10",
       "number": 33,
       "youtubeId": "oKHvZWExpvI",
-      "tags": ["We are in building mode"]
+      "tags": [
+        "We are in building mode"
+      ]
     },
     {
       "date": "2021-09-03",
       "number": 32,
       "youtubeId": "C7BgoJUw-YQ",
-      "tags": ["Putting the gimbal token on hold"]
+      "tags": [
+        "Putting the gimbal token on hold"
+      ]
     },
     {
       "date": "2021-08-27",
       "number": 31,
       "youtubeId": "Fy_Rn0y1rls",
-      "tags": ["What are we working on?"]
+      "tags": [
+        "What are we working on?"
+      ]
     },
     {
       "date": "2021-08-13",
       "number": 30,
       "youtubeId": "aGPtwVBtqT0",
-      "tags": ["Celebrating Catalyst Fund 5 results!"]
+      "tags": [
+        "Celebrating Catalyst Fund 5 results!"
+      ]
     },
     {
       "date": "2021-08-06",
       "number": 29,
       "youtubeId": "91vMtLgbuPo",
-      "tags": ["Our growing team"]
+      "tags": [
+        "Our growing team"
+      ]
     },
     {
       "date": "2021-07-30",
       "number": 28,
       "youtubeId": "wa7UODKqqpw",
-      "tags": [""]
+      "tags": [
+        ""
+      ]
     },
     {
       "date": "2021-07-23",
       "number": 27,
       "youtubeId": "do-rLvIxlWc",
-      "tags": ["Catalyst Fund 5: Our Key Proposals"]
+      "tags": [
+        "Catalyst Fund 5: Our Key Proposals"
+      ]
     },
     {
       "date": "2021-07-09",
       "number": 25,
       "youtubeId": "LnaCPqZ6TdY",
-      "tags": [""]
+      "tags": [
+        ""
+      ]
     },
     {
       "date": "2021-07-02",
       "number": 24,
       "youtubeId": "fC7osR4htgA",
-      "tags": ["Launch of Plutus Learning Group"]
+      "tags": [
+        "Launch of Plutus Learning Group"
+      ]
     },
     {
       "date": "2021-06-25",
       "number": 23,
       "youtubeId": "ukW-bFFCNLY",
-      "tags": ["Shout out to the Alonzo Blue Crew!"]
+      "tags": [
+        "Shout out to the Alonzo Blue Crew!"
+      ]
     },
     {
       "date": "2021-06-18",
       "number": 22,
       "youtubeId": "vub4Rz01QG8",
-      "tags": ["Pushing our thinking"]
+      "tags": [
+        "Pushing our thinking"
+      ]
     },
     {
       "date": "2021-06-11",
       "number": 21,
       "youtubeId": "_QdzDi0hRcU",
-      "tags": ["Our Catalyst Fund 4 Proposal: Building Network Capacity"]
+      "tags": [
+        "Our Catalyst Fund 4 Proposal: Building Network Capacity"
+      ]
     },
     {
       "date": "2021-06-04",
       "number": 20,
       "youtubeId": "5U81b6cGnrc",
-      "tags": ["Welcoming new contributors"]
+      "tags": [
+        "Welcoming new contributors"
+      ]
     },
     {
       "date": "2021-05-28",
       "number": 19,
       "youtubeId": "5vy3ORYQlBI",
-      "tags": ["Shoutout to the Gimbalabs Playground Community"]
+      "tags": [
+        "Shoutout to the Gimbalabs Playground Community"
+      ]
     },
     {
       "date": "2021-05-21",
       "number": 18,
       "youtubeId": "DWWUVCkwMvM",
-      "tags": ["Keep Working"]
+      "tags": [
+        "Keep Working"
+      ]
     },
     {
       "date": "2021-05-14",
       "number": 17,
       "youtubeId": "XftqAC9degc",
-      "tags": ["Catalyst Fund 5 is underway!"]
+      "tags": [
+        "Catalyst Fund 5 is underway!"
+      ]
     },
     {
       "date": "2021-05-07",
       "number": 16,
       "youtubeId": "MlUXxwOKqRM",
-      "tags": ["Welcome Giovanni!"]
+      "tags": [
+        "Welcome Giovanni!"
+      ]
     },
     {
       "date": "2021-04-30",
       "number": 15,
       "youtubeId": "CxpLaON1lKs",
-      "tags": ["Minting NFTs with Coding on Chain"]
+      "tags": [
+        "Minting NFTs with Coding on Chain"
+      ]
     },
     {
       "date": "2021-04-23",
       "number": 14,
       "youtubeId": "GlhCz4P4m8A",
-      "tags": ["Building mode"]
+      "tags": [
+        "Building mode"
+      ]
     },
     {
       "date": "2021-04-16",
       "number": 13,
       "youtubeId": "aRsXum8SVKA",
-      "tags": ["Check out this logo"]
+      "tags": [
+        "Check out this logo"
+      ]
     },
     {
       "date": "2021-04-09",
       "number": 12,
       "youtubeId": "CWTAU3DZxsY",
-      "tags": ["Catalyst Fund 5: Focused Projects"]
+      "tags": [
+        "Catalyst Fund 5: Focused Projects"
+      ]
     },
     {
       "date": "2021-04-02",
       "number": 11,
       "youtubeId": "5sNPFW48htI",
-      "tags": ["Congrats to Fund 3 Winners, and thanks IOHK for stopping by"]
+      "tags": [
+        "Congrats to Fund 3 Winners, and thanks IOHK for stopping by"
+      ]
     },
     {
       "date": "2021-03-26",
       "number": 10,
       "youtubeId": "zvVL380-udE",
-      "tags": [""]
+      "tags": [
+        ""
+      ]
     },
     {
       "date": "2021-03-19",
       "number": 9,
       "youtubeId": "rcTZli2RCfw",
-      "tags": ["Shoutout to Playground development crew for deep R&D"]
+      "tags": [
+        "Shoutout to Playground development crew for deep R&D"
+      ]
     },
     {
       "date": "2021-03-12",
       "number": 8,
       "youtubeId": "eWWlhf5Fz_Y",
-      "tags": [""]
+      "tags": [
+        ""
+      ]
     },
     {
       "date": "2021-03-05",
       "number": 7,
       "youtubeId": "NvA3b6A1658",
-      "tags": ["Welcome Kyle + thank you Sosha for running our Playground session!"]
+      "tags": [
+        "Welcome Kyle + thank you Sosha for running our Playground session!"
+      ]
     },
     {
       "date": "2021-02-26",
       "number": 6,
       "youtubeId": "yYFGH3gGHJQ",
-      "tags": ["The early roots of Gimbalabs Playground"]
+      "tags": [
+        "The early roots of Gimbalabs Playground"
+      ]
     },
     {
       "date": "2021-02-19",
       "number": 5,
       "youtubeId": "bKvFZ8KfAt0",
-      "tags": ["Thank you to all who contributed to the first Gimbalabs Initiatives"]
+      "tags": [
+        "Thank you to all who contributed to the first Gimbalabs Initiatives"
+      ]
     },
     {
       "date": "2021-02-12",
       "number": 4,
       "youtubeId": "iMwmskk3H_w",
-      "tags": ["Gimbalabs Initiatives: Let's start tinkering"]
+      "tags": [
+        "Gimbalabs Initiatives: Let's start tinkering"
+      ]
     },
     {
       "date": "2021-02-05",
       "number": 3,
       "youtubeId": "3ChL10wf03g",
-      "tags": [""]
+      "tags": [
+        ""
+      ]
     },
     {
       "date": "2021-01-29",
       "number": 2,
       "youtubeId": "zetZvvNe-S0",
-      "tags": ["Outlining our plans"]
+      "tags": [
+        "Outlining our plans"
+      ]
     },
     {
       "date": "2021-01-22",
       "number": 1,
       "youtubeId": "rI79OzV53Ac",
-      "tags": ["Hey, is this thing on?"]
+      "tags": [
+        "Hey, is this thing on?"
+      ]
     }
   ]
 }

@@ -8,7 +8,7 @@ export default function UpdatePage() {
   const firstVideo = videoupdates.weekly[0];
   return (
     <div>
-      <PageTitleWithBorder title="Weekly Updates" />
+      <PageTitleWithBorder title="Video Archive" />
       <MostRecentVideo data={firstVideo} />
 
       <div className=" spacing-x  py-6">
