@@ -254,7 +254,7 @@ const gimbalabs = [
     gridBoxComponent: BlankWhite,
   },
   {
-    gridBoxStyle: `col-span-2 row-span-1`,
+    gridBoxStyle: `col-span-4 row-span-1`,
     gridBoxComponent: Stake,
     transitionColor: "bg-blue-600",
     //gridBoxProps: {},

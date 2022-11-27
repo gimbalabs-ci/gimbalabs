@@ -9,10 +9,10 @@ export default function TitleGroup(props) {
     <WithTransfer {...props}>
       <div className="p-6">
         <h1 className={`text-6xl mb-6 text-black2-800`}>
-          Web3 is more than blockchain
+          Project-Based Learning
         </h1>
         <h2 className={`gg-subtitle text-black2-800`}>
-          That's why Gimbalabs is building Dandelion distributed infrastructure and Project-Based Learning courses.
+          We're building and iterating on PBL courses in Cardano Development, Tokenomics, Dandelion, and DevOps. 
         </h2>
         <h2 className={`gg-subtitle text-black2-800 pt-5`}>
           What do you want to build?
