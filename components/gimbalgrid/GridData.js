@@ -10,17 +10,16 @@ import GBCalendar from "./gridboxes/GBCalendar";
 import GBLogo from "./gridboxes/GBLogo";
 import GBWeeklyUpdates from "./gridboxes/GBWeeklyUpdates";
 import Letter from "./gridboxes/Letter";
-import OldG from "./gridboxes/OldG";
-import PasswordChaos from "./gridboxes/PasswordChaos";
 import Stake from "./gridboxes/Stake";
 import Token from "./gridboxes/Token";
-import Joeys from "./gridboxes/Joeys";
 import PPBL from "./gridboxes/PPBL";
 import MasteryPolicyPage from "../masterypolicy/MasteryPolicyPage";
 
 const { default: DandelionPage } = require("../dandelion/DandelionPage");
 const { default: PBLPage } = require("../pbl/PBLPage");
 const { default: GBDandelion } = require("./gridboxes/GBDandelion");
+const { default: UpcomingEvents } = require("./gridboxes/UpcomingEvents");
+const { default: FeaturedVideo } = require("./gridboxes/FeaturedVideo");
 const { default: GBPBL } = require("./gridboxes/GBPBL");
 const { default: HamburgerMenu } = require("./gridboxes/HamburgerMenu");
 const {
@@ -384,6 +383,20 @@ export const gridData = [
     gridBoxProps: {},
     fullPageComponent: DandelionPage,
     fullPageProps: {},
+  },
+  {
+    transitionColor: "gradient-yellow",
+    gridBoxStyle: `col-span-full sm:col-span-6 row-span-3`,
+    gridBoxComponent: UpcomingEvents,
+    gridBoxProps: {},
+    fullPageComponent: CalendarPage,
+    fullPageProps: {},
+  },
+  {
+    disable: true,
+    transitionColor: "gradient-video",
+    gridBoxStyle: `col-span-full sm:col-span-10 row-span-3   `,
+    gridBoxComponent: FeaturedVideo,
   },
 
 

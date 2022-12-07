@@ -1,0 +1,32 @@
+{
+  "upcoming": [
+    {
+      "date": "2022-12-08",
+      "time": "1430-1600utc",
+      "title": "Plutus PBL Live Coding",
+      "description": "Project governance session #001",
+      "info": "Zoom"
+    },
+    {
+      "date": "2022-12-13",
+      "time": "1800-1930utc",
+      "title": "Gimbalabs Playground",
+      "description": "Year end celebration!",
+      "info": "Zoom"
+    },
+    {
+      "date": "2022-12-14",
+      "time": "1430-1600utc",
+      "title": "Plutus PBL Live Coding",
+      "description": "Presenting plutus-cborhex-automation with Hinson and Alex",
+      "info": "Zoom"
+    },
+    {
+      "date": "2022-12-15",
+      "time": "1430-1600utc",
+      "title": "Plutus PBL Live Coding",
+      "description": "Project governance session #002",
+      "info": "Zoom"
+    }
+  ]
+}
