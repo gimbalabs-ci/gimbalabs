@@ -404,7 +404,7 @@ export const gridData = [
   {
     disable: true,
     transitionColor: "gradient-video",
-    gridBoxStyle: `col-span-full sm:col-span-10 row-span-3   `,
+    gridBoxStyle: `col-span-full sm:col-span-10 row-span-2`,
     gridBoxComponent: FeaturedVideo,
   },
 
