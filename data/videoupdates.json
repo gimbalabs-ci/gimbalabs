@@ -3,6 +3,13 @@
   "about": "Live-stream updates from the Gimbalabs team.",
   "weekly": [
     {
+      "date": "2022-12-08",
+      "number": 20221208,
+      "youtubeId": "l1XS73pY-Wo",
+      "tags": ["PPBL Live Coding: Thursday Project Review"],
+      "description": "PPBL Live Coding 2022-12-08: GPTE Project governance session #001"
+    },
+    {
       "date": "2022-12-07",
       "number": 20221207,
       "youtubeId": "1ahlj-wEXRc",

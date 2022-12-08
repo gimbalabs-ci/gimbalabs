@@ -13,6 +13,7 @@ import Letter from "./gridboxes/Letter";
 import Stake from "./gridboxes/Stake";
 import Token from "./gridboxes/Token";
 import PPBL from "./gridboxes/PPBL";
+import GPTE from "./gridboxes/GPTE";
 import MasteryPolicyPage from "../masterypolicy/MasteryPolicyPage";
 
 const { default: DandelionPage } = require("../dandelion/DandelionPage");
@@ -357,6 +358,14 @@ export const gridData = [
       text:
       "Hi, here is an opportunity to expand upon this testimonial and show some examples of projects or something.",
     },
+  },
+  {
+    disable: true,
+    transitionColor: "bg-offWhite",
+    gridBoxStyle: `col-span-full  sm:col-span-3 row-span-1   `,
+    gridBoxComponent: GPTE,
+    gridBoxProps: {},
+    fullPageProps: {},
   },
   {
     transitionColor: "bg-offWhite",
