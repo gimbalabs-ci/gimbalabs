@@ -3,6 +3,13 @@
   "about": "Live-stream updates from the Gimbalabs team.",
   "weekly": [
     {
+      "date": "2022-12-14",
+      "number": 20221214,
+      "youtubeId": "vgtQN5BAMgY",
+      "tags": ["PPBL Live Coding: Plutus CBOR Automation"],
+      "description": "PPBL Live Coding 2022-12-14: Plutus CBOR Automation"
+    },
+    {
       "date": "2022-12-08",
       "number": 20221208,
       "youtubeId": "l1XS73pY-Wo",
