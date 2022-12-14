@@ -1,20 +1,6 @@
 {
   "upcoming": [
     {
-      "date": "2022-12-13",
-      "time": "1530-1630utc",
-      "title": "Tokenomics PBL",
-      "description": "Multi-sig options",
-      "info": "Zoom"
-    },
-    {
-      "date": "2022-12-13",
-      "time": "1800-1930utc",
-      "title": "Gimbalabs Playground",
-      "description": "Year end celebration!",
-      "info": "Zoom"
-    },
-    {
       "date": "2022-12-14",
       "time": "1430-1600utc",
       "title": "Plutus PBL Live Coding",
@@ -26,6 +12,53 @@
       "time": "1430-1600utc",
       "title": "Plutus PBL Live Coding",
       "description": "Project governance session #002",
+      "info": "Zoom"
+    },
+    {
+      "date": "2023-01-03",
+      "time": "1800-1930utc",
+      "title": "Gimbalabs Playground",
+      "description": "Gamifying on-chain data and reputation systems",
+      "info": "Zoom"
+    },
+    {
+      "date": "2023-01-04",
+      "time": "1430-1600utc",
+      "title": "Plutus PBL Live Coding",
+      "description": "Presenting Gimbal Project Treasury and Escrow",
+      "info": "Zoom"
+    },{
+      "date": "2023-01-05",
+      "time": "1430-1600utc",
+      "title": "Plutus PBL Live Coding",
+      "description": "Project governance session #003",
+      "info": "Zoom"
+    },
+    {
+      "date": "2023-01-10",
+      "time": "1800-1930utc",
+      "title": "Gimbalabs Playground",
+      "description": "Presenting Singular.to",
+      "info": "Zoom"
+    },
+    {
+      "date": "2023-01-11",
+      "time": "1430-1600utc",
+      "title": "Plutus PBL Live Coding",
+      "description": "Developer Presentations TBA",
+      "info": "Zoom"
+    },{
+      "date": "2023-01-12",
+      "time": "1430-1600utc",
+      "title": "Plutus PBL Live Coding",
+      "description": "Project governance session #004",
+      "info": "Zoom"
+    },
+    {
+      "date": "2023-01-17",
+      "time": "1800-1930utc",
+      "title": "Gimbalabs Playground",
+      "description": "SIDAN: REST API for Parameterized Plutus Scripts",
       "info": "Zoom"
     }
   ]
