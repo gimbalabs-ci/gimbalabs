@@ -395,7 +395,7 @@ export const gridData = [
   },
   {
     transitionColor: "gradient-yellow",
-    gridBoxStyle: `col-span-full sm:col-span-6 row-span-3`,
+    gridBoxStyle: `col-span-full sm:col-span-6 row-span-5`,
     gridBoxComponent: UpcomingEvents,
     gridBoxProps: {},
     fullPageComponent: CalendarPage,
