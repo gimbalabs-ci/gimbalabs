@@ -15,6 +15,7 @@ import Token from "./gridboxes/Token";
 import PPBL from "./gridboxes/PPBL";
 import GPTE from "./gridboxes/GPTE";
 import MasteryPolicyPage from "../masterypolicy/MasteryPolicyPage";
+import BookClub from "./gridboxes/BookClub";
 
 const { default: DandelionPage } = require("../dandelion/DandelionPage");
 const { default: PBLPage } = require("../pbl/PBLPage");
@@ -349,6 +350,12 @@ export const gridData = [
     fullPageProps: {},
   },
   {
+    disable: true,
+    transitionColor: "bg-orange-200",
+    gridBoxStyle: `col-span-full sm:col-span-10 row-span-2`,
+    gridBoxComponent: BookClub,
+  },
+  {
     gridBoxComponent: GBPBL,
     gridBoxProps: {},
     gridBoxStyle: `col-span-full sm:col-span-6 row-span-2`,
@@ -407,9 +414,6 @@ export const gridData = [
     gridBoxStyle: `col-span-full sm:col-span-10 row-span-2`,
     gridBoxComponent: FeaturedVideo,
   },
-
-
-
   {
     disable: true,
     gridBoxStyle: `col-span-full sm:col-span-6 row-span-3    `,
