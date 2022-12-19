@@ -352,7 +352,7 @@ export const gridData = [
   {
     disable: true,
     transitionColor: "bg-orange-200",
-    gridBoxStyle: `col-span-full sm:col-span-10 row-span-2`,
+    gridBoxStyle: `col-span-full sm:col-span-10 row-span-3`,
     gridBoxComponent: BookClub,
   },
   {
