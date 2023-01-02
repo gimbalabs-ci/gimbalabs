@@ -21,13 +21,15 @@ export default function UpcomingEvents(props) {
   return (
     <div>
       <h2 className="px-2 pt-2 text-2xl">Upcoming Events</h2>
-      <p className="px-2 pb-2">View Details</p>
+      <p className="px-2 pb-2">Click an event to register</p>
       {data.map((event, i) => (
-        <div key={i} className="p-3 border-t-2">
-          <p className="text-blue-800 text-lg">{event.title}</p>
-          <p className="text-xl">{event.description}</p>
-          <p className="text-purple-800">{event.date}{" @"}{event.time}</p>
-        </div>
+        <a href={event.info} target="_blank">
+          <div key={i} className="p-3 border-t-2">
+            <p className="text-blue-800 font-bold uppercase text-sm">{event.title}</p>
+            <p className="text-lg">{event.description}</p>
+            <p className="text-purple-800">{event.date}{" "}{event.time}</p>
+          </div>
+        </a>
       ))}
     </div>
   );

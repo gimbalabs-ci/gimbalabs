@@ -13,8 +13,8 @@ export default function Testimony(props) {
   return (
     <WithTransfer {...props}>
       <div className="p-6 flex flex-col">
-        <div className={`text-4xl font-heading mb-2 text-black2-900 `}>
-          learn by doing
+        <div className={`text-2xl font-heading mb-2 text-black2-900 `}>
+          Gimbalabs is a place where people learn by doing. We are always running experiments and making sense of new ideas together.
         </div>
         <div className={`gg-subtitle mb-2 text-black2-900 `}>
 
@@ -23,7 +23,7 @@ export default function Testimony(props) {
         <div className="mt-auto flex items-center">
           <div className="flex flex-col w-full">
             <div className={`gg-subtitle  text-black2-900 flex `}>
-              Join Gimbalabs on Discord
+              Want to learn more? Join Gimbalabs on Discord
             </div>
             <DiscordButton className="w-6 pt-4 text-red-600" />
           </div>

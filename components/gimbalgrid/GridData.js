@@ -16,6 +16,7 @@ import PPBL from "./gridboxes/PPBL";
 import GPTE from "./gridboxes/GPTE";
 import MasteryPolicyPage from "../masterypolicy/MasteryPolicyPage";
 import BookClub from "./gridboxes/BookClub";
+import DandelionContrib from "./gridboxes/DandelionContrib";
 
 const { default: DandelionPage } = require("../dandelion/DandelionPage");
 const { default: PBLPage } = require("../pbl/PBLPage");
@@ -312,18 +313,6 @@ export const gridData = [
     gridBoxStyle: `col-span-full sm:col-span-4 row-span-1    `,
     gridBoxComponent: GBLogo,
   },
-  {
-    gridBoxStyle: ` col-span-full sm:col-span-8 row-span-1`,
-    gridBoxComponent: PPBL,
-    fullPageComponent: MasteryPolicyPage,
-    transitionColor: "bg-orange-200",
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-full sm:col-span-8 row-span-3   `,
-    gridBoxComponent: TitleGroupDark,
-    gridBoxProps: {},
-  },
 
   {
     gridBoxStyle: "col-span-2 row-span-1 bg-black2-900",
@@ -350,6 +339,12 @@ export const gridData = [
     fullPageProps: {},
   },
   {
+    gridBoxStyle: ` col-span-full sm:col-span-8 row-span-1`,
+    gridBoxComponent: PPBL,
+    fullPageComponent: MasteryPolicyPage,
+    transitionColor: "bg-orange-200",
+  },
+  {
     disable: true,
     transitionColor: "bg-orange-200",
     gridBoxStyle: `col-span-full sm:col-span-10 row-span-1`,
@@ -368,28 +363,32 @@ export const gridData = [
   },
   {
     disable: true,
-    transitionColor: "bg-offWhite",
-    gridBoxStyle: `col-span-full  sm:col-span-3 row-span-1   `,
-    gridBoxComponent: GPTE,
+    gridBoxStyle: `col-span-full sm:col-span-8 row-span-1   `,
+    gridBoxComponent: DandelionContrib,
     gridBoxProps: {},
-    fullPageProps: {},
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-full sm:col-span-8 row-span-2  `,
+    gridBoxComponent: TitleGroupDark,
+    gridBoxProps: {},
   },
   {
     transitionColor: "bg-offWhite",
-    gridBoxStyle: `col-span-full  sm:col-span-5 row-span-1   `,
-    gridBoxComponent: LiveCoding,
-    gridBoxProps: {},
-    fullPageComponent: CalendarPage,
-    fullPageProps: {},
-  },
-  {
-    transitionColor: "bg-offWhite",
-    gridBoxStyle: `col-span-full  sm:col-span-5 row-span-1   `,
+    gridBoxStyle: `col-span-full  sm:col-span-6 row-span-2   `,
     gridBoxComponent: Testimony,
     gridBoxProps: {
       owner: "James",
     },
     fullPageComponent: TeamPage,
+    fullPageProps: {},
+  },
+  {
+    transitionColor: "bg-offWhite",
+    gridBoxStyle: `col-span-full  sm:col-span-5 row-span-2  `,
+    gridBoxComponent: LiveCoding,
+    gridBoxProps: {},
+    fullPageComponent: CalendarPage,
     fullPageProps: {},
   },
   {
@@ -411,8 +410,16 @@ export const gridData = [
   {
     disable: true,
     transitionColor: "gradient-video",
-    gridBoxStyle: `col-span-full sm:col-span-10 row-span-2`,
+    gridBoxStyle: `col-span-full sm:col-span-10 row-span-1`,
     gridBoxComponent: FeaturedVideo,
+  },
+  {
+    disable: true,
+    transitionColor: "bg-blue-900",
+    gridBoxStyle: `col-span-full  sm:col-span-3 row-span-1  `,
+    gridBoxComponent: GPTE,
+    gridBoxProps: {},
+    fullPageProps: {},
   },
   {
     disable: true,

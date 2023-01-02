@@ -12,7 +12,7 @@ export default function TitleGroup(props) {
           Project-Based Learning
         </h1>
         <h2 className={`gg-subtitle text-black2-800`}>
-          We're building and iterating on PBL courses in Cardano Development, Tokenomics, Dandelion, and DevOps. 
+          We're building and iterating on PBL courses in Cardano Development, Tokenomics, Dandelion, and DevOps.
         </h2>
         <h2 className={`gg-subtitle text-black2-800 pt-5`}>
           What do you want to build?
@@ -34,7 +34,7 @@ export function TitleGroupDark(props) {
             Innovating Together
           </h3>
           <h4 className={` px-6 gg-subtitle `}>
-            Not sure where to start? Drop by Gimbalabs Playground on Tuesdays, 1800-1930utc.
+            Not sure where to start? Pick any upcoming event and drop by.
           </h4>
           {/* <div className="relative z-10 p-7 mt-8  bg-pink-400  ">start now</div> */}
         </div>
