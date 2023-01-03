@@ -29,66 +29,12 @@
       "textColor": "text-red-600"
     },
     {
-      "name": "Piotr Napierala",
-      "image": "/team/piotr.jpg",
-      "bio": "Full-stack software engineer and pioneering buidler.",
-      "twitter": "https://twitter.com",
-      "linkedIn": "https://www.linkedin.com/",
-      "color": "bg-pink-300",
-      "textColor": "text-pink-400"
-    },
-    {
-      "name": "Randall Harmon",
-      "image": "/team/randall.jpg",
-      "bio": "Senior full stack developer, project manager, and bridge builder.",
-      "twitter": "https://twitter.com/",
-      "linkedIn": "https://www.linkedin.com/in/randall-harmon-aa52765/",
-      "color": "bg-pink-300",
-      "textColor": "text-pink-400"
-    },
-    {
       "name": "Steve Lockhart",
       "image": "/team/steve.jpg",
       "bio": "Community builder, decentralization advocate, arborist, dog owner.",
       "twitter": "https://twitter.com/BobArchangel",
       "color": "bg-blue-800",
       "textColor": "text-blue-400"
-    },
-    {
-      "name": "Ryan Stierman",
-      "image": "/team/ryan.jpg",
-      "bio": "Experienced senior executive with a passion for supporting community with technological innovation.",
-      "twitter": "https://twitter.com/stiermania",
-      "linkedIn": "https://www.linkedin.com/in/ryan-stierman-cpa-cma-mba-674a574b/",
-      "color": "bg-green-400",
-      "textColor": "text-green-400"
-    },
-    {
-      "name": "Adriano Fiorenza",
-      "image": "/team/adriano.jpg",
-      "bio": "Senior full stack developer & Entrepreneur. Creator of GameChanger Wallet. Buidler. Filmmaker. Human.",
-      "twitter": "https://twitter.com/GameChangerOk",
-      "linkedIn": "https://www.linkedin.com/in/adriano-fiorenza/",
-      "color": "bg-green-400",
-      "textColor": "text-green-400"
-    },
-    {
-      "name": "Kyle Johns",
-      "image": "/team/kyle.png",
-      "bio": "Founder of CardanoSharp library, passionate problem solver, and ever-learning polyglot. SHARP Stake Pool Op.",
-      "twitter": "https://twitter.com/The_Kyle_Johns",
-      "linkedIn": "https://www.linkedin.com/in/johnskyle/",
-      "color": "bg-blue-800",
-      "textColor": "text-blue-800"
-    },
-    {
-      "name": "Giovanni Gargiulo",
-      "image": "/team/ggargiulo.jpg",
-      "bio": "Co-Founder of StakeLabs, educator extraordinaire. EASY1 Stake Pool Op.",
-      "twitter": "https://twitter.com/CryptoJoe101",
-      "linkedIn": "https://www.linkedin.com/in/giovannigargiulo/",
-      "color": "bg-red-600",
-      "textColor": "text-red-600"
     }
   ]
 }
