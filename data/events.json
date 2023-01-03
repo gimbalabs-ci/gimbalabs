@@ -1,13 +1,6 @@
 {
   "upcoming": [
     {
-      "date": "2023-01-03",
-      "time": "1800-1930utc",
-      "title": "Gimbalabs Playground",
-      "description": "Gamifying on-chain data and reputation systems",
-      "info": "https://us06web.zoom.us/meeting/register/tZYoduuqpjsqGtdzMHXoRVVnJqcQGOtpQRQv"
-    },
-    {
       "date": "2023-01-04",
       "time": "1430-1600utc",
       "title": "Plutus PBL Live Coding",

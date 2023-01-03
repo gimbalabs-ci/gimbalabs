@@ -3,6 +3,13 @@
   "about": "Live-stream updates from the Gimbalabs team.",
   "weekly": [
     {
+      "date": "2023-01-03",
+      "number": 20230103,
+      "youtubeId": "Gq0HCPQ4KPw",
+      "tags": ["Gimbalabs Playground"],
+      "description": "Gamifying on-chain data and reputation systems"
+    },
+    {
       "date": "2022-12-14",
       "number": 20221214,
       "youtubeId": "vgtQN5BAMgY",
