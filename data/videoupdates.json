@@ -3,6 +3,13 @@
   "about": "Live-stream updates from the Gimbalabs team.",
   "weekly": [
     {
+      "date": "2023-01-04",
+      "number": 202301031,
+      "youtubeId": "nfcSSErvUqg",
+      "tags": ["PPBL Live Coding"],
+      "description": "Presenting Gimbal Project Treasury and Escrow"
+    },
+    {
       "date": "2023-01-03",
       "number": 20230103,
       "youtubeId": "Gq0HCPQ4KPw",
