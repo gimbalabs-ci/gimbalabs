@@ -3,15 +3,29 @@
   "about": "Live-stream updates from the Gimbalabs team.",
   "weekly": [
     {
+      "date": "2023-01-05",
+      "number": 2023010502,
+      "youtubeId": "d_fWvMR_VQg",
+      "tags": ["PPBL Live Coding"],
+      "description": "GPTE Governance Session 2023-01-05"
+    },
+    {
+      "date": "2023-01-05",
+      "number": 2023010501,
+      "youtubeId": "MGdtR5mYISU",
+      "tags": ["Emergent Strategy Book Club"],
+      "description": "Meeting #2"
+    },
+    {
       "date": "2023-01-04",
-      "number": 202301031,
+      "number": 202301041,
       "youtubeId": "nfcSSErvUqg",
       "tags": ["PPBL Live Coding"],
       "description": "Presenting Gimbal Project Treasury and Escrow"
     },
     {
       "date": "2023-01-04",
-      "number": 202301032,
+      "number": 202301042,
       "youtubeId": "ueVv3bhBEVQ",
       "tags": ["Emergent Strategy Book Club"],
       "description": "Meeting #1"
