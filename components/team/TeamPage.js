@@ -30,25 +30,27 @@ export default function TeamPage() {
   return (
     <div className="bg-offWhite">
       <PageTitleWithBorder title="About us" />
-      <section className="spacing-x pb-7 text-black2-900 flex flex-wrap justify-between ">
-        <p className="max-w-14  ">
-          Gimbalabs builds technical, educational, and community infrastructure for people who want to show the world what Cardano can do. We believe that people learn best by doing things. If you've been looking for an entry point into how you can participate in Cardano, we think you might find it here.
-        </p>
-        <div className="mt-5 ">
-          <div className="border-l-4 border-black2-900 pl-5 w-full flex flex-col  items-start">
-            <div className="text-3xl  mb-5">Join our community</div>
-            <div className="flex items-center">
-              <DiscordButton className="w-6 text-blue-600 mr-3" />
-              <TwitterButton className="w-6 text-blue-700 mr-3" />
-            </div>
-          </div>
-        </div>
-      </section>
       {/* TEAM CARDS */}
       <section className="py-9 bg-black2-900 text-offWhite">
         <h2 className="spacing-x mb-5 lg:mb-0     text-4xl lg:text-6xl ">
-          Team: Updates Coming Soon (May 2022)
+          Team: Updates Coming Soon (January 2023)
         </h2>
+        <p className="spacing-x w-3/4 mb-5 mb-4 text-lg">
+          Gimbalabs creates scaffolding for a robust and resilient global network of leaders, devOps pioneers, builders, and educators because we know that in the hands of many, Cardano can change the world.
+
+        </p>
+        <p className="spacing-x w-3/4 mb-5 mb-4 text-lg">
+          To be robust and reslient, a network requires infrastructure and people who know how to use it. We are building Dandelion so that anyone can deploy critical infrastructure for interacting with the Cardano protocol. We are building Project-Based Learning courses so that people get first-hand experience using technical tools and sharing decision-making power.
+
+        </p>
+        <p className="spacing-x w-3/4 mb-5 mb-4 text-lg">
+          We believe that people learn best by doing things. If you've been looking for an entry point into how you can participate in Cardano, we think you might find it here.
+        </p>
+
+        <p className="spacing-x w-3/4 mb-5 mb-4 text-lg">
+          We are working on updating this page to share more about the people contributing to Gimbalabs. If you want to learn more about the people behind Gimbalabs, check out the <Link href="/updates">videos page</Link> or <Link href="/calendar">join one of weekly community meetings</Link>.
+        </p>
+
 
         {/* <div className="  mx-auto flex justify-center items-start flex-wrap">
           {team.founders.map((i) => (
@@ -96,32 +98,43 @@ export default function TeamPage() {
           ))}
         </div> */}
       </section>
+      <section className="spacing-x pb-7 text-black2-900 flex flex-wrap justify-between ">
+        <div className="mt-5 ">
+          <div className="border-l-4 border-black2-900 pl-5 w-full flex flex-col  items-start">
+            <div className="text-3xl  mb-5">Join our community</div>
+            <div className="flex items-center">
+              <DiscordButton className="w-6 text-blue-600 mr-3" />
+              <TwitterButton className="w-6 text-blue-700 mr-3" />
+            </div>
+          </div>
+        </div>
+      </section>
       {/* WHAT WE'RE BUILDING */}
       <section className="spacing-x py-9 text-black2-900 ">
         <h3 className="  gg-title text-center ">What we're building</h3>
         <div className="max-w-15 mx-auto">
-        <p className=" mt-5">
-          Our founding team met by engaging deeply in <a href="https://cardano.ideascale.com/" target="_blank">Project Catalyst</a>. We recognized that by sharing ideas and seeking connections between projects, we could start a process that led to more people solving more problems and building more solutions on Cardano. You can still <a href="https://cardano.ideascale.com/a/dtd/Cardano-Starter-Kits-+-APIs/322195-48088" target="_blank">read our original proposal here</a>.
-        </p>
-        <p className=" mt-5">
-          Here are some things we are working on right now:
-        </p>
-        <h4 className=" gg-subtitle mt-5">Dandelion</h4>
-        <p className=" mt-4">
-          Dandelion is both a set of services and a containerized framework for deploying those services. We are currently teaching operators how to run Kubernetes to deploy a Dandelion node, and we are building ways for those nodes to communicate seamlessly to provide distributed access to Cardano. <Link href="/dandelion">Learn more</Link>.
-        </p>
-        <h4 className=" gg-subtitle mt-5">Project-Based Learning</h4>
-        <p className=" mt-4 ">
-          We are piloting a "Plutus Project-Based Learning" (PPBL) team that gives developers a chance to gain hands on experience with Plutus by working on real projects. One outcome of PPBL is that we are creating documentation and task suggestions for additional developers to learn Plutus by using it. Another is that we will apply what we are learning about Project-Based Learning to other tools, like Atala Prism and Dandelion.
-        </p>
-        <h4 className=" gg-subtitle mt-5">Playground</h4>
-        <p className=" mt-4 ">
-          At weekly Playground meetings, community members can share ideas. Join us every Tuesday at 5pm UTC - all details are on the Gimbalabs Discord server and on our community calendar.{" "}
-        </p>
-        <h4 className=" gg-subtitle mt-5">Projects</h4>
-        <p className=" mt-4 ">
-          There are several projects that we are eager to release in the next few months. Take a look around this site to learn more about what we are building. As each project is released, we will share it here.{" "}
-        </p>
+          <p className=" mt-5">
+            Our founding team met by engaging deeply in <a href="https://cardano.ideascale.com/" target="_blank">Project Catalyst</a>. We recognized that by sharing ideas and seeking connections between projects, we could start a process that led to more people solving more problems and building more solutions on Cardano. You can still <a href="https://cardano.ideascale.com/a/dtd/Cardano-Starter-Kits-+-APIs/322195-48088" target="_blank">read our original proposal here</a>.
+          </p>
+          <p className=" mt-5">
+            Here are some things we are working on right now:
+          </p>
+          <h4 className=" gg-subtitle mt-5">Dandelion</h4>
+          <p className=" mt-4">
+            Dandelion is both a set of services and a containerized framework for deploying those services. We are currently teaching operators how to run Kubernetes to deploy a Dandelion node, and we are building ways for those nodes to communicate seamlessly to provide distributed access to Cardano. <Link href="/dandelion">Learn more</Link>.
+          </p>
+          <h4 className=" gg-subtitle mt-5">Project-Based Learning</h4>
+          <p className=" mt-4 ">
+            We are piloting a "Plutus Project-Based Learning" (PPBL) team that gives developers a chance to gain hands on experience with Plutus by working on real projects. One outcome of PPBL is that we are creating documentation and task suggestions for additional developers to learn Plutus by using it. Another is that we will apply what we are learning about Project-Based Learning to other tools, like Atala Prism and Dandelion.
+          </p>
+          <h4 className=" gg-subtitle mt-5">Playground</h4>
+          <p className=" mt-4 ">
+            At weekly Playground meetings, community members can share ideas. Join us every Tuesday at 5pm UTC - all details are on the Gimbalabs Discord server and on our community calendar.{" "}
+          </p>
+          <h4 className=" gg-subtitle mt-5">Projects</h4>
+          <p className=" mt-4 ">
+            There are several projects that we are eager to release in the next few months. Take a look around this site to learn more about what we are building. As each project is released, we will share it here.{" "}
+          </p>
         </div>
       </section>
       {/* PRINCIPLES */}
@@ -136,9 +149,8 @@ export default function TeamPage() {
             const even = index % 2 === 0;
             return (
               <li
-                className={`${
-                  index === principles.length - 1 ? "mb-0" : "mb-7"
-                } lg:mb-0 max-w-14 ${even ? "ml-auto" : ""}`}
+                className={`${index === principles.length - 1 ? "mb-0" : "mb-7"
+                  } lg:mb-0 max-w-14 ${even ? "ml-auto" : ""}`}
               >
                 <div className="text-xl md:text-3xl mb-2 pb-1 text-pink-100 border-b border-pink-200">
                   {i.label}

@@ -42,7 +42,7 @@ export default function ListAllVideoUpdates({ baseRoute = "/updates/", data }) {
       className=" grid sm:grid-cols-2 xl:grid-cols-3  gap-6"
     >
       {data.map((video, index) => {
-        const { date, number, youtubeId, tags } = video;
+        const { date, number, youtubeId, tags, title } = video;
         const _date = new Date(date);
         let shortMonth = _date.toLocaleString("en-us", {
           month: "short",
@@ -72,32 +72,33 @@ export default function ListAllVideoUpdates({ baseRoute = "/updates/", data }) {
                   className={` text-gray-600 flex items-start  text-4xl font-heading `}
                 >
                   {/* <span className="opacity-100 text-base  -mt-2 mr-1"># </span> */}
-                  {number}
+                  {title}
                 </div>
 
                 <div className="flex items-center text-gray-500 ">
-                  <CalendarSvg className={`w-4 mr-2`} />
-                  <div className=" text-sm   text-right  ">{shortMonth}</div>
 
                   {/* <div className=" text-sm text-gray-500  text-right  ">
                       {date.split("-")[2]}-
-                    </div>
-                    <div className="text-lg  text-right  ">
+                      </div>
+                      <div className="text-lg  text-right  ">
                       {date.split("-")[1]}
-                    </div>
-                    <span className="text-sm text-gray-500 ">
+                      </div>
+                      <span className="text-sm text-gray-500 ">
                       -{date.split("-")[0]}
                     </span> */}
                 </div>
               </div>
-              <ul className="w-full pl-3 text-gray-800  text-lg -mt-2  text-left  ">
+              {/* <ul className="w-full pl-3 text-gray-800  text-lg -mt-2  text-left  ">
                 {tags.map((i, index) => (
                   <li className="mr-1" key={i + number + "__videotag"}>
-                    {i}
-                    {index < tags.length - 1 && ","}
+                  {i}
+                  {index < tags.length - 1 && ","}
                   </li>
-                ))}
-              </ul>
+                  ))}
+                </ul> */}
+              <p className="pl-3 text-gray-800  text-lg -mt-2  text-left  ">
+                {date}
+              </p>
             </div>
           </li>
         );

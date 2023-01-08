@@ -27,10 +27,10 @@ const MostRecentVideo = ({ data }) => {
     <div className=" bg-black2-900">
       <div className="flex flex-wrap justify-between max-w-18 py-6  spacing-x   overflow-hidden relative  mx-auto ">
         <div className={`mr-6  w-15`}>
-          <LiteYouTubeEmbed id={data.youtubeId} title={data.date} />
+          <LiteYouTubeEmbed id={data.youtubeId} title={data.title} />
         </div>
         <div className="mt-5 flex-1  text-offWhite flex flex-col items-start justify-cetner">
-          <div className={`  text-4xl font-heading `}># {data.number}</div>
+          <div className={`  text-4xl font-heading `}># {data.title}</div>
           <div className="flex items-center ">
             <div className=" text-sm text-gray-300  text-right  ">
               {shortMonth}
