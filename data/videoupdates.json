@@ -4,6 +4,30 @@
   "weekly": [
     {
       "title": "PPBL Live Coding",
+      "date": "2023-01-18",
+      "number": 2023011802,
+      "youtubeId": "IP4SdWaRQ7E",
+      "tags": ["PPBL Live Coding"],
+      "description": "Plutus Puzzles concept with Sean; Advanced Plutus with Mix"
+    },
+    {
+      "title": "Emergent Strategy Book Club",
+      "date": "2023-01-18",
+      "number": 2023011801,
+      "youtubeId": "vvz6Idxviis",
+      "tags": ["Emergent Strategy Book Club"],
+      "description": "Meeting #5"
+    },
+    {
+      "title": "Gimblaabs Playground",
+      "date": "2023-01-17",
+      "number": 20230117,
+      "youtubeId": "9y0cG6FBWFs",
+      "tags": ["Gimbalabs Playground"],
+      "description": "SIDAN: REST API for Parameterized Plutus Scripts"
+    },
+    {
+      "title": "PPBL Live Coding",
       "date": "2023-01-12",
       "number": 2023011202,
       "youtubeId": "rnlZEdF-h1g",

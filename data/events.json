@@ -1,27 +1,6 @@
 {
   "upcoming": [
     {
-      "date": "2023-01-17",
-      "time": "1800-1930utc",
-      "title": "Gimbalabs Playground",
-      "description": "SIDAN: REST API for Parameterized Plutus Scripts",
-      "info": "https://us06web.zoom.us/meeting/register/tZYoduuqpjsqGtdzMHXoRVVnJqcQGOtpQRQv"
-    },
-    {
-      "date": "2023-01-18",
-      "time": "1430-1600utc",
-      "title": "Plutus PBL Live Coding",
-      "description": "Plutus Masterclass with Mix",
-      "info": "https://us06web.zoom.us/meeting/register/tZErceCqpzMtG9XldfuPnBQEus5MBivl9OZe"
-    },
-    {
-      "date": "2023-01-18",
-      "time": "2000-2100utc",
-      "title": "Gimbalabs Book Club",
-      "description": "Emergent Strategy by adrienne maree brown",
-      "info": "https://us06web.zoom.us/meeting/register/tZ0pdO-qqj4qGtwCmTAfk63oNLo_DkI7C0HS"
-    },
-    {
       "date": "2023-01-19",
       "time": "1430-1600utc",
       "title": "Plutus PBL Live Coding",
@@ -41,6 +20,20 @@
       "title": "Gimbalabs Playground",
       "description": "@energiasocial: solar energy for good with Guillermo Lucero from @energiasocial",
       "info": "https://us06web.zoom.us/meeting/register/tZYoduuqpjsqGtdzMHXoRVVnJqcQGOtpQRQv"
+    },
+    {
+      "date": "2023-01-25",
+      "time": "1430-1600utc",
+      "title": "Plutus PBL Live Coding",
+      "description": "Plutus Masterclass with Mix",
+      "info": "https://us06web.zoom.us/meeting/register/tZErceCqpzMtG9XldfuPnBQEus5MBivl9OZe"
+    },
+    {
+      "date": "2023-01-25",
+      "time": "2000-2100utc",
+      "title": "Gimbalabs Book Club",
+      "description": "Emergent Strategy by adrienne maree brown",
+      "info": "https://us06web.zoom.us/meeting/register/tZ0pdO-qqj4qGtwCmTAfk63oNLo_DkI7C0HS"
     },
     {
       "date": "2023-01-31",
