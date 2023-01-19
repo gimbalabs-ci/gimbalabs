@@ -1,20 +1,6 @@
 {
   "upcoming": [
     {
-      "date": "2023-01-19",
-      "time": "1430-1600utc",
-      "title": "Plutus PBL Live Coding",
-      "description": "GPTE Governance Session #5",
-      "info": "https://us06web.zoom.us/meeting/register/tZErceCqpzMtG9XldfuPnBQEus5MBivl9OZe"
-    },
-    {
-      "date": "2023-01-19",
-      "time": "1600-1700utc",
-      "title": "Gimbalabs Book Club",
-      "description": "Emergent Strategy by adrienne maree brown",
-      "info": "https://us06web.zoom.us/meeting/register/tZwpf-ippzIvGtRadEj9TUUKeGlq-qcfosii"
-    },
-    {
       "date": "2023-01-24",
       "time": "1800-1930utc",
       "title": "Gimbalabs Playground",
@@ -34,6 +20,20 @@
       "title": "Gimbalabs Book Club",
       "description": "Emergent Strategy by adrienne maree brown",
       "info": "https://us06web.zoom.us/meeting/register/tZ0pdO-qqj4qGtwCmTAfk63oNLo_DkI7C0HS"
+    },
+    {
+      "date": "2023-01-26",
+      "time": "1430-1600utc",
+      "title": "Plutus PBL Live Coding",
+      "description": "GPTE Governance Session #5",
+      "info": "https://us06web.zoom.us/meeting/register/tZErceCqpzMtG9XldfuPnBQEus5MBivl9OZe"
+    },
+    {
+      "date": "2023-01-26",
+      "time": "1600-1700utc",
+      "title": "Gimbalabs Book Club",
+      "description": "Emergent Strategy by adrienne maree brown",
+      "info": "https://us06web.zoom.us/meeting/register/tZwpf-ippzIvGtRadEj9TUUKeGlq-qcfosii"
     },
     {
       "date": "2023-01-31",
@@ -57,7 +57,7 @@
       "info": "https://us06web.zoom.us/meeting/register/tZYoduuqpjsqGtdzMHXoRVVnJqcQGOtpQRQv"
     },
     {
-      "date": "2023-02-27",
+      "date": "2023-02-21",
       "time": "1800-1930utc",
       "title": "Gimbalabs Playground",
       "description": "Gamechanger Pre-PBL with Quasar, Gamechanger + Dandelion",
