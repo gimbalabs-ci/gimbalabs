@@ -3,6 +3,14 @@
   "about": "Live-stream updates from the Gimbalabs team.",
   "weekly": [
     {
+      "title": "Gimblabs Playground",
+      "date": "2023-01-24",
+      "number": 20230124,
+      "youtubeId": "wQu3zTqdu0Y",
+      "tags": ["Gimbalabs Playground"],
+      "description": "@energiasocial"
+    },
+    {
       "title": "PPBL Live Coding",
       "date": "2023-01-19",
       "number": 2023011902,
@@ -35,7 +43,7 @@
       "description": "Meeting #5"
     },
     {
-      "title": "Gimblaabs Playground",
+      "title": "Gimblabs Playground",
       "date": "2023-01-17",
       "number": 20230117,
       "youtubeId": "9y0cG6FBWFs",
@@ -107,7 +115,7 @@
       "description": "Meeting #1"
     },
     {
-      "title": "Gimblaabs Playground",
+      "title": "Gimblabs Playground",
       "date": "2023-01-03",
       "number": 20230103,
       "youtubeId": "Gq0HCPQ4KPw",
@@ -153,7 +161,7 @@
       "tags": ["PPBL Live Coding"]
     },
     {
-      "title": "Gimblaabs Playground",
+      "title": "Gimblabs Playground",
       "date": "2022-11-29",
       "number": 20221129,
       "youtubeId": "P6R1C_BET7g",
