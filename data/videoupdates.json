@@ -3,6 +3,38 @@
   "about": "Live-stream updates from the Gimbalabs team.",
   "weekly": [
     {
+      "title": "PPBL Live Coding",
+      "date": "2023-01-26",
+      "number": 2023012602,
+      "youtubeId": "L1NA4_kIdcI",
+      "tags": ["PPBL Live Coding"],
+      "description": "Unscripted: handling datum with Mesh, Plutus Puzzles, and open discussion."
+    },
+    {
+      "title": "Emergent Strategy Book Club",
+      "date": "2023-01-26",
+      "number": 2023012501,
+      "youtubeId": "HJBgnZRHiAU",
+      "tags": ["Emergent Strategy Book Club"],
+      "description": "Meeting #6"
+    },
+    {
+      "title": "PPBL Live Coding",
+      "date": "2023-01-25",
+      "number": 2023012602,
+      "youtubeId": "nDig8GCN5Hc",
+      "tags": ["PPBL Live Coding"],
+      "description": "Gimbalabs profiles and GPTE"
+    },
+    {
+      "title": "Emergent Strategy Book Club",
+      "date": "2023-01-25",
+      "number": 2023012501,
+      "youtubeId": "w_ZPo4KqhtQ",
+      "tags": ["Emergent Strategy Book Club"],
+      "description": "Meeting #6"
+    },
+    {
       "title": "Gimblabs Playground",
       "date": "2023-01-24",
       "number": 20230124,
