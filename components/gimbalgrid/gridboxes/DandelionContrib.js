@@ -5,9 +5,9 @@ import WithTransfer from "../WithTransfer";
 
 export default function DandelionContrib(props) {
   return (
-    <WithTransfer {...props} className="w-full">
+    <WithTransfer {...props} className="w-full content-center bg-purple-500">
       <a href="https://contrib.dandelion.link" target="_blank">
-        <div className="group bg-purple-500  text-white flex flex-row justify-center items-center">
+        <div className="group text-white flex flex-row justify-center items-center">
             <div className="gg-subtitle font-heading text-center flex flex-col">
             <Image
               src="/dandelion-contributor-badge.png"

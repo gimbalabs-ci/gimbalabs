@@ -363,7 +363,7 @@ export const gridData = [
   },
   {
     disable: true,
-    gridBoxStyle: `col-span-full sm:col-span-8 row-span-1   `,
+    gridBoxStyle: `col-span-full sm:col-span-8 row-span-1 `,
     gridBoxComponent: DandelionContrib,
     gridBoxProps: {},
   },
