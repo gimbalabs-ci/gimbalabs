@@ -3,6 +3,38 @@
   "about": "Live-stream updates from the Gimbalabs team.",
   "weekly": [
     {
+      "title": "Emergent Strategy Book Club",
+      "date": "2023-02-02",
+      "number": 20230202,
+      "youtubeId": "0E0cOPeHvs8",
+      "tags": ["Emergent Strategy Book Club"],
+      "description": "Meeting #10"
+    },
+    {
+      "title": "PPBL Live Coding",
+      "date": "2023-02-01",
+      "number": 2023020102,
+      "youtubeId": "",
+      "tags": ["PPBL Live Coding"],
+      "description": "m2Uv6UWzjks"
+    },
+    {
+      "title": "Emergent Strategy Book Club",
+      "date": "2023-02-01",
+      "number": 2023020101,
+      "youtubeId": "oMPHeWu-KRg",
+      "tags": ["Emergent Strategy Book Club"],
+      "description": "Meeting #9"
+    },
+    {
+      "title": "Gimblabs Playground",
+      "date": "2023-01-31",
+      "number": 20230131,
+      "youtubeId": "T4wHoDEawN4",
+      "tags": ["Gimbalabs Playground"],
+      "description": "ClarityDAO"
+    },
+    {
       "title": "PPBL Live Coding",
       "date": "2023-01-26",
       "number": 2023012602,
@@ -16,7 +48,7 @@
       "number": 2023012501,
       "youtubeId": "HJBgnZRHiAU",
       "tags": ["Emergent Strategy Book Club"],
-      "description": "Meeting #6"
+      "description": "Meeting #8"
     },
     {
       "title": "PPBL Live Coding",
@@ -32,7 +64,7 @@
       "number": 2023012501,
       "youtubeId": "w_ZPo4KqhtQ",
       "tags": ["Emergent Strategy Book Club"],
-      "description": "Meeting #6"
+      "description": "Meeting #7"
     },
     {
       "title": "Gimblabs Playground",

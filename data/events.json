@@ -1,46 +1,39 @@
 {
   "upcoming": [
     {
-      "date": "2023-01-31",
+      "date": "2023-02-07",
       "time": "1800-1930utc",
       "title": "Gimbalabs Playground",
-      "description": "Decentralized Governance and Collective Intelligence with Logan Panchot from Clarity",
+      "description": "Presentation of Singular (http://www.singular.to) with Terrence Hooi",
       "info": "https://us06web.zoom.us/meeting/register/tZYoduuqpjsqGtdzMHXoRVVnJqcQGOtpQRQv"
     },
     {
-      "date": "2023-02-01",
+      "date": "2023-02-08",
       "time": "1430-1600utc",
       "title": "Plutus PBL Live Coding",
-      "description": "Preliminary topic: Deep Dive into Contributor Tokens",
+      "description": "Building multi-input and multi-output smart contract transactions with MeshJS",
       "info": "https://us06web.zoom.us/meeting/register/tZErceCqpzMtG9XldfuPnBQEus5MBivl9OZe"
     },
     {
-      "date": "2023-02-01",
+      "date": "2023-02-08",
       "time": "2000-2100utc",
       "title": "Gimbalabs Book Club",
       "description": "Emergent Strategy by adrienne maree brown",
       "info": "https://us06web.zoom.us/meeting/register/tZ0pdO-qqj4qGtwCmTAfk63oNLo_DkI7C0HS"
     },
     {
-      "date": "2023-02-02",
+      "date": "2023-02-09",
       "time": "1430-1600utc",
       "title": "Plutus PBL Live Coding",
-      "description": "GPTE Governance Session #5",
+      "description": "GPTE Governance and PPBL2023 Planning",
       "info": "https://us06web.zoom.us/meeting/register/tZErceCqpzMtG9XldfuPnBQEus5MBivl9OZe"
     },
     {
-      "date": "2023-02-02",
+      "date": "2023-02-09",
       "time": "1600-1700utc",
       "title": "Gimbalabs Book Club",
       "description": "Emergent Strategy by adrienne maree brown",
       "info": "https://us06web.zoom.us/meeting/register/tZwpf-ippzIvGtRadEj9TUUKeGlq-qcfosii"
-    },
-    {
-      "date": "2023-02-07",
-      "time": "1800-1930utc",
-      "title": "Gimbalabs Playground",
-      "description": "Presentation of Singular (http://www.singular.to) with Terrence Hooi",
-      "info": "https://us06web.zoom.us/meeting/register/tZYoduuqpjsqGtdzMHXoRVVnJqcQGOtpQRQv"
     },
     {
       "date": "2023-02-14",
@@ -63,6 +56,5 @@
       "description": "Discursively Democratic: Participatory Networks in Emergent Governance Structures with Quasar, disCatalyst + DiscoSolaris",
       "info": "https://us06web.zoom.us/meeting/register/tZYoduuqpjsqGtdzMHXoRVVnJqcQGOtpQRQv"
     }
-
   ]
 }
