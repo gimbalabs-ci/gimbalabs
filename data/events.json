@@ -1,52 +1,66 @@
 {
   "upcoming": [
     {
-      "date": "2023-02-14",
+      "date": "2023-02-21",
       "time": "1800-1930utc",
       "title": "Gimbalabs Playground",
-      "description": "Ansula.Systems with Peter Wolcott",
+      "description": "Discursive Democracy; Emerging Narratives in Participatory Action Networks, feat. Quasar; Intro to Disco Solaris, disCatalyst, and Silk Toad ",
       "info": "https://us06web.zoom.us/meeting/register/tZYoduuqpjsqGtdzMHXoRVVnJqcQGOtpQRQv"
     },
     {
-      "date": "2023-02-15",
+      "date": "2023-02-22",
       "time": "1430-1600utc",
       "title": "Plutus PBL Live Coding",
       "description": "PPBL2023 Front End, Plutus Puzzles, and More!",
       "info": "https://us06web.zoom.us/meeting/register/tZErceCqpzMtG9XldfuPnBQEus5MBivl9OZe"
     },
     {
-      "date": "2023-02-15",
+      "date": "2023-02-22",
       "time": "2000-2100utc",
       "title": "Gimbalabs Book Club",
       "description": "Emergent Strategy by adrienne maree brown",
       "info": "https://us06web.zoom.us/meeting/register/tZ0pdO-qqj4qGtwCmTAfk63oNLo_DkI7C0HS"
     },
     {
-      "date": "2023-02-16",
+      "date": "2023-02-23",
       "time": "1430-1600utc",
       "title": "Plutus PBL Live Coding",
       "description": "Tools for starting learning and innovation cycles",
       "info": "https://us06web.zoom.us/meeting/register/tZErceCqpzMtG9XldfuPnBQEus5MBivl9OZe"
     },
     {
-      "date": "2023-02-16",
+      "date": "2023-02-23",
       "time": "1600-1700utc",
       "title": "Gimbalabs Book Club",
       "description": "Emergent Strategy by adrienne maree brown",
       "info": "https://us06web.zoom.us/meeting/register/tZwpf-ippzIvGtRadEj9TUUKeGlq-qcfosii"
     },
     {
-      "date": "2023-02-21",
-      "time": "1800-1930utc",
-      "title": "Gimbalabs Playground",
-      "description": "Gamechanger Pre-PBL with Quasar, Gamechanger + Dandelion",
-      "info": "https://us06web.zoom.us/meeting/register/tZYoduuqpjsqGtdzMHXoRVVnJqcQGOtpQRQv"
-    },
-    {
       "date": "2023-02-28",
       "time": "1800-1930utc",
       "title": "Gimbalabs Playground",
-      "description": "Discursively Democratic: Participatory Networks in Emergent Governance Structures with Quasar, disCatalyst + DiscoSolaris",
+      "description": "Gamechanger Wallet Migration, M2TEC Paypad, feat. Gamechanger Wallet, Dandelion, M2Tec",
+      "info": "https://us06web.zoom.us/meeting/register/tZYoduuqpjsqGtdzMHXoRVVnJqcQGOtpQRQv"
+    },
+    {
+      "date": "2023-03-07",
+      "time": "1800-1930utc",
+      "title": "Gimbalabs Playground",
+      "description": "DEMU - A Music Rights Protocol, with Session Cruz",
+      "info": "https://us06web.zoom.us/meeting/register/tZYoduuqpjsqGtdzMHXoRVVnJqcQGOtpQRQv"
+    },
+    {
+      "date": "2023-03-14",
+      "time": "1800-1930utc",
+      "title": "Gimbalabs Playground",
+      "description": "45B.io - Cardano Enablement (for Web2 orgs), with Pedro Lucas",
+      "info": "https://us06web.zoom.us/meeting/register/tZYoduuqpjsqGtdzMHXoRVVnJqcQGOtpQRQv"
+    },
+    {
+      "date": "2023-03-21",
+      "time": "1800-1930utc",
+      "title": "Gimbalabs Playground",
+      "description": "Freeport.bet a blockchain based prediction market implementation on Cardano, with Justin Mooney",
       "info": "https://us06web.zoom.us/meeting/register/tZYoduuqpjsqGtdzMHXoRVVnJqcQGOtpQRQv"
     }
   ]
