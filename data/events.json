@@ -11,7 +11,7 @@
       "date": "2023-02-22",
       "time": "1430-1600utc",
       "title": "Plutus PBL Live Coding",
-      "description": "PPBL2023 Front End, Plutus Puzzles, and More!",
+      "description": "Planning PPBL 2023",
       "info": "https://us06web.zoom.us/meeting/register/tZErceCqpzMtG9XldfuPnBQEus5MBivl9OZe"
     },
     {
@@ -25,7 +25,7 @@
       "date": "2023-02-23",
       "time": "1430-1600utc",
       "title": "Plutus PBL Live Coding",
-      "description": "Tools for starting learning and innovation cycles",
+      "description": "Planning PPBL 2023",
       "info": "https://us06web.zoom.us/meeting/register/tZErceCqpzMtG9XldfuPnBQEus5MBivl9OZe"
     },
     {
@@ -34,6 +34,13 @@
       "title": "Gimbalabs Book Club",
       "description": "Emergent Strategy by adrienne maree brown",
       "info": "https://us06web.zoom.us/meeting/register/tZwpf-ippzIvGtRadEj9TUUKeGlq-qcfosii"
+    },
+    {
+      "date": "2023-02-24",
+      "time": "1630-1800utc",
+      "title": "Smart Contract Gladiator",
+      "description": "Exploring possibilities with Plutus Contracts",
+      "info": ""
     },
     {
       "date": "2023-02-28",
