@@ -3,6 +3,38 @@
   "about": "Live-stream updates from the Gimbalabs team.",
   "weekly": [
     {
+      "title": "Smart Contract Gladiator",
+      "date": "2023-02-24",
+      "number": 20230224,
+      "youtubeId": "3x6GYAS6cXM",
+      "tags": ["PPBL Live Coding"],
+      "description": "Tools for starting learning and innovation cycles"
+    },
+    {
+      "title": "PPBL Live Coding",
+      "date": "2023-02-22",
+      "number": 202302221,
+      "youtubeId": "UsGSKdaouSQ",
+      "tags": ["PPBL Live Coding"],
+      "description": "PBL or RPG?"
+    },
+    {
+      "title": "Emergent Strategy Book Club",
+      "date": "2023-02-22",
+      "number": 202302222,
+      "youtubeId": "8E-oP4FACHk",
+      "tags": ["Emergent Strategy Book Club"],
+      "description": "Meeting #15"
+    },
+    {
+      "title": "Gimblabs Playground",
+      "date": "2023-02-21",
+      "number": 20230221,
+      "youtubeId": "XJMniyecGYY",
+      "tags": ["Gimbalabs Playground"],
+      "description": "Discursive Democracy; Emerging Narratives in Participatory Action Networks, feat. Quasar; Intro to Disco Solaris, disCatalyst, and Silk Toad"
+    },
+    {
       "title": "PPBL Live Coding",
       "date": "2023-02-16",
       "number": 20230216,
