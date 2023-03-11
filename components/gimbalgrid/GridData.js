@@ -339,16 +339,10 @@ export const gridData = [
     fullPageProps: {},
   },
   {
-    gridBoxStyle: ` col-span-full sm:col-span-8 row-span-1`,
+    gridBoxStyle: ` col-span-full sm:col-span-8 row-span-2`,
     gridBoxComponent: PPBL,
     fullPageComponent: MasteryPolicyPage,
     transitionColor: "bg-orange-200",
-  },
-  {
-    disable: true,
-    transitionColor: "bg-orange-200",
-    gridBoxStyle: `col-span-full sm:col-span-10 row-span-1`,
-    gridBoxComponent: BookClub,
   },
   {
     gridBoxComponent: GBPBL,

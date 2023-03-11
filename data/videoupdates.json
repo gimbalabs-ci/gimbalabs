@@ -3,6 +3,22 @@
   "about": "Live-stream updates from the Gimbalabs team.",
   "weekly": [
     {
+      "title": "Gimblabs Playground",
+      "date": "2023-02-28",
+      "number": 20230228,
+      "youtubeId": "wtzhBqMEYlU",
+      "tags": ["Gimbalabs Playground"],
+      "description": "Discursive Democracy; Emerging Narratives in Participatory Action Networks, feat. Quasar; Intro to Disco Solaris, disCatalyst, and Silk Toad"
+    },
+    {
+      "title": "Smart Contract Gladiator",
+      "date": "2023-03-03",
+      "number": 20230303,
+      "youtubeId": "KcxDNFF1gc4",
+      "tags": ["PPBL Live Coding"],
+      "description": "Tools for starting learning and innovation cycles"
+    },
+    {
       "title": "Smart Contract Gladiator",
       "date": "2023-02-24",
       "number": 20230224,
