@@ -3,12 +3,36 @@
   "about": "Live-stream updates from the Gimbalabs team.",
   "weekly": [
     {
+      "title": "Smart Contract Gladiator",
+      "date": "2023-03-17",
+      "number": 202303017,
+      "youtubeId": "_L_W30E2KG4",
+      "tags": ["Gimbalabs Playground"],
+      "description": "Designing a modular governance system"
+    },
+    {
       "title": "Gimblabs Playground",
-      "date": "2023-02-28",
-      "number": 20230228,
-      "youtubeId": "wtzhBqMEYlU",
+      "date": "2023-03-16",
+      "number": 20230316,
+      "youtubeId": "SItDpvEAoKQ",
       "tags": ["Gimbalabs Playground"],
       "description": "Gamechanger Wallet + M2TEC Paypad"
+    },
+    {
+      "title": "Gimblabs Playground",
+      "date": "2023-03-15",
+      "number": 20230315,
+      "youtubeId": "2ACJlnUfVL4",
+      "tags": ["Gimbalabs Playground"],
+      "description": "Gamechanger Wallet + M2TEC Paypad"
+    },
+    {
+      "title": "Gimblabs Playground",
+      "date": "2023-03-14",
+      "number": 20230307,
+      "youtubeId": "0SoTPuxkjsg",
+      "tags": ["Gimbalabs Playground"],
+      "description": "Introducing 45B.io"
     },
     {
       "title": "Smart Contract Gladiator",
@@ -17,6 +41,14 @@
       "youtubeId": "KcxDNFF1gc4",
       "tags": ["PPBL Live Coding"],
       "description": "Tools for starting learning and innovation cycles"
+    },
+    {
+      "title": "Gimblabs Playground",
+      "date": "2023-02-28",
+      "number": 20230228,
+      "youtubeId": "wtzhBqMEYlU",
+      "tags": ["Gimbalabs Playground"],
+      "description": "Gamechanger Wallet + M2TEC Paypad"
     },
     {
       "title": "Smart Contract Gladiator",

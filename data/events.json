@@ -1,43 +1,33 @@
 {
   "upcoming": [
-   
-    {
-      "date": "2023-03-15",
-      "time": "1430-1600utc",
-      "title": "Plutus PBL Live Coding",
-      "description": "Introducing PPBL 2023: Meet the team!",
-      "info": "https://us06web.zoom.us/meeting/register/tZErceCqpzMtG9XldfuPnBQEus5MBivl9OZe"
-    },
-    
-    {
-      "date": "2023-03-16",
-      "time": "1430-1600utc",
-      "title": "Plutus PBL Live Coding",
-      "description": "PPBL 2023 Q&A + Wallet security for Cardano developers",
-      "info": "https://us06web.zoom.us/meeting/register/tZErceCqpzMtG9XldfuPnBQEus5MBivl9OZe"
-    },
-    
-    {
-      "date": "2023-03-17",
-      "time": "1630-1800utc",
-      "title": "Smart Contract Gladiator",
-      "description": "Exploring possibilities with Plutus Contracts",
-      "info": "Building fractal systems for on-chain governance"
-    },
-    
-    {
-      "date": "2023-03-14",
-      "time": "1800-1930utc",
-      "title": "Gimbalabs Playground",
-      "description": "45B.io - Cardano Enablement (for Web2 orgs), with Pedro Lucas",
-      "info": "https://us06web.zoom.us/meeting/register/tZYoduuqpjsqGtdzMHXoRVVnJqcQGOtpQRQv"
-    },
     {
       "date": "2023-03-21",
       "time": "1800-1930utc",
       "title": "Gimbalabs Playground",
       "description": "Bringing Cardano to Cambridge, with Harry Hellyer",
       "info": "https://us06web.zoom.us/meeting/register/tZYoduuqpjsqGtdzMHXoRVVnJqcQGOtpQRQv"
+    },
+    {
+      "date": "2023-03-22",
+      "time": "1430-1600utc",
+      "title": "Plutus PBL Live Coding",
+      "description": "What is \"Plutus\"?",
+      "info": "https://us06web.zoom.us/meeting/register/tZErceCqpzMtG9XldfuPnBQEus5MBivl9OZe"
+    },
+    
+    {
+      "date": "2023-03-23",
+      "time": "1430-1600utc",
+      "title": "Plutus PBL Live Coding",
+      "description": "Local development environments, and different Always Succeeds validators.",
+      "info": "https://us06web.zoom.us/meeting/register/tZErceCqpzMtG9XldfuPnBQEus5MBivl9OZe"
+    },  
+    {
+      "date": "2023-03-24",
+      "time": "1630-1800utc",
+      "title": "Smart Contract Gladiator",
+      "description": "Designing modular governance systems",
+      "info": "https://us06web.zoom.us/meeting/register/tZEud-2uqDMsE9K9jw8FDzrfDvHxmU7gKHdb"
     },
     {
       "date": "2023-03-28",
