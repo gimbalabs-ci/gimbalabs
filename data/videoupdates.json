@@ -3,6 +3,22 @@
   "about": "Live-stream updates from the Gimbalabs team.",
   "weekly": [
     {
+      "title": "Plutus PBL Live Coding",
+      "date": "2023-03-22",
+      "number": 20230322,
+      "youtubeId": "wmLvRJM6x64",
+      "tags": ["PPBL Live Coding"],
+      "description": "What is Plutus?"
+    },
+    {
+      "title": "Gimblabs Playground",
+      "date": "2023-03-21",
+      "number": 20230321,
+      "youtubeId": "a_bNJ6RfLWY",
+      "tags": ["Gimbalabs Playground"],
+      "description": "Bringing Cardano to Cambridge, with Harry Hellyer"
+    },
+    {
       "title": "Smart Contract Gladiator",
       "date": "2023-03-17",
       "number": 202303017,
@@ -29,7 +45,7 @@
     {
       "title": "Gimblabs Playground",
       "date": "2023-03-14",
-      "number": 20230307,
+      "number": 20230314,
       "youtubeId": "0SoTPuxkjsg",
       "tags": ["Gimbalabs Playground"],
       "description": "Introducing 45B.io"
