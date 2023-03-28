@@ -4,6 +4,14 @@
   "weekly": [
     {
       "title": "Plutus PBL Live Coding",
+      "date": "2023-03-23",
+      "number": 20230323,
+      "youtubeId": "aRkuGj5RN60",
+      "tags": ["PPBL Live Coding"],
+      "description": "Exploring Always Succeeds?"
+    },
+    {
+      "title": "Plutus PBL Live Coding",
       "date": "2023-03-22",
       "number": 20230322,
       "youtubeId": "wmLvRJM6x64",

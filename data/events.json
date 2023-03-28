@@ -1,18 +1,32 @@
 {
   "upcoming": [
     {
-      "date": "2023-03-23",
-      "time": "1430-1600utc",
-      "title": "Plutus PBL Live Coding",
-      "description": "Local development environments, and different Always Succeeds validators.",
-      "info": "https://us06web.zoom.us/meeting/register/tZErceCqpzMtG9XldfuPnBQEus5MBivl9OZe"
-    },
-    {
       "date": "2023-03-28",
       "time": "1800-1930utc",
       "title": "Gimbalabs Playground",
       "description": "Task + Bounty Experiences, with Swarm + Treasury Guild",
       "info": "https://us06web.zoom.us/meeting/register/tZYoduuqpjsqGtdzMHXoRVVnJqcQGOtpQRQv"
+    },
+    {
+      "date": "2023-03-29",
+      "time": "1430-1600utc",
+      "title": "Plutus PBL Live Coding",
+      "description": "What can you do with cardano-cli?",
+      "info": "https://us06web.zoom.us/meeting/register/tZErceCqpzMtG9XldfuPnBQEus5MBivl9OZe"
+    },
+    {
+      "date": "2023-03-30",
+      "time": "1430-1600utc",
+      "title": "Plutus PBL Live Coding",
+      "description": "How do we create proof of academic mastery?",
+      "info": "https://us06web.zoom.us/meeting/register/tZErceCqpzMtG9XldfuPnBQEus5MBivl9OZe"
+    },
+    {
+      "date": "2023-03-31",
+      "time": "1430-1600utc",
+      "title": "Smart Contract Gladiator",
+      "description": "Building modular governance contracts.",
+      "info": "https://us06web.zoom.us/meeting/register/tZEud-2uqDMsE9K9jw8FDzrfDvHxmU7gKHdb"
     },
     {
       "date": "2023-04-04",
