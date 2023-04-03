@@ -86,7 +86,7 @@ export default function MasteryOverview() {
           <p className="py-2 text-xl">
             Everyone is welcome to{" "}
             <a
-              href="#"
+              href="https://en.plutuspbl.io"
               class="font-bold text-orange-800 hover:text-purple-800"
             >
               enroll in Plutus PBL 2023
@@ -97,9 +97,8 @@ export default function MasteryOverview() {
             When you enroll in the self-paced Plutus PBL course, you will start by working through the Onboarding and
             BBK Modules in order. Then you can focus on your choice of Specializing Modules. When you meet the minimum
             requirements, you will earn a Course Completion token that allows you to{" "}
-            <a href="https://gpte.gimbalabs.io/projects" className="text-orange-900 font-bold hover:text-green-700">
               Contribute to open source projects at Gimbalabs
-            </a>
+
             .
           </p>
         </div>
@@ -107,7 +106,7 @@ export default function MasteryOverview() {
           <Image src="/obsc.png" width={450} height={580} alt="obsc" />
         </div>
 
-        <div className="col-span-1 mt-10 mb-8 p-5 bg-orange-100 rounded">
+        {/* <div className="col-span-1 mt-10 mb-8 p-5 bg-orange-100 rounded">
           <div>
             <h3 className="text-3xl py-2">
               What are the minimum requirements for earning a Plutus PBL Course Completion token?
@@ -181,7 +180,7 @@ export default function MasteryOverview() {
           <pre className="leading-5 bg-gray-200 p-5">
             <code className="language-js">{JSON.stringify(contributorDatum, null, 2)}</code>
           </pre>
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -27,7 +27,7 @@ export default function MasteryPolicyPage() {
             </a>{" "}
             and merge requests to{" "}
             <a
-              href="https://gitlab.com/gimbalabs/plutus-pbl-summer-2022"
+              href="https://gitlab.com/gimbalabs/ppbl-2023"
               target="_blank"
               className="font-bold text-orange-800 hover:text-purple-800"
             >
@@ -39,16 +39,16 @@ export default function MasteryPolicyPage() {
           <p className="py-5 text-xl">
             Learn more about about Plutus PBL by browsing the Course Outline and Student Learning Targets below. Or{" "}
             <a
-              href="https://gimbalabs.instructure.com/enroll/3CFNFB"
+              href="https://en.plutuspbl.io"
               class="font-bold text-orange-800 hover:text-purple-800"
             >
-              enroll in Plutus PBL on Canvas
+              enroll in Plutus PBL
             </a>{" "}
             to see it for yourself.
           </p>
         </div>
 
-        <LearningTargets />
+        {/* <LearningTargets /> */}
         {/* <CourseOutlineTable /> */}
         {/* <AboutCompletionToken /> */}
       </div>
