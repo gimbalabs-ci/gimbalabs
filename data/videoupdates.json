@@ -4,6 +4,30 @@
   "weekly": [
     {
       "title": "Plutus PBL Live Coding",
+      "date": "2023-03-30",
+      "number": 20230330,
+      "youtubeId": "E82zpbY7W70",
+      "tags": ["PPBL Live Coding"],
+      "description": "Exploring Plutus Transactions"
+    },
+    {
+      "title": "Plutus PBL Live Coding",
+      "date": "2023-03-29",
+      "number": 20230329,
+      "youtubeId": "knAEwxvNtPI",
+      "tags": ["PPBL Live Coding"],
+      "description": "Starting a Cardano Node and starting Plutus Apps"
+    },
+    {
+      "title": "Gimblabs Playground",
+      "date": "2023-03-28",
+      "number": 20230328,
+      "youtubeId": "lufoazy3LMQ",
+      "tags": ["Gimbalabs Playground"],
+      "description": "Task + Bounty Experiences, with Swarm + Treasury Guild"
+    },
+    {
+      "title": "Plutus PBL Live Coding",
       "date": "2023-03-23",
       "number": 20230323,
       "youtubeId": "aRkuGj5RN60",
