@@ -4,6 +4,54 @@
   "weekly": [
     {
       "title": "Plutus PBL Live Coding",
+      "date": "2023-04-13",
+      "number": 20230313,
+      "youtubeId": "hueJLsF_xeY",
+      "tags": ["PPBL Live Coding"],
+      "description": "Live Demo: Querying the Blockchain"
+    },
+    {
+      "title": "Plutus PBL Live Coding",
+      "date": "2023-04-12",
+      "number": 20230312,
+      "youtubeId": "pvVO_UVzadM",
+      "tags": ["PPBL Live Coding"],
+      "description": "Live Demo: Get started with NextJS and Mesh"
+    },
+    {
+      "title": "Gimblabs Playground",
+      "date": "2023-04-11",
+      "number": 20230411,
+      "youtubeId": "xDgrk4f8pYo",
+      "tags": ["Gimbalabs Playground"],
+      "description": "An Exercise in Style; AdaHackers, Testnet Coins, Gamechanger v2 Beta, and disCatalyst"
+    },
+    {
+      "title": "Plutus PBL Live Coding",
+      "date": "2023-04-06",
+      "number": 20230306,
+      "youtubeId": "JePFZlSHJR4",
+      "tags": ["PPBL Live Coding"],
+      "description": "Eternl Wallet and PPBL Front End"
+    },
+    {
+      "title": "Plutus PBL Live Coding",
+      "date": "2023-04-05",
+      "number": 20230305,
+      "youtubeId": "FxiW2n7aM7s",
+      "tags": ["PPBL Live Coding"],
+      "description": "Module 102 Mastery Assignments"
+    },
+    {
+      "title": "Gimblabs Playground",
+      "date": "2023-04-04",
+      "number": 20230404,
+      "youtubeId": "7nCI3TtfBS4",
+      "tags": ["Gimbalabs Playground"],
+      "description": "Treasury and Accounting Experiences, with Swarm and Treasury Guild"
+    },
+    {
+      "title": "Plutus PBL Live Coding",
       "date": "2023-03-30",
       "number": 20230330,
       "youtubeId": "E82zpbY7W70",
