@@ -1,39 +1,11 @@
 {
   "upcoming": [
     {
-      "date": "2023-04-18",
-      "time": "1800-1930utc",
-      "title": "Gimbalabs Playground",
-      "description": "Bonfire Dapp, with Piotr Napierala",
-      "info": "https://us06web.zoom.us/meeting/register/tZYoduuqpjsqGtdzMHXoRVVnJqcQGOtpQRQv"
-    },
-    {
-      "date": "2023-04-19",
+      "date": "2023-05-02",
       "time": "1430-1600utc",
-      "title": "Plutus PBL Live Coding",
-      "description": "Building Background Knowledge",
-      "info": "https://us06web.zoom.us/meeting/register/tZErceCqpzMtG9XldfuPnBQEus5MBivl9OZe"
-    },
-    {
-      "date": "2023-04-20",
-      "time": "1430-1600utc",
-      "title": "Plutus PBL Live Coding",
-      "description": "Breakout Rooms for Modules 100 thru 201",
-      "info": "https://us06web.zoom.us/meeting/register/tZErceCqpzMtG9XldfuPnBQEus5MBivl9OZe"
-    },
-    {
-      "date": "2023-04-21",
-      "time": "1430-1600utc",
-      "title": "Smart Contract Gladiator",
-      "description": "Making decisions as a group - or not?",
-      "info": "https://us06web.zoom.us/meeting/register/tZEud-2uqDMsE9K9jw8FDzrfDvHxmU7gKHdb"
-    },
-    {
-      "date": "2023-04-25",
-      "time": "1800-1930utc",
-      "title": "Gimbalabs Playground",
-      "description": "dAPP for Education and Verification, with Hristo Petkov",
-      "info": "https://us06web.zoom.us/meeting/register/tZYoduuqpjsqGtdzMHXoRVVnJqcQGOtpQRQv"
+      "title": "GameChanger Live Coding",
+      "description": "Introducing GameChanger PBL!",
+      "info": "https://us06web.zoom.us/j/85632733716"
     },
     {
       "date": "2023-05-02",
@@ -41,6 +13,20 @@
       "title": "Gimbalabs Playground",
       "description": "Mini Proposal Workshop - AI Tooling for Decentralized Groups, with Tevo Saks",
       "info": "https://us06web.zoom.us/meeting/register/tZYoduuqpjsqGtdzMHXoRVVnJqcQGOtpQRQv"
+    },
+    {
+      "date": "2023-05-03",
+      "time": "1430-1600utc",
+      "title": "Plutus PBL Live Coding",
+      "description": "Breakout Rooms for Plutus PBL 2023",
+      "info": "https://us06web.zoom.us/meeting/register/tZErceCqpzMtG9XldfuPnBQEus5MBivl9OZe"
+    },
+    {
+      "date": "2023-05-04",
+      "time": "1430-1600utc",
+      "title": "Plutus PBL Live Coding",
+      "description": "Breakout Rooms for Plutus PBL 2023",
+      "info": "https://us06web.zoom.us/meeting/register/tZErceCqpzMtG9XldfuPnBQEus5MBivl9OZe"
     },
     {
       "date": "2023-05-09",
