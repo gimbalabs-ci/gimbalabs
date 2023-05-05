@@ -1,38 +1,45 @@
 {
   "upcoming": [
     {
-      "date": "2023-05-02",
+      "date": "2023-05-09",
       "time": "1430-1600utc",
       "title": "GameChanger Live Coding",
       "description": "Introducing GameChanger PBL!",
       "info": "https://us06web.zoom.us/meeting/register/tZErdOuvrTgtG9KX9xBeqE5gb1wFcLot6tpK"
     },
     {
-      "date": "2023-05-02",
-      "time": "1800-1930utc",
-      "title": "Gimbalabs Playground",
-      "description": "Mini Proposal Workshop - AI Tooling for Decentralized Groups, with Tevo Saks",
-      "info": "https://us06web.zoom.us/meeting/register/tZYoduuqpjsqGtdzMHXoRVVnJqcQGOtpQRQv"
-    },
-    {
-      "date": "2023-05-03",
-      "time": "1430-1600utc",
-      "title": "Plutus PBL Live Coding",
-      "description": "Breakout Rooms for Plutus PBL 2023",
-      "info": "https://us06web.zoom.us/meeting/register/tZErceCqpzMtG9XldfuPnBQEus5MBivl9OZe"
-    },
-    {
-      "date": "2023-05-04",
-      "time": "1430-1600utc",
-      "title": "Plutus PBL Live Coding",
-      "description": "Breakout Rooms for Plutus PBL 2023",
-      "info": "https://us06web.zoom.us/meeting/register/tZErceCqpzMtG9XldfuPnBQEus5MBivl9OZe"
-    },
-    {
       "date": "2023-05-09",
       "time": "1800-1930utc",
       "title": "Gimbalabs Playground",
       "description": "Maestro DApp Platform with Varderes Barsegyan",
+      "info": "https://us06web.zoom.us/meeting/register/tZYoduuqpjsqGtdzMHXoRVVnJqcQGOtpQRQv"
+    },
+    {
+      "date": "2023-05-10",
+      "time": "1430-1600utc",
+      "title": "Plutus PBL Live Coding",
+      "description": "Breakout Rooms for Plutus PBL 2023",
+      "info": "https://us06web.zoom.us/meeting/register/tZErceCqpzMtG9XldfuPnBQEus5MBivl9OZe"
+    },
+    {
+      "date": "2023-05-11",
+      "time": "1430-1600utc",
+      "title": "Plutus PBL Live Coding",
+      "description": "Breakout Rooms for Plutus PBL 2023",
+      "info": "https://us06web.zoom.us/meeting/register/tZErceCqpzMtG9XldfuPnBQEus5MBivl9OZe"
+    },
+    {
+      "date": "2023-05-16",
+      "time": "1800-1930utc",
+      "title": "Gimbalabs Playground",
+      "description": "",
+      "info": "https://us06web.zoom.us/meeting/register/tZYoduuqpjsqGtdzMHXoRVVnJqcQGOtpQRQv"
+    },
+    {
+      "date": "2023-05-23",
+      "time": "1800-1930utc",
+      "title": "Gimbalabs Playground",
+      "description": "",
       "info": "https://us06web.zoom.us/meeting/register/tZYoduuqpjsqGtdzMHXoRVVnJqcQGOtpQRQv"
     }
   ]
