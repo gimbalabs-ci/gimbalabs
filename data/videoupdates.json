@@ -4,6 +4,54 @@
   "weekly": [
     {
       "title": "Plutus PBL Live Coding",
+      "date": "2023-05-04",
+      "number": 20230504,
+      "youtubeId": "wyDyvPX8Jxw",
+      "tags": ["PPBL Live Coding"],
+      "description": "Learn more at plutuspbl.io"
+    },
+    {
+      "title": "Plutus PBL Live Coding",
+      "date": "2023-05-03",
+      "number": 20230503,
+      "youtubeId": "otxEMQsklBs",
+      "tags": ["PPBL Live Coding"],
+      "description": "Learn more at plutuspbl.io"
+    },
+    {
+      "title": "Gimblabs Playground",
+      "date": "2023-05-02",
+      "number": 202305021,
+      "youtubeId": "q-jzJVtwDzE",
+      "tags": ["Gimbalabs Playground"],
+      "description": "Mini Proposal Workshop with Tevo Saks"
+    },
+    {
+      "title": "GameChanger PBL Live Coding",
+      "date": "2023-05-02",
+      "number": 202305022,
+      "youtubeId": "gPmwMM6V1jE",
+      "tags": ["GameChanger Live Coding"],
+      "description": "Session #1"
+    },
+    {
+      "title": "Plutus PBL Live Coding",
+      "date": "2023-04-27",
+      "number": 20230427,
+      "youtubeId": "BE00UyI1mno",
+      "tags": ["PPBL Live Coding"],
+      "description": "Learn more at plutuspbl.io"
+    },
+    {
+      "title": "Plutus PBL Live Coding",
+      "date": "2023-04-26",
+      "number": 20230426,
+      "youtubeId": "3TW3R4HOvHg",
+      "tags": ["PPBL Live Coding"],
+      "description": "Learn more at plutuspbl.io"
+    },
+    {
+      "title": "Plutus PBL Live Coding",
       "date": "2023-04-13",
       "number": 20230313,
       "youtubeId": "hueJLsF_xeY",
