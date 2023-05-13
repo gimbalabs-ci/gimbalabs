@@ -79,14 +79,14 @@ const gimbalabs = [
     gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
     gridBoxComponent: BlankWhite,
   },
-  {
-    gridBoxStyle: `col-span-4 row-span-1`,
-    gridBoxComponent: Token,
-    transitionColor: "black",
-    //gridBoxProps: {},
-    fullPageComponent: GimbalTokenPage,
-    //fullPageProps: {},
-  },
+  // {
+  //   gridBoxStyle: `col-span-4 row-span-1`,
+  //   gridBoxComponent: Token,
+  //   transitionColor: "black",
+  //   //gridBoxProps: {},
+  //   fullPageComponent: GimbalTokenPage,
+  //   //fullPageProps: {},
+  // },
   {
     disable: true,
     gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
@@ -407,19 +407,19 @@ export const gridData = [
     gridBoxStyle: `col-span-full sm:col-span-10 row-span-1`,
     gridBoxComponent: FeaturedVideo,
   },
-  {
-    disable: true,
-    transitionColor: "bg-blue-900",
-    gridBoxStyle: `col-span-full  sm:col-span-3 row-span-1  `,
-    gridBoxComponent: GPTE,
-    gridBoxProps: {},
-    fullPageProps: {},
-  },
-  {
-    disable: true,
-    gridBoxStyle: `col-span-full sm:col-span-6 row-span-3    `,
-    gridBoxComponent: TitleGroup,
-  },
+  // {
+  //   disable: true,
+  //   transitionColor: "bg-blue-900",
+  //   gridBoxStyle: `col-span-full  sm:col-span-3 row-span-1  `,
+  //   gridBoxComponent: GPTE,
+  //   gridBoxProps: {},
+  //   fullPageProps: {},
+  // },
+  // {
+  //   disable: true,
+  //   gridBoxStyle: `col-span-full sm:col-span-6 row-span-3    `,
+  //   gridBoxComponent: TitleGroup,
+  // },
 
 
   // letters and blank white squares

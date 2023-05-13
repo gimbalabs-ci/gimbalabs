@@ -129,7 +129,7 @@ a.classic {
   grid-auto-flow: dense;
 
   @media (min-width: 768px) {
-    grid-template-columns: 1fr;
+    /* grid-template-columns: 1fr; */
     /* grid-template-rows: repeat(1fr); */
     /* gridTemplateColumns: "1fr", */
     /* gridTemplateRows: "minmax(100px, 300px)", */
