@@ -3,6 +3,14 @@
   "about": "Live-stream updates from the Gimbalabs team.",
   "weekly": [
     {
+      "title": "Gimbalabs Playground",
+      "date": "2023-05-09",
+      "number": 20230509,
+      "youtubeId": "tDtHv49z3Qk",
+      "tags": ["Gimbalabs Playground"],
+      "description": "Introduction to Maestro"
+    },
+    {
       "title": "Plutus PBL Live Coding",
       "date": "2023-05-04",
       "number": 20230504,
