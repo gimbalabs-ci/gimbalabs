@@ -6,9 +6,8 @@ export default function WithTransfer(props) {
   const { slug, layoutId, className } = props;
 
   const gdsEase12 = {
-    duration: 1.3,
-
-    ease: "easeInOut",
+    duration: 0.3,
+    ease: "linear",
   };
   // const mounts = useRef(0);
   // useEffect(() => {

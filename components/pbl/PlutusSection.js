@@ -4,8 +4,8 @@ import React, { useState } from "react";
 import { ArrowRight } from "react-feather";
 import PlutusSvg from "../../lib/icons/PlutusSvg";
 const gdsEase12 = {
-  duration: 0.7,
-  ease: "easeInOut",
+  duration: 0.3,
+  ease: "linear",
 };
 
 export default function PlutusSection({ colors, ppbls }) {

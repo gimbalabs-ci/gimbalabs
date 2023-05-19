@@ -15,10 +15,13 @@ import Token from "./gridboxes/Token";
 import PPBL from "./gridboxes/PPBL";
 import GPTE from "./gridboxes/GPTE";
 import MasteryPolicyPage from "../masterypolicy/MasteryPolicyPage";
-import BookClub from "./gridboxes/BookClub";
 import DandelionContrib from "./gridboxes/DandelionContrib";
+import GimbalabsBg from "./gridboxes/GimbalabsBg";
+import Voltaire from "./gridboxes/Voltaire";
+import VoltaireWorkshop from "./gridboxes/VoltaireWorkshop";
 
 const { default: DandelionPage } = require("../dandelion/DandelionPage");
+const { default: VoltairePage } = require("../voltaire/VoltairePage");
 const { default: PBLPage } = require("../pbl/PBLPage");
 const { default: GBDandelion } = require("./gridboxes/GBDandelion");
 const { default: UpcomingEvents } = require("./gridboxes/UpcomingEvents");
@@ -339,6 +342,11 @@ export const gridData = [
     fullPageProps: {},
   },
   {
+    fullPageComponent: VoltairePage,
+    gridBoxStyle: `bee-cursor col-span-6 row-span-2`,
+    gridBoxComponent: Voltaire,
+  },
+  {
     gridBoxStyle: ` col-span-full sm:col-span-8 row-span-2`,
     gridBoxComponent: PPBL,
     fullPageComponent: MasteryPolicyPage,
@@ -407,6 +415,17 @@ export const gridData = [
     gridBoxStyle: `col-span-full sm:col-span-10 row-span-1`,
     gridBoxComponent: FeaturedVideo,
   },
+  // {
+  //   disable: true,
+  //   gridBoxStyle: `bee-cursor col-span-12 row-span-4`,
+  //   gridBoxComponent: GimbalabsBg,
+  // },
+  {
+    fullPageComponent: VoltairePage,
+    gridBoxStyle: `bee-cursor-dark col-span-8 row-span-4`,
+    gridBoxComponent: VoltaireWorkshop,
+  },
+
   // {
   //   disable: true,
   //   transitionColor: "bg-blue-900",

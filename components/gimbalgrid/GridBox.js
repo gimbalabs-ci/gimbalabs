@@ -64,7 +64,7 @@ export default function GridBox({
         ></motion.div>
 
         {/* Grid Box Component */}
-        <div className="relative z-20 w-full  h-full">
+        <div className="bee-cursor-dark relative z-20 w-full  h-full">
           {GridBoxComponent && (
             <GridBoxComponent {...gridBoxProps} slug={slug} />
           )}

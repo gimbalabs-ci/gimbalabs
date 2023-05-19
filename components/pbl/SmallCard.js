@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import React, { useState } from "react";
 const gdsEase12 = {
-  duration: 0.7,
+  duration: 0.3,
 
-  ease: "easeInOut",
+  ease: "linear",
 };
 
 export default function SmallCard({

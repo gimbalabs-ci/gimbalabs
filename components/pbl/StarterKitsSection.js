@@ -4,9 +4,9 @@ import React, { useState } from "react";
 import LargeCards from "./LargeCards";
 
 const gdsEase12 = {
-  duration: 0.7,
+  duration: 0.3,
 
-  ease: "easeInOut",
+  ease: "linear",
 };
 export default function StarterKitsSection({ csks, colors }) {
   const [hov, setHov] = useState(false);

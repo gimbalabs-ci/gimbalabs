@@ -3,9 +3,9 @@ import Link from "next/link";
 import React, { useState } from "react";
 import CardanoLogo from "../../lib/icons/CardanoLogo";
 const gdsEase12 = {
-  duration: 0.7,
+  duration: 0.3,
 
-  ease: "easeInOut",
+  ease: "linear",
 };
 
 export default function LargeCards({ colors, list }) {

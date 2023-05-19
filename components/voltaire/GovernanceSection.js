@@ -7,74 +7,69 @@ const gdsEase12 = {
   ease: "linear",
 };
 
-export default function PlaygroundSection({ colors, playgrounds }) {
+export default function GovernanceSection({ colors }) {
   const [hov, setHov] = useState(false);
 
   return (
-    <div
-      className="spacing-y spacing-x "
-      onMouseOver={() => setHov(true)}
-      onMouseLeave={() => setHov(false)}
-    >
+    <div className="spacing-y spacing-x border-b-2 border-black" onMouseOver={() => setHov(true)} onMouseLeave={() => setHov(false)}>
       <div className="w-full flex flex-wrap lg:flex-no-wrap justify-between">
-        {/* Blocks */}
-        <div className="flex flex-col text-white ">
-          <Square
-            className={"w-12 h-8 sm:h-12 lg:h-13 xl:h-14  sm:w-14"}
-            color={colors[0]}
-            number={playgrounds[0].number}
-            title={playgrounds[0].title}
-          ></Square>
-          <Square
-            className={"w-12 h-8 sm:h-8  sm:w-14"}
-            color={colors[1]}
-            number={playgrounds[1].number}
-            title={playgrounds[1].title}
-          />
-          <Square
-            className={"w-12 h-8 sm:h-8  sm:w-14"}
-            color={colors[2]}
-            number={playgrounds[2].number}
-            title={playgrounds[2].title}
-          />
-          <Square
-            className={"w-12 h-8 sm:h-8  sm:w-14"}
-            color={colors[3]}
-            number={playgrounds[3].number}
-            title={playgrounds[3].title}
-          />
-        </div>
-        {/* Paragraphs */}
-        <div className=" order-3 sm:order-2  w-full sm:max-w-12 mx-5 mt-5 sm:mt-auto">
-          <p
-            // animate={{ transition: { ...gdsEase12 }, y: hov ? -21 : 0 }}
-            className=" relative  font-bold text-2xl "
-          >
-            Where ideas get tested
-          </p>
-          <p className=" mt-5">
-            Playground meets every Tuesday at 5pm UTC. It's also what we call
-            our learning sandbox.
-          </p>
-        </div>
         {/* Title */}
         <div className="order-2 sm:order-3 mb-auto  ">
-          <PlaygroundSvg className="w-8 my-6 " />
           <motion.h3
             animate={{ transition: { ...gdsEase12 }, y: hov ? -21 : 0 }}
             className="relative mt-5 z-10  w-full sm:max-w-12   text-6xl "
           >
-            Play ground
+            Read CIP-1694
           </motion.h3>
 
           <div className="mt-3">
-            <Link href={`/pbl/ppbl`}>
-              <a>
-                <button className="gds-btn bg-red-600 hover:bg-red-600 text-black2-900  border-pink-900">
-                  /ppbl
-                </button>
-              </a>
-            </Link>
+            <a href="https://github.com/JaredCorduan/CIPs/blob/voltaire-v1/CIP-1694/README.md" target="_blank">
+              <button className="gds-btn bg-green-600 text-offWhite hover:bg-green-400 hover:text-black  border-pink-900">
+                Read the Current Draft
+              </button>
+            </a>
+          </div>
+        </div>
+
+        {/* Title */}
+        <div className="order-2 sm:order-3 mb-auto  ">
+          <motion.h3
+            animate={{ transition: { ...gdsEase12 }, y: hov ? -21 : 0 }}
+            className="relative mt-5 z-10  w-full sm:max-w-12   text-6xl "
+          >
+            Join a CIP-1694 Workshop
+          </motion.h3>
+
+          <div className="mt-3">
+            <a href="https://www.essentialcardano.io/article/cip-1694-community-workshops-the-line-up" target="_blank">
+              <button className="gds-btn bg-red-600 hover:bg-red-400 text-black2-900  border-pink-900">
+                Workshop Announcement
+              </button>
+            </a>
+            <a href="https://voltaire.essentialcardano.io/" target="_blank">
+              <button className="gds-btn bg-blue-600 hover:bg-blue-400 text-offWhite hover:text-black  border-pink-900">
+                Interactive Map
+              </button>
+            </a>
+          </div>
+        </div>
+
+        {/* Title */}
+        <div className="order-2 sm:order-3 mb-auto  ">
+          <motion.h3
+            animate={{ transition: { ...gdsEase12 }, y: hov ? -21 : 0 }}
+            className="relative mt-5 z-10  w-full sm:max-w-12   text-6xl "
+          >
+            Gimbalabs Workshop
+          </motion.h3>
+          <p>Join us in Worcester, MA on June 8</p>
+
+          <div className="mt-3">
+            <a href="https://www.meetup.com/gimbalabs-worcester/events/293145623/" target="_blank">
+              <button className="gds-btn bg-yellow-400 hover:bg-yellow-500 text-black2-900  border-pink-900">
+                Register
+              </button>
+            </a>
           </div>
         </div>
       </div>

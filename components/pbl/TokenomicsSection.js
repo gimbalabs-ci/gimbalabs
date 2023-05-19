@@ -3,8 +3,8 @@ import Link from "next/link";
 import React, { useState } from "react";
 import PlaygroundSvg from "../../lib/icons/PlaygroundSvg";
 const gdsEase12 = {
-  duration: 0.7,
-  ease: "easeInOut",
+  duration: 0.3,
+  ease: "linear",
 };
 
 export default function TokenomicsSection({ colors, playgrounds }) {

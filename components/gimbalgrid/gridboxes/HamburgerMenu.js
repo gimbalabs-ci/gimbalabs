@@ -5,7 +5,7 @@ import WithTransfer from "../WithTransfer";
 const gdsEase12 = {
   duration: 0.3,
 
-  ease: "easeInOut",
+  ease: "linear",
 };
 export default function HamburgerMenu(props) {
   const [hov, setHov] = useState(true);
