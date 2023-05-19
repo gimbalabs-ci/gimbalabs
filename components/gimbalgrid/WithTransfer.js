@@ -8,7 +8,7 @@ export default function WithTransfer(props) {
   const gdsEase12 = {
     duration: 1.3,
 
-    ease: [0.6, 0.01, -0.05, 0.9],
+    ease: "easeInOut",
   };
   // const mounts = useRef(0);
   // useEffect(() => {

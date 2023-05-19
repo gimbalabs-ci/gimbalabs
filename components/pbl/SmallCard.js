@@ -4,7 +4,7 @@ import React, { useState } from "react";
 const gdsEase12 = {
   duration: 0.7,
 
-  ease: [0.6, 0.01, -0.05, 0.9],
+  ease: "easeInOut",
 };
 
 export default function SmallCard({
