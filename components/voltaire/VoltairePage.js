@@ -20,6 +20,7 @@ import {
 import PageTitleWithBorder from "../shared_ui/PageTitleWithBorder";
 import { AndamioSVG } from "../../lib/icons/AndamioSVG";
 import GovernanceSection from "./GovernanceSection";
+import ContributeToThis from "./ContributeToThis";
 
 export default function VoltairePage() {
   const colors = { blueColors, redColors, pinkColors, orangeColors };
@@ -33,11 +34,13 @@ export default function VoltairePage() {
         <PageTitleWithBorder
           borderColor="bg-offWhite"
           title="The Voltaire Era is Here"
+          subtitle="Voltaire is the Governance Era of the Cardano blockchain"
         />
       </div>
 
-      <VoltaireStickyNoteList colors={colors} ignore="home" />
       <GovernanceSection colors={colors} />
+      <VoltaireStickyNoteList colors={colors} ignore="home" />
+      <ContributeToThis />
     </div>
   );
 }

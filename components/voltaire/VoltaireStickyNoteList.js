@@ -11,7 +11,7 @@ export default function VoltaireStickyNoteList({ colors, ignore }) {
     <div className="w-full bg-purple-900 spacing-x py-5 lg:py-9 grid sm:grid-cols-2 lg:grid-cols-3  relative ">
       {ignore != "why" && (
         <SmallCard
-          link={"/voltaire/why"}
+          link={"/voltaire-is-here/why"}
           id={"BLUE"}
           textColor={"text-offWhite"}
           colors={colors.blueColors}
@@ -24,7 +24,7 @@ export default function VoltaireStickyNoteList({ colors, ignore }) {
       )}
       {ignore != "participate" && (
         <SmallCard
-          link={"/voltaire/participate"}
+          link={"/voltaire-is-here/participate"}
           id={"ORANGE"}
           textColor={"text-offWhite"}
           colors={colors.orangeColors}
@@ -36,7 +36,7 @@ export default function VoltaireStickyNoteList({ colors, ignore }) {
 
       {ignore != "prepare" && (
         <SmallCard
-          link={"/voltaire/prepare"}
+          link={"/voltaire-is-here/prepare"}
           id={"PINK"}
           textColor={"text-offWhite"}
           colors={colors.redColors}
@@ -48,7 +48,7 @@ export default function VoltaireStickyNoteList({ colors, ignore }) {
 
       {ignore != "home" && (
         <SmallCard
-          link={"/voltaire"}
+          link={"/voltaire-is-here"}
           id={"PINK"}
           textColor={"text-offWhite"}
           colors={colors.greenColors}
