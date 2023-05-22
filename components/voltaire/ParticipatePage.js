@@ -6,6 +6,7 @@ import Layout from "/components/Layouts/Layout";
 import PlutusSvg from "/lib/icons/PlutusSvg";
 import { AndamioSVG } from "../../lib/icons/AndamioSVG";
 import { workshopList } from "./data/workshopList";
+import ContributeToThis from "./ContributeToThis";
 
 const tableCellStyle = "p-4 border-blue-900 border-2 border-solid";
 
@@ -18,18 +19,18 @@ export default function ParticipatePage({ allProjectsData }) {
           className="text-black"
           borderColor="bg-offWhite"
           title={"Join a CIP 1694 Workshop"}
-          subtitle={"You do not want to miss this"}
+          subtitle={"You've been waiting for this. Participate."}
         />
       </div>
       <div className="bg-offWhite py-7 mt-1 border-t-2 border-black">
-        <div className="w-4/5 mx-auto">
-          <h1 className="text-4xl">You are invited to get involved.</h1>
+        <div className="w-full md:w-5/6 lg:w-2/3 mx-auto">
+          <h1 className="text-4xl">We are all invited to get involved.</h1>
           <p className="text-xl">
             In the next few weeks, CIP-1694 Governance workshops will be run around the world. Do not miss the
             opportunity to get involved.
           </p>
         </div>
-        <div class="w-4/5 mx-auto text-xl">
+        <div class="w-full md:w-5/6 lg:w-2/3 mx-auto text-xl">
           <table class="border border-gray-300 mt-5">
             <thead>
               <tr class="bg-gray-100">
@@ -45,7 +46,7 @@ export default function ParticipatePage({ allProjectsData }) {
                   <td className={tableCellStyle}>{workshop.location}</td>
                   {workshop.link ? (
                     <td className={tableCellStyle}>
-                      <a href={workshop.link} target="_blank">
+                      <a className="text-blue-900 font-bold hover:text-orange-800" href={workshop.link} target="_blank">
                         Registration Link
                       </a>
                     </td>
@@ -58,6 +59,7 @@ export default function ParticipatePage({ allProjectsData }) {
           </table>
         </div>
       </div>
+      <ContributeToThis />
     </div>
   );
 }

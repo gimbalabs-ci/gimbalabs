@@ -40,7 +40,6 @@ export default function VoltairePage() {
 
       <GovernanceSection colors={colors} />
       <VoltaireStickyNoteList colors={colors} ignore="home" />
-      <ContributeToThis />
     </div>
   );
 }

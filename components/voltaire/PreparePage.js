@@ -18,23 +18,20 @@ export default function PreparePage({ allProjectsData }) {
           className="text-black"
           borderColor="bg-offWhite"
           title={"How to Prepare"}
-          subtitle={"Here is what to expect at a CIP-1694 Workshop"}
+          subtitle={"What to expect at a CIP-1694 Workshop"}
         />
       </div>
       <div className="bg-yellow-900 py-7 mt-1 border-t-2 border-black">
-        <div className="w-5/6 mx-auto text-xl">
-          <h1 className="text-4xl text-offWhite">Each Workshop Will Cover Seven Topics</h1>
-          <p className="text-offWhite py-3">
-
-          </p>
-          <h1 className="text-4xl text-offWhite">List of Topics</h1>
+        <div className="w-full md:w-5/6 lg:w-2/3 mx-auto text-xl">
+          <h1 className="text-4xl text-offWhite">Each CIP-1694 Workshop Will Cover Seven Topics</h1>
+          <p className="text-offWhite py-3"></p>
           <p className="text-offWhite py-3">
             You might notice that for many of these topics, our task is to talk about numbers:
           </p>
           <ul className="text-offWhite list-disc ml-6">
             <li>&quot;What amount of ada...&quot;</li>
-            <li>&quot;What limits...&quot;</li>
-            <li>&quot;What percentage of votes...&quot;</li>
+            <li>&quot;What limits should be in place...&quot;</li>
+            <li>&quot;What quorum and passing % threshold...&quot;</li>
           </ul>
           <p className="text-offWhite py-3">
             But this conversation is about more than just &quot;the numbers&quot;. When we discuss each of these topics,
@@ -43,24 +40,74 @@ export default function PreparePage({ allProjectsData }) {
             to it now?
           </p>
           <p className="text-offWhite py-3">
-            Each of these topics will serve as an entry-point into deeper conversations, and if we choose to engage in
-            these conversations with open-minds, and by listening first, we will set an example for the world to follow.
+            Each of these topics will serve as an entry-point into deeper conversations, and if you choose to engage in
+            these conversations you will set an example for the world to follow.
           </p>
-          <h1 className="text-4xl text-offWhite py-3">Here are the topics:</h1>
+          <p className="text-offWhite py-3">
+            To prepare for a CIP-1694 Workshop, read each of the questions below. If you have questions, drop by{" "}
+            <a
+              className="text-blue-300 font-bold hover:text-orange-400"
+              href="https://discord.gg/xMsE68vG"
+              target="_blank"
+            >
+              Gimbalabs Discord to join the conversation
+            </a>
+            .
+          </p>
+          <p className="text-offWhite py-3">
+            As we prepare for the{" "}
+            <a
+              className="text-blue-300 font-bold hover:text-orange-400"
+              href="https://www.meetup.com/gimbalabs-worcester/events/293145623/"
+              target="_blank"
+            >
+              CIP-1694 Workshop hosted by Gimbalabs on June 8
+            </a>
+            , we will continue to update this page.
+          </p>
+          <h1 className="text-4xl text-offWhite my-5 pt-5 border-t-2 border-offWhite">CIP-1694 Workshop Topics:</h1>
           <div className="grid grid-cols-2 gap-4">
-            {workshopTopics.map((wt) => (
-              <VoltaireCard key={wt.number} number={wt.number} topic={wt.topic}>
-                <ul className="list-disc ml-5">
-                  {wt.questions.map((q, num) => (
-                    <li className="text-xl py-1 font-bold text-blue-900" key={num}>
-                      {q}
-                    </li>
-                  ))}
-                </ul>
-                <p className="py-3">{wt.details}</p>
-                <a href={wt.bbk}>Link</a>
-              </VoltaireCard>
-            ))}
+            {workshopTopics
+              .filter((wt) => !wt.optional)
+              .map((wt) => (
+                <VoltaireCard key={wt.number} number={wt.number} topic={wt.topic}>
+                  <ul className="list-disc ml-5">
+                    {wt.questions.map((q, num) => (
+                      <li className="text-xl py-1 font-bold text-blue-900" key={num}>
+                        {q}
+                      </li>
+                    ))}
+                  </ul>
+                  <p className="py-3">{wt.details}</p>
+                  {wt.bbk.length > 0 && (
+                    <a className="text-green-600 font-bold hover:text-orange-800" href={wt.bbk}>
+                      Learn More
+                    </a>
+                  )}
+                </VoltaireCard>
+              ))}
+          </div>
+          <h1 className="text-4xl text-offWhite mt-5 py-3">Optional Topics:</h1>
+          <div className="grid grid-cols-2 gap-4">
+            {workshopTopics
+              .filter((wt) => wt.optional)
+              .map((wt) => (
+                <VoltaireCard key={wt.number} number={wt.number} topic={wt.topic}>
+                  <ul className="list-disc ml-5">
+                    {wt.questions.map((q, num) => (
+                      <li className="text-xl py-1 font-bold text-blue-900" key={num}>
+                        {q}
+                      </li>
+                    ))}
+                  </ul>
+                  <p className="py-3">{wt.details}</p>
+                  {wt.bbk.length > 0 && (
+                    <a className="text-blue-900 font-bold hover:text-orange-800" href={wt.bbk}>
+                      Learn More
+                    </a>
+                  )}
+                </VoltaireCard>
+              ))}
           </div>
         </div>
       </div>

@@ -1,11 +1,43 @@
 export default function ContributeToThis({ colors }) {
-    return (
-        <div className="w-1/2 mx-auto bg-blue-600 text-offWhite my-5 p-5 text-lg">
-            <h1 className="text-4xl">Want to add more educational resources?</h1>
-            <h1 className="text-2xl text-yellow-300">Here is how to contribute to this documentation:</h1>
-            <p>By submitting a merge request to this repo:</p>
-            <p>Respond on the IOG channel...</p>
-            <p>Respond on the Gimbalabs channel...</p>
+  return (
+    <div className="w-2/3 mx-auto bg-green-600 text-offWhite my-3 p-5 text-lg">
+      <div className="">
+        <h1 className="text-6xl pb-5">Add to this documentation</h1>
+      </div>
+
+      <div className="grid grid-cols-2 gap-5">
+        <div className="bg-offWhite p-3 text-black text-left">
+          <h1 className="text-2xl">Do you want to add...</h1>
+          <ul className="ml-5 list-disc">
+            <li>...a sign up link to your CIP-1694 Workshop?</li>
+            <li>...links to additional documentation?</li>
+            <li>...anything else to this page?</li>
+          </ul>
         </div>
-    )
+        <div className="bg-offWhite p-3 text-black text-left">
+          <h1 className="text-2xl text-yellow-900">Here is how:</h1>
+          <ul className="ml-5 list-disc">
+            <li>
+              Submit a merge request to{" "}
+              <a className="text-blue-900 font-bold" href="https://gitlab.com/gimbalabs/gimbalabs" target="_blank">
+                this project repo
+              </a>
+            </li>
+            <li>
+              Say hello on the{" "}
+              <a className="text-blue-900 font-bold" href="https://discord.gg/xMsE68vG" target="_blank">
+                Gimbalabs Discord server, on the #discuss-cip-1694-workshops channel
+              </a>, and let us know what you want to add to this page.
+            </li>
+            <li>
+              If you are facilitating a CIP-1694 workshop, drop a line on the{" "}
+              <a className="text-blue-900 font-bold" href="https://discord.com/channels/826816523368005654/1105135190898114702" target="_blank">
+                #cip-1694-cmty-workshops channel in IOG Discord
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  );
 }
