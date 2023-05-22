@@ -4,80 +4,12 @@ import Image from "next/image";
 import React from "react";
 import { ArrowRight } from "react-feather";
 
-const masteryData = {
-  721: {
-    "4879ae2b0c3dd69864bfa29b13bb8e60712f4df2176f43aaa7b9aa3b": {
-      "222PPBL2022<ALIAS>": {
-        name: "Plutus PBL Completion Token",
-        image: "https://www.gimbalabs.com/g.png",
-        files: [
-          {
-            name: "PPBL2022",
-            mediaType: "video/mp4",
-            src: ["ipfs://", "bafybeicjz376hybopixq6xmzg7lohkkmgmkuwmdvpogq67lpvjs6mplwjy"],
-          },
-        ],
-        description: "Earned by completing Plutus PBL course at Gimbalabs.",
-        details: "https://gimbalabs.com",
-        courseName: "Plutus PBL Summer 2022",
-        courseVersion: "ppbl-course-02",
-      },
-      "100PPBL2022<ALIAS>": {
-        name: "Gimbalabs Reference Token",
-        image: "https://www.gimbalabs.com/g.png",
-      },
-    },
-  },
-  1618033988749: {
-    "4879ae2b0c3dd69864bfa29b13bb8e60712f4df2176f43aaa7b9aa3b": {
-      "222PPBL2022<ALIAS>": {
-        courseName: "Plutus PBL",
-        courseVersion: "ppbl-course-02",
-        courseProviders: ["Gimbalabs"],
-        referenceToken: {
-          policyID: "4879ae2b0c3dd69864bfa29b13bb8e60712f4df2176f43aaa7b9aa3b",
-          referenceTokenName: "100PPBL2022<ALIAS>",
-        },
-        url: "https://gimbalabs.com/mastery-policy",
-      },
-    },
-  },
-};
-
-const contributorDatum = {
-  constructor: 0,
-  fields: [
-    {
-      map: [
-        {
-          k: { bytes: "333031" },
-          v: { int: 2 },
-        },
-        {
-          k: { bytes: "333032" },
-          v: { int: 3 },
-        },
-        {
-          k: { bytes: "333033" },
-          v: { int: 2 },
-        },
-      ],
-    },
-    {
-      int: 0,
-    },
-    {
-      bytes: "<ALIAS_AS_BYTESTRING>",
-    },
-  ],
-};
-
 export default function MasteryOverview() {
   return (
     <div>
       <div className="grid grid-cols-2 gap-5 my-5">
         <div className="col-span-2 lg:col-span-1">
-          <h1 className="text-4xl py-4">Plutus Project-Based Learning</h1>
+          <h1 className="text-4xl py-4">Why Project-Based Learning?</h1>
           <p className="py-2 text-xl">
             The goal of any Gimbalabs PBL course is to help people become Contributors to real Web3 projects. All
             courses consist of a series of learning modules that are organized into four categories: Onboarding,

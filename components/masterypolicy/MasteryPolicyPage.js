@@ -10,12 +10,12 @@ import AboutCompletionToken from "./AboutCompletionToken";
 
 export default function MasteryPolicyPage() {
   return (
-    <div className="w-full h-full bg-offWhite min-h-screen ">
-      <PageTitleWithBorder title="Gimbalabs PBL Mastery Policies" />
+    <div className="w-full bg-offWhite ">
+      <PageTitleWithBorder title="Project-Based Learning Framework" />
       <div className="spacing-x mb-7 text-black2-900">
         <MasteryOverview />
-        <div className="my-5 w-2/3 mx-auto">
-          <h2 className="text-4xl text-center">What qualifies as Evidence of Mastery?</h2>
+        <div className="my-5 w-2/3">
+          <h2 className="text-4xl">What qualifies as Evidence of Mastery?</h2>
           <p className="py-5 text-xl">
             To demonstrate mastery of key skills, students submit transactions to{" "}
             <a

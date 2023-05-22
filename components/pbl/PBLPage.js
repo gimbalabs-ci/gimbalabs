@@ -17,68 +17,68 @@ import {
   orangeColors,
 } from "../../lib/colors/color";
 import PageTitleWithBorder from "../shared_ui/PageTitleWithBorder";
+import MasteryPolicyPage from "/components/masterypolicy/MasteryPolicyPage"
 
-// STATIC PROPS
-// STATIC PROPS
-// STATIC PROPS
-const csks = [
-  {
-    number: "",
-    title: "",
-  },
-  {
-    number: "008",
-    title: "Minting, Metadata, and Unsigs",
-  },
-  {
-    number: "010",
-    title: "What can I do with GameChanger Wallet?",
-  },
-  {
-    number: "011",
-    title: "Gimbal Bounty Prototype",
-  },
-];
-const ppbls = [
-  {
-    number: "",
-    title: "",
-  },
-  {
-    number: "2021-11",
-    title: "November",
-  },
-  {
-    number: "2021-10",
-    title: "October",
-  },
-  {
-    number: "2021-09",
-    title: "September",
-  },
-];
-const playgrounds = [
-  {
-    number: "",
-    title: "",
-  },
-  {
-    number: "006",
-    title: "Transaction Metadata",
-  },
-  {
-    number: "013",
-    title: "A starter kit",
-  },
-  {
-    number: "007",
-    title: "Another one",
-  },
-];
+// Old Data - note that we can re-use this structure
+// // STATIC PROPS
+// // STATIC PROPS
+// // STATIC PROPS
+// const csks = [
+//   {
+//     number: "",
+//     title: "",
+//   },
+//   {
+//     number: "008",
+//     title: "Minting, Metadata, and Unsigs",
+//   },
+//   {
+//     number: "010",
+//     title: "What can I do with GameChanger Wallet?",
+//   },
+//   {
+//     number: "011",
+//     title: "Gimbal Bounty Prototype",
+//   },
+// ];
+// const ppbls = [
+//   {
+//     number: "",
+//     title: "",
+//   },
+//   {
+//     number: "2021-11",
+//     title: "November",
+//   },
+//   {
+//     number: "2021-10",
+//     title: "October",
+//   },
+//   {
+//     number: "2021-09",
+//     title: "September",
+//   },
+// ];
+// const playgrounds = [
+//   {
+//     number: "",
+//     title: "",
+//   },
+//   {
+//     number: "006",
+//     title: "Transaction Metadata",
+//   },
+//   {
+//     number: "013",
+//     title: "A starter kit",
+//   },
+//   {
+//     number: "007",
+//     title: "Another one",
+//   },
+// ];
 
-// PBL PAGE
-// PBL PAGE
-// PBL PAGE
+
 export default function PBLPage() {
   const colors = { blueColors, redColors, pinkColors, orangeColors };
 
@@ -93,15 +93,17 @@ export default function PBLPage() {
         <SVG />
         <PageTitleWithBorder
           borderColor="bg-offWhite"
-          title="Project Based Learning"
+          title="Learning by Doing"
         />
       </div>
 
       <StickyNoteList colors={colors} />
-      <StarterKitsSection colors={colors} csks={csks} />
-      <PlutusSection colors={colors.orangeColors} ppbls={ppbls} />
-      <TokenomicsSection colors={colors.redColors} playgrounds={playgrounds} />
-      <div className="spacing-x "></div>
+      <MasteryPolicyPage />
+
+      {/* V2 Stuff - can be reused: */}
+      {/* <StarterKitsSection colors={colors} csks={csks} /> */}
+      {/* <PlutusSection colors={colors.orangeColors} ppbls={ppbls} /> */}
+      {/* <TokenomicsSection colors={colors.redColors} playgrounds={playgrounds} /> */}
     </div>
   );
 }

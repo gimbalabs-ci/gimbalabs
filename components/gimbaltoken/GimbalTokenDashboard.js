@@ -5,8 +5,8 @@ import PageTitleWithBorder from "../shared_ui/PageTitleWithBorder";
 
 export default function GimbalTokenDashboard() {
     return (
-        <div className="mb-7 text-black2-900">
-            TEST TEST
+        <div className="w-2/3 mx-auto text-4xl text-black2-900">
+            Coming Soon
         </div>
     );
 }

@@ -6,16 +6,7 @@ import PageTitle from "../../../components/shared_ui/PageTitle";
 import PageTitleWithBorder from "../../../components/shared_ui/PageTitleWithBorder";
 import Layout from "../../../components/Layouts/Layout";
 import PlaygroundSvg from "../../../lib/icons/PlaygroundSvg";
-
-export async function getStaticProps() {
-  const allTokenomicsData = getSortedTokenomicsData();
-
-  return {
-    props: {
-      allTokenomicsData,
-    },
-  };
-}
+import GimbalTokenDashboard from "../../../components/gimbaltoken/GimbalTokenDashboard";
 
 export default function index({ allTokenomicsData }) {
   return (
@@ -23,17 +14,11 @@ export default function index({ allTokenomicsData }) {
       <div className="pb-9 ">
         <PageTitleWithBorder
           title={"Gimbal Tokenomics Groups"}
-          subtitle={"Inclusive community. At play. Defining new models."}
+          subtitle={"Learning by Doing. Defining new models."}
         >
           <PlaygroundSvg className="w-7 text-black2-900" />
         </PageTitleWithBorder>
-        <div className="spacing-x py-6 md:py-9">
-          <ListAllBlocks
-            baseRoute={"/pbl/tokenomics/"}
-            color="ORANGE"
-            data={allTokenomicsData}
-          />
-        </div>
+        <GimbalTokenDashboard />
       </div>
     </Layout>
   );
