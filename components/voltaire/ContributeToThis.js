@@ -19,13 +19,13 @@ export default function ContributeToThis({ colors }) {
           <ul className="ml-5 list-disc">
             <li>
               Submit a merge request to{" "}
-              <a className="text-blue-900 font-bold" href="https://gitlab.com/gimbalabs/gimbalabs" target="_blank">
+              <a className="text-blue-900 font-bold hover:text-orange-600" href="https://gitlab.com/gimbalabs/gimbalabs" target="_blank">
                 this project repo
               </a>
             </li>
             <li>
               Say hello on the{" "}
-              <a className="text-blue-900 font-bold" href="https://discord.gg/xMsE68vG" target="_blank">
+              <a className="text-blue-900 font-bold hover:text-orange-600" href="https://discord.gg/xMsE68vG" target="_blank">
                 Gimbalabs Discord server, on the #discuss-cip-1694-workshops channel
               </a>
               , and let us know what you want to add to this page.
@@ -33,7 +33,7 @@ export default function ContributeToThis({ colors }) {
             <li>
               If you are facilitating a CIP-1694 workshop, drop a line on the{" "}
               <a
-                className="text-blue-900 font-bold"
+                className="text-blue-900 font-bold hover:text-orange-600"
                 href="https://discord.com/channels/826816523368005654/1105135190898114702"
                 target="_blank"
               >
@@ -42,7 +42,7 @@ export default function ContributeToThis({ colors }) {
             </li>
             <li>
               Here is a{" "}
-              <a href="https://gitlab.com/gimbalabs/gimbalabs/-/tree/main/components/voltaire/data" target="_blank">
+              <a className="text-blue-900 font-bold hover:text-orange-600" href="https://gitlab.com/gimbalabs/gimbalabs/-/tree/main/components/voltaire/data" target="_blank">
                 direct link to the data
               </a>{" "}
               that we are presenting in these &quot;Voltaire is Here&quot; pages. Feel free to use this data in any of your own projects. If you have updates (for example, a registration link to a workshop in workshopList.js), submit a merge request to one of these files.
