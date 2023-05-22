@@ -20,7 +20,7 @@ export const workshopList = [
     link: "",
   },
   {
-    date: "2023-05-26",
+    date: "2023-05-27",
     location: "Bogotá, Colombia",
     link: "",
   },
