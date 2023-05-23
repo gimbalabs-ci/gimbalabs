@@ -23,14 +23,14 @@ export default function ParticipatePage({ allProjectsData }) {
         />
       </div>
       <div className="bg-offWhite py-7 mt-1 border-t-2 border-black">
-        <div className="w-full md:w-5/6 lg:w-2/3 mx-auto">
+        <div className="w-11/12 md:w-5/6 lg:w-2/3 mx-auto">
           <h1 className="text-4xl">We are all invited to get involved.</h1>
           <p className="text-xl">
             In the next few weeks, CIP-1694 Governance workshops will be run around the world. Do not miss the
             opportunity to get involved.
           </p>
         </div>
-        <div class="w-full md:w-5/6 lg:w-2/3 mx-auto text-xl">
+        <div class="w-11/12 md:w-5/6 lg:w-2/3 mx-auto text-md md:text-xl">
           <table class="border border-gray-300 mt-5">
             <thead>
               <tr class="bg-gray-100">

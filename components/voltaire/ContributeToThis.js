@@ -1,11 +1,11 @@
 export default function ContributeToThis({ colors }) {
   return (
-    <div className="w-2/3 mx-auto bg-green-600 text-offWhite my-3 p-5 text-lg">
+    <div className="w-full md:w-2/3 mx-auto bg-green-600 text-offWhite my-3 p-5 text-md md:text-lg">
       <div className="">
-        <h1 className="text-6xl pb-5">Add to this documentation</h1>
+        <h1 className="text-2xl md:text-6xl pb-5">Add to this documentation</h1>
       </div>
 
-      <div className="grid grid-cols-2 gap-5">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
         <div className="bg-offWhite p-3 text-black text-left">
           <h1 className="text-2xl">Do you want to add...</h1>
           <ul className="ml-5 list-disc">

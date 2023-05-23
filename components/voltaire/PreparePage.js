@@ -22,7 +22,7 @@ export default function PreparePage({ allProjectsData }) {
         />
       </div>
       <div className="bg-yellow-900 py-7 mt-1 border-t-2 border-black">
-        <div className="w-full md:w-5/6 lg:w-2/3 mx-auto text-xl">
+        <div className="w-11/12 md:w-5/6 lg:w-2/3 mx-auto text-md md:text-xl">
           <h1 className="text-4xl text-offWhite">Each CIP-1694 Workshop Will Cover Seven Topics</h1>
           <p className="text-offWhite py-3"></p>
           <p className="text-offWhite py-3">
@@ -65,15 +65,15 @@ export default function PreparePage({ allProjectsData }) {
             </a>
             , we will continue to update this page.
           </p>
-          <h1 className="text-4xl text-offWhite my-5 pt-5 border-t-2 border-offWhite">CIP-1694 Workshop Topics:</h1>
-          <div className="grid grid-cols-2 gap-4">
+          <h1 className="text-2xl md:text-4xl text-offWhite my-5 pt-5 border-t-2 border-offWhite">CIP-1694 Workshop Topics:</h1>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
             {workshopTopics
               .filter((wt) => !wt.optional)
               .map((wt) => (
                 <VoltaireCard key={wt.number} number={wt.number} topic={wt.topic}>
                   <ul className="list-disc ml-5">
                     {wt.questions.map((q, num) => (
-                      <li className="text-xl py-1 font-bold text-blue-900" key={num}>
+                      <li className="text-md md:text-xl py-1 font-bold text-blue-900" key={num}>
                         {q}
                       </li>
                     ))}
@@ -88,7 +88,7 @@ export default function PreparePage({ allProjectsData }) {
               ))}
           </div>
           <h1 className="text-4xl text-offWhite mt-5 py-3">Optional Topics:</h1>
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
             {workshopTopics
               .filter((wt) => wt.optional)
               .map((wt) => (

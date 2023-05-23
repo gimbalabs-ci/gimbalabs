@@ -21,7 +21,7 @@ export default function WhyPage({ allProjectsData }) {
         />
       </div>
       <div className="bg-offWhite py-7 mt-1 border-t-2 border-black">
-        <div className="w-full md:w-5/6 lg:w-2/3 mx-auto">
+        <div className="w-11/12 md:w-5/6 lg:w-2/3 mx-auto">
           <h1 className="text-4xl pb-5">What is &quot;Minimum Viable Governance&quot; (MVG)?</h1>
           <p className="text-xl py-2">
             At the heart of CIP-1694 is a proposal to add seven on-chain governance actions to Cardano. These seven
@@ -30,7 +30,7 @@ export default function WhyPage({ allProjectsData }) {
           </p>
         </div>
 
-        <div class="w-full md:w-5/6 lg:w-2/3 mx-auto border-t-2 border-blue-900 mt-5">
+        <div class="w-11/12 md:w-5/6 lg:w-2/3 mx-auto border-t-2 border-blue-900 mt-5">
           <h1 className="text-2xl md:text-4xl mt-5">
             CIP-1694 = Minimum Viable Governance = 7 New On-Chain Governance Events
           </h1>
@@ -61,7 +61,7 @@ export default function WhyPage({ allProjectsData }) {
           </div>
         </div>
 
-        <div className="w-full md:w-5/6 lg:w-2/3 mx-auto border-t-2 border-blue-900 mt-5 text-xl">
+        <div className="w-11/12 md:w-5/6 lg:w-2/3 mx-auto border-t-2 border-blue-900 mt-5 text-xl">
           <h1 className="text-4xl my-5">Why is this the scope of CIP-1694?</h1>
           <p className="pb-3">
             The end of result of CIP-1694 will be to add new goverance functionality to the Cardano blockchain. When
@@ -78,14 +78,14 @@ export default function WhyPage({ allProjectsData }) {
             decision-making, then what happens to the value of it?
           </p>
         </div>
-        <div className="w-full md:w-5/6 lg:w-2/3 mx-auto border-t-2 border-blue-900 my-5 text-xl">
+        <div className="w-11/12 md:w-5/6 lg:w-2/3 mx-auto border-t-2 border-blue-900 my-5 text-xl">
           <h1 className="text-4xl my-5">How Will You Participate?</h1>
           <p className="text-2xl font-bold text-blue-900 hover:text-blue-600">
             <Link href="/voltaire-is-here/participate">Sign up for a CIP-1694 Governance Workshop</Link>
           </p>
         </div>
 
-        <div className="w-full md:w-5/6 lg:w-2/3 mx-auto border-t-2 border-blue-900 my-5 text-xl">
+        <div className="w-11/12 md:w-5/6 lg:w-2/3 mx-auto border-t-2 border-blue-900 my-5 text-xl">
           <h1 className="text-4xl my-5">What Comes Next?</h1>
           <p className="text-xl py-2">
             To start, on-chain governance actions will be limited in scope - and this is a good thing! Whatever the

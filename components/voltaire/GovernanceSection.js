@@ -20,9 +20,9 @@ export default function GovernanceSection({ colors }) {
   return (
     <div className="mx-auto py-7 spacing-x border-y-4 border-black">
       <div className="flex flex-col gap-6 text-center">
-        <div className="flex flex-row gap-5 w-full mx-auto">
+        <div className="flex flex-col md:flex-row gap-5 w-full mx-auto">
           <div
-            className="bg-blue-900 w-1/2 bee-cursor content-center"
+            className="bg-blue-900 w-full md:w-1/2 bee-cursor content-center"
             onMouseEnter={() => setHov1(true)}
             onMouseLeave={() => setHov1(false)}
           >
@@ -58,7 +58,7 @@ export default function GovernanceSection({ colors }) {
           </div>
 
           <div
-            className="w-1/2 bg-orange-900 bee-cursor text-offWhite"
+            className="w-full md:w-1/2 bg-orange-900 bee-cursor text-offWhite"
             onMouseEnter={() => setHov2(true)}
             onMouseLeave={() => setHov2(false)}
           >
@@ -94,7 +94,7 @@ export default function GovernanceSection({ colors }) {
           </div>
 
           <div
-            className="w-1/2 bee-cursor bg-green-600 text-offWhite"
+            className="w-full md:w-1/2 bee-cursor bg-green-600 text-offWhite"
             onMouseEnter={() => setHov3(true)}
             onMouseLeave={() => setHov3(false)}
           >
@@ -129,9 +129,9 @@ export default function GovernanceSection({ colors }) {
             )}
           </div>
         </div>
-        <div className="flex flex-row gap-6 my-2">
+        <div className="flex flex-col md:flex-row gap-6 my-2">
           {/* Title */}
-          <div className="w-1/2 border-2 border-black p-5">
+          <div className="w-full md:w-1/2 border-2 border-black p-5">
             <h3 className="relative mb-5 text-6xl ">Read About It:</h3>
 
             <div className="mt-3">
@@ -151,7 +151,7 @@ export default function GovernanceSection({ colors }) {
           </div>
 
           {/* Title */}
-          <div className="w-1/2 border-2 border-black p-5">
+          <div className="w-full md:w-1/2 border-2 border-black p-5">
             <h3 className="relative mb-5 text-6xl ">Join a CIP-1694 Workshop:</h3>
 
             <div className="mt-3">
@@ -175,9 +175,9 @@ export default function GovernanceSection({ colors }) {
         </div>
 
         {/* Title */}
-          <div className="w-2/3 mx-auto bg-blue-900 py-5 text-offWhite">
-            <h3 className="relative mt-5 z-10 text-6xl ">Gimbalabs is hosting a CIP-1694 Workshop</h3>
-            <p className="text-2xl py-5">Join us in Worcester, MA on June 8</p>
+          <div className="w-full md:w-2/3 mx-auto bg-blue-900 py-5 text-offWhite">
+            <h3 className="relative mt-5 z-10 text-2xl md:text-6xl ">Gimbalabs is hosting a CIP-1694 Workshop</h3>
+            <p className="text-lg md:text-2xl py-5">Join us in Worcester, MA on June 8</p>
 
             <div className="mt-3">
               <a href="https://www.meetup.com/gimbalabs-worcester/events/293145623/" target="_blank">
