@@ -47,7 +47,7 @@ export const workshopList = [
   {
     date: "2023-05-31",
     location: "São Paulo, Brazil",
-    link: "",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSc0D0NRRW-sgJRDFNbTocVUS43hLFc1fd-3dILfesdLW1kLrg/viewform",
   },
   {
     date: "2023-06-03",
