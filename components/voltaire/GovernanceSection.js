@@ -132,7 +132,7 @@ export default function GovernanceSection({ colors }) {
         <div className="flex flex-col md:flex-row gap-6 my-2">
           {/* Title */}
           <div className="w-full md:w-1/2 border-2 border-black p-5">
-            <h3 className="relative mb-5 text-6xl ">Read About It:</h3>
+            <h3 className="relative mb-5 text-2xl md:text-6xl ">Read About It:</h3>
 
             <div className="mt-3">
               <a href="https://github.com/JaredCorduan/CIPs/blob/voltaire-v1/CIP-1694/README.md" target="_blank">
@@ -152,7 +152,7 @@ export default function GovernanceSection({ colors }) {
 
           {/* Title */}
           <div className="w-full md:w-1/2 border-2 border-black p-5">
-            <h3 className="relative mb-5 text-6xl ">Join a CIP-1694 Workshop:</h3>
+            <h3 className="relative mb-5 text-2xl md:text-6xl ">Join a CIP-1694 Workshop:</h3>
 
             <div className="mt-3">
               <a
