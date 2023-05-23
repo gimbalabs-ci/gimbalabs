@@ -27,7 +27,7 @@ export const workshopList = [
   {
     date: "2023-05-27",
     location: "Bogotá, Colombia",
-    link: "https://docs.google.com/forms/d/e/1FAIpQLSc0D0NRRW-sgJRDFNbTocVUS43hLFc1fd-3dILfesdLW1kLrg/viewform",
+    link: "https://bit.ly/3Onq1t1",
   },
   {
     date: "2023-05-27",
