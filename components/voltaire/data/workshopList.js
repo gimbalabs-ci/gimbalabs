@@ -10,6 +10,11 @@ export const workshopList = [
     link: "",
   },
   {
+    date: "2023-05-23 thru 05-28",
+    location: "Virtual Events: Cardano LATAM Community",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSc0D0NRRW-sgJRDFNbTocVUS43hLFc1fd-3dILfesdLW1kLrg/viewform",
+  },
+  {
     date: "2023-05-25",
     location: "Johannesburg, South Africa",
     link: "https://www.meetup.com/ja-JP/cardano-blockchain-johannesburg-sa/events/293523683/",
@@ -22,7 +27,12 @@ export const workshopList = [
   {
     date: "2023-05-27",
     location: "Bogotá, Colombia",
-    link: "",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSc0D0NRRW-sgJRDFNbTocVUS43hLFc1fd-3dILfesdLW1kLrg/viewform",
+  },
+  {
+    date: "2023-05-27",
+    location: "Virtual Workshop: Governance Guild",
+    link: "https://www.meetup.com/cardano-catalyst-community-network/events/293698126",
   },
   {
     date: "2023-05-27",
@@ -40,9 +50,9 @@ export const workshopList = [
     link: "",
   },
   {
-    date: "2023-06-02",
+    date: "2023-06-03",
     location: "Victoria, British Columbia, Canada",
-    link: "",
+    link: "https://www.meetup.com/cardano-catalyst-community-network/events/293594461",
   },
   {
     date: "2023-06-08",
@@ -86,6 +96,11 @@ export const workshopList = [
   },
   {
     date: "2023-06-24",
+    location: "Accra, Ghana",
+    link: "https://www.meetup.com/cardano-blockchain-accra/events/293689905/",
+  },
+  {
+    date: "2023-06-24",
     location: "Seoul, South Korea",
     link: "https://www.meetup.com/ko-KR/cardano-blockchain-korea/events/293558264/",
   },
@@ -97,7 +112,7 @@ export const workshopList = [
   {
     date: "2023-06-29",
     location: "Williamsburg, NY, USA",
-    link: "",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSesgcCtAjzZSDeYnHs1ppqsNZ6CjKfLdPIUvGqTHjt0wr2E7g/viewform",
   },
   {
     date: "2023-06-30",
