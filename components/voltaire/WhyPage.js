@@ -95,7 +95,7 @@ export default function WhyPage({ allProjectsData }) {
           </p>
           <p className="text-xl py-2">
             For Cardano, this is monumental. Globally, this is only a starting point. Every one of us has the
-            opportinity to help make decisions based on evidence, and if we are unhappy with the results, to use our
+            opportunity to help make decisions based on evidence, and if we are unhappy with the results, to use our
             influence to change the system. For example, one of the on-chain governance actions is a motion of
             no-confidence in the new Constitutional Committee. If you are unhappy with the Constitutional Committee, you
             will be able to vote for their removal!

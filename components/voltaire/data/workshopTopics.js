@@ -6,7 +6,7 @@ export const workshopTopics = [
         "What amount of ada should be deposited to submit a governance action?",
         "What amount of ada should be deposited when registering as a DRep?",
       ],
-      bbk: "https://github.com/JaredCorduan/CIPs/tree/voltaire-v1/CIP-1694#controlling-the-number-of-active-governance-actions",
+      bbk: "https://github.com/JaredCorduan/CIPs/tree/voltaire-v1/CIP-1694#governance-actions",
     },
     {
       number: 2,
@@ -24,7 +24,7 @@ export const workshopTopics = [
       questions: [
         "What community and user tooling might be necessary or helpful in launching and maintaining the MVG proposed in CIP-1694?",
       ],
-      bbk: "",
+      bbk: "https://github.com/JaredCorduan/CIPs/tree/voltaire-v1/CIP-1694#changes-to-the-local-state-query-protocol",
     },
     {
       number: 4,
@@ -32,13 +32,14 @@ export const workshopTopics = [
       questions: [
         "The Cardano Treasury is funded by transaction fees. As Treasury withdrawals become democratized, how might we ensure the Treasury is not drained too quickly?",
       ],
-      bbk: "",
+      bbk: "https://github.com/JaredCorduan/CIPs/tree/voltaire-v1/CIP-1694#rate-limiting-treasury-movements",
     },
     {
       number: 5,
       topic: "Action Thresholds",
-      questions: ["What quorum and passing % thresholds are required to ratify a governance action?", ""],
-      bbk: "https://github.com/JaredCorduan/CIPs/blob/voltaire-v1/CIP-1694/README.md#governance-actions",
+      questions: ["What quorum and passing % thresholds are required to ratify a governance action?"],
+      bbk: "https://github.com/JaredCorduan/CIPs/tree/voltaire-v1/CIP-1694#requirements",
+
     },
     {
       number: 6,
@@ -46,13 +47,13 @@ export const workshopTopics = [
       questions: [
         "If a governance action is not ratified, how many epochs should a governance action stay active before it expires and the deposit returned to the proposer?",
       ],
-      bbk: "",
+      bbk: "https://github.com/JaredCorduan/CIPs/tree/voltaire-v1/CIP-1694#governance-actions",
     },
     {
       number: 7,
       topic: "DReps Incentives",
       questions: ["Should DReps be incentivized?", "And if so, how much, and how should the payments be managed?"],
-      bbk: "",
+      bbk: "https://github.com/JaredCorduan/CIPs/tree/voltaire-v1/CIP-1694#drep-incentives",
     },
     {
       number: 8,
@@ -69,8 +70,8 @@ export const workshopTopics = [
     {
       number: 9,
       topic: "Constitutional Committee Compensation (optional)",
-      questions: ["Should the Constitutional Committee be compensated for their time, and if so how?", ""],
-      bbk: [],
+      questions: ["Should the Constitutional Committee be compensated for their time, and if so how?"],
+      bbk: "https://github.com/JaredCorduan/CIPs/tree/voltaire-v1/CIP-1694#the-constitutional-committee",
       optional: true
     },
   ];
