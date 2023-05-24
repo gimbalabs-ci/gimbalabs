@@ -73,6 +73,7 @@ export const workshopList = [
   {
     date: "2023-06-10",
     location: "Chicago, Illinois, USA",
+    link: "https://forms.gle/W7wGRurNDo1WqWAo7"
   },
   {
     date: "2023-06-15",
