@@ -51,8 +51,8 @@ export const workshopList = [
   },
   {
     date: "2023-06-03",
-    location: "Victoria, British Columbia, Canada",
-    link: "https://www.meetup.com/cardano-catalyst-community-network/events/293594461",
+    location: "Vancouver, British Columbia, Canada",
+    link: "https://www.meetup.com/cardano-blockchain-vancouver-community/events/293698824/",
   },
   {
     date: "2023-06-08",
