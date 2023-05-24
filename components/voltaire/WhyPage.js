@@ -32,7 +32,7 @@ export default function WhyPage({ allProjectsData }) {
 
         <div class="w-11/12 md:w-5/6 lg:w-2/3 mx-auto border-t-2 border-blue-900 mt-5">
           <h1 className="text-2xl md:text-4xl mt-5">
-            CIP-1694 = Minimum Viable Governance = 7 New On-Chain Governance Events
+            CIP-1694 = Minimum Viable Governance = 7 New On-Chain Governance Actions
           </h1>
           <p className="text-xl mb-5">
             Source: quoted directly from the{" "}
