@@ -28,13 +28,70 @@
       "color": "bg-red-600",
       "textColor": "text-red-600"
     },
+
+    {
+      "name": "Adrian Hüetter",
+      "linkedIn": "",
+      "twitter": "",
+      "image": "/team/suit.jpg",
+      "color": "bg-red-600",
+      "textColor": "text-red-600"
+    },
+    {
+      "name": "Jingles Khok",
+      "linkedIn": "https://www.linkedin.com/in/jingles/",
+      "twitter": "https://twitter.com/jinglescode",
+      "image": "/team/jingles.jpg",
+      "color": "bg-blue-800",
+      "textColor": "text-blue-600"
+    },
+    {
+      "name": "Juan Magán Valero",
+      "linkedIn": "https://www.linkedin.com/in/juan-salvador-mag%C3%A1n-valero-9a071442/",
+      "twitter": "",
+      "image": "/team/juan.jpg",
+      "color": "bg-green-400",
+      "textColor": "text-green-400"
+    },
+    {
+      "name": "M. Ali Modiri",
+      "linkedIn": "https://www.linkedin.com/in/m-a-modiri/",
+      "twitter": "",
+      "image": "/team/mix.jpg",
+      "color": "bg-red-600",
+      "textColor": "text-red-600"
+    },
+    {
+      "name": "Nelson Kshetrimayum",
+      "linkedIn": "",
+      "twitter": "https://twitter.com/nelson_ksh",
+      "image": "/team/nelson.jpg",
+      "color": "bg-green-400",
+      "textColor": "text-green-400"
+    },
+    {
+      "name": "Roberto Mayen Hess",
+      "linkedIn": "https://www.linkedin.com/in/roberto-mayen-hess/",
+      "twitter": "",
+      "image": "/team/rmh.jpg",
+      "color": "bg-blue-800",
+      "textColor": "text-blue-600"
+    },
+    {
+      "name": "Sebastian Pabon",
+      "linkedIn": "https://www.linkedin.com/in/ing-sebastian-pabon/",
+      "twitter": "https://twitter.com/SebastianPabonB",
+      "image": "/team/sebastian.jpg",
+      "color": "bg-blue-600",
+      "textColor": "text-blue-600"
+    },
     {
       "name": "Steve Lockhart",
       "image": "/team/steve.jpg",
       "bio": "Community builder, decentralization advocate, arborist, dog owner.",
       "twitter": "https://twitter.com/BobArchangel",
-      "color": "bg-blue-800",
-      "textColor": "text-blue-400"
+      "color": "bg-red-600",
+      "textColor": "text-red-600"
     }
   ]
 }
