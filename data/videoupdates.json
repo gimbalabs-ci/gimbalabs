@@ -3,6 +3,30 @@
   "about": "Live-stream updates from the Gimbalabs team.",
   "weekly": [
     {
+      "title": "CIP-1694",
+      "date": "2023-05-25",
+      "number": 20230525,
+      "youtubeId": "sFZms8ekOaM",
+      "tags": ["Gimbalabs Playground"],
+      "description": "Gimbalabs presenta: Cardano CIP 1694 desde la perspectiva tecnica"
+    },
+    {
+      "title": "Gimbalabs Playground",
+      "date": "2023-05-23",
+      "number": 20230523,
+      "youtubeId": "hBXnNGq0hcQ",
+      "tags": ["Gimbalabs Playground"],
+      "description": "DEMU Protocol Demo"
+    },
+    {
+      "title": "Gimbalabs Playground",
+      "date": "2023-05-16",
+      "number": 20230516,
+      "youtubeId": "fU6o634Mwdc",
+      "tags": ["Gimbalabs Playground"],
+      "description": "Facilitator's Collective"
+    },
+    {
       "title": "Gimbalabs Playground",
       "date": "2023-05-09",
       "number": 20230509,
