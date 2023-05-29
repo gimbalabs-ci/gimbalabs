@@ -55,11 +55,15 @@ export const workshopList = [
     link: "https://www.meetup.com/cardano-blockchain-vancouver-community/events/293698824/",
   },
   {
+    date: "2023-06-03",
+    location: "Online Workshop: Cardano Blockchain Goma (Française)",
+    link: "https://www.meetup.com/cardano-blockchain-goma/events/293745133",
+  },
+  {
     date: "2023-06-08",
     location: "Worcester, Massachusetts, USA",
     link: "https://www.meetup.com/gimbalabs-worcester/events/293145623/",
   },
-
   {
     date: "2023-06-09",
     location: "Prague, Czech Republic",
