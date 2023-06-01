@@ -56,6 +56,11 @@ export const workshopList = [
   },
   {
     date: "2023-06-03",
+    location: "Online Workshop: Cardano Local & Virtual",
+    link: "https://www.meetup.com/cardano",
+  },
+  {
+    date: "2023-06-03",
     location: "Online Workshop: Cardano Blockchain Goma (Française)",
     link: "https://www.meetup.com/cardano-blockchain-goma/events/293745133",
   },
@@ -85,9 +90,9 @@ export const workshopList = [
     link: "https://www.meetup.com/cardano-blockchain-toronto/events/",
   },
   {
-    date: "2023-06-16",
+    date: "2023-06-17",
     location: "Philadelphia, PA, USA",
-    link: "",
+    link: "https://www.meetup.com/phillyada",
   },
   {
     date: "2023-06-16",
@@ -106,8 +111,18 @@ export const workshopList = [
   },
   {
     date: "2023-06-24",
+    location: "Online Workshop: Cardano Local & Virtual",
+    link: "https://www.meetup.com/cardano",
+  },
+  {
+    date: "2023-06-24",
     location: "Seoul, South Korea",
     link: "https://www.meetup.com/ko-KR/cardano-blockchain-korea/events/293558264/",
+  },
+  {
+    date: "2023-06-25",
+    location: "Abu Dhabi, UAE",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSftR4ar01WczC5c7nn6pY4mrNRYBnJtU-g7gnSU6aTOeE6qIA/viewform",
   },
   {
     date: "2023-06-27",
