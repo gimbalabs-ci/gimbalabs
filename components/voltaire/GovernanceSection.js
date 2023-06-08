@@ -1,7 +1,6 @@
-import { AnimatePresence, motion, MotionConfigContext } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
 import React, { useState } from "react";
-import PlaygroundSvg from "../../lib/icons/PlaygroundSvg";
 import ContributeToThis from "./ContributeToThis";
 const gdsEase12 = {
   duration: 0.3,
@@ -19,6 +18,12 @@ export default function GovernanceSection({ colors }) {
 
   return (
     <div className="mx-auto py-7 spacing-x border-y-4 border-black">
+      <div className="text-2xl text-blue-900 font-bold text-center mb-5 hover:text-green-600">
+        <a href="https://miro.com/app/board/uXjVMBLA8ws=/?share_link_id=297253823050">
+
+        CIP-1694 Workshop Miro Board: Worcester 2023-06-08
+        </a>
+        </div>
       <div className="flex flex-col gap-6 text-center">
         <div className="flex flex-col md:flex-row gap-5 w-full mx-auto">
           <div

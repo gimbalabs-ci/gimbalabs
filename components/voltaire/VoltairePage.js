@@ -37,7 +37,6 @@ export default function VoltairePage() {
           subtitle="Voltaire is the Governance Era of the Cardano blockchain"
         />
       </div>
-
       <GovernanceSection colors={colors} />
       <VoltaireStickyNoteList colors={colors} ignore="home" />
     </div>
