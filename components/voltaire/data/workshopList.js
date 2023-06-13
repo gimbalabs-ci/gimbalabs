@@ -105,6 +105,11 @@ export const workshopList = [
     link: "",
   },
   {
+    date: "2023-06-23",
+    location: "Minneapolis, Minnesota, USA",
+    link: "https://www.eventbrite.com/e/cip-1694-governance-workshop-tickets-655290169537",
+  },
+  {
     date: "2023-06-24",
     location: "Accra, Ghana",
     link: "https://www.meetup.com/cardano-blockchain-accra/events/293689905/",
@@ -138,10 +143,5 @@ export const workshopList = [
     date: "2023-06-30",
     location: "London, England",
     link: "",
-  },
-  {
-    date: "tbd",
-    location: "Minneapolis, Minnesota, USA",
-    link: "",
-  },
+  }  
 ];
