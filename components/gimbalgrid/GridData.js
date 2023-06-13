@@ -18,10 +18,11 @@ import MasteryPolicyPage from "../masterypolicy/MasteryPolicyPage";
 import DandelionContrib from "./gridboxes/DandelionContrib";
 import GimbalabsBg from "./gridboxes/GimbalabsBg";
 import Voltaire from "./gridboxes/Voltaire";
-import VoltaireWorkshop from "./gridboxes/VoltaireWorkshop";
+import GLCarnival from "./gridboxes/GLCarnival";
 
 const { default: DandelionPage } = require("../dandelion/DandelionPage");
 const { default: VoltairePage } = require("../voltaire/VoltairePage");
+const { default: CarnivalPage } = require("../carnival/CarnivalPage");
 const { default: PBLPage } = require("../pbl/PBLPage");
 const { default: GBDandelion } = require("./gridboxes/GBDandelion");
 const { default: UpcomingEvents } = require("./gridboxes/UpcomingEvents");
@@ -421,9 +422,9 @@ export const gridData = [
   //   gridBoxComponent: GimbalabsBg,
   // },
   {
-    fullPageComponent: VoltairePage,
+    fullPageComponent: CarnivalPage,
     gridBoxStyle: `bee-cursor-dark col-span-8 row-span-4`,
-    gridBoxComponent: VoltaireWorkshop,
+    gridBoxComponent: GLCarnival,
   },
 
   // {

@@ -17,15 +17,16 @@ export default function CarnivalPage() {
         <AndamioSVG />
         <PageTitleWithBorder
           borderColor="bg-offWhite"
-          title="Gimbalabs Summer Carnival"
+          title="Gimbalabs Carnival 2023"
           subtitle="Open spaces for learning together and building in public"
         />
       </div>
       <div className="items-stretch border-t-2 border-black my-1">
         <div className="mx-auto">
-          <p className="text-4xl font-thin text-center my-5">Tuesdays</p>
-          <p className="text-4xl font-thin text-center my-5">June 13 - September 5</p>
-          <p className="text-4xl font-thin text-center my-5">1800 UTC</p>
+          <p className="text-3xl font-thin text-center my-5">Every Tuesday from June 13 - September 5</p>
+          <p className="text-3xl font-thin text-center my-5">1800 UTC</p>
+          <p className="text-2xl font-bold text-center my-5 hover:text-green-600"><a href="https://us06web.zoom.us/meeting/register/tZYoduuqpjsqGtdzMHXoRVVnJqcQGOtpQRQv">Join with Zoom</a></p>
+          
         </div>
         <div className="w-5/6 mx-auto grid grid-cols-1 md:grid-cols-2 gap-5 mb-5">
           <div className="p-5 bg-red-900 text-offWhite">
@@ -65,10 +66,12 @@ export default function CarnivalPage() {
             <p className="text-xl my-5">What do you want to learn about?</p>
           </div>
         </div>
+
         <div className="w-11/12 mx-auto border-t-2 border-black py-3">
-          <h1 className="text-6xl pt-10 pb-5 text-center">
+          <h1 className="text-6xl pt-5 pb-5 text-center">
             Community Miro Board
           </h1>
+        <p className="text-2xl font-bold text-center my-5 hover:text-green-600"><a href="https://us06web.zoom.us/meeting/register/tZYoduuqpjsqGtdzMHXoRVVnJqcQGOtpQRQv">Join the first meeting on 2023-06-13 at 1800 UTC</a></p>
           <iframe className="border-2 border-black rounded-lg p-3" width="100%" height="800" src="https://miro.com/app/live-embed/uXjVMCWrDms=/?moveToViewport=-6131,-9198,35064,28299&embedId=898576388586" frameborder="1" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
         </div>
       </div>
