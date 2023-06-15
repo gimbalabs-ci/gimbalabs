@@ -1,17 +1,31 @@
 {
   "upcoming": [
     {
-      "date": "2023-06-08",
-      "time": "8:30am-6:00pm EDT",
-      "title": "CIP-1694 Governance Workshop",
-      "description": "In person workshop hosted by Gimbalabs",
-      "info": "/voltaire-is-here"
+      "date": "2023-06-20",
+      "time": "1800 UTC",
+      "title": "Gimbalabs Carnival",
+      "description": "Hacking together a Hydra head",
+      "info": "/carnival-2023"
     },
     {
-      "date": "2023-06-13",
+      "date": "2023-06-21",
+      "time": "1430 UTC",
+      "title": "Plutus PBL Live Coding",
+      "description": "Building Background Knowledge about Cardano development",
+      "info": "https://plutuspbl.io/live-coding"
+    },
+    {
+      "date": "2023-06-22",
+      "time": "1430 UTC",
+      "title": "Plutus PBL Live Coding",
+      "description": "Building Background Knowledge about Cardano development",
+      "info": "https://plutuspbl.io/live-coding"
+    },
+    {
+      "date": "2023-06-27",
       "time": "1800 UTC",
-      "title": "Gimbalabs Summer Carnival!",
-      "description": "Introducing Gimbalabs Summer Carnival, 2023",
+      "title": "Gimbalabs Carnival",
+      "description": "Building a series of dependent transactions",
       "info": "/carnival-2023"
     }
   ]
