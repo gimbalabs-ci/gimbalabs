@@ -1,34 +1,6 @@
 {
   "upcoming": [
     {
-      "date": "2023-07-18",
-      "time": "1800 UTC",
-      "title": "Gimbalabs Carnival 2023",
-      "description": "Experiments with Facilitation Charter agreements with Consenz",
-      "info": "/carnival-2023"
-    },
-    {
-      "date": "2023-07-19",
-      "time": "1430-1600 UTC",
-      "title": "Plutus PBL Live Coding",
-      "description": "Live, collaborative support for PPBL 2023",
-      "info": "https://plutuspbl.io/live-coding"
-    },
-    {
-      "date": "2023-07-20",
-      "time": "1430-1600 UTC",
-      "title": "Plutus PBL Live Coding",
-      "description": "Live, collaborative support for PPBL 2023",
-      "info": "https://plutuspbl.io/live-coding"
-    },
-    {
-      "date": "2023-07-25",
-      "time": "1800 UTC",
-      "title": "Gimbalabs Carnival 2023",
-      "description": "Self Sovereign Identity, Decentralized Identity, and Verifiable Credentials: How can identity mean anything without reputation? Can reputation be transferable across context?",
-      "info": "/carnival-2023"
-    },
-    {
       "date": "2023-08-01",
       "time": "1800 UTC",
       "title": "Gimbalabs Carnival 2023",
