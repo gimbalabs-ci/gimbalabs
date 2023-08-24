@@ -1,11 +1,25 @@
 {
   "upcoming": [
     {
-      "date": "2023-08-01",
+      "date": "2023-08-29",
       "time": "1800 UTC",
       "title": "Gimbalabs Carnival 2023",
-      "description": "Web3 Gaming + Bridges with AdaQuest and Friends",
-      "info": "/carnival-2023"
+      "description": "Catalyst Fund 10 Proposal Share",
+      "info": "/calendar"
+    },
+    {
+      "date": "2023-09-05",
+      "time": "1800 UTC",
+      "title": "Welcome to Gimbalabs Playground, Season 3",
+      "description": "Introducing Andamio",
+      "info": "/calendar"
+    },
+    {
+      "date": "Every Tuesday",
+      "time": "1800 UTC",
+      "title": "Gimbalabs Playground, Season 3",
+      "description": "Do you want to present at Playground? Join a session to learn more.",
+      "info": "/calendar"
     }
   ]
 }
