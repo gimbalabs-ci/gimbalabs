@@ -17,11 +17,11 @@ import GPTE from "./gridboxes/GPTE";
 import MasteryPolicyPage from "../masterypolicy/MasteryPolicyPage";
 import DandelionContrib from "./gridboxes/DandelionContrib";
 import GimbalabsBg from "./gridboxes/GimbalabsBg";
-import Voltaire from "./gridboxes/Voltaire";
+import Catalyst from "./gridboxes/Catalyst";
 import GLCarnival from "./gridboxes/GLCarnival";
 
 const { default: DandelionPage } = require("../dandelion/DandelionPage");
-const { default: VoltairePage } = require("../voltaire/VoltairePage");
+const { default: CatalystPage } = require("../catalyst/CatalystPage");
 const { default: CarnivalPage } = require("../carnival/CarnivalPage");
 const { default: PBLPage } = require("../pbl/PBLPage");
 const { default: GBDandelion } = require("./gridboxes/GBDandelion");
@@ -313,6 +313,11 @@ const gimbalabs = [
 
 export const gridData = [
   {
+    fullPageComponent: CatalystPage,
+    gridBoxStyle: `bee-cursor col-span-full row-span-6`,
+    gridBoxComponent: Catalyst,
+  },
+  {
     disable: true,
     gridBoxStyle: `col-span-full sm:col-span-4 row-span-1    `,
     gridBoxComponent: GBLogo,
@@ -341,11 +346,6 @@ export const gridData = [
     transitionColor: "bg-offWhite",
     fullPageComponent: UpdatePage,
     fullPageProps: {},
-  },
-  {
-    fullPageComponent: VoltairePage,
-    gridBoxStyle: `bee-cursor col-span-6 row-span-2`,
-    gridBoxComponent: Voltaire,
   },
   {
     gridBoxStyle: ` col-span-full sm:col-span-8 row-span-2`,

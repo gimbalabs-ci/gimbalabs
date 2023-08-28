@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "../../../hd2/andamio"
 		}
 	],
 	"settings": {
