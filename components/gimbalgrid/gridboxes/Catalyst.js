@@ -20,19 +20,17 @@ export default function Catalyst(props) {
       <h1 className="text-6xl">Project Catalyst Fund 10</h1>
       <p className="text-xl text-yellow-500 font-bold py-5">Voting opens on August 31!</p>
       <p className="font-semibold">
-        The first Gimbalabs Catalyst Proposal was submitted during Fund1 on August 12, 2020. Over the last 3 years,
-        Gimbalabs has received $236k from Project Catalyst.
+        The first Gimbalabs Catalyst Proposal was submitted during Fund1 on August 12, 2020.
       </p>
       <p className="font-semibold pt-5">
-        In that time, Gimbalabs has built free education for Cardano developers, cultivated community spaces where new
-        projects take root, and provided Dandelion infrastructure for free to the Cardano developer community. Over $80k
-        has been paid to new developers.
+        Since then, Gimbalabs has built free education for Cardano developers, cultivated community spaces where new
+        projects take root, and provided Dandelion infrastructure for free to the Cardano developer community.
       </p>
       <p className="text-xl text-yellow-500 font-bold py-5">
         Our Fund10 Proposals are designed to support a team of builders to:
       </p>
       <ul className="list-disc pl-3 ml-5">
-        <li className="font-semibold">Develop the new Andamio Platform</li>
+        <li className="font-semibold">Develop the new <a href="https://andamio.io" className="text-orange-600 hover:text-orange-200">Andamio Platform</a></li>
         <li className="font-semibold">Fund a Treasury for new Cardano developers</li>
         <li className="font-semibold">Provide live support for Plutus PBL in 6+ languages</li>
       </ul>
