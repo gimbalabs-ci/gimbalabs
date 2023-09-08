@@ -24,14 +24,14 @@ export default function PlaygroundPage() {
       </div>
       <div className="items-stretch border-t-2 border-black my-1">
         <div className="mx-auto">
-          <p className="text-3xl font-thin text-center my-5">Every Tuesday from September 12, 2023 - May 21, 2024</p>
+          <p className="text-3xl font-thin text-center my-5">Meets Tuesdays September 12, 2023 - May 21, 2024</p>
           <p className="text-3xl font-thin text-center my-5">1800 UTC</p>
-          <p className="text-2xl font-bold text-center my-5 hover:text-green-600">
-            <a href="https://us06web.zoom.us/meeting/register/tZYoduuqpjsqGtdzMHXoRVVnJqcQGOtpQRQv">Join with Zoom</a>
+          <p className="text-2xl font-bold text-center my-5 text-indigo-800 hover:text-blue-600">
+            <a href="https://us06web.zoom.us/meeting/register/tZYoduuqpjsqGtdzMHXoRVVnJqcQGOtpQRQv">Register/Join with Zoom</a>
           </p>
         </div>
 
-        <div className="w-5/6 mx-auto grid grid-cols-1 md:grid-cols-2 gap-5 mb-5 pb-5 border-b-2 border-black">
+        <div className="w-5/6 mx-auto grid grid-cols-1 md:grid-cols-2 gap-5 mb-5 pb-5">
           <div className="p-5 bg-red-900 text-offWhite">
             <h1 className="text-xl md:text-4xl">What is Gimbalabs Playground?</h1>
             <p className="text-sm md:text-xl my-5">
@@ -85,19 +85,16 @@ export default function PlaygroundPage() {
           <p className="text-sm md:text-2xl font-bold text-center mb-5 hover:text-green-600">
             Gimbalabs Playground Meets every Tuesday starting at 1800 UTC.
           </p>
-          <p className="text-sm md:text-2xl font-bold text-center my-5 hover:text-green-600">
-            (Miro board coming soon)
-          </p>
-          {/* <iframe
+          <iframe
             className="border-2 border-black rounded-lg p-3"
             width="100%"
             height="1000"
-            src="https://miro.com/app/live-embed/uXjVMCWrDms=/?moveToViewport=-6131,-9198,35064,28299&embedId=898576388586"
+            src="https://miro.com/app/live-embed/uXjVMnYs6P8=/?moveToWidget=3458764563494604015&cot=14"
             frameborder="1"
             scrolling="no"
             allow="fullscreen; clipboard-read; clipboard-write"
             allowfullscreen
-          ></iframe> */}
+          ></iframe>
         </div>
       </div>
     </div>
