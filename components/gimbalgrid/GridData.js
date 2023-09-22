@@ -3,7 +3,6 @@ import MenuPage from "../menu/MenuPage";
 import TeamPage from "../team/TeamPage";
 import UpdatePage from "../updates/UpdatePage";
 import StakePoolPage from "../stakepools/StakePoolPage"
-import GimbalTokenPage from "../gimbaltoken/GimbalTokenPage";
 import GimbalGrid from "./GimbalGrid";
 import BlankWhite from "./gridboxes/BlankWhite";
 import GBCalendar from "./gridboxes/GBCalendar";
@@ -11,18 +10,11 @@ import GBLogo from "./gridboxes/GBLogo";
 import GBWeeklyUpdates from "./gridboxes/GBWeeklyUpdates";
 import Letter from "./gridboxes/Letter";
 import Stake from "./gridboxes/Stake";
-import Token from "./gridboxes/Token";
 import PPBL from "./gridboxes/PPBL";
-import GPTE from "./gridboxes/GPTE";
 import MasteryPolicyPage from "../masterypolicy/MasteryPolicyPage";
 import DandelionContrib from "./gridboxes/DandelionContrib";
-import GimbalabsBg from "./gridboxes/GimbalabsBg";
-import Catalyst from "./gridboxes/Catalyst";
-import GLCarnival from "./gridboxes/GLCarnival";
 
 const { default: DandelionPage } = require("../dandelion/DandelionPage");
-const { default: CatalystPage } = require("../catalyst/CatalystPage");
-const { default: CarnivalPage } = require("../carnival/CarnivalPage");
 const { default: PBLPage } = require("../pbl/PBLPage");
 const { default: GBDandelion } = require("./gridboxes/GBDandelion");
 const { default: UpcomingEvents } = require("./gridboxes/UpcomingEvents");
@@ -260,14 +252,6 @@ const gimbalabs = [
     gridBoxComponent: BlankWhite,
   },
   {
-    gridBoxStyle: `col-span-4 row-span-1`,
-    gridBoxComponent: Stake,
-    transitionColor: "bg-blue-600",
-    //gridBoxProps: {},
-    fullPageComponent: StakePoolPage,
-    //fullPageProps: {},
-  },
-  {
     disable: true,
     gridBoxStyle: ` col-span-1  md:col-span-2 row-span-1 `,
     gridBoxComponent: BlankWhite,
@@ -312,11 +296,6 @@ const gimbalabs = [
 ];
 
 export const gridData = [
-  {
-    fullPageComponent: CatalystPage,
-    gridBoxStyle: `bee-cursor col-span-full row-span-6`,
-    gridBoxComponent: Catalyst,
-  },
   {
     disable: true,
     gridBoxStyle: `col-span-full sm:col-span-4 row-span-1    `,
@@ -387,14 +366,6 @@ export const gridData = [
     fullPageProps: {},
   },
   {
-    transitionColor: "bg-offWhite",
-    gridBoxStyle: `col-span-full  sm:col-span-5 row-span-2  `,
-    gridBoxComponent: LiveCoding,
-    gridBoxProps: {},
-    fullPageComponent: CalendarPage,
-    fullPageProps: {},
-  },
-  {
     transitionColor: "gradient-yellow",
     gridBoxStyle: `col-span-full sm:col-span-10 row-span-2   `,
     gridBoxComponent: GBDandelion,
@@ -416,31 +387,6 @@ export const gridData = [
     gridBoxStyle: `col-span-full sm:col-span-10 row-span-1`,
     gridBoxComponent: FeaturedVideo,
   },
-  // {
-  //   disable: true,
-  //   gridBoxStyle: `bee-cursor col-span-12 row-span-4`,
-  //   gridBoxComponent: GimbalabsBg,
-  // },
-  {
-    fullPageComponent: CarnivalPage,
-    gridBoxStyle: `bee-cursor-dark col-span-8 row-span-4`,
-    gridBoxComponent: GLCarnival,
-  },
-
-  // {
-  //   disable: true,
-  //   transitionColor: "bg-blue-900",
-  //   gridBoxStyle: `col-span-full  sm:col-span-3 row-span-1  `,
-  //   gridBoxComponent: GPTE,
-  //   gridBoxProps: {},
-  //   fullPageProps: {},
-  // },
-  // {
-  //   disable: true,
-  //   gridBoxStyle: `col-span-full sm:col-span-6 row-span-3    `,
-  //   gridBoxComponent: TitleGroup,
-  // },
-
 
   // letters and blank white squares
   ...gimbalabs,

@@ -1,10 +1,10 @@
 {
   "upcoming": [
     {
-      "date": "2023-09-12",
+      "date": "2023-09-26",
       "time": "1800 UTC",
-      "title": "Welcome to Gimbalabs Playground, Season 3!",
-      "description": "Topic: Introducing Andamio",
+      "title": "Gimbalabs Playground",
+      "description": "Estate Ledger: A RealFi dApp, from KonmaDAO",
       "info": "/playground"
     },
     {
@@ -13,6 +13,13 @@
       "title": "Gimbalabs Playground, Season 3",
       "description": "Do you want to present at Playground? Join a session to learn more.",
       "info": "/playground"
+    },
+    {
+      "date": "Every Wednesday and Thursday",
+      "time": "1430 UTC",
+      "title": "Plutus PBL Live Coding 2023",
+      "description": "Learn Cardano development in a collaborative, project-based environment.",
+      "info": "https://plutuspbl.io/live-coding"
     }
   ]
 }
