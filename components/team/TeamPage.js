@@ -61,7 +61,7 @@ export default function TeamPage() {
       </section>
 
       <h1 className="text-6xl text-center mt-8">Gimbalabs Team</h1>
-      <div className="w-5/6 mx-auto my-5 grid grid-cols-3">
+      <div className="w-5/6 mx-auto my-5 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
         {team.founders.map((i) => (
           <div className="mx-5 my-6 flex flex-col ">
             <div className=" relative  ">
