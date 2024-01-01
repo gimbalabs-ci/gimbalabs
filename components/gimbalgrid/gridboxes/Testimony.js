@@ -14,7 +14,7 @@ export default function Testimony(props) {
     <WithTransfer {...props}>
       <div className="p-6 flex flex-col">
         <div className={`text-2xl font-heading mb-2 text-black2-900 `}>
-          Gimbalabs is a place where people learn by doing. We are always running experiments and making sense of new ideas together.
+          For three years, Gimbalabs has been a place to learn, build, and make sense of new possibilities for building decentralized ecosystems on the Cardano blockchain. We have helped launch projects etc. Now we are inviting you to get involved.
         </div>
         <div className={`gg-subtitle mb-2 text-black2-900 `}>
 
