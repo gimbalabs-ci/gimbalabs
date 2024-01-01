@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Gimbalabs</title>
+        <title>Gimbalabs 2024</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

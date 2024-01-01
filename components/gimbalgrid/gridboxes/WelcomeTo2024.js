@@ -18,14 +18,15 @@ export default function WelcomeTo2024(props) {
       <div
         onMouseOver={() => setHov(true)}
         onMouseLeave={() => setHov(false)}
-        className="group bg-blue-800 text-yellow-400 flex flex-col justify-center items-center"
+        className="group bg-black text-purple-100 flex flex-col justify-center h-[300px]"
       >
-        <motion.p animate={ani2} className="text-6xl font-bold p-2">
-          Welcome to 2024
+        <motion.p animate={ani2} className="text-6xl font-bold p-2 py-3">
+          Happy New Year!
         </motion.p>
-        <motion.p animate={ani} className="p-4 text-right text-purple-100 font-bold">
-          Coming up at Gimbalabs
+        <motion.p animate={ani} className="px-2 py-5 text-purple-100 font-bold">
+          Gimbalabs is getting an upgrade. Gimbalabs PBL Governance Sessions start on Wednesday 2024-01-10. Details will be posted this week.
         </motion.p>
+        <p className="text-xs font-mono p-2">updated: 2024-01-01</p>
       </div>
   );
 }

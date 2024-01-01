@@ -14,6 +14,7 @@ import PPBL from "./gridboxes/PPBL";
 import MasteryPolicyPage from "../masterypolicy/MasteryPolicyPage";
 import DandelionContrib from "./gridboxes/DandelionContrib";
 import WelcomeTo2024 from "./gridboxes/WelcomeTo2024";
+import Letter6xl from "./gridboxes/Letter6xl";
 
 const { default: DandelionPage } = require("../dandelion/DandelionPage");
 const { default: PBLPage } = require("../pbl/PBLPage");
@@ -76,14 +77,259 @@ const gimbalabs = [
     gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
     gridBoxComponent: BlankWhite,
   },
-  // {
-  //   gridBoxStyle: `col-span-4 row-span-1`,
-  //   gridBoxComponent: Token,
-  //   transitionColor: "black",
-  //   //gridBoxProps: {},
-  //   fullPageComponent: GimbalTokenPage,
-  //   //fullPageProps: {},
-  // },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+    gridBoxProps: {
+      color: "bg-offWhite",
+    },
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-2 `,
+    gridBoxComponent: BlankWhite,
+  },
+
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-2 `,
+    gridBoxComponent: BlankWhite,
+    gridBoxProps: {
+      color: "bg-offWhite",
+    },
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+    gridBoxProps: {
+      color: "bg-black2-900",
+    },
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+    gridBoxProps: {
+      color: "bg-offWhite",
+    },
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-2 `,
+    gridBoxComponent: BlankWhite,
+  },
+
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+  },
+
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-2 `,
+    gridBoxComponent: BlankWhite,
+    gridBoxProps: {
+      color: "bg-black2-900",
+    },
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+    gridBoxProps: {
+      color: "bg-offWhite",
+    },
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-3 row-span-3 `,
+    gridBoxComponent: BlankWhite,
+    gridBoxProps: {
+      color: "bg-offWhite",
+    },
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-3 row-span-3 `,
+    gridBoxComponent: BlankWhite,
+    gridBoxProps: {
+      color: "bg-offWhite",
+    },
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-2 `,
+    gridBoxComponent: BlankWhite,
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+    gridBoxProps: {
+      color: "bg-offWhite",
+    },
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-2 `,
+    gridBoxComponent: BlankWhite,
+  },
+
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-2 `,
+    gridBoxComponent: BlankWhite,
+    gridBoxProps: {
+      color: "bg-offWhite",
+    },
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+    gridBoxProps: {
+      color: "bg-black2-900",
+    },
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+    gridBoxProps: {
+      color: "bg-offWhite",
+    },
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-2 `,
+    gridBoxComponent: BlankWhite,
+  },
+
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+  },
+
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
+    gridBoxComponent: BlankWhite,
+    gridBoxProps: {
+      color: "bg-offWhite",
+    },
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-2 `,
+    gridBoxComponent: BlankWhite,
+    gridBoxProps: {
+      color: "bg-black2-900",
+    },
+  },
   {
     disable: true,
     gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
@@ -92,7 +338,6 @@ const gimbalabs = [
       l: "G",
     },
   },
-
   {
     disable: true,
     gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
@@ -159,142 +404,34 @@ const gimbalabs = [
   },
   {
     disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-6 row-span-4 `,
-    gridBoxComponent: Testimony,
-    gridBoxProps: {
-      l: "Welcome to 2024"
-    }
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-    gridBoxProps: {
-      color: "bg-offWhite",
-    },
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-2 `,
-    gridBoxComponent: BlankWhite,
-  },
-
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-  },
-  {
-    disable: true,
     gridBoxStyle: ` col-span-1  md:col-span-2 row-span-2 `,
-    gridBoxComponent: BlankWhite,
+    gridBoxComponent: Letter6xl,
     gridBoxProps: {
-      color: "bg-offWhite",
-    },
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-    gridBoxProps: {
-      color: "bg-black2-900",
-    },
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-    gridBoxProps: {
-      color: "bg-offWhite",
-    },
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-2 `,
-    gridBoxComponent: BlankWhite,
-  },
-
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-  },
-
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-    gridBoxProps: {
-      color: "bg-offWhite",
+      l: "2",
     },
   },
   {
     disable: true,
     gridBoxStyle: ` col-span-1  md:col-span-2 row-span-2 `,
-    gridBoxComponent: BlankWhite,
+    gridBoxComponent: Letter6xl,
     gridBoxProps: {
-      color: "bg-black2-900",
+      l: "0",
     },
   },
   {
     disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-3 row-span-3 `,
-    gridBoxComponent: BlankWhite,
+    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-2 `,
+    gridBoxComponent: Letter6xl,
     gridBoxProps: {
-      color: "bg-offWhite",
+      l: "2",
     },
   },
   {
     disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-3 row-span-3 `,
-    gridBoxComponent: BlankWhite,
+    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-2 `,
+    gridBoxComponent: Letter6xl,
     gridBoxProps: {
-      color: "bg-offWhite",
+      l: "4",
     },
   },
   {
@@ -412,14 +549,6 @@ const gimbalabs = [
   },
   {
     disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-2 `,
-    gridBoxComponent: BlankWhite,
-    gridBoxProps: {
-      color: "bg-black2-900",
-    },
-  },
-  {
-    disable: true,
     gridBoxStyle: ` col-span-1  md:col-span-3 row-span-3 `,
     gridBoxComponent: BlankWhite,
     gridBoxProps: {
@@ -483,140 +612,11 @@ const gimbalabs = [
   },
   {
     disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-    gridBoxProps: {
-      color: "bg-black2-900",
-    },
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-    gridBoxProps: {
-      color: "bg-offWhite",
-    },
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-2 `,
-    gridBoxComponent: BlankWhite,
-  },
-
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-  },
-
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-    gridBoxProps: {
-      color: "bg-offWhite",
-    },
-  },
-  {
-    disable: true,
     gridBoxStyle: ` col-span-1  md:col-span-2 row-span-2 `,
     gridBoxComponent: BlankWhite,
     gridBoxProps: {
       color: "bg-black2-900",
     },
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-3 row-span-3 `,
-    gridBoxComponent: BlankWhite,
-    gridBoxProps: {
-      color: "bg-offWhite",
-    },
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-3 row-span-3 `,
-    gridBoxComponent: BlankWhite,
-    gridBoxProps: {
-      color: "bg-offWhite",
-    },
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-2 `,
-    gridBoxComponent: BlankWhite,
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-    gridBoxProps: {
-      color: "bg-offWhite",
-    },
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-2 `,
-    gridBoxComponent: BlankWhite,
-  },
-
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-2 `,
-    gridBoxComponent: BlankWhite,
-    gridBoxProps: {
-      color: "bg-offWhite",
-    },
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
-    gridBoxComponent: BlankWhite,
   },
   {
     disable: true,
@@ -878,12 +878,12 @@ export const gridData = [
   //   fullPageComponent: UpdatePage,
   //   fullPageProps: {},
   // },
-  {
-    gridBoxStyle: ` col-span-full sm:col-span-6 row-span-4`,
-    gridBoxComponent: PPBL,
-    fullPageComponent: MasteryPolicyPage,
-    transitionColor: "bg-orange-200",
-  },
+  // {
+  //   gridBoxStyle: ` col-span-full sm:col-span-6 row-span-4`,
+  //   gridBoxComponent: PPBL,
+  //   fullPageComponent: MasteryPolicyPage,
+  //   transitionColor: "bg-orange-200",
+  // },
   // {
   //   gridBoxComponent: GBPBL,
   //   gridBoxProps: {},
@@ -939,9 +939,10 @@ export const gridData = [
   //   gridBoxStyle: `col-span-full sm:col-span-10 row-span-1`,
   //   gridBoxComponent: FeaturedVideo,
   // },
+
   {
     disable: true,
-    gridBoxStyle: `col-span-full sm:col-span-10 row-span-1`,
+    gridBoxStyle: `col-span-full sm:col-span-10 row-span-3`,
     gridBoxComponent: WelcomeTo2024,
   },
 
