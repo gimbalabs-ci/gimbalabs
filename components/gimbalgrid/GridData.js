@@ -11,6 +11,9 @@ import Letter from "./gridboxes/Letter";
 import WelcomeTo2024 from "./gridboxes/WelcomeTo2024";
 import Letter6xl from "./gridboxes/Letter6xl";
 import GBBlog from "./gridboxes/GBBlog";
+import GovernancePage from "../governance/GovernancePage";
+import Governance from "./gridboxes/Governance";
+
 
 const { default: DandelionPage } = require("../dandelion/DandelionPage");
 const { default: PBLPage } = require("../pbl/PBLPage");
@@ -30,67 +33,6 @@ const {
 } = require("./gridboxes/TitleGroup");
 
 const gimbalabs = [
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-    gridBoxProps: {
-      color: "bg-offWhite",
-    },
-  },
-
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-    gridBoxProps: {
-      color: "bg-offWhite",
-    },
-  },
-
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-    gridBoxProps: {
-      color: "bg-offWhite",
-    },
-  },
   {
     disable: true,
     gridBoxStyle: ` col-span-1  md:col-span-1 row-span-2 `,
@@ -458,7 +400,12 @@ const gimbalabs = [
     gridBoxStyle: ` col-span-1  md:col-span-1 row-span-2 `,
     gridBoxComponent: BlankWhite,
   },
-
+  {
+    gridBoxStyle: ` col-span-full sm:col-span-6 row-span-4`,
+    gridBoxComponent: Governance,
+    fullPageComponent: GovernancePage,
+    transitionColor: "bg-black",
+  },
   {
     disable: true,
     gridBoxStyle: ` col-span-1  md:col-span-2 row-span-1 `,
@@ -881,12 +828,6 @@ export const gridData = [
   //   transitionColor: "bg-offWhite",
   //   fullPageComponent: UpdatePage,
   //   fullPageProps: {},
-  // },
-  // {
-  //   gridBoxStyle: ` col-span-full sm:col-span-6 row-span-4`,
-  //   gridBoxComponent: PPBL,
-  //   fullPageComponent: MasteryPolicyPage,
-  //   transitionColor: "bg-orange-200",
   // },
   // {
   //   gridBoxComponent: GBPBL,
