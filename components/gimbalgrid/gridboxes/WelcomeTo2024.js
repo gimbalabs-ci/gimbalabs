@@ -26,7 +26,7 @@ export default function WelcomeTo2024(props) {
         <motion.p animate={ani} className="px-2 py-5 text-purple-100 font-bold">
           Gimbalabs is getting an upgrade. Gimbalabs PBL Governance Sessions start on Wednesday 2024-01-10. Details will be posted this week.
         </motion.p>
-        <p className="text-xs font-mono p-2">updated: 2024-01-01</p>
+        <p className="text-xs font-mono p-2">updated: 2024-01-02</p>
       </div>
   );
 }

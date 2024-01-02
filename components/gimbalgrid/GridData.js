@@ -15,6 +15,7 @@ import MasteryPolicyPage from "../masterypolicy/MasteryPolicyPage";
 import DandelionContrib from "./gridboxes/DandelionContrib";
 import WelcomeTo2024 from "./gridboxes/WelcomeTo2024";
 import Letter6xl from "./gridboxes/Letter6xl";
+import GBBlog from "./gridboxes/GBBlog";
 
 const { default: DandelionPage } = require("../dandelion/DandelionPage");
 const { default: PBLPage } = require("../pbl/PBLPage");
@@ -868,6 +869,14 @@ export const gridData = [
     gridBoxProps: {},
     transitionColor: "bg-offWhite",
     fullPageComponent: CalendarPage,
+    fullPageProps: {},
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-2 row-span-1 `,
+    gridBoxComponent: GBBlog,
+    gridBoxProps: {},
+    transitionColor: "bg-offWhite",
     fullPageProps: {},
   },
   // {

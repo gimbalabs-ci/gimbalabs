@@ -25,7 +25,7 @@ export const animate = {
 };
 
 export default function ListAllBlocks({
-  baseRoute = "/pbl/csk/",
+  baseRoute = "/blog",
   data,
   color,
 }) {

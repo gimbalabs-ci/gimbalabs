@@ -6,6 +6,7 @@ import PlaygroundSvg from "../../lib/icons/PlaygroundSvg";
 import CardanoLogo from "../../lib/icons/CardanoLogo";
 import { PlutusSvgBasic } from "../../lib/icons/PlutusSvg";
 import { DandelionSeed } from "../../lib/icons/svgs";
+import BlogSvg from "../../lib/icons/BlogSVG";
 
 export default function FullWidthImageAndText({
   src = "/keepbees.jpeg",
@@ -24,6 +25,7 @@ export default function FullWidthImageAndText({
     BLUE: () => <CardanoLogo className="w-8 text-blue-100" />,
     ORANGE: () => <PlutusSvgBasic className="w-8  text-black2-900" />,
     GREEN: () => <DandelionSeed className="w-8 text-offWhite mt-4" />,
+    BLOG: () => <BlogSvg className="w-8 text-offWhite" />,
   };
   const Logo = logos[color];
 
@@ -32,6 +34,7 @@ export default function FullWidthImageAndText({
     BLUE: "text-white",
     ORANGE: "text-black2-900",
     GREEN: "text-green-900",
+    BLOG: "text-black2-900",
   };
   const textColor = textColors[color];
   return (
