@@ -11,7 +11,7 @@ export default function StyledMarkdown({ children, color }) {
   const className = options[color];
   return (
     <div
-      className={`gds-markdown ${className} max-w-16 mx-auto relative z-10  `}
+      className={`gds-markdown ${className} spacing-x relative z-10  `}
     >
       <ReactMarkdown children={children} />
     </div>

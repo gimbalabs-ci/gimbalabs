@@ -34,7 +34,7 @@ export default function FullWidthImageAndText({
     BLUE: "text-white",
     ORANGE: "text-black2-900",
     GREEN: "text-green-900",
-    BLOG: "text-black2-900",
+    BLOG: "text-white",
   };
   const textColor = textColors[color];
   return (
@@ -60,20 +60,6 @@ export default function FullWidthImageAndText({
           )}
         </div>
       </div>
-
-      {/* <Image src={src} layout="fill" objectFit="cover" className="shadow-xl" /> */}
-      {/* <div className={`absolute inset-0 ${bgOptions[color][0]}`} /> */}
-      {title && (
-        <div
-          className={`max-w-18 mx-auto pt-6 lg:pt-7 spacing-x  relative z-10 flex flex-col justify-end ${textOrientation}`}
-        >
-          <div
-            className={`text-black2-900 max-w-16 text-6xl font-heading font-bold gg-title-small  `}
-          >
-            {title}
-          </div>
-        </div>
-      )}
     </div>
   );
 }

@@ -7,8 +7,9 @@ export default function Layout(props) {
   return (
     <div className="relative bg-offWhite flex flex-col w-screen  overflow-x-hidden">
       <Navbar navbarBg={navbarBg} />
-
-      <main className=" relative">{children}</main>
+      <div className="min-h-[90vh]">
+        <main className=" relative">{children}</main>
+      </div>
       <Footer footerBg={footerBg} />
     </div>
   );

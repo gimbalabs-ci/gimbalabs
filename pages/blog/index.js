@@ -24,16 +24,18 @@ export default function BlogPosts({ data }) {
         <PageTitleWithBorder title={"Gimbalabs Blog"} subtitle={"The latest from the Gimbalabs team"}>
           <BlogSvg className="w-7" />
         </PageTitleWithBorder>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 w-5/6 mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 spacing-x">
           {data.map((blogpost, id) => (
-            <Link href={`/blog/${blogpost.id}`}>
-              <div className="p-5 border border-black cursor-pointer rounded-md hover:bg-blue-200">
-                <div className="cursor-pointer">
-                  <h2>{blogpost.title}</h2>
-                  <p>Posted: {blogpost.date}</p>
+            <div key={id}>
+              <Link href={`/blog/${blogpost.id}`}>
+                <div className="p-5 border border-black cursor-pointer rounded-md hover:bg-blue-900 hover:text-offWhite">
+                  <div className="cursor-pointer">
+                    <h2>{blogpost.title}</h2>
+                    <p>Posted: {blogpost.date}</p>
+                  </div>
                 </div>
-              </div>
-            </Link>
+              </Link>
+            </div>
           ))}
         </div>
       </div>

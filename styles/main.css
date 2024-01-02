@@ -242,7 +242,7 @@ h5 {
 .gds-markdown > h2 {
   letter-spacing: 0.05em;
   line-height: 34px;
-  @apply mt-6 text-2xl font-heading;
+  @apply my-6 text-2xl font-heading text-black;
 }
 .gds-body-medium {
   letter-spacing: 0.05em;
@@ -252,7 +252,7 @@ h5 {
 .gds-markdown > h3 {
   letter-spacing: 0.05em;
   line-height: 34px;
-  @apply mt-6 text-xl font-heading;
+  @apply mt-6 text-xl font-heading text-blue-800;
 }
 .gds-markdown > h4 {
   letter-spacing: 0.05em;
@@ -267,6 +267,10 @@ h5 {
 
 .gds-markdown > blockquote {
   @apply my-6  py-2 px-5 text-xl;
+}
+
+.gds-markdown > hr {
+  @apply border border-black
 }
 
 /* del {
@@ -314,7 +318,7 @@ ol > li::before {
   /* transform: rotate(-4deg); */
   text-align: center;
 
-  @apply ml-4 underline  text-black2-900  text-lg;
+  @apply ml-4 underline  text-black2-900;
 }
 
 .gds-markdown > ul > li {
@@ -323,7 +327,7 @@ ol > li::before {
   list-style: none;
   margin: 0;
   vertical-align: middle;
-  @apply mx-4 pl-6;
+  @apply mx-4 pl-6 font-body;
 }
 .md-orange > ul > li {
   background: url("/ulli-orange.svg") no-repeat left top;
