@@ -11,6 +11,7 @@ import Letter from "./gridboxes/Letter";
 import WelcomeTo2024 from "./gridboxes/WelcomeTo2024";
 import Letter6xl from "./gridboxes/Letter6xl";
 import GBBlog from "./gridboxes/GBBlog";
+import GBSolutions from "./gridboxes/GBSolutions";
 import GovernancePage from "../governance/GovernancePage";
 import Governance from "./gridboxes/Governance";
 
@@ -817,6 +818,14 @@ export const gridData = [
     disable: true,
     gridBoxStyle: ` col-span-2 row-span-1 `,
     gridBoxComponent: GBBlog,
+    gridBoxProps: {},
+    transitionColor: "bg-offWhite",
+    fullPageProps: {},
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-2 row-span-1 `,
+    gridBoxComponent: GBSolutions,
     gridBoxProps: {},
     transitionColor: "bg-offWhite",
     fullPageProps: {},
