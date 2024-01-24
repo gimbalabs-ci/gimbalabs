@@ -31,7 +31,7 @@ export default function BlogPostPage({ data }) {
         <div className="grid grid-cols-1 md:grid-cols-3">
           <div className={`pt-6 lg:pt-7 spacing-x relative z-10 flex flex-col`}>
             <div className={`text-black2-900 font-heading font-bold gg-title-small`}>{data.title}</div>
-            <div className="text-sm pt-10">Published: {data.date}</div>
+            <div className="text-sm pt-5">Published: {data.date}</div>
             <div className="text-sm">by {data.author}</div>
           </div>
           <div className="col-span-1 md:col-span-2 text-lg">

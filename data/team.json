@@ -38,12 +38,21 @@
       "textColor": "text-green-600"
     },
     {
+      "name": "Alex Seregin",
+      "image": "/team/alex.jpg",
+      "bio": "Cybertramp with interest in radical knowledge about language, thought and the nature of value.",
+      "twitter": "https://twitter.com/alexeusgr",
+      "linkedIn": "https://www.linkedin.com/in/alex-seregin/",
+      "color": "bg-red-600",
+      "textColor": "text-red-600"
+    },
+    {
       "name": "Adrian Hüetter",
       "linkedIn": "",
       "twitter": "",
       "image": "/team/suit.jpg",
-      "color": "bg-red-600",
-      "textColor": "text-red-600"
+      "color": "bg-blue-600",
+      "textColor": "text-blue-600"
     },
     {
       "name": "Jingles Khok",
