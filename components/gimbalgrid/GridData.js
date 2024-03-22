@@ -14,6 +14,7 @@ import GBBlog from "./gridboxes/GBBlog";
 import GBSolutions from "./gridboxes/GBSolutions";
 import GovernancePage from "../governance/GovernancePage";
 import Governance from "./gridboxes/Governance";
+import OpenSpacesCard from "./gridboxes/OpenSpacesCard";
 
 
 const { default: DandelionPage } = require("../dandelion/DandelionPage");
@@ -385,6 +386,11 @@ const gimbalabs = [
   },
   {
     disable: true,
+    gridBoxStyle: `col-span-full sm:col-span-10 row-span-3`,
+    gridBoxComponent: OpenSpacesCard,
+  },
+  {
+    disable: true,
     gridBoxStyle: ` col-span-1  md:col-span-2 row-span-2 `,
     gridBoxComponent: BlankWhite,
   },
@@ -473,6 +479,7 @@ const gimbalabs = [
     gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
     gridBoxComponent: BlankWhite,
   },
+
   {
     disable: true,
     gridBoxStyle: ` col-span-1  md:col-span-2 row-span-1 `,
@@ -899,6 +906,7 @@ export const gridData = [
     gridBoxStyle: `col-span-full sm:col-span-10 row-span-3`,
     gridBoxComponent: WelcomeTo2024,
   },
+
 
   // letters and blank white squares
   ...gimbalabs,
