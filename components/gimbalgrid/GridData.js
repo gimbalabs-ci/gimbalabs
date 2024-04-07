@@ -15,6 +15,12 @@ import GBSolutions from "./gridboxes/GBSolutions";
 import GovernancePage from "../governance/GovernancePage";
 import Governance from "./gridboxes/Governance";
 import OpenSpacesCard from "./gridboxes/OpenSpacesCard";
+import GoLiveCodingCard from "./gridboxes/GoLiveCodingCard";
+import PlaygroundSessionsCard from "./gridboxes/PlaygroundSessionsCard";
+import AndamioCard from "./gridboxes/AndamioCard";
+import MeshLiveCodingCard from "./gridboxes/MeshLiveCodingCard";
+import MainPosterCard from "./gridboxes/MainPosterCard";
+import DigestCard from "./gridboxes/DigestCard";
 
 
 const { default: DandelionPage } = require("../dandelion/DandelionPage");
@@ -40,7 +46,6 @@ const gimbalabs = [
     gridBoxStyle: ` col-span-1  md:col-span-1 row-span-2 `,
     gridBoxComponent: BlankWhite,
   },
-
   {
     disable: true,
     gridBoxStyle: ` col-span-1  md:col-span-2 row-span-1 `,
@@ -85,13 +90,11 @@ const gimbalabs = [
     gridBoxStyle: ` col-span-1  md:col-span-1 row-span-2 `,
     gridBoxComponent: BlankWhite,
   },
-
   {
     disable: true,
     gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
     gridBoxComponent: BlankWhite,
   },
-
   {
     disable: true,
     gridBoxStyle: ` col-span-1  md:col-span-2 row-span-1 `,
@@ -148,6 +151,11 @@ const gimbalabs = [
     gridBoxProps: {
       color: "bg-offWhite",
     },
+  },
+  {
+    disable: true,
+    gridBoxStyle: `col-span-full sm:col-span-10 row-span-3`,
+    gridBoxComponent: GoLiveCodingCard,
   },
   {
     disable: true,
@@ -500,6 +508,11 @@ const gimbalabs = [
   },
   {
     disable: true,
+    gridBoxStyle: `col-span-1 sm:col-span-6 row-span-6`,
+    gridBoxComponent: MeshLiveCodingCard,
+  },
+  {
+    disable: true,
     gridBoxStyle: ` col-span-1  md:col-span-3 row-span-3 `,
     gridBoxComponent: BlankWhite,
     gridBoxProps: {
@@ -568,6 +581,11 @@ const gimbalabs = [
     gridBoxProps: {
       color: "bg-black2-900",
     },
+  },
+  {
+    disable: true,
+    gridBoxStyle: `col-span-1 sm:col-span-8 row-span-6`,
+    gridBoxComponent: AndamioCard,
   },
   {
     disable: true,
@@ -906,8 +924,22 @@ export const gridData = [
     gridBoxStyle: `col-span-full sm:col-span-10 row-span-3`,
     gridBoxComponent: WelcomeTo2024,
   },
-
-
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-6 row-span-6 `,
+    gridBoxComponent: MainPosterCard,
+  }, 
+  {
+    disable: true,
+    gridBoxStyle: `col-span-1 sm:col-span-6 row-span-4`,
+    gridBoxComponent: PlaygroundSessionsCard,
+  },
+  {
+    disable: true,
+    gridBoxStyle: `col-span-1 sm:col-span-6 row-span-4`,
+    gridBoxComponent: DigestCard,
+  },
+  
   // letters and blank white squares
   ...gimbalabs,
 ];
