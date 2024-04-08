@@ -368,6 +368,11 @@ const gimbalabs = [
   },
   {
     disable: true,
+    gridBoxStyle: `col-span-full sm:col-span-6 row-span-4`,
+    gridBoxComponent: DigestCard,
+  },
+  {
+    disable: true,
     gridBoxStyle: ` col-span-1  md:col-span-2 row-span-2 `,
     gridBoxComponent: Letter6xl,
     gridBoxProps: {
@@ -396,6 +401,11 @@ const gimbalabs = [
     disable: true,
     gridBoxStyle: `col-span-full sm:col-span-10 row-span-3`,
     gridBoxComponent: OpenSpacesCard,
+  },
+  {
+    disable: true,
+    gridBoxStyle: `col-span-full sm:col-span-10 row-span-3`,
+    gridBoxComponent: PlaygroundSessionsCard,
   },
   {
     disable: true,
@@ -508,7 +518,7 @@ const gimbalabs = [
   },
   {
     disable: true,
-    gridBoxStyle: `col-span-1 sm:col-span-6 row-span-6`,
+    gridBoxStyle: `col-span-full sm:col-span-6 row-span-6`,
     gridBoxComponent: MeshLiveCodingCard,
   },
   {
@@ -584,7 +594,7 @@ const gimbalabs = [
   },
   {
     disable: true,
-    gridBoxStyle: `col-span-1 sm:col-span-8 row-span-6`,
+    gridBoxStyle: `col-span-full sm:col-span-8 row-span-6`,
     gridBoxComponent: AndamioCard,
   },
   {
@@ -926,19 +936,9 @@ export const gridData = [
   },
   {
     disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-6 row-span-6 `,
+    gridBoxStyle: ` col-span-full  md:col-span-6 row-span-6 `,
     gridBoxComponent: MainPosterCard,
   }, 
-  {
-    disable: true,
-    gridBoxStyle: `col-span-1 sm:col-span-6 row-span-4`,
-    gridBoxComponent: PlaygroundSessionsCard,
-  },
-  {
-    disable: true,
-    gridBoxStyle: `col-span-1 sm:col-span-6 row-span-4`,
-    gridBoxComponent: DigestCard,
-  },
   
   // letters and blank white squares
   ...gimbalabs,
