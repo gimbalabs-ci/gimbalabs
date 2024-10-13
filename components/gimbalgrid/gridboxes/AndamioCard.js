@@ -6,7 +6,7 @@ export default function AndamioCard() {
   return (
     <Link href="https://www.andamio.io/">
       <div className="">
-        <Image src="/andamio.jpeg" width={2000} height={1062} />
+        <Image src="/andamio_cover.png" width={2000} height={1062} />
       </div>
     </Link>
   );
