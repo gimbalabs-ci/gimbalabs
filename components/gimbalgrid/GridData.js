@@ -21,6 +21,7 @@ import AndamioCard from "./gridboxes/AndamioCard";
 import MeshLiveCodingCard from "./gridboxes/MeshLiveCodingCard";
 import MainPosterCard from "./gridboxes/MainPosterCard";
 import DigestCard from "./gridboxes/DigestCard";
+import CardanoSummitGimbalabsNomination from "./gridboxes/CardanoSummitGimbalabsNomination";
 
 
 const { default: DandelionPage } = require("../dandelion/DandelionPage");
@@ -152,11 +153,11 @@ const gimbalabs = [
       color: "bg-offWhite",
     },
   },
-  {
+  /*{
     disable: true,
     gridBoxStyle: `col-span-full sm:col-span-10 row-span-3`,
     gridBoxComponent: GoLiveCodingCard,
-  },
+  },*/
   {
     disable: true,
     gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
@@ -230,7 +231,11 @@ const gimbalabs = [
     gridBoxStyle: ` col-span-1  md:col-span-1 row-span-2 `,
     gridBoxComponent: BlankWhite,
   },
-
+  {
+    disable: true,
+    gridBoxStyle: `col-span-2  md:col-span-10 row-span-5`,
+    gridBoxComponent: CardanoSummitGimbalabsNomination,
+  },
   {
     disable: true,
     gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
@@ -366,11 +371,11 @@ const gimbalabs = [
       l: "0",
     },
   },
-  {
+  /*{
     disable: true,
     gridBoxStyle: `col-span-full sm:col-span-6 row-span-4`,
     gridBoxComponent: DigestCard,
-  },
+  },*/
   {
     disable: true,
     gridBoxStyle: ` col-span-1  md:col-span-2 row-span-2 `,
@@ -516,11 +521,11 @@ const gimbalabs = [
       color: "bg-offWhite",
     },
   },
-  {
+  /*{
     disable: true,
     gridBoxStyle: `col-span-full sm:col-span-6 row-span-6`,
     gridBoxComponent: MeshLiveCodingCard,
-  },
+  },*/
   {
     disable: true,
     gridBoxStyle: ` col-span-1  md:col-span-3 row-span-3 `,
