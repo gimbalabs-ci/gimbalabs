@@ -4,9 +4,9 @@ import Link from "next/link";
 
 export default function GoLiveCodingCard() {
   return (
-    <Link href="/blog/006">
+    <Link href="https://youtube.com/playlist?list=PLCCIAmutGEbcUiIygqbkC25ibEVjWXDpf&si=9KLD3RcLg7wV-X0x">
       <div className="">
-        <Image src="/go-live-coding.jpeg" width={1000} height={562} />
+        <Image src="/cardano-go.png" width={1000} height={562} />
       </div>
     </Link>
   );
