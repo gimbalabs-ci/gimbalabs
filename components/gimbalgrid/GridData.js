@@ -22,6 +22,13 @@ import MeshLiveCodingCard from "./gridboxes/MeshLiveCodingCard";
 import MainPosterCard from "./gridboxes/MainPosterCard";
 import DigestCard from "./gridboxes/DigestCard";
 import CardanoSummitGimbalabsNomination from "./gridboxes/CardanoSummitGimbalabsNomination";
+import PPBL2023Japanese from "./gridboxes/PPBL2023Japanese";
+import GimbalabsPlayground1 from "./gridboxes/GimbalabsPlayground1";
+import PPBL2024 from "./gridboxes/PPBL2024";
+import PPBLLiveCodingSession from "./gridboxes/PPBLLiveCodingSession";
+import GimbalabsPlayground2 from "./gridboxes/GimbalabsPlayground2";
+import GimbalabsMoment1 from "./gridboxes/GimbalabsMoment1";
+import GimbalabsClassic1 from "./gridboxes/GimbalabsClassic1";
 
 
 const { default: DandelionPage } = require("../dandelion/DandelionPage");
@@ -75,6 +82,11 @@ const gimbalabs = [
   },
   {
     disable: true,
+    gridBoxStyle: ` col-span-20  md:col-span-10 row-span-20 `,
+    gridBoxComponent: PPBL2023Japanese,
+  },
+  {
+    disable: true,
     gridBoxStyle: ` col-span-1  md:col-span-2 row-span-1 `,
     gridBoxComponent: BlankWhite,
   },
@@ -108,17 +120,22 @@ const gimbalabs = [
   },
   {
     disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
+    gridBoxStyle: `col-span-full md:col-span-10 row-span-3`,
+    gridBoxComponent: GimbalabsMoment1,
+  },
+  {
+    disable: true,
+    gridBoxStyle: `col-span-full md:col-span-10 row-span-3`,
+    gridBoxComponent: GimbalabsClassic1,
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-1  md:col-span-12 row-span-1 `,
     gridBoxComponent: BlankWhite,
   },
   {
     disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-2 `,
+    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-10 `,
     gridBoxComponent: BlankWhite,
     gridBoxProps: {
       color: "bg-black2-900",
@@ -153,11 +170,16 @@ const gimbalabs = [
       color: "bg-offWhite",
     },
   },
-  /*{
+  {
     disable: true,
     gridBoxStyle: `col-span-full sm:col-span-10 row-span-3`,
     gridBoxComponent: GoLiveCodingCard,
-  },*/
+  },
+  {
+    disable: true,
+    gridBoxStyle: `col-span-10 sm:col-span-10 row-span-5`,
+    gridBoxComponent: MeshLiveCodingCard,
+  },
   {
     disable: true,
     gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
@@ -371,11 +393,11 @@ const gimbalabs = [
       l: "0",
     },
   },
-  /*{
+  {
     disable: true,
     gridBoxStyle: `col-span-full sm:col-span-6 row-span-4`,
-    gridBoxComponent: DigestCard,
-  },*/
+    gridBoxComponent: GimbalabsPlayground1,
+  },
   {
     disable: true,
     gridBoxStyle: ` col-span-1  md:col-span-2 row-span-2 `,
@@ -407,11 +429,11 @@ const gimbalabs = [
     gridBoxStyle: `col-span-full sm:col-span-10 row-span-3`,
     gridBoxComponent: OpenSpacesCard,
   },
-  {
+  /*{
     disable: true,
     gridBoxStyle: `col-span-full sm:col-span-10 row-span-3`,
     gridBoxComponent: PlaygroundSessionsCard,
-  },
+  },*/
   {
     disable: true,
     gridBoxStyle: ` col-span-1  md:col-span-2 row-span-2 `,
@@ -494,6 +516,11 @@ const gimbalabs = [
   },
   {
     disable: true,
+    gridBoxStyle: `col-span-full sm:col-span-6 row-span-4`,
+    gridBoxComponent: GimbalabsPlayground2,
+  },
+  {
+    disable: true,
     gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
     gridBoxComponent: BlankWhite,
   },
@@ -521,11 +548,11 @@ const gimbalabs = [
       color: "bg-offWhite",
     },
   },
-  /*{
+  {
     disable: true,
     gridBoxStyle: `col-span-full sm:col-span-6 row-span-6`,
-    gridBoxComponent: MeshLiveCodingCard,
-  },*/
+    gridBoxComponent: PPBLLiveCodingSession,
+  },
   {
     disable: true,
     gridBoxStyle: ` col-span-1  md:col-span-3 row-span-3 `,
@@ -648,11 +675,6 @@ const gimbalabs = [
   {
     disable: true,
     gridBoxStyle: ` col-span-1  md:col-span-1 row-span-1 `,
-    gridBoxComponent: BlankWhite,
-  },
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-1  md:col-span-2 row-span-1 `,
     gridBoxComponent: BlankWhite,
   },
   {
@@ -936,6 +958,11 @@ export const gridData = [
 
   {
     disable: true,
+    gridBoxStyle: ` col-span-20  md:col-span-10 row-span-10 `,
+    gridBoxComponent: PPBL2024,
+  },
+  {
+    disable: true,
     gridBoxStyle: `col-span-full sm:col-span-10 row-span-3`,
     gridBoxComponent: WelcomeTo2024,
   },
@@ -943,7 +970,8 @@ export const gridData = [
     disable: true,
     gridBoxStyle: ` col-span-full  md:col-span-6 row-span-6 `,
     gridBoxComponent: MainPosterCard,
-  }, 
+  },
+ 
   
   // letters and blank white squares
   ...gimbalabs,
