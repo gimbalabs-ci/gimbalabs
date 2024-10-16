@@ -82,6 +82,11 @@ const gimbalabs = [
   },
   {
     disable: true,
+    gridBoxStyle: ` col-span-20  md:col-span-10 row-span-10 `,
+    gridBoxComponent: PPBL2024,
+  },
+  {
+    disable: true,
     gridBoxStyle: ` col-span-20  md:col-span-10 row-span-20 `,
     gridBoxComponent: PPBL2023Japanese,
   },
@@ -956,11 +961,6 @@ export const gridData = [
   //   gridBoxComponent: FeaturedVideo,
   // },
 
-  {
-    disable: true,
-    gridBoxStyle: ` col-span-20  md:col-span-10 row-span-10 `,
-    gridBoxComponent: PPBL2024,
-  },
   {
     disable: true,
     gridBoxStyle: `col-span-full sm:col-span-10 row-span-3`,
