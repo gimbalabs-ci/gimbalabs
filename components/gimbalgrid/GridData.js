@@ -30,6 +30,7 @@ import GimbalabsPlayground2 from "./gridboxes/GimbalabsPlayground2";
 import GimbalabsMoment1 from "./gridboxes/GimbalabsMoment1";
 import GimbalabsClassic1 from "./gridboxes/GimbalabsClassic1";
 import GimbalabsPlayground05112024 from "./gridboxes/GimbalabsPlayground05112024";
+import GimbalabsPlaygroundOdin from "./gridboxes/GimbalabsPlaygroundOdin";
 
 
 const { default: DandelionPage } = require("../dandelion/DandelionPage");
@@ -138,6 +139,11 @@ const gimbalabs = [
     disable: true,
     gridBoxStyle: `col-span-full md:col-span-10 row-span-3`,
     gridBoxComponent: GimbalabsClassic1,
+  },
+  {
+    disable: true,
+    gridBoxStyle: `col-span-full md:col-span-10 row-span-3`,
+    gridBoxComponent: GimbalabsPlaygroundOdin,
   },
   {
     disable: true,
