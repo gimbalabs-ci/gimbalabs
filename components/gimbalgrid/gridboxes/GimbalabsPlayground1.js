@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function GimbalabsPlayground1() {
   return (
-    <Link href="https://youtube.com/playlist?list=PLCCIAmutGEbeNfD6PEK2Th-CPCSQFg3V-&si=koLGsQ320_Mao0Uc">
+    <Link href="https://youtu.be/prttfssaw9I?si=m4KgXwFnQBfN9xa5">
         <div className="">
             <Image src="/gimbalabs-playground-season-4.png" width={940} height={788} />
         </div>
