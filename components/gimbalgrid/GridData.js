@@ -33,6 +33,7 @@ import GimbalabsPlayground05112024 from "./gridboxes/GimbalabsPlayground05112024
 import GimbalabsPlaygroundOdin from "./gridboxes/GimbalabsPlaygroundOdin";
 import BuidlerFest2024 from "./gridboxes/BuidlerFest2024";
 import BuidlerFest2024 from "./gridboxes/AikenLiveCoding";
+import BuidlerFest2024 from "./gridboxes/GimbalabsF13Proposals";
 
 
 
@@ -995,6 +996,11 @@ export const gridData = [
     disable: true,
     gridBoxStyle: ` col-span-full  md:col-span-6 row-span-6 `,
     gridBoxComponent: MainPosterCard,
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-full  md:col-span-6 row-span-6 `,
+    gridBoxComponent: GimbalabsF13Proposals,
   },
  
   
