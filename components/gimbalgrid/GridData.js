@@ -32,6 +32,8 @@ import GimbalabsClassic1 from "./gridboxes/GimbalabsClassic1";
 import GimbalabsPlayground05112024 from "./gridboxes/GimbalabsPlayground05112024";
 import GimbalabsPlaygroundOdin from "./gridboxes/GimbalabsPlaygroundOdin";
 import BuidlerFest2024 from "./gridboxes/BuidlerFest2024";
+import BuidlerFest2024 from "./gridboxes/AikenLiveCoding";
+
 
 
 const { default: DandelionPage } = require("../dandelion/DandelionPage");
@@ -150,6 +152,11 @@ const gimbalabs = [
     disable: true,
     gridBoxStyle: `col-span-full md:col-span-10 row-span-3`,
     gridBoxComponent: GimbalabsPlaygroundOdin,
+  },
+  {
+    disable: true,
+    gridBoxStyle: `col-span-full md:col-span-10 row-span-3`,
+    gridBoxComponent: AikenLiveCoding,
   },
   {
     disable: true,
