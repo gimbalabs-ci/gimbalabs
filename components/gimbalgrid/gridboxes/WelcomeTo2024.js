@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { gdsEase12 } from "../../../lib/motion/motion";
 import Link from "next/link";
 
-export default function WelcomeTo2025(props) {
+export default function WelcomeTo2024(props) {
   const [hov, setHov] = useState(false);
   const ani = {
     transition: gdsEase12,

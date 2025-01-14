@@ -997,7 +997,7 @@ export const gridData = [
   {
     disable: true,
     gridBoxStyle: `col-span-full sm:col-span-10 row-span-3`,
-    gridBoxComponent: WelcomeTo2025,
+    gridBoxComponent: WelcomeTo2024,
   },
   {
     disable: true,
