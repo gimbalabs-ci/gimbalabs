@@ -444,7 +444,7 @@ const gimbalabs = [
     gridBoxStyle: ` col-span-1  md:col-span-2 row-span-2 `,
     gridBoxComponent: Letter6xl,
     gridBoxProps: {
-      l: "4",
+      l: "5",
     },
   },
   {
