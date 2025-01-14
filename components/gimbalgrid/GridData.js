@@ -91,6 +91,11 @@ const gimbalabs = [
   {
     disable: true,
     gridBoxStyle: ` col-span-20  md:col-span-10 row-span-20 `,
+    gridBoxComponent: GimbalabsPlayground14012025, 
+  },
+  {
+    disable: true,
+    gridBoxStyle: ` col-span-20  md:col-span-10 row-span-20 `,
     gridBoxComponent: GimbalabsPlayground05112024,
   },
   {
@@ -159,7 +164,7 @@ const gimbalabs = [
   {
     disable: true,
     gridBoxStyle: `col-span-full md:col-span-10 row-span-3`,
-    gridBoxComponent: AikenLiveCoding,
+    gridBoxComponent: BlankWhite,
   },
   {
     disable: true,
@@ -444,7 +449,7 @@ const gimbalabs = [
     gridBoxStyle: ` col-span-1  md:col-span-2 row-span-2 `,
     gridBoxComponent: Letter6xl,
     gridBoxProps: {
-      l: "4",
+      l: "5",
     },
   },
   {
@@ -460,7 +465,7 @@ const gimbalabs = [
   {
     disable: true,
     gridBoxStyle: `col-span-full sm:col-span-10 row-span-3`,
-    gridBoxComponent: OpenSpacesCard,
+    gridBoxComponent: BlankWhite,
   },
   /*{
     disable: true,
@@ -992,7 +997,7 @@ export const gridData = [
   {
     disable: true,
     gridBoxStyle: `col-span-full sm:col-span-10 row-span-3`,
-    gridBoxComponent: WelcomeTo2024,
+    gridBoxComponent: WelcomeTo2025,
   },
   {
     disable: true,
@@ -1002,15 +1007,16 @@ export const gridData = [
   {
     disable: true,
     gridBoxStyle: ` col-span-full  md:col-span-6 row-span-6 `,
-    gridBoxComponent: XmasGimbalabs2024,
+    gridBoxComponent: AikenLiveCoding,
   },
   {
     disable: true,
     gridBoxStyle: ` col-span-full  md:col-span-6 row-span-6 `,
-    gridBoxComponent: GimbalabsF13Proposals,
+    gridBoxComponent: OpenSpacesCard,
   },
+
 
 
   // letters and blank white squares
   ...gimbalabs,
-];
+]; 

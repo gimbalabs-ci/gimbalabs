@@ -46,7 +46,7 @@ export function LiveCoding(props) {
           <div className="mt-auto flex items-center">
             <div className="flex flex-col w-full">
               <div className={`gg-subtitle  text-black2-900 flex `}>
-                Every Wednesday and Thursday 1430-1600utc
+                Every Tuesday 1430-1530utc
               </div>
             </div>
           </div>
